@@ -12,8 +12,8 @@ Registro diário do Sinal de Crise B3 baseado no método IMA Wavelet (Caetano/IT
 
 | Data | Zona | Risco |
 |---|---|---|
-| [19/04/2026](diario/2026-04-19) | 🟡 AMARELO | 50.6% |
+| [19/04/2026](diario/2026-04-19) | 🟢 VERDE | 31.0% |
 
 
 ---
-*Atualizado em 19/04/2026 12:58 BRT*
+*Atualizado em 19/04/2026 13:15 BRT*
