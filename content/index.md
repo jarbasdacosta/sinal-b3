@@ -10,13 +10,17 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 19/04/2026 14:46 BRT
+## Sinal Atual — 19/04/2026 14:58 BRT
+*^BVSP | Diário D1*
 
-| | |
+| Indicador | Valor |
 |---|---|
 | **Zona** | 🟢 **VERDE** |
 | **Risco Combinado** | **31.0%** |
 | 🔴 IMA Crash | 19.9% |
+| 🔵 IMA Entrada | 57.2% |
+| 📐 LPPL Sornette | 42.0% |
+| Ibovespa | 198,657 pts |
 | Ativos em tensão | 20% (0🔴 4🟡) |
 
 
