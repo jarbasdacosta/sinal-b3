@@ -10,14 +10,14 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 19/04/2026 13:30 BRT
+## Sinal Atual — 19/04/2026 14:42 BRT
 
 | | |
 |---|---|
 | **Zona** | 🟢 **VERDE** |
 | **Risco Combinado** | **31.0%** |
 | 🔴 IMA Crash | 19.9% |
-| Ativos em tensão | 17% (0🔴 3🟡) |
+| Ativos em tensão | 20% (0🔴 4🟡) |
 
 
 
