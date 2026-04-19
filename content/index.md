@@ -10,7 +10,7 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 19/04/2026 15:37 BRT
+## Sinal Atual — 19/04/2026 20:08 BRT
 *^BVSP | Diário D1*
 
 | Indicador | Valor |
@@ -39,6 +39,13 @@ tags: [home]
 
 
 [Ver histórico completo →](historico) | [Metodologia →](metodologia) | [Intraday →](intraday/)
+
+---
+
+## Escalograma Wavelet — Chapéu Mexicano
+
+![Espectro Wavelet](graficos/espectro_wavelet.png)
+*Mapa de energia wavelet do Ibovespa — zona vermelha (alta freq) = tensão/crash | zona azul (baixa freq) = estabilidade/entrada. Método Caetano & Yoneyama (Physica-A 2007)*
 
 ---
 
