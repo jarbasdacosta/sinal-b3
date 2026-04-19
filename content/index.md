@@ -10,7 +10,7 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 19/04/2026 14:58 BRT
+## Sinal Atual — 19/04/2026 15:00 BRT
 *^BVSP | Diário D1*
 
 | Indicador | Valor |
@@ -21,6 +21,8 @@ tags: [home]
 | 🔵 IMA Entrada | 57.2% |
 | 📐 LPPL Sornette | 42.0% |
 | Ibovespa | 198,657 pts |
+| 💵 USD/BRL IMA Crash | 8.8% 🟢 |
+| 💵 USD/BRL IMA Entrada | 17.4% |
 | Ativos em tensão | 20% (0🔴 4🟡) |
 
 
