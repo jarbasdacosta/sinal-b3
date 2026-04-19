@@ -8,6 +8,11 @@ tags: [metodologia]
 
 ## IMA — Índice de Mudanças Abruptas
 
+![Escalograma Wavelet Chapéu Mexicano — Ibovespa](graficos/espectro_wavelet.png)
+*Escalograma CWT (Chapéu Mexicano) do Ibovespa — zona vermelha = alta frequência (IMA Crash) | zona azul = baixa frequência (IMA Entrada)*
+
+
+
 Método desenvolvido pelos professores **Marco Antonio Leonel Caetano** (ITA/INSPER) e **Takashi Yoneyama** (ITA), publicado na revista **Physica-A** (Elsevier, 2007-2012).
 
 ### Como funciona
