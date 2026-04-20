@@ -10,7 +10,7 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 19/04/2026 22:33 BRT
+## Sinal Atual — 19/04/2026 22:36 BRT
 *^BVSP | Diário D1*
 
 | Indicador | Valor |
