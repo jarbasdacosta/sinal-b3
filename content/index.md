@@ -1,44 +1,49 @@
 ---
 title: Sinal de Crise B3
-date: 2026-04-19
+date: 2026-04-20
 tags: [home]
+zona_d1: VERMELHO
+zona_15m: VERDE
 ---
 
-# 🟢 Sinal de Crise B3
+# 🔴 Sinal de Crise B3
 
-> Monitoramento diário e intraday do Ibovespa usando o método **IMA Wavelet** do Prof. Marco Antonio Leonel Caetano (ITA/INSPER) e **LPPL** do Prof. Didier Sornette (ETH-Zurich).
+> Monitoramento do Ibovespa usando **IMA Wavelet Chapéu Mexicano** (Prof. Caetano/ITA) e **LPPL** (Prof. Sornette/ETH-Zurich). Atualizado diariamente após o fechamento do pregão.
 
 ---
 
-## Sinal Atual — 19/04/2026 22:41 BRT
-*^BVSP | Diário D1*
+## Sinal Atual — 20/04/2026 12:26 BRT
 
-| Indicador | Valor |
-|---|---|
-| **Zona** | 🟢 **VERDE** |
-| **Risco Combinado** | **31.0%** |
-| 🔴 IMA Crash | 19.9% |
-| 🔵 IMA Entrada | 57.2% |
-| 📐 LPPL Sornette | 42.0% |
-| Ibovespa | 198,657 pts |
-| 💵 USD/BRL IMA Crash | 8.8% 🟢 |
-| 💵 USD/BRL IMA Entrada | 17.4% |
-| Ativos em tensão | 28% (2🔴 5🟡) |
+| | 📅 Diário D1 | 📊 Intraday 15min |
+|---|---|---|
+| **Zona** | 🔴 **VERMELHO** | 🟢 **VERDE** |
+| **Risco** | **100%** | **0%** |
+| 🔴 IMA Crash | 100% | 0% |
+| 🔵 IMA Entrada | 0% | N/A |
+| 📐 LPPL Sornette | 42% | 42% (D1 ref.) |
+| 💵 USD/BRL | 26% em tensão | |
+| Ibovespa | 196,158 pts | |
 
-
-
-> ✅ Sem sinal de crise no momento.
+> ⚠️ ALERTA VERMELHO — Chapéu Mexicano detectou padrão pré-crise. Alta frequência espectral com baixa volatilidade. Revise exposição e confirme com price action.
 
 ---
 
 ## Últimos 7 dias
 
-| Data | Zona | Risco |
+| Data | D1 | 15min |
 |---|---|---|
-| [19 Apr 2026](diario/2026-04-19) | 🟢 VERDE | 31.0% |
+| [20 Apr 2026](diario/2026-04-20) | 🔴 VERMELHO | 🟢 VERDE |
+| [19 Apr 2026](diario/2026-04-19) | ⚪ ? | ⚪ ? |
 
 
-[Ver histórico completo →](historico) | [Metodologia →](metodologia) | [Intraday →](intraday/)
+[Ver histórico completo →](historico) | [Metodologia →](metodologia)
+
+---
+
+## 🌊 Espectro Wavelet — Chapéu Mexicano
+
+![](../graficos/espectro_wavelet.png)
+*Mapa de energia wavelet — vermelho (alta freq) = IMA Crash | azul (baixa freq) = IMA Entrada*
 
 ---
 
