@@ -17,4 +17,4 @@ Registro diário do Sinal de Crise B3 baseado no método IMA Wavelet (Caetano/IT
 
 
 ---
-*Atualizado em 20/04/2026 13:50 BRT*
+*Atualizado em 20/04/2026 13:51 BRT*
