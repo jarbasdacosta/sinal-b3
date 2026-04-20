@@ -15,7 +15,12 @@ tags: [metodologia]
 
 Método desenvolvido pelos professores **Marco Antonio Leonel Caetano** (ITA/INSPER) e **Takashi Yoneyama** (ITA), publicado na revista **Physica-A** (Elsevier, 2007-2012).
 
-### Como funciona
+### Exemplo Histórico — Crash de 1929
+
+![Escalograma Wavelet — Crash de 1929](graficos/espectro_1929.png)
+*Reprodução colorida da Figura 4 (Cap. 25, Caetano 2013) — zona vermelha crescente na alta frequência (parte superior) antes da Quinta-feira Negra (24/10/1929) = padrão tufão detectado pelo IMA*
+
+## Como funciona
 
 1. **Detrending duplo**: remove tendência linear (MQO) + sazonalidade cosseno `a·cos(ω·t + φ)` do log-preço
 2. **Wavelet Chapéu Mexicano (CWT)**: decompõe o resíduo em espectro tempo-frequência
@@ -44,7 +49,12 @@ ln(P(t)) ≈ A + B(tc-t)^m + C(tc-t)^m · cos(ω·ln(tc-t) + φ)
 
 Onde `tc` é o **tempo crítico** estimado para o crash.
 
-### Como funciona
+### Exemplo Histórico — Crash de 1929
+
+![Escalograma Wavelet — Crash de 1929](graficos/espectro_1929.png)
+*Reprodução colorida da Figura 4 (Cap. 25, Caetano 2013) — zona vermelha crescente na alta frequência (parte superior) antes da Quinta-feira Negra (24/10/1929) = padrão tufão detectado pelo IMA*
+
+## Como funciona
 - Detecta crescimento **super-exponencial** com oscilações log-periódicas aceleradas
 - Padrão típico de bolha especulativa antes do colapso
 - Estima a data provável do crash (`tc`)
