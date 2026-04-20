@@ -10,7 +10,7 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 19/04/2026 22:25 BRT
+## Sinal Atual — 19/04/2026 22:27 BRT
 *^BVSP | Diário D1*
 
 | Indicador | Valor |
@@ -35,7 +35,7 @@ tags: [home]
 
 | Data | Zona | Risco |
 |---|---|---|
-| [19/04/2026](diario/2026-04-19) | 🟢 VERDE | 31.0% |
+| [19 Apr 2026](diario/2026-04-19) | 🟢 VERDE | 31.0% |
 
 
 [Ver histórico completo →](historico) | [Metodologia →](metodologia) | [Intraday →](intraday/)
