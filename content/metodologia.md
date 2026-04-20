@@ -49,12 +49,7 @@ ln(P(t)) ≈ A + B(tc-t)^m + C(tc-t)^m · cos(ω·ln(tc-t) + φ)
 
 Onde `tc` é o **tempo crítico** estimado para o crash.
 
-### Exemplo Histórico — Crash de 1929
-
-![Escalograma Wavelet — Crash de 1929](graficos/espectro_1929.png)
-*Reprodução colorida da Figura 4 (Cap. 25, Caetano 2013) — zona vermelha crescente na alta frequência (parte superior) antes da Quinta-feira Negra (24/10/1929) = padrão tufão detectado pelo IMA*
-
-## Como funciona
+### Como funciona
 - Detecta crescimento **super-exponencial** com oscilações log-periódicas aceleradas
 - Padrão típico de bolha especulativa antes do colapso
 - Estima a data provável do crash (`tc`)
