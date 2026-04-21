@@ -1,6 +1,6 @@
 ---
 title: Sinal de Crise B3
-date: 2026-04-20
+date: 2026-04-21
 tags: [home]
 ---
 
@@ -10,7 +10,7 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 20/04/2026 19:57 BRT
+## Sinal Atual — 21/04/2026 06:32 BRT
 *^BVSP | Diário D1*
 
 | Indicador | Valor |
@@ -35,6 +35,7 @@ tags: [home]
 
 | Data | Zona | Risco |
 |---|---|---|
+| [21 Apr 2026](diario/2026-04-21) | 🟢 VERDE | 38.1% |
 | [20 Apr 2026](diario/2026-04-20) | 🟢 VERDE | 38.1% |
 | [19 Apr 2026](diario/2026-04-19) | 🟢 VERDE | 31.0% |
 
