@@ -4,30 +4,30 @@ date: 2026-04-21
 tags: [home]
 ---
 
-# 🟢 Sinal de Crise B3
+# 🟡 Sinal de Crise B3
 
 > Monitoramento diário e intraday do Ibovespa usando o método **IMA Wavelet** do Prof. Marco Antonio Leonel Caetano (ITA/INSPER) e **LPPL** do Prof. Didier Sornette (ETH-Zurich).
 
 ---
 
-## Sinal Atual — 21/04/2026 06:32 BRT
-*^BVSP | Diário D1*
+## Sinal Atual — 21/04/2026 21:10 BRT
+*^BVSP | Intraday 15min*
 
 | Indicador | Valor |
 |---|---|
-| **Zona** | 🟢 **VERDE** |
-| **Risco Combinado** | **38.1%** |
-| 🔴 IMA Crash | 34.4% |
-| 🔵 IMA Entrada | 44.1% |
+| **Zona** | 🟡 **AMARELO** |
+| **Risco Combinado** | **65.5%** |
+| 🔴 IMA Crash | 65.5% |
+| 🔵 IMA Entrada | 47.4% |
 | 📐 LPPL Sornette | 41.9% |
-| Ibovespa | 197,738 pts |
-| 💵 USD/BRL IMA Crash | 42.1% 🟢 |
-| 💵 USD/BRL IMA Entrada | 34.7% |
-| Ativos em tensão | 12% (2🔴 1🟡) |
+| Ibovespa | 196,206 pts |
+| 💵 USD/BRL IMA Crash | 52.8% 🟡 |
+| 💵 USD/BRL IMA Entrada | 81.4% |
+| Ativos em tensão | 15% (2🔴 2🟡) |
 
 
+> ⚡ **ATENÇÃO**: Tensão espectral crescente. Monitore.
 
-> ✅ Sem sinal de crise no momento.
 
 ---
 
