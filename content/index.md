@@ -1,6 +1,6 @@
 ---
 title: Sinal de Crise B3
-date: 2026-04-22
+date: 2026-04-23
 tags: [home]
 ---
 
@@ -10,20 +10,20 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 22/04/2026 21:10 BRT
-*^BVSP | Intraday 15min*
+## Sinal Atual — 23/04/2026 01:10 BRT
+*^BVSP | Diário D1*
 
 | Indicador | Valor |
 |---|---|
 | **Zona** | 🟢 **VERDE** |
-| **Risco Combinado** | **17.3%** |
-| 🔴 IMA Crash | 17.3% |
-| 🔵 IMA Entrada | 100.0% |
-| 📐 LPPL Sornette | 41.9% |
-| Ibovespa | 192,841 pts |
-| 💵 USD/BRL IMA Crash | 18.8% 🟢 |
-| 💵 USD/BRL IMA Entrada | 55.0% |
-| Ativos em tensão | 41% (9🔴 2🟡) |
+| **Risco Combinado** | **46.2%** |
+| 🔴 IMA Crash | 50.6% |
+| 🔵 IMA Entrada | 26.6% |
+| 📐 LPPL Sornette | 41.8% |
+| Ibovespa | 196,819 pts |
+| 💵 USD/BRL IMA Crash | 28.7% 🟢 |
+| 💵 USD/BRL IMA Entrada | 48.3% |
+| Ativos em tensão | 12% (2🔴 1🟡) |
 
 
 
@@ -35,6 +35,7 @@ tags: [home]
 
 | Data | Zona | Risco |
 |---|---|---|
+| [23 Apr 2026](diario/2026-04-23) | 🟢 VERDE | 46.2% |
 | [22 Apr 2026](diario/2026-04-22) | 🟢 VERDE | 38.1% |
 | [21 Apr 2026](diario/2026-04-21) | 🟢 VERDE | 38.1% |
 | [20 Apr 2026](diario/2026-04-20) | 🟢 VERDE | 38.1% |
