@@ -1,6 +1,6 @@
 ---
 title: Histórico de Sinais
-date: 2026-05-07
+date: 2026-05-08
 tags: [historico, ibovespa]
 ---
 
@@ -12,6 +12,7 @@ Registro diário do Sinal de Crise B3 baseado no método IMA Wavelet (Caetano/IT
 
 | Data | Zona | Risco |
 |---|---|---|
+| [08 May 2026](diario/2026-05-08) | 🟢 VERDE | 11.2% |
 | [07 May 2026](diario/2026-05-07) | 🟢 VERDE | 10.8% |
 | [06 May 2026](diario/2026-05-06) | 🟢 VERDE | 10.2% |
 | [05 May 2026](diario/2026-05-05) | 🟢 VERDE | 9.8% |
@@ -28,4 +29,4 @@ Registro diário do Sinal de Crise B3 baseado no método IMA Wavelet (Caetano/IT
 
 
 ---
-*Atualizado em 07/05/2026 01:10 BRT*
+*Atualizado em 08/05/2026 01:10 BRT*
