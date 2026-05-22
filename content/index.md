@@ -10,20 +10,20 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 21/05/2026 01:10 BRT
-*^BVSP | Diário D1*
+## Sinal Atual — 21/05/2026 21:10 BRT
+*^BVSP | Intraday 15min*
 
 | Indicador | Valor |
 |---|---|
 | **Zona** | 🟢 **VERDE** |
-| **Risco Combinado** | **31.3%** |
-| 🔴 IMA Crash | 18.0% |
-| 🔵 IMA Entrada | 48.3% |
+| **Risco Combinado** | **24.6%** |
+| 🔴 IMA Crash | 24.6% |
+| 🔵 IMA Entrada | 63.1% |
 | 📐 LPPL Sornette | 44.6% |
-| Ibovespa | 176,976 pts |
-| 💵 USD/BRL IMA Crash | 75.4% 🔴 |
-| 💵 USD/BRL IMA Entrada | 34.3% |
-| Ativos em tensão | 48% (7🔴 6🟡) |
+| Ibovespa | 177,709 pts |
+| 💵 USD/BRL IMA Crash | 35.1% 🟢 |
+| 💵 USD/BRL IMA Entrada | 31.0% |
+| Ativos em tensão | 4% (1🔴 0🟡) |
 
 
 
