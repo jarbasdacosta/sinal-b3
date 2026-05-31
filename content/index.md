@@ -1,6 +1,6 @@
 ---
 title: Sinal de Crise B3
-date: 2026-05-30
+date: 2026-05-31
 tags: [home]
 ---
 
@@ -10,20 +10,20 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 30/05/2026 01:10 BRT
+## Sinal Atual — 31/05/2026 08:16 BRT
 *^BVSP | Diário D1*
 
 | Indicador | Valor |
 |---|---|
 | **Zona** | 🟢 **VERDE** |
-| **Risco Combinado** | **49.7%** |
-| 🔴 IMA Crash | 13.7% |
-| 🔵 IMA Entrada | 100.0% |
-| 📐 LPPL Sornette | 85.7% |
-| Ibovespa | 175,744 pts |
-| 💵 USD/BRL IMA Crash | 4.4% 🟢 |
-| 💵 USD/BRL IMA Entrada | 15.9% |
-| Ativos em tensão | 8% (0🔴 2🟡) |
+| **Risco Combinado** | **0.0%** |
+| 🔴 IMA Crash | 0.0% |
+| 🔵 IMA Entrada | N/A |
+| 📐 LPPL Sornette | N/A |
+| Ibovespa | 0 pts |
+| 💵 USD/BRL IMA Crash | 75.9% 🔴 |
+| 💵 USD/BRL IMA Entrada | 57.6% |
+| Ativos em tensão | 38% (6🔴 4🟡) |
 
 
 
