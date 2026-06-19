@@ -10,20 +10,20 @@ tags: [home]
 
 ---
 
-## Sinal Atual — 19/06/2026 18:02 BRT
-*^BVSP | Intraday 15min*
+## Sinal Atual — 19/06/2026 19:02 BRT
+*^BVSP | Diário D1*
 
 | Indicador | Valor |
 |---|---|
 | **Zona** | 🟢 **VERDE** |
-| **Risco Combinado** | **15.9%** |
-| 🔴 IMA Crash | 15.9% |
-| 🔵 IMA Entrada | 50.3% |
-| 📐 LPPL Sornette | 56.8% |
-| Ibovespa | 168,457 pts |
-| 💵 USD/BRL IMA Crash | 4.6% 🟢 |
-| 💵 USD/BRL IMA Entrada | 24.8% |
-| Ativos em tensão | 35% (2🔴 7🟡) |
+| **Risco Combinado** | **36.5%** |
+| 🔴 IMA Crash | 15.8% |
+| 🔵 IMA Entrada | 33.2% |
+| 📐 LPPL Sornette | 57.1% |
+| Ibovespa | 168,454 pts |
+| 💵 USD/BRL IMA Crash | 0.0% 🟢 |
+| 💵 USD/BRL IMA Entrada | 21.4% |
+| Ativos em tensão | 31% (3🔴 5🟡) |
 
 
 
@@ -35,13 +35,13 @@ tags: [home]
 
 | Data | Zona | Risco |
 |---|---|---|
+| [19 Jun 2026](diario/2026-06-19) | 🟢 VERDE | 36.5% |
 | [18 Jun 2026](diario/2026-06-18) | 🟢 VERDE | 37.2% |
 | [17 Jun 2026](diario/2026-06-17) | 🟢 VERDE | 40.2% |
 | [16 Jun 2026](diario/2026-06-16) | 🟢 VERDE | 44.1% |
 | [15 Jun 2026](diario/2026-06-15) | 🟢 VERDE | 48.9% |
 | [12 Jun 2026](diario/2026-06-12) | 🟡 AMARELO | 52.3% |
 | [11 Jun 2026](diario/2026-06-11) | 🟡 AMARELO | 56.0% |
-| [10 Jun 2026](diario/2026-06-10) | 🟡 AMARELO | 53.6% |
 
 
 [Ver histórico completo →](historico) | [Metodologia →](metodologia) | [Intraday →](intraday/)
