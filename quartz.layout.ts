@@ -1,6 +1,27 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+
+// Explorer: pastas em ordem alfabética; páginas por data DECRESCENTE
+// (nomes de arquivo são YYYY-MM-DD, então ordenar pelo slug = ordenar por data)
+const explorerDateSort = Component.Explorer({
+  sortFn: (a, b) => {
+    if (a.isFolder && b.isFolder) {
+      return a.displayName.localeCompare(b.displayName, undefined, {
+        numeric: true,
+        sensitivity: "base",
+      })
+    }
+    if (!a.isFolder && !b.isFolder) {
+      return b.slugSegment.localeCompare(a.slugSegment, undefined, {
+        numeric: true,
+        sensitivity: "base",
+      })
+    }
+    return a.isFolder ? -1 : 1
+  },
+})
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -38,7 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    explorerDateSort,
   ],
   right: [
     Component.Graph(),
@@ -62,7 +83,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    explorerDateSort,
   ],
   right: [],
 }
