@@ -1,51 +1,52 @@
 ---
 title: Sinal de Crise B3
-date: 2026-07-03
+date: 2026-07-04
 tags: [home]
 ---
 
-# 🟡 Sinal de Crise B3
+# 🟢 Sinal de Crise B3
 
-> Monitoramento diário e intraday do Ibovespa usando o método **IMA Wavelet** do Prof. Marco Antonio Leonel Caetano (ITA/INSPER) e **LPPL** do Prof. Didier Sornette (ETH-Zurich).
+Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
----
+*Última atualização: 04/07/2026 21:01 BRT · ^BVSP · Diário D1 · v4*
 
-## Sinal Atual — 03/07/2026 19:03 BRT
-*^BVSP | Diário D1*
+> [!success] 🟢 **VERDE** — Risco 10% · ▼ -46 p.p. vs leitura anterior
+> `██░░░░░░░░░░░░░░░░░░`
+> Mercado sem sinais relevantes de estresse.
+
 
 | Indicador | Valor |
 |---|---|
-| **Zona** | 🟡 **AMARELO** |
-| **Risco Combinado** | **74.2%** |
-| 🔴 IMA Crash | 61.5% |
-| 🔵 IMA Entrada | 0.0% |
-| 📐 LPPL Sornette | 86.9% |
-| Ibovespa | 171,689 pts |
-| 💵 USD/BRL IMA Crash | 2.3% 🟢 |
-| 💵 USD/BRL IMA Entrada | 31.8% |
-| Ativos em tensão | 31% (1🔴 7🟡) |
+| 🔴 IMA Crash (percentil 2 anos) | **14%** |
+| 🔵 IMA Entrada (compra) | 26% |
+| 🫧 LPPL DS-Confidence | 0% |
+| 📊 Ibovespa | 174.266 pts |
+
+**Multi-ativo:** 31% em tensão (1🔴 7🟡 de 26 ativos)
 
 
-> ⚡ **ATENÇÃO**: Tensão espectral crescente. Monitore.
+> [!tip]- Calibração v4 (backtest 15y)
+> 4/7 crises históricas detectadas · 10.1 falsos alarmes/ano · antecedência média 22.8 dias · limiares 🟡 66% / 🔴 71% com histerese
 
+## Últimos 7 pregões
 
----
+| Data | Zona | Risco | IMA | LPPL |
+|---|---|---|---|---|
+| [03 Jul 2026](diario/2026-07-03) | 🟢 VERDE | **10%** | 14% | 0% |
+| [02 Jul 2026](diario/2026-07-02) | 🟢 VERDE | **56%** | 80% | 0% |
+| [01 Jul 2026](diario/2026-07-01) | 🟢 VERDE | **57%** | 81% | 0% |
+| [30 Jun 2026](diario/2026-06-30) | 🟢 VERDE | **52%** | 74% | 0% |
+| [29 Jun 2026](diario/2026-06-29) | 🟢 VERDE | **46%** | 65% | 0% |
+| [26 Jun 2026](diario/2026-06-26) | 🟢 VERDE | **40%** | 58% | 0% |
+| [25 Jun 2026](diario/2026-06-25) | 🟢 VERDE | **34%** | 48% | 0% |
 
-## Últimos 7 dias
+## Navegação
 
-| Data | Zona | Risco |
-|---|---|---|
-| [03 Jul 2026](diario/2026-07-03) | 🟡 AMARELO | 74.2% |
-| [02 Jul 2026](diario/2026-07-02) | 🟡 AMARELO | 68.1% |
-| [01 Jul 2026](diario/2026-07-01) | 🟡 AMARELO | 58.8% |
-| [30 Jun 2026](diario/2026-06-30) | 🟡 AMARELO | 53.5% |
-| [29 Jun 2026](diario/2026-06-29) | 🟢 VERDE | 49.6% |
-| [26 Jun 2026](diario/2026-06-26) | 🟢 VERDE | 45.8% |
-| [25 Jun 2026](diario/2026-06-25) | 🟢 VERDE | 44.2% |
-
-
-[Ver histórico completo →](historico) | [Metodologia →](metodologia) | [Intraday →](intraday/)
+- 📅 [Relatórios diários](diario/) · ⏱️ [Intraday](intraday/)
+- 📖 [Metodologia](metodologia) · 📜 [Histórico completo](historico)
 
 ---
+*Sinal de Crise B3 v4 · IMA Wavelet ([Caetano & Yoneyama, Physica-A 2007](https://doi.org/10.1016/j.physa.2007.03.054)) + LPPL DS-Confidence (Sornette, ETH-Zurich) · [Metodologia](metodologia) · [Histórico](historico)*
 
-> **Aviso:** Estudo acadêmico. Não é recomendação de investimento.
+> [!quote]- Aviso
+> Estudo acadêmico. Não constitui recomendação de investimento.

@@ -1,4 +1,17 @@
 ---
+title: Histórico
+tags: [historico]
+---
+
+# 📜 Histórico de leituras (v4)
+
+| Data | Modo | Zona | Risco | IMA | LPPL |
+|---|---|---|---|---|---|
+| 2026-07-03 | diario | 🟢 VERDE | 10% | 14% | 0% |
+
+---
+
+---
 title: Histórico de Sinais
 date: 2026-07-03
 tags: [historico, ibovespa]

@@ -1,82 +1,80 @@
 ---
 title: Metodologia
-date: 2026-01-01
 tags: [metodologia]
 ---
 
-# Metodologia — Sinal de Crise B3
+# 📖 Metodologia — v4
 
-## IMA — Índice de Mudanças Abruptas
+## IMA Wavelet (Caetano)
 
-![Escalograma Wavelet Chapéu Mexicano — Ibovespa](graficos/espectro_wavelet.png)
-*Escalograma CWT (Chapéu Mexicano) do Ibovespa — zona vermelha = alta frequência (IMA Crash) | zona azul = baixa frequência (IMA Entrada)*
+O **Índice de Mudanças Abruptas** segue Caetano & Yoneyama
+(Physica-A 383, 2007, 519-526; livro *Mudanças Abruptas no Mercado
+Financeiro*, Érica, 2013): a série de preços passa por detrending duplo
+(tendência log-linear + componente cosseno) e o ruído residual é
+decomposto pela **Transformada Wavelet Contínua com Chapéu Mexicano**.
+Energia concentrada nas escalas de alta frequência com baixa
+volatilidade é o padrão espectral que antecede mudanças abruptas —
+o "tufão" nos espectrogramas de Caetano.
 
+**Na v4**, o valor bruto (energia alta-freq ÷ volatilidade) é convertido
+em **rank-percentil móvel de 2 anos**: um IMA de 85% significa
+literalmente que o estresse espectral está acima de 85% dos últimos
+500 pregões. Isso torna o score interpretável e comparável no tempo.
 
+## LPPL DS-Confidence (Sornette)
 
-Método desenvolvido pelos professores **Marco Antonio Leonel Caetano** (ITA/INSPER) e **Takashi Yoneyama** (ITA), publicado na revista **Physica-A** (Elsevier, 2007-2012).
+Bolhas especulativas seguem a **Log-Periodic Power Law** de Sornette:
+crescimento super-exponencial com oscilações log-periódicas acelerando
+rumo ao tempo crítico *tc*. A v4 implementa o indicador de confiança do
+**Financial Crisis Observatory** (ETH-Zurich):
 
-### Exemplo Histórico — Crash de 1929
+1. Reformulação de Filimonov & Sornette (2013): parâmetros lineares
+   (A, B, C₁, C₂) resolvidos por mínimos quadrados; otimização apenas
+   em (tc, m, ω).
+2. Ajuste em **múltiplas janelas** (60 a 504 pregões) terminando na
+   mesma data.
+3. Cada ajuste só é aceito se passar nos filtros de bolha positiva:
+   0.05 < m < 0.95 · 6 < ω < 13 · B < 0 · tc plausível ·
+   ≥ 2.5 oscilações · damping ≥ 0.5 · SSE < 60% do ajuste linear
+   (o modelo precisa explicar mais que uma simples tendência).
+4. **Confiança = fração de janelas com ajuste válido.**
 
-![Escalograma Wavelet — Crash de 1929](graficos/espectro_1929.png)
-*Reprodução colorida da Figura 4 (Cap. 25, Caetano 2013) — zona vermelha crescente na alta frequência (parte superior) antes da Quinta-feira Negra (24/10/1929) = padrão tufão detectado pelo IMA*
+Diferente da v3 (que media o número de oscilações de um único fit e
+saturava em ~87% em qualquer tendência), a confiança v4 fica em ~0%
+em séries sem estrutura de bolha e sobe apenas quando várias escalas
+concordam.
 
-## Como funciona
+## Sinal combinado e zonas
 
-1. **Detrending duplo**: remove tendência linear (MQO) + sazonalidade cosseno `a·cos(ω·t + φ)` do log-preço
-2. **Wavelet Chapéu Mexicano (CWT)**: decompõe o resíduo em espectro tempo-frequência
-3. **Energia de alta frequência**: mede a proporção de energia em oscilações rápidas
-4. **Sinal IMA Crash**: `energia_alta_freq / volatilidade` → próximo de 1 = mercado sob tensão
-5. **Sinal IMA Entrada**: `energia_baixa_freq / volatilidade` → próximo de 1 = oportunidade de compra
+`Risco = peso_IMA × IMA + peso_LPPL × LPPL` (pesos calibrados por
+backtest; onde LPPL não está disponível, 100% IMA). As zonas usam
+**histerese**: entra em 🟡/🔴 ao cruzar o limiar de entrada e só sai ao
+cruzar o de saída (10 p.p. abaixo), eliminando o flip-flop diário.
 
-> *"Quando há alta frequência de movimentações com volatilidade baixa, é sinal de que o mercado está esperando algum evento para se definir e as mudanças tendem a ser abruptas."* — Prof. Caetano
+## Backtest e calibração
 
-### Referências
-- Caetano & Yoneyama, **Physica A 383** (2007) 519–526
-- Caetano & Yoneyama, **Physica A 388** (2009) 3563–3571
-- Caetano & Yoneyama, **Physica A 391** (2012) 4877–4882
+Backtest 15y do ^BVSP (calibrado em 2026-07-04 20:53):
 
----
-
-## LPPL — Log-Periodic Power Law
-
-Modelo desenvolvido pelo Prof. **Didier Sornette** (ETH-Zurich), baseado em analogias com física de terremotos.
-
-### Equação
-
-```
-ln(P(t)) ≈ A + B(tc-t)^m + C(tc-t)^m · cos(ω·ln(tc-t) + φ)
-```
-
-Onde `tc` é o **tempo crítico** estimado para o crash.
-
-### Exemplo Histórico — Crash de 1929
-
-![Escalograma Wavelet — Crash de 1929](graficos/espectro_1929.png)
-*Reprodução colorida da Figura 4 (Cap. 25, Caetano 2013) — zona vermelha crescente na alta frequência (parte superior) antes da Quinta-feira Negra (24/10/1929) = padrão tufão detectado pelo IMA*
-
-## Como funciona
-- Detecta crescimento **super-exponencial** com oscilações log-periódicas aceleradas
-- Padrão típico de bolha especulativa antes do colapso
-- Estima a data provável do crash (`tc`)
-
----
-
-## Backtesting (2010-2026)
-
-| Crise | Detecção | Antecedência |
+| Métrica | 🟡 AMARELO | 🔴 VERMELHO |
 |---|---|---|
-| Europeia 2011 | ✅ | 30 dias |
-| Brasil 2015 | ✅ | 45 dias |
-| Greve/Eleições 2018 | ✅ | 29 dias |
-| Covid-19 2020 | ✅ | 20 dias |
-| Hídrica/Fiscal 2021 | ✅ | 20 dias |
-| Juros/Eleições 2022 | ✅ | 2 dias |
-| Fiscal/Trump 2024 | ✅ | 28 dias |
+| Limiar de entrada (histerese −10 p.p. na saída) | 66% | 71% |
+| Crises detectadas | 4/7 | 2/7 |
+| Falsos alarmes/ano | 10.1 | 0.8 |
+| Antecedência média | 22.8 dias | 25.5 dias |
 
-**7/7 crises detectadas** | Antecedência média: 25 dias | 75 falsos alarmes/ano
+Pesos calibrados: **70% IMA + 30% LPPL**.
 
----
+## Referências
 
-## Aviso Legal
+- Caetano, M.A.L.; Yoneyama, T. *Characterizing abrupt changes in the
+  stock prices using a wavelet decomposition method*. Physica-A 383
+  (2007) 519-526.
+- Caetano, M.A.L. *Mudanças Abruptas no Mercado Financeiro*. Érica, 2013.
+- Sornette, D. *Why Stock Markets Crash*. Princeton, 2003.
+- Filimonov, V.; Sornette, D. *A stable and robust calibration scheme
+  of the log-periodic power law model*. Physica-A 392 (2013) 3698-3707.
+- Sornette, D. et al. *Real-time prediction of Bitcoin bubble crashes*
+  / FCO Cockpit, ETH-Zurich.
 
-> Este site é um estudo acadêmico e não constitui recomendação de investimento. Os sinais aqui publicados são para fins educacionais e de pesquisa. Invista sempre com análise própria e consulte um assessor de investimentos.
+> [!quote]- Aviso
+> Estudo acadêmico. Não constitui recomendação de investimento.
