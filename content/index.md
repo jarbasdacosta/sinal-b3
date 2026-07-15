@@ -1,6 +1,6 @@
 ---
 title: Sinal de Crise B3
-date: 2026-07-14
+date: 2026-07-15
 tags: [home]
 ---
 
@@ -8,37 +8,33 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 14/07/2026 19:03 BRT · ^BVSP · Diário D1 · v4*
+*Última atualização: 15/07/2026 10:45 BRT · ^BVSP · Intraday 15min · v4*
 
-> [!success] 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
-> `░░░░░░░░░░░░░░░░░░░░`
+> [!success] 🟢 **VERDE** — Risco 18% · ▲ +1 p.p. vs leitura anterior
+> `████░░░░░░░░░░░░░░░░`
 > Mercado sem sinais relevantes de estresse.
 
 
 | Indicador | Valor |
 |---|---|
-| 🔴 IMA Crash (percentil 2 anos) | **0%** |
-| 🔵 IMA Entrada (compra) | 25% |
+| 🔴 ζ Crash — severidade da queda em curso | **18%** |
+| 🔵 ζ Entrada — estrutura de fundo | 0% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 176.641 pts |
+| 📊 Ibovespa | 176.243 pts |
 
-**Multi-ativo:** 15% em tensão (1🔴 3🟡 de 27 ativos)
+**Multi-ativo:** 0% em tensão (0🔴 0🟡 de 27 ativos)
 
 
 > [!tip]- Calibração v4 (backtest 15y)
-> 4/7 crises históricas detectadas · 10.1 falsos alarmes/ano · antecedência média 22.8 dias · limiares 🟡 66% / 🔴 71% com histerese
+> ?/? crises históricas detectadas · ? falsos alarmes/ano · antecedência média ? dias · limiares 🟡 60% / 🔴 90% com histerese
 
 ## Últimos 7 pregões
 
 | Data | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|
-| [13 Jul 2026](diario/2026-07-13) | 🟢 VERDE | **0%** | 0% | 0% |
-| [12 Jul 2026](diario/2026-07-12) | 🟢 VERDE | **0%** | 0% | 0% |
-| [09 Jul 2026](diario/2026-07-09) | 🟢 VERDE | **1%** | 1% | 0% |
-| [08 Jul 2026](diario/2026-07-08) | 🟢 VERDE | **2%** | 3% | 0% |
-| [07 Jul 2026](diario/2026-07-07) | 🟢 VERDE | **5%** | 7% | 0% |
-| [06 Jul 2026](diario/2026-07-06) | 🟢 VERDE | **6%** | 9% | 0% |
-| [05 Jul 2026](diario/2026-07-05) | 🟢 VERDE | **8%** | 11% | 0% |
+| [15 Jul 2026](diario/2026-07-15) | 🟢 VERDE | **18%** | 18% | 0% |
+| [14 Jul 2026](diario/2026-07-14) | 🟢 VERDE | **17%** | 17% | 0% |
+| [13 Jul 2026](diario/2026-07-13) | 🟢 VERDE | **1%** | 1% | 0% |
 
 ## Navegação
 

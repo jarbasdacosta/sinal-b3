@@ -16,10 +16,14 @@ Energia concentrada nas escalas de alta frequência com baixa
 volatilidade é o padrão espectral que antecede mudanças abruptas —
 o "tufão" nos espectrogramas de Caetano.
 
-**Na v4**, o valor bruto (energia alta-freq ÷ volatilidade) é convertido
-em **rank-percentil móvel de 2 anos**: um IMA de 85% significa
-literalmente que o estresse espectral está acima de 85% dos últimos
-500 pregões. Isso torna o score interpretável e comparável no tempo.
+**Na v5**, o índice segue fielmente o artigo: ζ(t) = n(t)/N — a fração
+dos coeficientes wavelet (normalizados por escala) que ultrapassam o
+corte de 0,8σ na faixa recente. A escala é **absoluta**: ζ=0,90 tem o
+mesmo significado hoje e daqui a dois anos. Validação: replica o
+Kruskal-Wallis do artigo em 2003–2008 (p=0,007/0,002); em 2015–2025,
+AUC 0,58 contra 0,50 do motor anterior. ζ **classifica a severidade do
+movimento em curso** — não antecipa o início da queda (o próprio
+Caetano registra que ζ sobe com atraso).
 
 ## LPPL DS-Confidence (Sornette)
 
@@ -53,16 +57,16 @@ cruzar o de saída (10 p.p. abaixo), eliminando o flip-flop diário.
 
 ## Backtest e calibração
 
-Backtest 15y do ^BVSP (calibrado em 2026-07-04 20:53):
+Backtest 15y do ^BVSP (calibrado em —):
 
 | Métrica | 🟡 AMARELO | 🔴 VERMELHO |
 |---|---|---|
-| Limiar de entrada (histerese −10 p.p. na saída) | 66% | 71% |
-| Crises detectadas | 4/7 | 2/7 |
-| Falsos alarmes/ano | 10.1 | 0.8 |
-| Antecedência média | 22.8 dias | 25.5 dias |
+| Limiar de entrada (histerese −10 p.p. na saída) | 60% | 90% |
+| Crises detectadas | —/— | —/— |
+| Falsos alarmes/ano | — | — |
+| Antecedência média | — dias | — dias |
 
-Pesos calibrados: **70% IMA + 30% LPPL**.
+Pesos calibrados: **60% IMA + 40% LPPL**.
 
 ## Referências
 
