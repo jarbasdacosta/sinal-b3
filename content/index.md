@@ -8,21 +8,21 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 04/08/2026 12:01 BRT · ^BVSP · Intraday 15min · v4*
+*Última atualização: 04/08/2026 12:15 BRT · ^BVSP · Intraday 15min · v4*
 
-> [!warning] 🟡 **AMARELO** — Risco 66% · ▲ +2 p.p. vs leitura anterior
-> `█████████████░░░░░░░`
+> [!warning] 🟡 **AMARELO** — Risco 68% · ▲ +2 p.p. vs leitura anterior
+> `██████████████░░░░░░`
 > Atenção — padrão de coeficientes associado a quedas mais severas.
 
 
 | Indicador | Valor |
 |---|---|
-| 🔴 ζ Crash — severidade da queda em curso | **66%** |
-| 🔵 ζ Entrada — estrutura de fundo | 1% |
+| 🔴 ζ Crash — severidade da queda em curso | **68%** |
+| 🔵 ζ Entrada — estrutura de fundo | 2% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 178.469 pts |
+| 📊 Ibovespa | 178.723 pts |
 
-**Multi-ativo:** 4% em tensão (0🔴 1🟡 de 27 ativos)
+**Multi-ativo:** 85% em tensão (1🔴 22🟡 de 27 ativos)
 
 
 > [!tip]- Calibração v4 (backtest 15y)
@@ -32,7 +32,7 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|
-| [04 Aug 2026](diario/2026-08-04) | 🟡 AMARELO | **66%** | 66% | 0% |
+| [04 Aug 2026](diario/2026-08-04) | 🟡 AMARELO | **68%** | 68% | 0% |
 | [03 Aug 2026](diario/2026-08-03) | 🟢 VERDE | **46%** | 46% | 0% |
 
 ## Navegação
