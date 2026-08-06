@@ -1,6 +1,6 @@
 ---
 title: Sinal de Crise B3
-date: 2026-08-05
+date: 2026-08-06
 tags: [home]
 ---
 
@@ -8,7 +8,7 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 05/08/2026 19:00 BRT · ^BVSP · Diário D1 · v4*
+*Última atualização: 06/08/2026 10:46 BRT · ^BVSP · Intraday 15min · v4*
 
 > [!success] 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
 > `░░░░░░░░░░░░░░░░░░░░`
@@ -18,9 +18,9 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 | Indicador | Valor |
 |---|---|
 | 🔴 ζ Crash — severidade da queda em curso | **0%** |
-| 🔵 ζ Entrada — estrutura de fundo | 55% |
+| 🔵 ζ Entrada — estrutura de fundo | 98% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 177.726 pts |
+| 📊 Ibovespa | 176.901 pts |
 
 **Multi-ativo:** 0% em tensão (0🔴 0🟡 de 27 ativos)
 
@@ -32,13 +32,9 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|
+| [06 Aug 2026](diario/2026-08-06) | 🟢 VERDE | **0%** | 0% | 0% |
+| [05 Aug 2026](diario/2026-08-05) | 🟢 VERDE | **0%** | 0% | 0% |
 | [04 Aug 2026](diario/2026-08-04) | 🟢 VERDE | **0%** | 0% | 0% |
-| [03 Aug 2026](diario/2026-08-03) | 🟢 VERDE | **0%** | 0% | 0% |
-| [02 Aug 2026](diario/2026-08-02) | 🟢 VERDE | **0%** | 0% | 0% |
-| [30 Jul 2026](diario/2026-07-30) | 🟢 VERDE | **0%** | 0% | 0% |
-| [29 Jul 2026](diario/2026-07-29) | 🟢 VERDE | **0%** | 0% | 0% |
-| [28 Jul 2026](diario/2026-07-28) | 🟢 VERDE | **0%** | 0% | 0% |
-| [27 Jul 2026](diario/2026-07-27) | 🟢 VERDE | **0%** | 1% | 0% |
 
 ## Navegação
 
