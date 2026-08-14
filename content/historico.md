@@ -7,6 +7,7 @@ tags: [historico]
 
 | Data | Modo | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|---|
+| 2026-08-14 16:30 | intraday | 🟡 AMARELO | 84% | 84% | 0% |
 | 2026-08-14 16:15 | intraday | 🟡 AMARELO | 77% | 77% | 0% |
 | 2026-08-14 16:00 | intraday | 🟡 AMARELO | 70% | 70% | 0% |
 | 2026-08-14 15:45 | intraday | 🟡 AMARELO | 60% | 60% | 0% |
