@@ -7,6 +7,7 @@ tags: [historico]
 
 | Data | Modo | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|---|
+| 2026-08-20 12:15 | intraday | 🟢 VERDE | 20% | 20% | 0% |
 | 2026-08-20 12:00 | intraday | 🟢 VERDE | 16% | 16% | 0% |
 | 2026-08-20 11:45 | intraday | 🟢 VERDE | 12% | 12% | 0% |
 | 2026-08-20 11:30 | intraday | 🟢 VERDE | 8% | 8% | 0% |
