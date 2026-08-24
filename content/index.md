@@ -1,28 +1,28 @@
 ---
 title: Sinal de Crise B3
-date: 2026-08-21
+date: 2026-08-24
 tags: [home]
 ---
 
-# 🟢 Sinal de Crise B3
+# 🟡 Sinal de Crise B3
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 21/08/2026 19:00 BRT · ^BVSP · Diário D1 · v4*
+*Última atualização: 24/08/2026 10:45 BRT · ^BVSP · Intraday 15min · v4*
 
-> [!success] 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
-> `░░░░░░░░░░░░░░░░░░░░`
-> Mercado sem sinais relevantes de estresse.
+> [!warning] 🟡 **AMARELO** — Risco 55% · ▼ -5 p.p. vs leitura anterior
+> `███████████░░░░░░░░░`
+> Atenção — padrão de coeficientes associado a quedas mais severas.
 
 
 | Indicador | Valor |
 |---|---|
-| 🔴 ζ Crash — severidade da queda em curso | **0%** |
-| 🔵 ζ Entrada — estrutura de fundo | 25% |
+| 🔴 ζ Crash — severidade da queda em curso | **55%** |
+| 🔵 ζ Entrada — estrutura de fundo | 2% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 171.032 pts |
+| 📊 Ibovespa | 169.490 pts |
 
-**Multi-ativo:** 0% em tensão (0🔴 0🟡 de 25 ativos)
+**Multi-ativo:** 0% em tensão (0🔴 0🟡 de 26 ativos)
 
 
 > [!tip]- Calibração v4 (backtest 15y)
@@ -32,13 +32,9 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|
+| [24 Aug 2026](diario/2026-08-24) | 🟡 AMARELO | **55%** | 55% | 0% |
+| [21 Aug 2026](diario/2026-08-21) | 🟡 AMARELO | **60%** | 60% | 0% |
 | [20 Aug 2026](diario/2026-08-20) | 🟢 VERDE | **0%** | 0% | 0% |
-| [19 Aug 2026](diario/2026-08-19) | 🟢 VERDE | **0%** | 0% | 0% |
-| [18 Aug 2026](diario/2026-08-18) | 🟢 VERDE | **0%** | 0% | 0% |
-| [17 Aug 2026](diario/2026-08-17) | 🟢 VERDE | **0%** | 0% | 0% |
-| [16 Aug 2026](diario/2026-08-16) | 🟢 VERDE | **0%** | 0% | 0% |
-| [13 Aug 2026](diario/2026-08-13) | 🟢 VERDE | **0%** | 0% | 0% |
-| [12 Aug 2026](diario/2026-08-12) | 🟢 VERDE | **0%** | 0% | 0% |
 
 ## Navegação
 
