@@ -8,9 +8,9 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 31/08/2026 16:00 BRT · ^BVSP · Intraday 15min · v4*
+*Última atualização: 31/08/2026 16:15 BRT · ^BVSP · Intraday 15min · v4*
 
-> [!success] 🟢 **VERDE** — Risco 1% · ▲ +1 p.p. vs leitura anterior
+> [!success] 🟢 **VERDE** — Risco 1% · ＝ +0 p.p. vs leitura anterior
 > `░░░░░░░░░░░░░░░░░░░░`
 > Mercado sem sinais relevantes de estresse.
 
@@ -18,9 +18,9 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 | Indicador | Valor |
 |---|---|
 | 🔴 ζ Crash — severidade da queda em curso | **1%** |
-| 🔵 ζ Entrada — estrutura de fundo | 6% |
+| 🔵 ζ Entrada — estrutura de fundo | 8% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 177.366 pts |
+| 📊 Ibovespa | 177.523 pts |
 
 **Multi-ativo:** 0% em tensão (0🔴 0🟡 de 27 ativos)
 
