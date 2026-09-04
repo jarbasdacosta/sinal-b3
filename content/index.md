@@ -8,19 +8,19 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 04/09/2026 14:00 BRT · ^BVSP · Intraday 15min · v4*
+*Última atualização: 04/09/2026 14:15 BRT · ^BVSP · Intraday 15min · v4*
 
-> [!success] 🟢 **VERDE** — Risco 14% · ▲ +2 p.p. vs leitura anterior
+> [!success] 🟢 **VERDE** — Risco 16% · ▲ +2 p.p. vs leitura anterior
 > `███░░░░░░░░░░░░░░░░░`
 > Mercado sem sinais relevantes de estresse.
 
 
 | Indicador | Valor |
 |---|---|
-| 🔴 ζ Crash — severidade da queda em curso | **14%** |
-| 🔵 ζ Entrada — estrutura de fundo | 46% |
+| 🔴 ζ Crash — severidade da queda em curso | **16%** |
+| 🔵 ζ Entrada — estrutura de fundo | 44% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 186.311 pts |
+| 📊 Ibovespa | 186.291 pts |
 
 **Multi-ativo:** 0% em tensão (0🔴 0🟡 de 27 ativos)
 
@@ -32,7 +32,7 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|
-| [04 Sep 2026](diario/2026-09-04) | 🟢 VERDE | **14%** | 14% | 0% |
+| [04 Sep 2026](diario/2026-09-04) | 🟢 VERDE | **16%** | 16% | 0% |
 | [03 Sep 2026](diario/2026-09-03) | 🟢 VERDE | **0%** | 0% | 0% |
 
 ## Navegação
