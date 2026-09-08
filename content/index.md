@@ -4,23 +4,23 @@ date: 2026-09-08
 tags: [home]
 ---
 
-# 🔴 Sinal de Crise B3
+# 🟢 Sinal de Crise B3
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 08/09/2026 13:30 BRT · ^BVSP · Intraday 15min · v4*
+*Última atualização: 08/09/2026 13:45 BRT · ^BVSP · Intraday 15min · v4*
 
-> [!danger] 🔴 **VERMELHO** — Risco 96% · ▲ +75 p.p. vs leitura anterior
-> `███████████████████░`
-> ALERTA DE CRISE — padrão pré-crise detectado.
+> [!success] 🟢 **VERDE** — Risco 8% · ▼ -88 p.p. vs leitura anterior
+> `██░░░░░░░░░░░░░░░░░░`
+> Mercado sem sinais relevantes de estresse.
 
 
 | Indicador | Valor |
 |---|---|
-| 🔴 ζ Crash — severidade da queda em curso | **96%** |
-| 🔵 ζ Entrada — estrutura de fundo | 0% |
+| 🔴 ζ Crash — severidade da queda em curso | **8%** |
+| 🔵 ζ Entrada — estrutura de fundo | 5% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 187.696 pts |
+| 📊 Ibovespa | 187.615 pts |
 
 **Multi-ativo:** 0% em tensão (0🔴 0🟡 de 27 ativos)
 
@@ -32,7 +32,7 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|
-| [08 Sep 2026](diario/2026-09-08) | 🔴 VERMELHO | **96%** | 96% | 0% |
+| [08 Sep 2026](diario/2026-09-08) | 🟢 VERDE | **8%** | 8% | 0% |
 | [04 Sep 2026](diario/2026-09-04) | 🟢 VERDE | **0%** | 0% | 0% |
 
 ## Navegação
