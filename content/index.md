@@ -1,28 +1,28 @@
 ---
 title: Sinal de Crise B3
-date: 2026-10-05
+date: 2026-10-06
 tags: [home]
 ---
 
-# 🟢 Sinal de Crise B3
+# 🔴 Sinal de Crise B3
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 05/10/2026 19:00 BRT · ^BVSP · Diário D1 · v4*
+*Última atualização: 06/10/2026 10:45 BRT · ^BVSP · Intraday 15min · v4*
 
-> [!success] 🟢 **VERDE** — Risco 4% · ▲ +3 p.p. vs leitura anterior
-> `█░░░░░░░░░░░░░░░░░░░`
-> Mercado sem sinais relevantes de estresse.
+> [!danger] 🔴 **VERMELHO** — Risco 91% · ▼ -4 p.p. vs leitura anterior
+> `██████████████████░░`
+> ALERTA DE CRISE — padrão pré-crise detectado.
 
 
 | Indicador | Valor |
 |---|---|
-| 🔴 ζ Crash — severidade da queda em curso | **6%** |
-| 🔵 ζ Entrada — estrutura de fundo | 4% |
+| 🔴 ζ Crash — severidade da queda em curso | **91%** |
+| 🔵 ζ Entrada — estrutura de fundo | 1% |
 | 🫧 LPPL DS-Confidence | 0% |
-| 📊 Ibovespa | 206.912 pts |
+| 📊 Ibovespa | 208.530 pts |
 
-**Multi-ativo:** 0% em tensão (0🔴 0🟡 de 25 ativos)
+**Multi-ativo:** 0% em tensão (0🔴 0🟡 de 24 ativos)
 
 
 > [!tip]- Calibração v4 (backtest 15y)
@@ -32,13 +32,9 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | IMA | LPPL |
 |---|---|---|---|---|
-| [04 Oct 2026](diario/2026-10-04) | 🟢 VERDE | **4%** | 6% | 0% |
-| [01 Oct 2026](diario/2026-10-01) | 🟢 VERDE | **1%** | 2% | 0% |
-| [30 Sep 2026](diario/2026-09-30) | 🟢 VERDE | **0%** | 0% | 0% |
-| [29 Sep 2026](diario/2026-09-29) | 🟢 VERDE | **0%** | 0% | 0% |
-| [28 Sep 2026](diario/2026-09-28) | 🟢 VERDE | **0%** | 0% | 0% |
-| [27 Sep 2026](diario/2026-09-27) | 🟢 VERDE | **0%** | 1% | 0% |
-| [24 Sep 2026](diario/2026-09-24) | 🟢 VERDE | **1%** | 2% | 0% |
+| [06 Oct 2026](diario/2026-10-06) | 🔴 VERMELHO | **91%** | 91% | 0% |
+| [05 Oct 2026](diario/2026-10-05) | 🔴 VERMELHO | **95%** | 95% | 0% |
+| [02 Oct 2026](diario/2026-10-02) | 🔴 VERMELHO | **93%** | 93% | 0% |
 
 ## Navegação
 
