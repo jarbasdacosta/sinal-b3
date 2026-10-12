@@ -1,6 +1,6 @@
 ---
 title: Sinal de Crise B3
-date: 2026-10-09
+date: 2026-10-12
 tags: [home]
 ---
 
@@ -8,7 +8,7 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 09/10/2026 19:00 BRT · ^BVSP · Diário D1 · v4*
+*Última atualização: 12/10/2026 19:00 BRT · ^BVSP · Diário D1 · v4*
 
 > [!success] 🟢 **VERDE** — Risco 43% · ▲ +5 p.p. vs leitura anterior
 > `█████████░░░░░░░░░░░`
