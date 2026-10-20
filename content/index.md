@@ -8,7 +8,7 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 20/10/2026 19:24 BRT · ^BVSP · Diário D1 · v4*
+*Última atualização: 20/10/2026 20:17 BRT · ^BVSP · Diário D1 · v4*
 
 > [!warning] 🟡 **AMARELO** — Risco 77% · ＝ +0 p.p. vs leitura anterior
 > `███████████████░░░░░`

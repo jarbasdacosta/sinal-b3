@@ -3,99 +3,169 @@ title: Metodologia
 tags: [metodologia]
 ---
 
-# 📖 Metodologia — v5.1
+# 📖 Metodologia — v5.2
 
-## IMA Wavelet (Caetano)
+> [!abstract] Em uma frase
+> O Sinal B3 mede **o quanto o Ibovespa está esticado em relação à própria tendência**, olhando ao mesmo tempo para várias escalas de tempo. Esticado para cima é **ζ Topo**; esticado para baixo é **ζ Fundo**. Os momentos úteis para agir não são quando o ζ está alto, e sim **quando ele entra numa faixa ou começa a desinflar**.
 
-O **Índice de Mudanças Abruptas** segue Caetano & Yoneyama
-(Physica-A 383, 2007, 519-526; livro *Mudanças Abruptas no Mercado
-Financeiro*, Érica, 2013): a série de preços passa por detrending duplo
-(tendência log-linear + componente cosseno) e o ruído residual é
-decomposto pela **Transformada Wavelet Contínua com Chapéu Mexicano**.
-O índice segue o artigo de 2009: ζ(t) = n(t)/N — a fração dos
-coeficientes wavelet (normalizados por escala, 32 escalas × 4 barras)
-que ultrapassam o corte de 0,8σ na faixa mais recente. A escala é
-**absoluta**: ζ=0,90 tem o mesmo significado hoje e daqui a dois anos.
+> [!warning] Antes de tudo
+> Nada aqui é recomendação de investimento. São **estatísticas de 26 anos de Ibovespa** (2000–2026) que mostram em que situações as chances ficaram historicamente a favor ou contra. Nenhuma situação tem 100% de acerto, e o passado não garante o futuro. Use como **filtro de contexto** para o seu método, com stop e gestão de risco.
 
-**Leitura correta (v5.1).** Na borda direita da série — que é o que um
-sinal em tempo real enxerga — o coeficiente do Chapéu Mexicano é positivo
-quando o preço termina *acima* da tendência. Por isso o ζ publicado
-(coeficientes positivos) mede **esticamento acima da tendência**: sobe em
-altas fortes e cai em quedas. Exemplo real: a alta de 187 mil para 209 mil
-pontos em out/2026 levou o ζ de 2% para 77%. Ele é um indicador de **risco
-de reversão de topo**, não de "queda em curso".
+---
 
-Validação: replica o Kruskal-Wallis do artigo em 2003–2008
-(p=0,007/0,002) — topos com ζ≥0,90 precederam quedas maiores e mais
-longas; em 2015–2025, AUC causal 0,58 contra 0,50 do motor anterior.
-Não serve para cravar a data do crash (teste de Molchan negativo).
+## 1. Como o modelo funciona (sem matemática)
 
-O espectrograma histórico (página de gráficos) é calculado com a série
-inteira, ou seja, *com dados futuros*: ali cada data é vista do meio da
-janela. O ζ em tempo real, na borda, concorda só parcialmente com ele
-(correlação ~0,4 em simulação) — não compare os dois diretamente.
+Imagine o gráfico do Ibovespa dos últimos 252 pregões (um ano).
 
-## LPPL DS-Confidence (Sornette)
+**Passo 1 — tirar a tendência.** O modelo traça a curva que melhor descreve a direção do último ano (uma tendência exponencial) e um ciclo lento por cima dela. O que sobra é o **resíduo**: quanto o preço está acima ou abaixo do "caminho normal".
 
-Bolhas especulativas seguem a **Log-Periodic Power Law** de Sornette:
-crescimento super-exponencial com oscilações log-periódicas acelerando
-rumo ao tempo crítico *tc*. A v4 implementa o indicador de confiança do
-**Financial Crisis Observatory** (ETH-Zurich):
+**Passo 2 — olhar o resíduo com 32 lupas.** A *transformada wavelet* (com a função **Chapéu Mexicano**, como no método do Prof. Caetano) funciona como um conjunto de lupas de tamanhos diferentes: algumas enxergam movimentos de poucos dias, outras de várias semanas. Cada lupa responde a uma pergunta: *"na minha escala, o preço de agora está anormalmente acima ou abaixo da tendência?"*
 
-1. Reformulação de Filimonov & Sornette (2013): parâmetros lineares
-   (A, B, C₁, C₂) resolvidos por mínimos quadrados; otimização apenas
-   em (tc, m, ω).
-2. Ajuste em **45 janelas** (60 a 500 pregões, passo de 10) terminando na
-   mesma data (eram 10 até a v5.0, o que fazia a confiança andar em degraus
-   de 10%).
-3. Cada ajuste só é aceito se passar nos filtros de qualificação:
-   0.05 < m < 0.95 · 6 < ω < 13 · tc plausível ·
-   ≥ 2.5 oscilações · damping ≥ 0.5 · SSE < 60% do ajuste linear
-   (o modelo precisa explicar mais que uma simples tendência).
-4. **Confiança = fração de janelas com ajuste válido**, separada pelo
-   sinal de B: **bolha** (B < 0, alta super-exponencial → risco de crash) e
-   **antibolha** (B > 0, queda super-exponencial → risco de repique). O
-   mesmo ajuste serve aos dois, como no DS LPPLS do FCO.
+**Passo 3 — contar quantas lupas concordam.** O **ζ (zeta)** é simplesmente a **porcentagem das lupas** que, nos últimos 4 pregões, enxergam o preço esticado além de um limite (0,8 desvio):
 
-Diferente da v3 (que media o número de oscilações de um único fit e
-saturava em ~87% em qualquer tendência), a confiança v4 fica em ~0%
-em séries sem estrutura de bolha e sobe apenas quando várias escalas
-concordam.
+- **ζ Topo** = % das lupas que veem o preço **esticado para cima**.
+- **ζ Fundo** = % das lupas que veem o preço **esticado para baixo**.
 
-## Sinal combinado e zonas
+ζ Topo = 90% quer dizer que **quase todas as escalas** concordam: o preço subiu demais, rápido demais, em relação à tendência. É a fórmula do artigo de Caetano & Yoneyama (2009): ζ = n/N.
 
-Na v5.1 o risco é o próprio ζ Topo, tanto no diário quanto no intraday.
-A média ponderada antiga (60% ζ + 40% LPPL) foi abandonada: o LPPL fica em
-0% na maior parte do tempo, então o risco diário nunca passava de 60% e o
-🔴 era matematicamente inalcançável. O LPPL continua publicado como
-evidência complementar de bolha. As zonas usam
-**histerese**: entra em 🟡/🔴 ao cruzar o limiar de entrada e só sai ao
-cruzar o de saída (10 p.p. abaixo), eliminando o flip-flop diário.
+> [!example] Exemplo real
+> Em outubro de 2026 o Ibovespa foi de 187 mil para 209 mil pontos em poucos dias. O ζ Topo saiu de 2% para 77%: a maioria das escalas passou a enxergar o preço muito acima da tendência.
 
-## Backtest e calibração
+### O LPPL (Prof. Sornette)
 
-Backtest 15y do ^BVSP (calibrado em —):
+É um segundo modelo, independente. Procura o **formato** de bolha: subida que acelera cada vez mais (super-exponencial), com oscilações que ficam mais rápidas. Ele testa 45 janelas de tempo diferentes (de 60 a 500 pregões) e mede **em quantas delas** o formato de bolha aparece:
 
-| Métrica | 🟡 AMARELO | 🔴 VERMELHO |
-|---|---|---|
-| Limiar de entrada (histerese −10 p.p. na saída) | 60% | 90% |
-| Crises detectadas | —/— | —/— |
-| Falsos alarmes/ano | — | — |
-| Antecedência média | — dias | — dias |
+- **LPPL bolha** — alta acelerando (risco de crash).
+- **LPPL antibolha** — queda acelerando (risco de repique forte).
 
-Pesos em uso: **100% ζ + 0% LPPL**.
+Abaixo de ~30% é ruído normal (mesmo séries aleatórias chegam a 20%). Acima de 50% é evidência forte. O LPPL ainda não tem estatística própria de longo prazo; por isso é exibido como **informação complementar** e não define a zona.
+
+---
+
+## 2. O que 26 anos de dados mostram
+
+Estudo com **6.370 pregões** (2000–2026). O ζ foi calculado **como teria sido visto em tempo real**, ou seja, só com os dados disponíveis em cada dia. Para cada situação, medimos o que o Ibovespa fez **depois**.
+
+**A referência (um dia qualquer):**
+
+| Horizonte | Subiu | Retorno mediano | Caiu 5%+ em algum momento | Subiu 5%+ em algum momento |
+|---|---|---|---|---|
+| 20 pregões (~1 mês) | 56% | +1,1% | 31% | 41% |
+| 60 pregões (~3 meses) | 60% | +3,3% | 52% | 66% |
+
+**As situações que fizeram diferença nos dois períodos testados (2000–2014 e 2015–2026):**
+
+| Situação | O que aconteceu depois | vs. referência | Confiança |
+|---|---|---|---|
+| 🚀 **ζ Topo entra na faixa 30–60%** | Subiu em **68%** das vezes em 60 pregões; subiu 5%+ em **75%** | 60% / 66% | ⭐⭐⭐ (105 casos) |
+| 📉 **ζ Topo desinfla** (cai abaixo de 45% depois de passar de 60%) | Caiu 5%+ em **39%** das vezes em 20 pregões; **60%** em 60 pregões | 31% / 52% | ⭐⭐ (56 casos) |
+| 📉 **ζ Topo desinfla do 🔴** (cai abaixo de 75% depois de passar de 90%) | Caiu 5%+ em **45%** das vezes em 20 pregões | 31% | ⭐⭐ (31 casos) |
+| 🔪 **ζ Fundo dispara** (passa de 90%) | Subiu só **42%** das vezes em 60 pregões; retorno mediano **−1,9%** | 60% / +3,3% | ⭐⭐⭐ (31 casos) |
+| 🌱 **ζ Fundo desinfla** (cai abaixo de 75% depois de passar de 90%) | Subiu em **66%** das vezes em 60 pregões; retorno mediano **+4,8%** | 60% / +3,3% | ⭐ (32 casos) |
+| 🔴 **ζ Topo ≥ 90%** (estar na zona) | Chance de subir mais 5% em 20 pregões cai para **32%** | 41% | ⭐ |
+
+> [!info]- Como ler as estrelas (clique para expandir)
+> Cada situação foi comparada com **5.000 sorteios de datas aleatórias**. ⭐⭐⭐ = no período completo, o resultado ficou entre os **5%** mais extremos dos sorteios, e a direção se repetiu nos dois períodos. ⭐⭐ = entre os **11%** mais extremos, mesma direção nos dois períodos. ⭐ = mesma direção nos dois períodos, mas dentro do que o acaso explica. Como testamos dezenas de combinações, algumas parecem boas por acaso; por isso só entram aqui as que se repetiram nas duas metades da história.
+
+---
+
+## 3. Como usar na prática
+
+Pense no ζ como um **semáforo de contexto** para o seu método, não como um botão de compra e venda.
+
+### Do lado da compra
+
+> [!success] 🚀 Momento de força — ζ Topo subindo para 30–60%
+> O preço começou a se afastar da tendência para cima, mas ainda não esticou demais. **Historicamente, a alta continuou** (68% subiu em 3 meses). Favorece **manter ou montar posição comprada** e dar espaço ao movimento.
+
+> [!tip] 🌱 Fundo se desfazendo — ζ Fundo caindo de volta abaixo de 75%
+> Depois de uma queda forte (ζ Fundo ≥ 90%), o esticamento para baixo começa a desaparecer. É **o melhor momento estatístico para comprar depois de uma queda**: 66% subiu em 3 meses, contra 42% de quem comprou no auge do pânico. A vantagem sobre um dia qualquer é pequena — o ganho real é **evitar comprar cedo demais**.
+
+> [!danger] 🔪 Não segure a faca — ζ Fundo disparando (≥ 90%)
+> Parece barato, mas **historicamente a queda continuou**: só 42% subiu em 3 meses, e metade das vezes ainda caiu mais 5% no mês seguinte. **Espere o ζ Fundo começar a cair.**
+
+### Do lado da proteção / venda
+
+> [!warning] 🟡🔴 Esticado — ζ Topo ≥ 60%
+> O preço está bem acima da tendência. **Isso, sozinho, não é sinal de queda**: o índice continuou subindo tanto quanto num dia qualquer. Mas o **potencial de alta encolhe** (no 🔴, chance de subir mais 5% cai de 41% para 32%). Bom momento para **não aumentar posição, subir o stop e realizar parte do lucro**.
+
+> [!failure] 📉 Esticamento desinflando — ζ Topo caindo
+> **Este é o momento de risco.** Quando o ζ Topo volta para baixo de 45% depois de ter passado de 60% (ou abaixo de 75% depois de 90%), a chance de uma queda de 5%+ no mês seguinte sobe de 31% para 39–45%. Favorece **reduzir exposição comprada ou proteger** (hedge, stop mais curto).
+
+### Neutro
+
+> [!note] 😐 Tudo baixo — ζ Topo e ζ Fundo abaixo de 30%
+> Sem vantagem estatística para nenhum lado. **Siga o seu método normal.**
+
+### Resumo de bolso
+
+| Você vê | Estatística a favor de |
+|---|---|
+| ζ Topo **subindo** para 30–60% | 🟢 manter / comprar |
+| ζ Topo ≥ 60% | 🟡 não aumentar, subir stop, realizar parcial |
+| ζ Topo **caindo** de volta | 🟠 proteger / reduzir |
+| ζ Fundo **disparando** ≥ 90% | ⛔ não comprar ainda |
+| ζ Fundo **caindo** de volta | 🟢 comprar com stop |
+| Tudo abaixo de 30% | ⚪ neutro |
+
+> [!important] Horizonte
+> Estas estatísticas são do **diário (D1)** e valem para **semanas a meses** (20–60 pregões). Para day trade no WIN, use como **viés do dia** (a favor ou contra a direção principal), não como gatilho de entrada. O ζ do intraday (15 min) ainda **não foi validado estatisticamente**.
+
+---
+
+## 4. O que o modelo NÃO faz
+
+- **Não prevê a data do crash.** O ζ alto não diz "vai cair amanhã". O teste de antecipação (Molchan) foi negativo.
+- **Não acerta sempre.** Em 3 de cada 10 vezes, a situação "favorável" deu errado.
+- **Não substitui stop.** As quedas que vêm depois de um ζ Topo desinflando podem ser rápidas.
+- **Não enxerga notícia.** Eventos externos (política, juros, exterior) movem o mercado sem aviso espectral.
+
+---
+
+## 5. As zonas do sinal
+
+| Zona | Entra quando | Sai quando | Significado |
+|---|---|---|---|
+| 🟢 VERDE | — | — | Preço na faixa normal em torno da tendência |
+| 🟡 AMARELO | ζ Topo ≥ 60% | ζ Topo < 45% | Preço esticado para cima |
+| 🔴 VERMELHO | ζ Topo ≥ 90% | ζ Topo < 75% | Esticamento extremo (limiar de Caetano) |
+
+As zonas têm **histerese** (entram num nível e saem em outro mais baixo) para não ficar trocando todo dia. **Atenção:** pela estatística acima, **a saída do 🟡/🔴 é mais importante que a entrada** — é quando o esticamento desinfla que o risco aparece.
+
+---
+
+## 6. Detalhes técnicos
+
+> [!info]- IMA Wavelet — parâmetros (clique para expandir)
+> - Janela de 252 pregões (D1) ou 252 barras de 15 min (intraday).
+> - Pré-processamento: tendência exponencial + componente cosseno (Caetano & Yoneyama 2009, eqs. 7-8).
+> - CWT Chapéu Mexicano, escalas 1 a 32; normalização **por escala** (MAD → desvios).
+> - ζ = fração dos 128 coeficientes (32 escalas × 4 barras) além de ±0,8σ.
+> - Validação: replica o Kruskal-Wallis do artigo em 2003–2008 (p = 0,007/0,002); AUC causal 0,58 em 2015–2025.
+> - Na borda direita (tempo real), o coeficiente positivo indica preço **acima** da tendência — por isso ζ Topo mede esticamento para cima.
+> - O espectrograma histórico é calculado com a série inteira (vê o futuro); o ζ em tempo real concorda só parcialmente com ele.
+
+> [!info]- LPPL DS-Confidence — parâmetros (clique para expandir)
+> - Reformulação de Filimonov & Sornette (2013): A, B, C₁, C₂ por mínimos quadrados; otimização só em (tc, m, ω).
+> - 45 janelas (60 a 500 pregões, passo 10) terminando na mesma data.
+> - Filtros: 0,05 < m < 0,95 · 6 < ω < 13 · tc até min(0,4·L, 120) pregões à frente · ≥ 2,5 oscilações · amortecimento ≥ 0,5 · erro < 60% do de uma reta.
+> - Confiança = fração de janelas válidas, separada pelo sinal de B: **bolha** (B < 0) e **antibolha** (B > 0).
+
+> [!info]- Histórico de versões (clique para expandir)
+> - **v5.2** (20/10/2026) — LPPL com 45 janelas e antibolha; estudo estatístico de 26 anos; esta página.
+> - **v5.1** (20/10/2026) — Correções: ζ Topo/Fundo com o significado certo; risco = ζ (antes 60% ζ + 40% LPPL, o que tornava o 🔴 impossível); cache por ativo no multi-ativo; datas do diário (estavam um dia atrasadas).
+> - **v5.0** (15/07/2026) — Motor fiel ao artigo de Caetano (ζ = n/N).
+> - **v4** (07/2026) — LPPL DS-Confidence, histerese, correções de janela.
+
+---
 
 ## Referências
 
-- Caetano, M.A.L.; Yoneyama, T. *Characterizing abrupt changes in the
-  stock prices using a wavelet decomposition method*. Physica-A 383
-  (2007) 519-526.
+- Caetano, M.A.L.; Yoneyama, T. *Characterizing abrupt changes in the stock prices using a wavelet decomposition method*. Physica A 383 (2007) 519–526.
+- Caetano, M.A.L.; Yoneyama, T. *A new indicator of imminent occurrence of drawdown in the stock market*. Physica A 388 (2009) 3563–3571.
 - Caetano, M.A.L. *Mudanças Abruptas no Mercado Financeiro*. Érica, 2013.
 - Sornette, D. *Why Stock Markets Crash*. Princeton, 2003.
-- Filimonov, V.; Sornette, D. *A stable and robust calibration scheme
-  of the log-periodic power law model*. Physica-A 392 (2013) 3698-3707.
-- Sornette, D. et al. *Real-time prediction of Bitcoin bubble crashes*
-  / FCO Cockpit, ETH-Zurich.
+- Filimonov, V.; Sornette, D. *A stable and robust calibration scheme of the log-periodic power law model*. Physica A 392 (2013) 3698–3707.
 
-> [!quote]- Aviso
-> Estudo acadêmico. Não constitui recomendação de investimento.
+> [!quote] Aviso
+> Estudo acadêmico e estatístico. Não constitui recomendação de investimento. Resultados passados não garantem resultados futuros.
