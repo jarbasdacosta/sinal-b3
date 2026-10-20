@@ -4,25 +4,26 @@ date: 2026-10-20
 tags: [home]
 ---
 
-# 🟢 Sinal de Crise B3
+# 🟡 Sinal de Crise B3
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 20/10/2026 18:26 BRT · ^BVSP · Intraday 15min · v4*
+*Última atualização: 20/10/2026 19:24 BRT · ^BVSP · Diário D1 · v4*
 
-> [!success] 🟢 **VERDE** — Risco 18% · ▼ -2 p.p. vs leitura anterior
-> `████░░░░░░░░░░░░░░░░`
-> Preço na faixa normal em torno da tendência.
+> [!warning] 🟡 **AMARELO** — Risco 77% · ＝ +0 p.p. vs leitura anterior
+> `███████████████░░░░░`
+> Atenção — preço esticado acima da tendência.
 
 
 | Indicador | Valor |
 |---|---|
-| 🔴 ζ Topo — preço esticado acima da tendência | **18%** |
-| 🔵 ζ Fundo — preço esticado abaixo da tendência | 0% |
-| 🫧 LPPL DS-Confidence (bolha, informativo) | 0% |
-| 📊 Ibovespa | 208.018 pts |
+| 🔴 ζ Topo — preço esticado acima da tendência | **77%** |
+| 🔵 ζ Fundo — preço esticado abaixo da tendência | 1% |
+| 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
+| 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
+| 📊 Ibovespa | 208.296 pts |
 
-**Multi-ativo:** 25% em tensão (0🔴 6🟡 de 24 ativos)
+**Multi-ativo:** 29% em tensão (6🔴 1🟡 de 24 ativos)
 
 
 > [!tip]- Calibração v4 (backtest 15y)
@@ -30,10 +31,15 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 ## Últimos 7 pregões
 
-| Data | Zona | Risco | IMA | LPPL |
+| Data | Zona | Risco | ζ Topo | LPPL |
 |---|---|---|---|---|
-| [20 Oct 2026](diario/2026-10-20) | 🟢 VERDE | **18%** | 18% | 0% |
-| [19 Oct 2026](diario/2026-10-19) | 🟢 VERDE | **0%** | 0% | 0% |
+| [20 Oct 2026](diario/2026-10-20) | 🟡 AMARELO | **77%** | 77% | 0% |
+| [19 Oct 2026](diario/2026-10-19) | 🟡 AMARELO | **77%** | 77% | 0% |
+| [16 Oct 2026](diario/2026-10-16) | 🟡 AMARELO | **77%** | 77% | 0% |
+| [15 Oct 2026](diario/2026-10-15) | 🟡 AMARELO | **75%** | 75% | 0% |
+| [14 Oct 2026](diario/2026-10-14) | 🟡 AMARELO | **74%** | 74% | 0% |
+| [13 Oct 2026](diario/2026-10-13) | 🟡 AMARELO | **74%** | 74% | 0% |
+| [09 Oct 2026](diario/2026-10-09) | 🟡 AMARELO | **72%** | 72% | 0% |
 
 ## Navegação
 

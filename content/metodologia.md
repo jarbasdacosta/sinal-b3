@@ -45,13 +45,17 @@ rumo ao tempo crítico *tc*. A v4 implementa o indicador de confiança do
 1. Reformulação de Filimonov & Sornette (2013): parâmetros lineares
    (A, B, C₁, C₂) resolvidos por mínimos quadrados; otimização apenas
    em (tc, m, ω).
-2. Ajuste em **múltiplas janelas** (60 a 504 pregões) terminando na
-   mesma data.
-3. Cada ajuste só é aceito se passar nos filtros de bolha positiva:
-   0.05 < m < 0.95 · 6 < ω < 13 · B < 0 · tc plausível ·
+2. Ajuste em **45 janelas** (60 a 500 pregões, passo de 10) terminando na
+   mesma data (eram 10 até a v5.0, o que fazia a confiança andar em degraus
+   de 10%).
+3. Cada ajuste só é aceito se passar nos filtros de qualificação:
+   0.05 < m < 0.95 · 6 < ω < 13 · tc plausível ·
    ≥ 2.5 oscilações · damping ≥ 0.5 · SSE < 60% do ajuste linear
    (o modelo precisa explicar mais que uma simples tendência).
-4. **Confiança = fração de janelas com ajuste válido.**
+4. **Confiança = fração de janelas com ajuste válido**, separada pelo
+   sinal de B: **bolha** (B < 0, alta super-exponencial → risco de crash) e
+   **antibolha** (B > 0, queda super-exponencial → risco de repique). O
+   mesmo ajuste serve aos dois, como no DS LPPLS do FCO.
 
 Diferente da v3 (que media o número de oscilações de um único fit e
 saturava em ~87% em qualquer tendência), a confiança v4 fica em ~0%
