@@ -3,7 +3,7 @@ title: Metodologia
 tags: [metodologia]
 ---
 
-# 📖 Metodologia — v4
+# 📖 Metodologia — v5.1
 
 ## IMA Wavelet (Caetano)
 
@@ -12,18 +12,28 @@ O **Índice de Mudanças Abruptas** segue Caetano & Yoneyama
 Financeiro*, Érica, 2013): a série de preços passa por detrending duplo
 (tendência log-linear + componente cosseno) e o ruído residual é
 decomposto pela **Transformada Wavelet Contínua com Chapéu Mexicano**.
-Energia concentrada nas escalas de alta frequência com baixa
-volatilidade é o padrão espectral que antecede mudanças abruptas —
-o "tufão" nos espectrogramas de Caetano.
+O índice segue o artigo de 2009: ζ(t) = n(t)/N — a fração dos
+coeficientes wavelet (normalizados por escala, 32 escalas × 4 barras)
+que ultrapassam o corte de 0,8σ na faixa mais recente. A escala é
+**absoluta**: ζ=0,90 tem o mesmo significado hoje e daqui a dois anos.
 
-**Na v5**, o índice segue fielmente o artigo: ζ(t) = n(t)/N — a fração
-dos coeficientes wavelet (normalizados por escala) que ultrapassam o
-corte de 0,8σ na faixa recente. A escala é **absoluta**: ζ=0,90 tem o
-mesmo significado hoje e daqui a dois anos. Validação: replica o
-Kruskal-Wallis do artigo em 2003–2008 (p=0,007/0,002); em 2015–2025,
-AUC 0,58 contra 0,50 do motor anterior. ζ **classifica a severidade do
-movimento em curso** — não antecipa o início da queda (o próprio
-Caetano registra que ζ sobe com atraso).
+**Leitura correta (v5.1).** Na borda direita da série — que é o que um
+sinal em tempo real enxerga — o coeficiente do Chapéu Mexicano é positivo
+quando o preço termina *acima* da tendência. Por isso o ζ publicado
+(coeficientes positivos) mede **esticamento acima da tendência**: sobe em
+altas fortes e cai em quedas. Exemplo real: a alta de 187 mil para 209 mil
+pontos em out/2026 levou o ζ de 2% para 77%. Ele é um indicador de **risco
+de reversão de topo**, não de "queda em curso".
+
+Validação: replica o Kruskal-Wallis do artigo em 2003–2008
+(p=0,007/0,002) — topos com ζ≥0,90 precederam quedas maiores e mais
+longas; em 2015–2025, AUC causal 0,58 contra 0,50 do motor anterior.
+Não serve para cravar a data do crash (teste de Molchan negativo).
+
+O espectrograma histórico (página de gráficos) é calculado com a série
+inteira, ou seja, *com dados futuros*: ali cada data é vista do meio da
+janela. O ζ em tempo real, na borda, concorda só parcialmente com ele
+(correlação ~0,4 em simulação) — não compare os dois diretamente.
 
 ## LPPL DS-Confidence (Sornette)
 
@@ -50,8 +60,11 @@ concordam.
 
 ## Sinal combinado e zonas
 
-`Risco = peso_IMA × IMA + peso_LPPL × LPPL` (pesos calibrados por
-backtest; onde LPPL não está disponível, 100% IMA). As zonas usam
+Na v5.1 o risco é o próprio ζ Topo, tanto no diário quanto no intraday.
+A média ponderada antiga (60% ζ + 40% LPPL) foi abandonada: o LPPL fica em
+0% na maior parte do tempo, então o risco diário nunca passava de 60% e o
+🔴 era matematicamente inalcançável. O LPPL continua publicado como
+evidência complementar de bolha. As zonas usam
 **histerese**: entra em 🟡/🔴 ao cruzar o limiar de entrada e só sai ao
 cruzar o de saída (10 p.p. abaixo), eliminando o flip-flop diário.
 
@@ -66,7 +79,7 @@ Backtest 15y do ^BVSP (calibrado em —):
 | Falsos alarmes/ano | — | — |
 | Antecedência média | — dias | — dias |
 
-Pesos calibrados: **60% IMA + 40% LPPL**.
+Pesos em uso: **100% ζ + 0% LPPL**.
 
 ## Referências
 
