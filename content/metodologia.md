@@ -3,7 +3,7 @@ title: Metodologia
 tags: [metodologia]
 ---
 
-# 📖 Metodologia — v5.2
+# 📖 Metodologia — v5.3
 
 > [!abstract] Em uma frase
 > O Sinal B3 mede **o quanto o Ibovespa está esticado em relação à própria tendência**, olhando ao mesmo tempo para várias escalas de tempo. Esticado para cima é **ζ Topo**; esticado para baixo é **ζ Fundo**. Os momentos úteis para agir não são quando o ζ está alto, e sim **quando ele entra numa faixa ou começa a desinflar**.
@@ -57,7 +57,7 @@ Estudo com **6.370 pregões** (2000–2026). O ζ foi calculado **como teria sid
 
 | Situação | O que aconteceu depois | vs. referência | Confiança |
 |---|---|---|---|
-| 🚀 **ζ Topo entra na faixa 30–60%** | Subiu em **68%** das vezes em 60 pregões; subiu 5%+ em **75%** | 60% / 66% | ⭐⭐⭐ (105 casos) |
+| 🚀 **ζ Topo sobe para 30–60%** (vindo de menos de 30%) | Subiu em **69%** das vezes no mês e **70%** em 3 meses; caiu 5%+ no mês só **24%** | 56% / 60% / 31% | ⭐⭐⭐ (78 casos) |
 | 📉 **ζ Topo desinfla** (cai abaixo de 45% depois de passar de 60%) | Caiu 5%+ em **39%** das vezes em 20 pregões; **60%** em 60 pregões | 31% / 52% | ⭐⭐ (56 casos) |
 | 📉 **ζ Topo desinfla do 🔴** (cai abaixo de 75% depois de passar de 90%) | Caiu 5%+ em **45%** das vezes em 20 pregões | 31% | ⭐⭐ (31 casos) |
 | 🔪 **ζ Fundo dispara** (passa de 90%) | Subiu só **42%** das vezes em 60 pregões; retorno mediano **−1,9%** | 60% / +3,3% | ⭐⭐⭐ (31 casos) |
@@ -76,7 +76,7 @@ Pense no ζ como um **semáforo de contexto** para o seu método, não como um b
 ### Do lado da compra
 
 > [!success] 🚀 Momento de força — ζ Topo subindo para 30–60%
-> O preço começou a se afastar da tendência para cima, mas ainda não esticou demais. **Historicamente, a alta continuou** (68% subiu em 3 meses). Favorece **manter ou montar posição comprada** e dar espaço ao movimento.
+> O preço começou a se afastar da tendência para cima, mas ainda não esticou demais. **Historicamente, a alta continuou**: 69% subiu no mês seguinte e 70% em 3 meses, com **menos** risco de queda que um dia qualquer (24% contra 31%). Favorece **manter ou montar posição comprada** e dar espaço ao movimento. Só vale quando o ζ Topo **sobe** de menos de 30% — quando ele cai de cima para essa faixa, o resultado foi igual ao acaso.
 
 > [!tip] 🌱 Fundo se desfazendo — ζ Fundo caindo de volta abaixo de 75%
 > Depois de uma queda forte (ζ Fundo ≥ 90%), o esticamento para baixo começa a desaparecer. É **o melhor momento estatístico para comprar depois de uma queda**: 66% subiu em 3 meses, contra 42% de quem comprou no auge do pânico. A vantagem sobre um dia qualquer é pequena — o ganho real é **evitar comprar cedo demais**.
@@ -122,7 +122,23 @@ Pense no ζ como um **semáforo de contexto** para o seu método, não como um b
 
 ---
 
-## 5. As zonas do sinal
+## 5. Os alertas (v5.3)
+
+O **e-mail e o Telegram do diário (19h)** só disparam nos dias em que acontece um dos 5 eventos — os momentos em que a estatística mostrou vantagem:
+
+| Alerta | Dispara quando | Estatística favorece |
+|---|---|---|
+| 🚀 **Força** | ζ Topo sobe de menos de 30% para 30–60% | manter / comprar |
+| 📉 **Esticamento desinflando** | ζ Topo volta abaixo de 45% depois de passar de 60% | proteger / reduzir |
+| 📉 **Esticamento extremo desinflando** | ζ Topo volta abaixo de 75% depois de passar de 90% | proteger / reduzir |
+| 🔪 **Queda forte** | ζ Fundo passa de 90% | não comprar ainda |
+| 🌱 **Fundo se desfazendo** | ζ Fundo volta abaixo de 75% depois de passar de 90% | comprar com stop |
+
+Historicamente são uns **8 a 10 alertas por ano**. Cada tipo de evento só se repete depois de 20 pregões, e o "desinflando" do amarelo é suprimido quando vem logo depois do "desinflando" do vermelho (é o mesmo episódio).
+
+Nos outros dias, o site mostra a **Situação** (o semáforo do resumo de bolso). O **fechamento do intraday (18h25)** continua chegando todo dia por e-mail, com o **viés do diário** — a última situação do D1 — para orientar o pregão seguinte. Os eventos **não** são calculados no intraday (15 min), porque lá a estatística ainda não foi validada.
+
+## 6. As zonas do sinal
 
 | Zona | Entra quando | Sai quando | Significado |
 |---|---|---|---|
@@ -134,7 +150,7 @@ As zonas têm **histerese** (entram num nível e saem em outro mais baixo) para 
 
 ---
 
-## 6. Detalhes técnicos
+## 7. Detalhes técnicos
 
 > [!info]- IMA Wavelet — parâmetros (clique para expandir)
 > - Janela de 252 pregões (D1) ou 252 barras de 15 min (intraday).
@@ -152,6 +168,7 @@ As zonas têm **histerese** (entram num nível e saem em outro mais baixo) para 
 > - Confiança = fração de janelas válidas, separada pelo sinal de B: **bolha** (B < 0) e **antibolha** (B > 0).
 
 > [!info]- Histórico de versões (clique para expandir)
+> - **v5.3** (20/10/2026) — Alertas por **evento** (Força, Desinflando, Queda forte, Fundo se desfazendo) no lugar dos alertas por zona; situação do dia no site; viés do diário no intraday; eventos marcados no gráfico.
 > - **v5.2** (20/10/2026) — LPPL com 45 janelas e antibolha; estudo estatístico de 26 anos; esta página.
 > - **v5.1** (20/10/2026) — Correções: ζ Topo/Fundo com o significado certo; risco = ζ (antes 60% ζ + 40% LPPL, o que tornava o 🔴 impossível); cache por ativo no multi-ativo; datas do diário (estavam um dia atrasadas).
 > - **v5.0** (15/07/2026) — Motor fiel ao artigo de Caetano (ζ = n/N).
