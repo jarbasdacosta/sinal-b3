@@ -35,7 +35,7 @@ tags: [historico]
 | 2026-10-20 10:30 | intraday | 🟢 VERDE | 16% | 16% | 0% |
 | 2026-10-20 10:15 | intraday | 🟢 VERDE | 5% | 5% | 0% |
 | 2026-10-20 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-10-18 | diario | 🟢 VERDE | 46% | 77% | 0% |
+| 2026-10-19 | diario | 🟢 VERDE | 46% | 77% | 0% |
 | 2026-10-19 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-19 16:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-10-19 16:15 | intraday | 🟢 VERDE | 7% | 7% | 0% |
@@ -64,7 +64,7 @@ tags: [historico]
 | 2026-10-19 10:30 | intraday | 🟢 VERDE | 8% | 8% | 0% |
 | 2026-10-19 10:15 | intraday | 🟢 VERDE | 4% | 4% | 0% |
 | 2026-10-19 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-10-15 | diario | 🟢 VERDE | 46% | 77% | 0% |
+| 2026-10-16 | diario | 🟢 VERDE | 46% | 77% | 0% |
 | 2026-10-16 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-16 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-16 16:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
@@ -93,7 +93,7 @@ tags: [historico]
 | 2026-10-16 10:30 | intraday | 🟢 VERDE | 3% | 3% | 0% |
 | 2026-10-16 10:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-10-16 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-10-14 | diario | 🟢 VERDE | 45% | 75% | 0% |
+| 2026-10-15 | diario | 🟢 VERDE | 45% | 75% | 0% |
 | 2026-10-15 16:45 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-10-15 16:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-10-15 16:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
@@ -122,7 +122,7 @@ tags: [historico]
 | 2026-10-15 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-10-15 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-10-15 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-10-13 | diario | 🟢 VERDE | 45% | 74% | 0% |
+| 2026-10-14 | diario | 🟢 VERDE | 45% | 74% | 0% |
 | 2026-10-14 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-14 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-14 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -151,7 +151,7 @@ tags: [historico]
 | 2026-10-14 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-10-14 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-10-14 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-10-12 | diario | 🟢 VERDE | 45% | 74% | 0% |
+| 2026-10-13 | diario | 🟢 VERDE | 45% | 74% | 0% |
 | 2026-10-13 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-13 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-13 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -180,7 +180,7 @@ tags: [historico]
 | 2026-10-13 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-10-13 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-10-13 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-10-08 | diario | 🟢 VERDE | 43% | 72% | 0% |
+| 2026-10-09 | diario | 🟢 VERDE | 43% | 72% | 0% |
 | 2026-10-09 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-09 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-09 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -209,7 +209,7 @@ tags: [historico]
 | 2026-10-09 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-10-09 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-09 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-10-07 | diario | 🟢 VERDE | 38% | 63% | 0% |
+| 2026-10-08 | diario | 🟢 VERDE | 38% | 63% | 0% |
 | 2026-10-08 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-08 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-08 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -238,7 +238,7 @@ tags: [historico]
 | 2026-10-08 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-08 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-08 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-10-06 | diario | 🟢 VERDE | 24% | 40% | 0% |
+| 2026-10-07 | diario | 🟢 VERDE | 24% | 40% | 0% |
 | 2026-10-07 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-07 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-07 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -267,7 +267,7 @@ tags: [historico]
 | 2026-10-07 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-07 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-07 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-10-05 | diario | 🟢 VERDE | 15% | 25% | 0% |
+| 2026-10-06 | diario | 🟢 VERDE | 15% | 25% | 0% |
 | 2026-10-06 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-06 16:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-10-06 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -296,7 +296,7 @@ tags: [historico]
 | 2026-10-06 10:30 | intraday | 🔴 VERMELHO | 84% | 84% | 0% |
 | 2026-10-06 10:15 | intraday | 🔴 VERMELHO | 88% | 88% | 0% |
 | 2026-10-06 10:00 | intraday | 🔴 VERMELHO | 91% | 91% | 0% |
-| 2026-10-04 | diario | 🟢 VERDE | 4% | 6% | 0% |
+| 2026-10-05 | diario | 🟢 VERDE | 4% | 6% | 0% |
 | 2026-10-05 16:45 | intraday | 🔴 VERMELHO | 95% | 95% | 0% |
 | 2026-10-05 16:30 | intraday | 🔴 VERMELHO | 97% | 97% | 0% |
 | 2026-10-05 16:00 | intraday | 🔴 VERMELHO | 99% | 99% | 0% |
@@ -324,7 +324,7 @@ tags: [historico]
 | 2026-10-05 10:30 | intraday | 🔴 VERMELHO | 98% | 98% | 0% |
 | 2026-10-05 10:15 | intraday | 🔴 VERMELHO | 98% | 98% | 0% |
 | 2026-10-05 10:00 | intraday | 🔴 VERMELHO | 98% | 98% | 0% |
-| 2026-10-01 | diario | 🟢 VERDE | 1% | 2% | 0% |
+| 2026-10-02 | diario | 🟢 VERDE | 1% | 2% | 0% |
 | 2026-10-02 16:45 | intraday | 🔴 VERMELHO | 93% | 93% | 0% |
 | 2026-10-02 16:30 | intraday | 🟡 AMARELO | 82% | 82% | 0% |
 | 2026-10-02 16:15 | intraday | 🟡 AMARELO | 73% | 73% | 0% |
@@ -353,7 +353,7 @@ tags: [historico]
 | 2026-10-02 10:30 | intraday | 🟢 VERDE | 37% | 37% | 0% |
 | 2026-10-02 10:15 | intraday | 🟢 VERDE | 34% | 34% | 0% |
 | 2026-10-02 10:00 | intraday | 🟢 VERDE | 30% | 30% | 0% |
-| 2026-09-30 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-10-01 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-10-01 16:45 | intraday | 🟢 VERDE | 23% | 23% | 0% |
 | 2026-10-01 16:30 | intraday | 🟢 VERDE | 22% | 22% | 0% |
 | 2026-10-01 16:15 | intraday | 🟢 VERDE | 20% | 20% | 0% |
@@ -382,7 +382,7 @@ tags: [historico]
 | 2026-10-01 10:30 | intraday | 🟡 AMARELO | 72% | 72% | 0% |
 | 2026-10-01 10:15 | intraday | 🔴 VERMELHO | 77% | 77% | 0% |
 | 2026-10-01 10:00 | intraday | 🔴 VERMELHO | 85% | 85% | 0% |
-| 2026-09-29 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-09-30 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-30 16:45 | intraday | 🔴 VERMELHO | 91% | 91% | 0% |
 | 2026-09-30 16:30 | intraday | 🔴 VERMELHO | 94% | 94% | 0% |
 | 2026-09-30 16:15 | intraday | 🔴 VERMELHO | 96% | 96% | 0% |
@@ -411,7 +411,7 @@ tags: [historico]
 | 2026-09-30 10:30 | intraday | 🟢 VERDE | 35% | 35% | 0% |
 | 2026-09-30 10:15 | intraday | 🟢 VERDE | 31% | 31% | 0% |
 | 2026-09-30 10:00 | intraday | 🟢 VERDE | 50% | 50% | 0% |
-| 2026-09-28 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-09-29 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-29 16:45 | intraday | 🟢 VERDE | 38% | 38% | 0% |
 | 2026-09-29 16:30 | intraday | 🟢 VERDE | 29% | 29% | 0% |
 | 2026-09-29 16:15 | intraday | 🟢 VERDE | 25% | 25% | 0% |
@@ -440,7 +440,7 @@ tags: [historico]
 | 2026-09-29 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-29 10:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-29 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-09-27 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-09-28 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-09-28 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-28 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-28 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -469,7 +469,7 @@ tags: [historico]
 | 2026-09-28 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-28 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-28 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-09-24 | diario | 🟢 VERDE | 1% | 2% | 0% |
+| 2026-09-25 | diario | 🟢 VERDE | 1% | 2% | 0% |
 | 2026-09-25 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-25 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-25 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -498,7 +498,7 @@ tags: [historico]
 | 2026-09-25 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-25 10:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-25 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-09-23 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-09-24 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-24 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-24 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-24 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -527,7 +527,7 @@ tags: [historico]
 | 2026-09-24 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-24 10:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-24 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-09-22 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-09-23 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-23 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-23 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-23 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -556,7 +556,7 @@ tags: [historico]
 | 2026-09-23 10:30 | intraday | 🟢 VERDE | 31% | 31% | 0% |
 | 2026-09-23 10:15 | intraday | 🟢 VERDE | 30% | 30% | 0% |
 | 2026-09-23 10:00 | intraday | 🟢 VERDE | 22% | 22% | 0% |
-| 2026-09-21 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-09-22 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-22 16:45 | intraday | 🟢 VERDE | 27% | 27% | 0% |
 | 2026-09-22 16:30 | intraday | 🟢 VERDE | 25% | 25% | 0% |
 | 2026-09-22 16:15 | intraday | 🟢 VERDE | 23% | 23% | 0% |
@@ -585,7 +585,7 @@ tags: [historico]
 | 2026-09-22 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-22 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-22 10:00 | intraday | 🟢 VERDE | 4% | 4% | 0% |
-| 2026-09-20 | diario | 🟢 VERDE | 1% | 2% | 0% |
+| 2026-09-21 | diario | 🟢 VERDE | 1% | 2% | 0% |
 | 2026-09-21 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-21 16:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-21 16:00 | intraday | 🟢 VERDE | 3% | 3% | 0% |
@@ -615,7 +615,7 @@ tags: [historico]
 | 2026-09-21 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-15 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-15 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-09-13 | diario | 🟢 VERDE | 32% | 53% | 0% |
+| 2026-09-14 | diario | 🟢 VERDE | 32% | 53% | 0% |
 | 2026-09-14 16:45 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-14 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-14 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -644,7 +644,7 @@ tags: [historico]
 | 2026-09-14 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-14 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-14 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-09-10 | diario | 🟢 VERDE | 30% | 50% | 0% |
+| 2026-09-11 | diario | 🟢 VERDE | 30% | 50% | 0% |
 | 2026-09-11 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-11 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-11 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -673,7 +673,7 @@ tags: [historico]
 | 2026-09-11 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-11 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-11 10:00 | intraday | 🟢 VERDE | 3% | 3% | 0% |
-| 2026-09-09 | diario | 🟢 VERDE | 27% | 45% | 0% |
+| 2026-09-10 | diario | 🟢 VERDE | 27% | 45% | 0% |
 | 2026-09-10 16:45 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-10 16:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-10 16:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
@@ -702,7 +702,7 @@ tags: [historico]
 | 2026-09-10 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-10 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-10 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-09-08 | diario | 🟢 VERDE | 22% | 37% | 0% |
+| 2026-09-09 | diario | 🟢 VERDE | 22% | 37% | 0% |
 | 2026-09-09 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-09 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-09 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -731,7 +731,7 @@ tags: [historico]
 | 2026-09-09 10:30 | intraday | 🟢 VERDE | 40% | 40% | 0% |
 | 2026-09-09 10:15 | intraday | 🟢 VERDE | 43% | 43% | 0% |
 | 2026-09-09 10:00 | intraday | 🟢 VERDE | 45% | 45% | 0% |
-| 2026-09-07 | diario | 🟢 VERDE | 17% | 28% | 0% |
+| 2026-09-08 | diario | 🟢 VERDE | 17% | 28% | 0% |
 | 2026-09-08 16:45 | intraday | 🟡 AMARELO | 49% | 49% | 0% |
 | 2026-09-08 16:30 | intraday | 🟡 AMARELO | 54% | 54% | 0% |
 | 2026-09-08 16:15 | intraday | 🟡 AMARELO | 59% | 59% | 0% |
@@ -760,7 +760,7 @@ tags: [historico]
 | 2026-09-08 10:30 | intraday | 🟢 VERDE | 6% | 6% | 0% |
 | 2026-09-08 10:15 | intraday | 🟢 VERDE | 4% | 4% | 0% |
 | 2026-09-08 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-09-03 | diario | 🟢 VERDE | 6% | 10% | 0% |
+| 2026-09-04 | diario | 🟢 VERDE | 6% | 10% | 0% |
 | 2026-09-04 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-04 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-04 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -789,7 +789,7 @@ tags: [historico]
 | 2026-09-04 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-04 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-04 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-09-02 | diario | 🟢 VERDE | 3% | 5% | 0% |
+| 2026-09-03 | diario | 🟢 VERDE | 3% | 5% | 0% |
 | 2026-09-03 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-03 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-03 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -818,7 +818,7 @@ tags: [historico]
 | 2026-09-03 10:30 | intraday | 🟡 AMARELO | 79% | 79% | 0% |
 | 2026-09-03 10:15 | intraday | 🟡 AMARELO | 77% | 77% | 0% |
 | 2026-09-03 10:00 | intraday | 🟡 AMARELO | 69% | 69% | 0% |
-| 2026-09-01 | diario | 🟢 VERDE | 8% | 14% | 0% |
+| 2026-09-02 | diario | 🟢 VERDE | 8% | 14% | 0% |
 | 2026-09-02 16:45 | intraday | 🟡 AMARELO | 69% | 69% | 0% |
 | 2026-09-02 16:30 | intraday | 🟡 AMARELO | 70% | 70% | 0% |
 | 2026-09-02 16:15 | intraday | 🟡 AMARELO | 72% | 72% | 0% |
@@ -847,7 +847,7 @@ tags: [historico]
 | 2026-09-02 10:30 | intraday | 🟢 VERDE | 5% | 5% | 0% |
 | 2026-09-02 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-02 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-08-31 | diario | 🟢 VERDE | 8% | 12% | 0% |
+| 2026-09-01 | diario | 🟢 VERDE | 8% | 12% | 0% |
 | 2026-09-01 16:45 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-09-01 16:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-09-01 16:15 | intraday | 🟢 VERDE | 4% | 4% | 0% |
@@ -876,7 +876,7 @@ tags: [historico]
 | 2026-09-01 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-01 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-09-01 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-08-30 | diario | 🟢 VERDE | 8% | 12% | 0% |
+| 2026-08-31 | diario | 🟢 VERDE | 8% | 12% | 0% |
 | 2026-08-31 16:45 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-31 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-31 16:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -904,7 +904,7 @@ tags: [historico]
 | 2026-08-31 10:30 | intraday | 🟢 VERDE | 13% | 13% | 0% |
 | 2026-08-31 10:15 | intraday | 🟢 VERDE | 8% | 8% | 0% |
 | 2026-08-31 10:00 | intraday | 🟢 VERDE | 3% | 3% | 0% |
-| 2026-08-27 | diario | 🟢 VERDE | 6% | 9% | 0% |
+| 2026-08-28 | diario | 🟢 VERDE | 6% | 9% | 0% |
 | 2026-08-28 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-28 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-28 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -933,7 +933,7 @@ tags: [historico]
 | 2026-08-28 10:30 | intraday | 🟢 VERDE | 3% | 3% | 0% |
 | 2026-08-28 10:15 | intraday | 🟢 VERDE | 3% | 3% | 0% |
 | 2026-08-28 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-08-26 | diario | 🟢 VERDE | 4% | 6% | 0% |
+| 2026-08-27 | diario | 🟢 VERDE | 4% | 6% | 0% |
 | 2026-08-27 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-27 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-27 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -962,7 +962,7 @@ tags: [historico]
 | 2026-08-27 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-27 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-27 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-08-25 | diario | 🟢 VERDE | 2% | 4% | 0% |
+| 2026-08-26 | diario | 🟢 VERDE | 2% | 4% | 0% |
 | 2026-08-26 16:45 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-26 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-26 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -991,7 +991,7 @@ tags: [historico]
 | 2026-08-26 10:30 | intraday | 🟢 VERDE | 38% | 38% | 0% |
 | 2026-08-26 10:15 | intraday | 🟢 VERDE | 31% | 31% | 0% |
 | 2026-08-26 10:00 | intraday | 🟢 VERDE | 12% | 12% | 0% |
-| 2026-08-24 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-08-25 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-08-25 16:45 | intraday | 🟢 VERDE | 7% | 7% | 0% |
 | 2026-08-25 16:30 | intraday | 🟢 VERDE | 5% | 5% | 0% |
 | 2026-08-25 16:15 | intraday | 🟢 VERDE | 3% | 3% | 0% |
@@ -1019,7 +1019,7 @@ tags: [historico]
 | 2026-08-25 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-25 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-25 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-08-23 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-24 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-24 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-24 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-24 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1048,7 +1048,7 @@ tags: [historico]
 | 2026-08-24 10:30 | intraday | 🟡 AMARELO | 47% | 47% | 0% |
 | 2026-08-24 10:15 | intraday | 🟡 AMARELO | 51% | 51% | 0% |
 | 2026-08-24 10:00 | intraday | 🟡 AMARELO | 55% | 55% | 0% |
-| 2026-08-20 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-21 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-21 16:45 | intraday | 🟡 AMARELO | 60% | 60% | 0% |
 | 2026-08-21 16:30 | intraday | 🟡 AMARELO | 66% | 66% | 0% |
 | 2026-08-21 16:15 | intraday | 🟡 AMARELO | 72% | 72% | 0% |
@@ -1077,7 +1077,7 @@ tags: [historico]
 | 2026-08-21 10:30 | intraday | 🟢 VERDE | 9% | 9% | 0% |
 | 2026-08-21 10:15 | intraday | 🟢 VERDE | 4% | 4% | 0% |
 | 2026-08-21 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-08-19 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-20 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-20 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-20 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-20 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1106,7 +1106,7 @@ tags: [historico]
 | 2026-08-20 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-08-20 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-08-20 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-08-18 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-19 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-19 16:45 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-08-19 16:30 | intraday | 🟢 VERDE | 14% | 14% | 0% |
 | 2026-08-19 16:15 | intraday | 🟢 VERDE | 24% | 24% | 0% |
@@ -1135,7 +1135,7 @@ tags: [historico]
 | 2026-08-19 10:30 | intraday | 🟢 VERDE | 38% | 38% | 0% |
 | 2026-08-19 10:15 | intraday | 🟢 VERDE | 25% | 25% | 0% |
 | 2026-08-19 10:00 | intraday | 🟢 VERDE | 14% | 14% | 0% |
-| 2026-08-17 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-18 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-18 16:45 | intraday | 🟢 VERDE | 10% | 10% | 0% |
 | 2026-08-18 16:30 | intraday | 🟢 VERDE | 12% | 12% | 0% |
 | 2026-08-18 16:15 | intraday | 🟢 VERDE | 17% | 17% | 0% |
@@ -1164,7 +1164,7 @@ tags: [historico]
 | 2026-08-18 10:30 | intraday | 🔴 VERMELHO | 94% | 94% | 0% |
 | 2026-08-18 10:15 | intraday | 🔴 VERMELHO | 91% | 91% | 0% |
 | 2026-08-18 10:00 | intraday | 🔴 VERMELHO | 90% | 90% | 0% |
-| 2026-08-16 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-17 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-17 16:45 | intraday | 🔴 VERMELHO | 89% | 89% | 0% |
 | 2026-08-17 16:30 | intraday | 🔴 VERMELHO | 92% | 92% | 0% |
 | 2026-08-17 16:15 | intraday | 🔴 VERMELHO | 91% | 91% | 0% |
@@ -1193,7 +1193,7 @@ tags: [historico]
 | 2026-08-17 10:30 | intraday | 🟢 VERDE | 38% | 38% | 0% |
 | 2026-08-17 10:15 | intraday | 🔴 VERMELHO | 98% | 98% | 0% |
 | 2026-08-17 10:00 | intraday | 🔴 VERMELHO | 98% | 98% | 0% |
-| 2026-08-13 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-14 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-14 16:45 | intraday | 🔴 VERMELHO | 98% | 98% | 0% |
 | 2026-08-14 16:30 | intraday | 🟡 AMARELO | 84% | 84% | 0% |
 | 2026-08-14 16:15 | intraday | 🟡 AMARELO | 77% | 77% | 0% |
@@ -1222,7 +1222,7 @@ tags: [historico]
 | 2026-08-14 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-08-14 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-08-14 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-08-12 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-13 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-13 16:45 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-13 16:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-13 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1251,7 +1251,7 @@ tags: [historico]
 | 2026-08-13 10:30 | intraday | 🟢 VERDE | 20% | 20% | 0% |
 | 2026-08-13 10:15 | intraday | 🟢 VERDE | 20% | 20% | 0% |
 | 2026-08-13 10:00 | intraday | 🟢 VERDE | 22% | 22% | 0% |
-| 2026-08-11 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-12 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-12 16:45 | intraday | 🟢 VERDE | 26% | 26% | 0% |
 | 2026-08-12 16:30 | intraday | 🟢 VERDE | 30% | 30% | 0% |
 | 2026-08-12 16:15 | intraday | 🟢 VERDE | 32% | 32% | 0% |
@@ -1268,7 +1268,7 @@ tags: [historico]
 | 2026-08-12 13:30 | intraday | 🟢 VERDE | 12% | 12% | 0% |
 | 2026-08-12 13:15 | intraday | 🟢 VERDE | 9% | 9% | 0% |
 | 2026-08-12 13:00 | intraday | 🟢 VERDE | 9% | 9% | 0% |
-| 2026-08-09 | diario | 🟢 VERDE | 1% | 2% | 0% |
+| 2026-08-10 | diario | 🟢 VERDE | 1% | 2% | 0% |
 | 2026-08-10 16:45 | intraday | 🟢 VERDE | 9% | 9% | 0% |
 | 2026-08-10 16:30 | intraday | 🟢 VERDE | 6% | 6% | 0% |
 | 2026-08-10 16:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
@@ -1297,7 +1297,7 @@ tags: [historico]
 | 2026-08-10 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-10 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-10 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-08-06 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-08-07 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-08-07 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-07 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-07 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1326,7 +1326,7 @@ tags: [historico]
 | 2026-08-07 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-07 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-07 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-08-05 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-08-06 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-08-06 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-06 16:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-06 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1355,7 +1355,7 @@ tags: [historico]
 | 2026-08-06 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-06 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-08-06 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-08-04 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-05 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-05 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-05 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-05 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1384,7 +1384,7 @@ tags: [historico]
 | 2026-08-05 10:30 | intraday | 🟢 VERDE | 6% | 6% | 0% |
 | 2026-08-05 10:15 | intraday | 🟢 VERDE | 4% | 4% | 0% |
 | 2026-08-05 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-08-03 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-04 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-04 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-04 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-04 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1413,7 +1413,7 @@ tags: [historico]
 | 2026-08-04 10:30 | intraday | 🟢 VERDE | 59% | 59% | 0% |
 | 2026-08-04 10:15 | intraday | 🟢 VERDE | 54% | 54% | 0% |
 | 2026-08-04 10:00 | intraday | 🟢 VERDE | 48% | 48% | 0% |
-| 2026-08-02 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-08-03 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-03 16:45 | intraday | 🟢 VERDE | 46% | 46% | 0% |
 | 2026-08-03 16:30 | intraday | 🟢 VERDE | 41% | 41% | 0% |
 | 2026-08-03 16:00 | intraday | 🟢 VERDE | 35% | 35% | 0% |
@@ -1441,7 +1441,7 @@ tags: [historico]
 | 2026-08-03 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-08-03 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-08-03 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-07-30 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-31 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-31 16:45 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-31 16:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-31 16:15 | intraday | 🟢 VERDE | 5% | 5% | 0% |
@@ -1459,7 +1459,7 @@ tags: [historico]
 | 2026-07-31 13:15 | intraday | 🟢 VERDE | 16% | 16% | 0% |
 | 2026-07-31 13:00 | intraday | 🟢 VERDE | 13% | 13% | 0% |
 | 2026-07-31 12:45 | intraday | 🟢 VERDE | 13% | 13% | 0% |
-| 2026-07-29 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-30 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-30 16:45 | intraday | 🟢 VERDE | 19% | 19% | 0% |
 | 2026-07-30 16:30 | intraday | 🟢 VERDE | 27% | 27% | 0% |
 | 2026-07-30 16:15 | intraday | 🟢 VERDE | 30% | 30% | 0% |
@@ -1488,7 +1488,7 @@ tags: [historico]
 | 2026-07-30 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-07-30 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-30 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-07-28 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-29 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-29 16:45 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-29 16:30 | intraday | 🟢 VERDE | 3% | 3% | 0% |
 | 2026-07-29 16:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
@@ -1517,7 +1517,7 @@ tags: [historico]
 | 2026-07-29 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-29 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-29 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-07-27 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-07-28 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-07-28 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-28 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-28 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1546,7 +1546,7 @@ tags: [historico]
 | 2026-07-28 10:30 | intraday | 🟢 VERDE | 29% | 29% | 0% |
 | 2026-07-28 10:15 | intraday | 🟢 VERDE | 25% | 25% | 0% |
 | 2026-07-28 10:00 | intraday | 🟢 VERDE | 13% | 13% | 0% |
-| 2026-07-26 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-07-27 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-07-27 16:45 | intraday | 🟢 VERDE | 4% | 4% | 0% |
 | 2026-07-27 16:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-27 16:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1574,7 +1574,7 @@ tags: [historico]
 | 2026-07-27 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-27 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-27 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-07-23 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-24 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-24 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-24 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-24 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1601,7 +1601,7 @@ tags: [historico]
 | 2026-07-24 10:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-07-24 10:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-24 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-07-22 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-23 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-23 16:45 | intraday | 🟢 VERDE | 3% | 3% | 0% |
 | 2026-07-23 16:30 | intraday | 🟢 VERDE | 5% | 5% | 0% |
 | 2026-07-23 16:15 | intraday | 🟢 VERDE | 10% | 10% | 0% |
@@ -1630,7 +1630,7 @@ tags: [historico]
 | 2026-07-23 10:30 | intraday | 🔴 VERMELHO | 95% | 95% | 0% |
 | 2026-07-23 10:15 | intraday | 🔴 VERMELHO | 97% | 97% | 0% |
 | 2026-07-23 10:00 | intraday | 🔴 VERMELHO | 99% | 99% | 0% |
-| 2026-07-21 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-22 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-22 16:45 | intraday | 🔴 VERMELHO | 98% | 98% | 0% |
 | 2026-07-22 16:30 | intraday | 🔴 VERMELHO | 100% | 100% | 0% |
 | 2026-07-22 16:15 | intraday | 🔴 VERMELHO | 99% | 99% | 0% |
@@ -1659,7 +1659,7 @@ tags: [historico]
 | 2026-07-22 10:30 | intraday | 🟢 VERDE | 16% | 16% | 0% |
 | 2026-07-22 10:15 | intraday | 🟢 VERDE | 5% | 5% | 0% |
 | 2026-07-22 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-07-20 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-21 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-21 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-21 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-21 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1688,7 +1688,7 @@ tags: [historico]
 | 2026-07-21 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-21 10:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-07-21 10:00 | intraday | 🟢 VERDE | 1% | 1% | 0% |
-| 2026-07-19 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-07-20 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-07-20 16:45 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-07-20 16:30 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-07-20 16:15 | intraday | 🟢 VERDE | 2% | 2% | 0% |
@@ -1717,7 +1717,7 @@ tags: [historico]
 | 2026-07-20 10:30 | intraday | 🟢 VERDE | 2% | 2% | 0% |
 | 2026-07-20 10:15 | intraday | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-07-20 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-07-16 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-17 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-17 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-17 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-17 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1746,7 +1746,7 @@ tags: [historico]
 | 2026-07-17 10:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-17 10:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-17 10:00 | intraday | 🟢 VERDE | 0% | 0% | 0% |
-| 2026-07-15 | diario | 🟢 VERDE | 0% | 1% | 0% |
+| 2026-07-16 | diario | 🟢 VERDE | 0% | 1% | 0% |
 | 2026-07-16 16:45 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-16 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-16 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1775,7 +1775,7 @@ tags: [historico]
 | 2026-07-16 10:30 | intraday | 🟢 VERDE | 30% | 30% | 0% |
 | 2026-07-16 10:15 | intraday | 🟢 VERDE | 40% | 40% | 0% |
 | 2026-07-16 10:00 | intraday | 🟢 VERDE | 2% | 2% | 0% |
-| 2026-07-14 | diario | 🟢 VERDE | 1% | 2% | 0% |
+| 2026-07-15 | diario | 🟢 VERDE | 1% | 2% | 0% |
 | 2026-07-15 16:45 | intraday | 🟢 VERDE | 56% | 56% | 0% |
 | 2026-07-15 16:30 | intraday | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-15 16:15 | intraday | 🟢 VERDE | 0% | 0% | 0% |
@@ -1827,7 +1827,7 @@ tags: [historico]
 | 2026-07-14 11:45 | intraday | 🟢 VERDE | 40% | 40% | 0% |
 | 2026-07-14 11:45 | intraday | 🟢 VERDE | 39% | 39% | 0% |
 | 2026-07-14 11:30 | intraday | 🟢 VERDE | 21% | 21% | 0% |
-| 2026-07-13 | diario | 🟢 VERDE | 0% | 0% | 0% |
+| 2026-07-14 | diario | 🟢 VERDE | 0% | 0% | 0% |
 | 2026-07-13 19:45 | intraday | 🟡 AMARELO | 58% | 58% | 0% |
 | 2026-07-10 | diario | 🟢 VERDE | 1% | 1% | 0% |
 | 2026-07-10 19:45 | intraday | 🟡 AMARELO | 65% | 65% | 0% |
