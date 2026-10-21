@@ -1,0 +1,119 @@
+---
+title: Tutorial — Sinais de Topo e Fundo
+tags: [sinais, tutorial]
+---
+
+# 📘 Tutorial — Sinais de Topo e Fundo
+
+> [!abstract] Em uma frase
+> São 14 sinais de candle e de indicador que, no Ibovespa de 2000 a 2026, apareceram perto de topos e fundos importantes **bem mais vezes que o acaso**. Cada sinal só vale no tempo gráfico em que foi validado. A página [Sinais de Topo e Fundo](sinais) mostra os de hoje, e o indicador **SinaisTopoFundo** marca os mesmos no MT5.
+
+> [!warning] Antes de tudo
+> É estatística histórica, não recomendação. Nenhum sinal acerta sempre: os melhores acertaram de 60% a 90% das vezes e pegaram, no máximo, 1 em cada 3 topos ou fundos. Use como **contexto** para o seu método, sempre com stop.
+
+---
+
+## 1. Os ingredientes
+
+**Candles de Oliver Velez** — o candle diz quem venceu a briga daquele período:
+
+| Candle | Como reconhecer | O que significa |
+|---|---|---|
+| **Bottom tail** (martelo no fundo) | Sombra de baixo com pelo menos metade do candle | Os vendedores empurraram para baixo e os compradores devolveram |
+| **Top tail** (martelo invertido no topo) | Sombra de cima com pelo menos metade do candle | Os compradores empurraram para cima e os vendedores devolveram |
+| **Bull 180** | Candle vermelho forte seguido de verde forte que fecha lá em cima, acima do meio do vermelho | Virada completa de sentimento para alta |
+| **Bear 180** | Verde forte seguido de vermelho forte que fecha lá embaixo | Virada completa para baixa |
+| **Elefante** | Candle com pelo menos o dobro do tamanho médio, quase todo corpo | Força extrema — ou exaustão, quando aparece no fim de um movimento |
+
+**Indicadores** (mesmos parâmetros dos seus indicadores MQL5): RSI(14), CCI(20), MACD-V(12, 26, 9) e Bollinger(20, 2). **"Fora → dentro"** = o candle fechou fora da banda e, em até 3 candles, voltou a fechar dentro.
+
+---
+
+## 2. Os sinais
+
+**Fundos** (seta verde para cima):
+
+| Código | Sinal | Mensal | Semanal | Diário | H4 |
+|---|---|---|---|---|---|
+| **BT+RSI** | Bottom tail com RSI ≤ 30 nos últimos 3 candles | — | 100% · 4,9× | **73% · 3,2×** | 50% · 3,3× |
+| **BT+CCI** | Bottom tail com CCI ≤ −200 | 100% · 7,9× | **73% · 3,4×** | **57% · 2,8×** | 100% · 5,2× |
+| **BT+BB** | Bottom tail tocando a Bollinger inferior | 80% · 6,1× | 54% · 2,3× | 51% · 2,3× | 53% · 3,1× |
+| **FD+RSI** | Fora → dentro da BB inferior com RSI ≤ 30 | — | **88% · 3,2×** | **71% · 2,8×** | 50% · 2,5× |
+| **FD+CCI** | Fora → dentro da BB inferior com CCI ≤ −200 | — | **89% · 3,2×** | 54% · 2,1× | 38% · 2,1× |
+| **B180+BB** | Bull 180 depois de tocar a BB inferior | — | **67% · 3,1×** | 49% · 2,3× | — |
+| **ELEF-** | Elefante de baixa no fim da queda (clímax de venda) | — | 67% · 3,2× | 43% · 2,0× | — |
+
+**Topos** (seta vermelha para baixo):
+
+| Código | Sinal | Mensal | Semanal | Diário | H4 |
+|---|---|---|---|---|---|
+| **S180** | Bear 180 | **62% · 4,3×** | 38% · 1,6× | — | — |
+| **S180+BB** | Bear 180 depois de tocar a BB superior | 75% · 6,0× | 44% · 2,1× | — | — |
+| **S180+CCI** | Bear 180 com CCI ≥ 200 | — | — | 50% · 2,3× | — |
+| **FD+CCI** | Fora → dentro da BB superior com CCI ≥ 200 | **50% · 2,7×** | **68% · 2,6×** | 40% · 1,7× | 39% · 2,2× |
+| **TT+RSI** | Top tail com RSI ≥ 70 | **38% · 2,5×** | — | 35% · 1,6× | — |
+| **MV-** | MACD-V vira "verde sem brilho" acima de +130 (semanal) ou +150 | 75% · 5,3× | 46% · 2,0× | — | 62% · 3,8× |
+| **RSI75+MV** | RSI ≥ 75 e MACD-V ≥ 130 | **62% · 2,7×** | 56% · 1,6× | — | 80% · 2,5× |
+
+**Como ler cada célula:** "73% · 3,2×" = quando o sinal apareceu, um fundo (ou topo) importante estava a poucos candles em 73% das vezes — **3,2 vezes** o que um sinal aleatório conseguiria. **Negrito** = sinal **forte**; o resto = **moderado**; "—" = não validado naquele tempo gráfico (o indicador não mostra).
+
+> [!info]- Como "topo e fundo importante" foi definido (clique para expandir)
+> Um ZigZag por reversão: 20% no mensal, 10% no semanal, 6% no diário e 3% no H4. "Perto" = até 1 candle (mensal), 2 (semanal) ou 3 (diário e H4) do pivô. O acaso foi medido deslocando o sinal no tempo 300 vezes. Forte = vantagem em 2000–2014 **e** em 2015–2026 com lift de pelo menos 2,5×.
+
+---
+
+## 3. Como usar
+
+1. **Comece pelo tempo gráfico maior.** Um **S180 mensal** (Bear 180) marcou 1 em cada 3 grandes topos do Ibovespa. Um **BT+CCI semanal** acertou 73% dos fundos em que apareceu.
+2. **Fundos são mais confiáveis que topos.** Fundos nascem de pânico, e o pânico leva os indicadores ao extremo. Topos nascem de cansaço, com indicadores menos extremos — por isso há menos sinais de topo fortes.
+3. **O sinal confirma, não adivinha.** Os sinais de reentrada (FD) aparecem 1 a 3 candles **depois** do extremo. Você entra um pouco mais caro, em troca de confirmação.
+4. **Defina o stop no extremo do sinal.** Abaixo da mínima do bottom tail ou do Bull 180; acima da máxima do top tail ou do Bear 180.
+5. **No day trade (WIN)**, use os sinais do diário e do H4 como **viés do dia**, não como gatilho de entrada. Os tempos gráficos menores (M1 a H1) não foram estudados.
+
+---
+
+## 4. No site
+
+- **[Sinais de Topo e Fundo](sinais)** — atualizada todo dia às 19h: os sinais do fechamento, os semanais/mensais ainda em formação e o histórico de cada tempo gráfico.
+- **Página inicial e relatório diário** — ganham um aviso no topo **no dia em que algum sinal aparece**.
+- **Semanal** só conta na sexta (candle fechado) e **mensal** só no último pregão do mês; antes disso aparecem como "em formação".
+
+---
+
+## 5. No MT5 — indicador SinaisTopoFundo
+
+**Instalar:**
+
+1. Copie `SinaisTopoFundo_v1.mq5` para a pasta `MQL5/Indicators/Jarbas/` do MT5.
+2. Abra no MetaEditor e compile (F7).
+3. Arraste o indicador para um gráfico do **IBOV** (ou WIN) em **MN1, W1, D1 ou H4**.
+
+**O que aparece:**
+
+- **Setas** — verde para cima = fundo; vermelha para baixo = topo. **Grossa** = forte; **fina** = moderado.
+- **Código do sinal** embaixo/em cima da seta (ex.: `BT+RSI`). Passe o mouse para ver o nome, o acerto e o lift naquele tempo gráfico.
+- **Painel** no canto superior direito com os últimos sinais.
+- **Alerta** popup (e push, se ligado) quando um sinal aparece num candle que acabou de fechar.
+
+**Parâmetros principais:**
+
+| Parâmetro | Padrão | Para que serve |
+|---|---|---|
+| InpOnlyValidated | true | Mostra só os sinais validados no tempo gráfico atual. Em outros tempos gráficos não mostra nada — desligue para ver os sinais sem validação |
+| InpShowModerate | true | Desligue para ver só os fortes |
+| InpShowLabels | true | Código do sinal no gráfico |
+| InpAlertPopup / InpAlertPush | true / false | Alertas no candle fechado |
+
+O indicador **não repinta**: só avalia candles fechados.
+
+---
+
+## 6. Limitações
+
+- **Poucos casos no mensal** (15 topos e 15 fundos em 26 anos) — uma ocorrência a mais muda bastante a porcentagem.
+- **H4 com só 3 anos** de dados (limite do Yahoo) — será revalidado com o histórico do MT5.
+- **Definições operacionais dos candles** — Oliver Velez descreve os padrões de forma qualitativa; os critérios usados estão na seção 1.
+- **Os sinais não pegam a maioria dos pivôs** — muitos topos e fundos acontecem sem sinal nenhum.
+
+> [!quote]- Aviso
+> Estudo estatístico. Não constitui recomendação de investimento.
