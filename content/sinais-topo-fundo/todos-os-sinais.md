@@ -84,4 +84,4 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 | 12/08/2026 10h | 🟢 FUNDO | **FD+RSI** — Fechou fora→dentro da BB inferior + RSI≤30 | moderado | 50% | 2,5× |
 | 10/08/2026 10h | 🟢 FUNDO | **BT+BB** — Bottom tail tocando a BB inferior | moderado | 53% | 3,1× |
 
-*Atualizado em 21/10/2026 13:13 BRT.*
+*Atualizado em 21/10/2026 17:56 BRT.*
