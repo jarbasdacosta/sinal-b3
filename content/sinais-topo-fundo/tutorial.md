@@ -1,12 +1,12 @@
 ---
-title: Tutorial — Sinais de Topo e Fundo
+title: Tutorial
 tags: [sinais, tutorial]
 ---
 
 # 📘 Tutorial — Sinais de Topo e Fundo
 
 > [!abstract] Em uma frase
-> São 14 sinais de candle e de indicador que, no Ibovespa de 2000 a 2026, apareceram perto de topos e fundos importantes **bem mais vezes que o acaso**. Cada sinal só vale no tempo gráfico em que foi validado. A página [Sinais de Topo e Fundo](sinais) mostra os de hoje, e o indicador **SinaisTopoFundo** marca os mesmos no MT5.
+> São 14 sinais de candle e de indicador que, no Ibovespa de 2000 a 2026, apareceram perto de topos e fundos importantes **bem mais vezes que o acaso**. Cada sinal só vale no tempo gráfico em que foi validado. A página [Sinais de Topo e Fundo](sinais-topo-fundo/) mostra os de hoje, e o indicador **SinaisTopoFundo** marca os mesmos no MT5.
 
 > [!warning] Antes de tudo
 > É estatística histórica, não recomendação. Nenhum sinal acerta sempre: os melhores acertaram de 60% a 90% das vezes e pegaram, no máximo, 1 em cada 3 topos ou fundos. Use como **contexto** para o seu método, sempre com stop.
@@ -74,9 +74,24 @@ tags: [sinais, tutorial]
 
 ## 4. No site
 
-- **[Sinais de Topo e Fundo](sinais)** — atualizada todo dia às 19h: os sinais do fechamento, os semanais/mensais ainda em formação e o histórico de cada tempo gráfico.
-- **Página inicial e relatório diário** — ganham um aviso no topo **no dia em que algum sinal aparece**.
-- **Semanal** só conta na sexta (candle fechado) e **mensal** só no último pregão do mês; antes disso aparecem como "em formação".
+Os sinais de topo e fundo ficam numa **pasta própria**, separada do Sinal de Crise B3 (IMA + LPPL):
+
+- **[Sinais de Topo e Fundo](sinais-topo-fundo/)** — atualizada todo dia às 19h: sinais do fechamento, fortes ainda na janela, sinais em formação e os últimos sinais fortes de todos os tempos gráficos.
+- **[Todos os sinais](sinais-topo-fundo/todos-os-sinais)** — histórico de cada tempo gráfico, fortes e moderados.
+
+**Como os fortes chamam atenção:**
+
+| Situação | Onde aparece | Como |
+|---|---|---|
+| 🔥 **Sinal forte novo** | Topo da página inicial, do relatório diário e da página dos sinais | Bloco grande, com borda grossa e piscando, verde (fundo) ou vermelho (topo) |
+| 🔥 **Sinal forte novo** | **Telegram** | Mensagem às 19h com o sinal, o acerto e o link (uma vez por sinal) |
+| 🔥 **Forte ainda na janela** | Topo da página inicial e dos sinais | Bloco menor com "2º de 3 pregões da janela" — o pivô ainda pode estar se formando |
+| 🔥 **Forte em formação** | Topo da página inicial e dos sinais | Aviso amarelo: semanal/mensal que pode sumir até o candle fechar |
+| Sinal moderado | Página inicial e dos sinais | Nota discreta, sem Telegram |
+
+**Janela** = quantos candles depois do sinal o topo/fundo costumava aparecer no estudo: 1 no mensal, 2 no semanal, 3 no diário e no H4.
+
+**Semanal** só conta na sexta (candle fechado) e **mensal** só no último pregão do mês; antes disso aparecem como "em formação".
 
 ---
 

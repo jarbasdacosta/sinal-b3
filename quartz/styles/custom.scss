@@ -1,3 +1,23 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* sinal-b3 v5.5: sinais FORTES de topo/fundo ([!success|forte] / [!danger|forte]) */
+.callout[data-callout-metadata="forte"] {
+  border: 2px solid var(--color);
+  border-left-width: 10px;
+  background-color: var(--bg);
+  animation: sb3-forte-pulso 1.6s ease-in-out 5;
+  & > .callout-title {
+    font-size: 1.15rem;
+    padding: 0.6rem 0;
+  }
+  & > .callout-title .callout-title-inner {
+    font-weight: 800;
+    letter-spacing: 0.01em;
+  }
+}
+@keyframes sb3-forte-pulso {
+  0%, 100% { box-shadow: 0 0 0 0 transparent; }
+  50% { box-shadow: 0 0 16px 3px var(--color); }
+}

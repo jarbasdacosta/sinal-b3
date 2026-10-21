@@ -8,7 +8,12 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 21/10/2026 13:00 BRT · ^BVSP · Intraday 15min · v5.3*
+*Última atualização: 21/10/2026 13:13 BRT · ^BVSP · Intraday 15min · v5.3*
+
+> [!warning] 🔥 Sinal forte em formação (confirma no fechamento do candle)
+> - 🔴 Mensal · TOPO · **RSI75+MV** — RSI≥75 e MACD-V≥130
+>
+> [Ver os sinais](sinais-topo-fundo/)
 
 > [!success] 🟢 **VERDE** — Risco 0% · ▼ -1 p.p. vs leitura anterior
 > `░░░░░░░░░░░░░░░░░░░░`
@@ -19,8 +24,6 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 > 👉 não aumentar posição, subir stop, realizar parcial
 >
 > *Estatística de 26 anos, não recomendação. [Como usar](metodologia#3-como-usar-na-prática).*
-
-
 
 | Indicador | Valor |
 |---|---|
@@ -46,7 +49,7 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 ## Navegação
 
 - 📅 [Relatórios diários](diario/) · ⏱️ [Intraday](intraday/)
-- 🎯 [Sinais de Topo e Fundo](sinais) · 📘 [Tutorial dos sinais](tutorial-sinais)
+- 🎯 **[Sinais de Topo e Fundo](sinais-topo-fundo/)** (estudo separado) · 📘 [Tutorial](sinais-topo-fundo/tutorial) · 📋 [Todos os sinais](sinais-topo-fundo/todos-os-sinais)
 - 📖 [Metodologia](metodologia) · 📜 [Histórico completo](historico)
 
 ---
