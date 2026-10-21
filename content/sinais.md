@@ -8,7 +8,7 @@ tags: [sinais]
 
 Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiveram vantagem estatística no Ibovespa (2000–2026), em cada tempo gráfico. **[Como ler e usar →](tutorial-sinais)**
 
-> [!note] Nenhum sinal no fechamento de 21/10/2026
+> [!note] Nenhum sinal no fechamento de 20/10/2026
 
 > [!info]- Candle semanal/mensal ainda em formação (pode mudar até o fechamento)
 > - Mensal · TOPO · **RSI75+MV** — RSI>=75 e MACD-V>=130 (forte)
@@ -82,7 +82,7 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 | 2026-08-12 10:00 | 🟢 FUNDO | **FD+RSI** — Fechou fora->dentro da BB inferior + RSI<=30 | moderado | 50% | 2.5× |
 | 2026-08-10 10:00 | 🟢 FUNDO | **BT+BB** — Bottom tail tocando a BB inferior | moderado | 53% | 3.1× |
 
-*Atualizado em 21/10/2026 11:19 BRT. Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 21/10/2026 11:20 BRT. Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.
