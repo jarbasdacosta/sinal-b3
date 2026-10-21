@@ -8,9 +8,9 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 21/10/2026 10:45 BRT · ^BVSP · Intraday 15min · v5.3*
+*Última atualização: 21/10/2026 11:00 BRT · ^BVSP · Intraday 15min · v5.3*
 
-> [!success] 🟢 **VERDE** — Risco 16% · ▼ -2 p.p. vs leitura anterior
+> [!success] 🟢 **VERDE** — Risco 15% · ▼ -2 p.p. vs leitura anterior
 > `███░░░░░░░░░░░░░░░░░`
 > Preço na faixa normal em torno da tendência.
 
@@ -22,13 +22,13 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Indicador | Valor |
 |---|---|
-| 🔴 ζ Topo — preço esticado acima da tendência | **16%** |
-| 🔵 ζ Fundo — preço esticado abaixo da tendência | 1% |
+| 🔴 ζ Topo — preço esticado acima da tendência | **15%** |
+| 🔵 ζ Fundo — preço esticado abaixo da tendência | 2% |
 | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-| 📊 Ibovespa | 208.987 pts |
+| 📊 Ibovespa | 208.285 pts |
 
-**Multi-ativo:** 17% em tensão (1🔴 4🟡 de 24 ativos)
+**Multi-ativo:** 21% em tensão (1🔴 5🟡 de 24 ativos)
 
 
 > [!tip]- O que 26 anos de dados mostram
@@ -38,9 +38,8 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | ζ Topo | LPPL |
 |---|---|---|---|---|
-| [21 Oct 2026](intraday/2026-10-21) | 🟢 VERDE | **16%** | 16% | 0% |
+| [21 Oct 2026](intraday/2026-10-21) | 🟢 VERDE | **15%** | 15% | 0% |
 | [20 Oct 2026](intraday/2026-10-20) | 🟢 VERDE | **18%** | 18% | 0% |
-| [19 Oct 2026](intraday/2026-10-19) | 🟢 VERDE | **0%** | 0% | 0% |
 
 ## Navegação
 
