@@ -37,16 +37,6 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 | 01/2024 | 🔴 Topo | **S180+BB** — Bear 180 depois de tocar a BB superior | moderado | 75% |
 | 01/2024 | 🔴 Topo | **S180** — Bear 180 | 🔥 **forte** | 62% |
 
-**Gatilho de entrada** (linha tracejada com ▲/▼ na direita = armado · ★ = disparou) — [como funciona](metodologia#gatilho-de-entrada)
-
-| Situação | Lado | Preço do gatilho | Setup | Nota do estudo |
-|---|---|---|---|---|
-| ★ disparou em 05/2026 | 🔴 venda | 181.534 | FD+CCI (forte), TT+RSI (forte) (04/2026) | ⚠️ sem vantagem no estudo |
-| ★ disparou em 03/2026 | 🔴 venda | 177.798 | RSI75+MV (forte) (02/2026) | ⚠️ sem vantagem no estudo |
-| ★ disparou em 04/2024 | 🔴 venda | 125.019 | S180 (forte), S180+BB (moderado), FD+CCI (forte) (01/2024) | ⚠️ sem vantagem no estudo |
-| ★ disparou em 05/2023 | 🟢 compra | 109.953 | BT+BB (moderado) (03/2023) | ⚠️ sem vantagem no estudo |
-| ★ disparou em 05/2022 | 🔴 venda | 105.126 | S180 (forte) (04/2022) | ⚠️ sem vantagem no estudo |
-
 ## Semanal
 
 ![Ibovespa Semanal](graficos/tecnico_semanal_20261022.png)
@@ -75,15 +65,6 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 | 21/11/2025 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **forte** | 68% |
 | 21/11/2025 | 🔴 Topo | **S180+BB** — Bear 180 depois de tocar a BB superior | moderado | 44% |
 
-**Gatilho de entrada** (linha tracejada com ▲/▼ na direita = armado · ★ = disparou) — [como funciona](metodologia#gatilho-de-entrada)
-
-| Situação | Lado | Preço do gatilho | Setup | Nota do estudo |
-|---|---|---|---|---|
-| ★ disparou em 24/04/2026 | 🔴 venda | 194.571 | RSI75+MV (moderado) (10/04/2026) | ✅ aprovado no estudo |
-| ★ disparou em 20/03/2026 | 🔴 venda | 175.644 | MV- (moderado) (06/03/2026) | ✅ aprovado no estudo |
-| ★ disparou em 12/12/2025 | 🔴 venda | 155.401 | MV- (moderado) (05/12/2025) | ✅ aprovado no estudo |
-| ★ disparou em 10/10/2025 | 🔴 venda | 142.846 | FD+CCI (forte) (26/09/2025) | ✅ aprovado no estudo |
-
 ## Diário
 
 ![Ibovespa Diário](graficos/tecnico_diario_20261022.png)
@@ -111,16 +92,6 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 | 11/08/2026 | 🟢 Fundo | **ELEF-** — Elefante de exaustão de baixa | moderado | 43% |
 | 13/07/2026 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% |
 | 09/06/2026 | 🟢 Fundo | **FD+RSI** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **forte** | 71% |
-
-**Gatilho de entrada** (linha tracejada com ▲/▼ na direita = armado · ★ = disparou) — [como funciona](metodologia#gatilho-de-entrada)
-
-| Situação | Lado | Preço do gatilho | Setup | Nota do estudo |
-|---|---|---|---|---|
-| ★ disparou em 14/10/2026 | 🔴 venda | 205.561 | ζ Topo 74% (13/10/2026) | ➖ fraco no estudo |
-| ★ disparou em 17/09/2026 | 🔴 venda | 184.357 | ζ Topo 62% (15/09/2026) | ➖ fraco no estudo |
-| ★ disparou em 04/09/2026 | 🔴 venda | 183.883 | TT+RSI (moderado) (03/09/2026) | ⚠️ sem vantagem no estudo |
-| ★ disparou em 19/08/2026 | 🟢 compra | 168.826 | ζ Fundo 62% (18/08/2026) | ✅ aprovado no estudo |
-| ★ disparou em 17/08/2026 | 🟢 compra | 167.553 | BT+BB (moderado) (14/08/2026) | ➖ neutro no estudo |
 
 <small>Direção = valor de hoje comparado com o do candle anterior (no semanal e no mensal, com o candle em formação). MACD-V: 🟩 verde subindo · 🟢 verde sem brilho · 🔴 vermelho sem brilho · 🟥 vermelho caindo. CCI: aqua subindo · magenta caindo · azul ≥ +200 · vermelho ≤ −200 · linha amarela = MME9 do CCI.</small>
 

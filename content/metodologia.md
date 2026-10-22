@@ -190,34 +190,3 @@ As zonas têm **histerese** (entram num nível e saem em outro mais baixo) para 
 
 > [!quote] Aviso
 > Estudo acadêmico e estatístico. Não constitui recomendação de investimento. Resultados passados não garantem resultados futuros.
-
-<!-- v8-gatilho -->
-## Gatilho de entrada
-
-Depois de um **setup**, o método espera o preço confirmar a virada antes de entrar:
-
-- **Setups de compra:** ζ Fundo ≥ 60% (diário e 15 min) ou um Sinal de Fundo forte/moderado (mensal, semanal, diário, H4).
-- **Setups de venda:** ζ Topo ≥ 60% ou um Sinal de Topo forte/moderado.
-- **Gatilho de compra:** a máxima do candle atual passa da **máxima do candle anterior + 20% do tamanho dele** (máxima − mínima).
-- **Gatilho de venda:** a mínima do candle atual fura a **mínima do candle anterior − 20% do tamanho dele**.
-- **Rolante, até 5 candles:** se não romper, a referência passa para o candle seguinte; 5 candles sem rompimento, o gatilho desarma. ζ alto por vários candles seguidos conta como um setup só.
-- **Mesmo tempo gráfico:** sinal semanal espera o rompimento no candle semanal, ζ diário no diário, ζ de 15 min no de 15 min. Durante o pregão, o candle em formação é montado com as barras de 15 min do MT5, e o aviso sai no Telegram assim que o preço rompe.
-
-**Estudo (22/10/2026, Ibovespa 2000–2026; H4 2023–2026).** Operação simulada com stop no extremo desde o setup e alvo de 2R, sem custos. R = resultado médio por operação em múltiplos do risco.
-
-| Tempo | Lado | Com gatilho | Sem gatilho | Gatilho sem setup | Nota |
-|---|---|---|---|---|---|
-| Semanal | compra | **+0,65R** (34) | +0,40R | +0,18R | ✅ aprovado |
-| Semanal | venda | **+0,21R** (53) | 0,00R | −0,20R | ✅ aprovado |
-| H4 | compra | **+0,37R** (34) | −0,14R | +0,15R | ✅ aprovado |
-| Diário | compra (sinal forte) | **+0,22R** (70) | — | +0,09R | ✅ aprovado |
-| Diário | compra (ζ ≥ 60%) | **+0,12R** (159) | +0,03R | +0,09R | ✅ aprovado |
-| Diário | compra (sinal moderado) | +0,05R (188) | — | +0,09R | ➖ neutro |
-| Diário | venda (ζ ≥ 60%) | −0,12R (170) | −0,17R | −0,09R | ➖ fraco |
-| Diário | venda (sinais) | −0,15R (116) | −0,06R | −0,09R | ⚠️ sem vantagem |
-| H4 | venda | −0,22R (34) | 0,00R | 0,00R | ⚠️ sem vantagem |
-| Mensal | compra | +1,01R (5) | +1,59R | +0,36R | ⚠️ sem vantagem |
-| Mensal | venda | −0,47R (20) | −0,04R | −0,45R | ⚠️ sem vantagem |
-| 15 min | ζ ≥ 60% | — | — | — | ❔ não testado |
-
-*O gatilho custa preço (a entrada sai de 0,3% a 8% pior que o fechamento do setup, conforme o tempo gráfico) em troca da confirmação. Ele compensou onde aparece ✅. O Ibovespa sobe no longo prazo, então compras tendem a ir melhor que vendas. Entre parênteses, o número de operações.*

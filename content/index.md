@@ -15,11 +15,6 @@ tags: [home]
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
 
-> [!note]- 🎯 Gatilhos de entrada: nenhum armado agora
-> Nenhum sinal recente está esperando rompimento.
->
-> *Como funciona: depois de um sinal de fundo (ou ζ Fundo ≥ 60%), o gatilho de compra é o rompimento da **máxima do candle anterior + 20% do tamanho dele**; depois de um sinal de topo (ou ζ Topo ≥ 60%), o de venda é o rompimento da **mínima − 20%**. Fica armado por até 5 candles, no mesmo tempo gráfico do sinal. [Estudo e regras](metodologia#gatilho-de-entrada) · leitura educacional do método, não recomendação.*
-
 > [!warning] 🔥 Sinais de Topo e Fundo · Mensal, Semanal — sinal forte em formação (confirma no fechamento do candle mensal, semanal)
 > - 🔴 Mensal · TOPO · **[RSI75+MV](tecnico/#mensal)** — RSI≥75 e MACD-V≥130 · 📈 [ver no gráfico Mensal](tecnico/#mensal)
 > - 🔴 Semanal · TOPO · **[FD+CCI](tecnico/#semanal)** — Fechou fora→dentro da BB superior + CCI≥200 · 📈 [ver no gráfico Semanal](tecnico/#semanal)
