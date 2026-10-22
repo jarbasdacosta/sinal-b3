@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 22/10/2026 18:26 BRT · Intraday 15min*
+*Última atualização: 22/10/2026 18:38 BRT · Intraday 15min*
 
 > [!success] Onde o mercado está agora (22/10 17:15, candles de 15 min): **🟢 Calmo**
 > `Pânico ◀──────●──────────────▶ Euforia`
@@ -15,6 +15,11 @@ tags: [home]
 > No gráfico diário: 🟡 Preço esticado acima da tendência.
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
+
+> [!note]- 🎯 Gatilhos de entrada: nenhum armado agora
+> Nenhum sinal recente está esperando rompimento.
+>
+> *Como funciona: depois de um sinal de fundo (ou ζ Fundo ≥ 60%), o gatilho de compra é o rompimento da **máxima do candle anterior + 20% do tamanho dele**; depois de um sinal de topo (ou ζ Topo ≥ 60%), o de venda é o rompimento da **mínima − 20%**. Fica armado por até 5 candles, no mesmo tempo gráfico do sinal. [Estudo e regras](metodologia#gatilho-de-entrada) · leitura educacional do método, não recomendação.*
 
 > [!warning] 🔥 Sinais de Topo e Fundo · Mensal — sinal forte em formação (confirma no fechamento do candle mensal)
 > - 🔴 Mensal · TOPO · **[RSI75+MV](tecnico/#mensal)** — RSI≥75 e MACD-V≥130 · 📈 [ver no gráfico Mensal](tecnico/#mensal)
