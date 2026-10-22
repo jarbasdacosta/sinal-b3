@@ -1,6 +1,6 @@
 ---
 title: Sinais de Topo e Fundo
-date: 2026-10-21
+date: 2026-10-22
 tags: [sinais]
 description: Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger no Ibovespa
 ---
@@ -14,7 +14,6 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 
 > [!warning] 🔥 Sinal FORTE em formação (ainda pode sumir até o candle fechar)
 > - Mensal · TOPO · **RSI75+MV** — RSI≥75 e MACD-V≥130 (62%, 2,7× o acaso)
-> - Semanal · TOPO · **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 (68%, 2,6× o acaso)
 > 
 > *Semanal confirma na sexta; mensal no último pregão do mês.*
 
@@ -46,7 +45,7 @@ Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 | Diário | **BT+RSI** (73%), **BT+CCI** (57%), **FD+RSI** (71%) | — |
 | H4 | — | — |
 
-*Atualizado em 21/10/2026 17:56 BRT (último pregão fechado: 21/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 22/10/2026 08:58 BRT (último pregão fechado: 21/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.
