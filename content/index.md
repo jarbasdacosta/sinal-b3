@@ -10,25 +10,25 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 *Última atualização: 22/10/2026 14:00 BRT · ^BVSP · Intraday 15min · v5.3*
 
-> [!warning] 🔥 Sinal forte em formação (confirma no fechamento do candle)
+> [!warning] 🔥 Sinais de Topo e Fundo · Mensal — sinal forte em formação (confirma no fechamento do candle mensal)
 > - 🔴 Mensal · TOPO · **RSI75+MV** — RSI≥75 e MACD-V≥130
 >
 > [Ver os sinais](sinais-topo-fundo/)
 
-> [!success] 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
+> [!success] Sinal de Crise · Intraday 15 min (22/10 13:15): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
 > `░░░░░░░░░░░░░░░░░░░░`
 > Preço na faixa normal em torno da tendência.
 
 
-> [!warning] ⚠️ Nível alto agora
+> [!warning] ⚠️ Nível alto agora — Sinal de Crise · Intraday 15 min (22/10 13:15)
 > - 🔵 **ζ Fundo 88%** — preço esticado abaixo da tendência
 
-> [!note] 🧭 Viés do diário (2026-10-21): 🟡 **Preço esticado acima da tendência**
+> [!note] 🧭 Sinal de Crise · Viés do diário (21/10): 🟡 **Preço esticado acima da tendência**
 > 👉 não aumentar posição, subir stop, realizar parcial
 >
 > *Estatística de 26 anos, não recomendação. [Como usar](metodologia#3-como-usar-na-prática).*
 
-| Indicador | Valor |
+| Indicador — Sinal de Crise · Intraday 15 min (22/10 13:15) | Valor |
 |---|---|
 | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
 | 🔵 ζ Fundo — preço esticado abaixo da tendência | 🔵 **88%** |
