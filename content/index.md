@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 22/10/2026 19:12 BRT · Diário D1*
+*Última atualização: 22/10/2026 19:48 BRT · Diário D1*
 
 > [!warning] Onde o mercado está no fechamento de 22/10: **🟡 Esticado para cima**
 > `Pânico ◀──────────────────●──▶ Euforia`
@@ -14,6 +14,34 @@ tags: [home]
 > O Ibovespa subiu mais rápido que o normal e está acima da sua faixa habitual.
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
+
+> [!tip] 🎯 Entradas do método — 🧪 em teste ao vivo desde 23/10/2026 (só compra)
+>
+> **Placar ao vivo:** nenhuma operação encerrada desde 23/10/2026. Este é o único resultado sem nenhum ajuste ao histórico.
+>
+> | Regra | Situação | Detalhes | Nota |
+> |---|---|---|---|
+> | [Diário · Nadaraya](tecnico/#diário) | 🟢 **comprado** desde 25/08 a 174.577 *(simulada: começou antes do teste ao vivo)* | stop 166.335 · agora +16,9% em 40 pregões · sai quando a linha rápida do Nadaraya cruzar para baixo · setup BT+BB (moderado) | ✅ passou fora da amostra |
+> | [Semanal · Semáforo N2](tecnico/#semanal) | — sem setup | espera um sinal de fundo | ✅ o ganho vem do setup |
+> | [H4 · Semáforo N2](sinais-topo-fundo/todos-os-sinais#h4) | — sem setup | espera um sinal de fundo | 🧪 em teste |
+> | [Diário · Semáforo N3 após ζ Fundo](tecnico/#diário) | — sem setup | espera um sinal de fundo ou ζ Fundo ≥ 60% | 🧪 em observação |
+>
+> **Últimas operações** (as anteriores ao teste ao vivo são simuladas no histórico)
+>
+> | Regra | Entrada | Saída | Resultado | Motivo |
+> |---|---|---|---|---|
+> | H4 · Semáforo N2 | 01/10/26 14h a 187.243 | 20/10/26 10h a 208.658 | **+11,4%** | saída do método (topo fixo do semáforo nível 3) |
+> | H4 · Semáforo N2 | 21/09/26 14h a 186.753 | 25/09/26 10h a 183.242 | **-1,9%** | stop |
+> | Diário · Semáforo N3 após ζ Fundo | 01/09/26 a 179.723 | 24/09/26 a 183.966 | **+2,4%** | saída do método (topo fixo do semáforo nível 3) |
+> | H4 · Semáforo N2 | 19/08/26 10h a 168.034 | 16/09/26 10h a 185.896 | **+10,6%** | saída do método (topo fixo do semáforo nível 3) |
+> | Diário · Semáforo N3 após ζ Fundo | 07/07/26 a 172.021 | 10/08/26 a 172.021 | **+0,0%** | stop no preço de entrada |
+> | H4 · Semáforo N2 | 12/06/26 14h a 171.134 | 15/06/26 14h a 171.134 | **+0,0%** | stop no preço de entrada |
+> | H4 · Semáforo N2 | 05/05/26 10h a 186.583 | 07/05/26 10h a 186.583 | **+0,0%** | stop no preço de entrada |
+> | H4 · Semáforo N2 | 25/03/26 10h a 185.486 | 23/04/26 10h a 192.517 | **+3,8%** | saída do método (topo fixo do semáforo nível 3) |
+>
+> <small>Atualizado 22/10 19:48. Nota: ✅ passou no teste fora da amostra (walk-forward 2008–2026) · 🧪 em teste ou em observação, sem aviso no Telegram · 🧪 na tabela = operação do teste ao vivo.</small>
+>
+> *Regras: depois de um sinal de fundo, o Diário entra quando o Nadaraya vira para cima; o Semanal e o H4 entram quando um fundo do semáforo fica fixo. Stop e saída de cada regra na [metodologia](metodologia#entradas-do-método). Nenhuma regra de venda passou no teste. Os números do histórico têm viés de escolha (overfitting); o placar ao vivo é o que vale. Leitura educacional do método, não recomendação.*
 
 > [!warning] 🔥 Sinais de Topo e Fundo · Mensal, Semanal — sinal forte em formação (confirma no fechamento do candle mensal, semanal)
 > - 🔴 Mensal · TOPO · **[RSI75+MV](tecnico/#mensal)** — RSI≥75 e MACD-V≥130 · 📈 [ver no gráfico Mensal](tecnico/#mensal)

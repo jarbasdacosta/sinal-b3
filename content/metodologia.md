@@ -190,3 +190,35 @@ As zonas têm **histerese** (entram num nível e saem em outro mais baixo) para 
 
 > [!quote] Aviso
 > Estudo acadêmico e estatístico. Não constitui recomendação de investimento. Resultados passados não garantem resultados futuros.
+
+<!-- v9-entradas -->
+## Entradas do método
+
+> [!warning] Em teste ao vivo desde 23/10/2026
+> Estas regras foram escolhidas olhando o histórico — e quem testa muitas regras sempre acha algumas que deram certo por acaso (**overfitting de backtest** / viés de escolha). Por isso: (1) os números abaixo são os de um teste **fora da amostra**, não os do backtest escolhido; (2) a partir de 23/10/2026 as regras ficam congeladas e o site mostra um **placar ao vivo** separado — esse é o único resultado limpo.
+
+Depois de um **setup**, o método espera uma confirmação antes de comprar. **Só compra:** nenhuma regra de venda passou.
+
+| Regra | Setup | Entrada (no fechamento) | Stop | Saída |
+|---|---|---|---|---|
+| **Diário · Nadaraya** ✅ | sinal de fundo forte/moderado nos últimos 10 pregões | o kernel Nadaraya-Watson (Rational Quadratic, lookback 12) vira para cima | menor mínima dos últimos 5 pregões | a linha rápida (lookback 10) cruza para baixo |
+| **Semanal · Semáforo N2** ✅ | sinal de fundo nas últimas 10 semanas | um fundo do semáforo nível 2 (13/8/5) fica fixo: 5 candles sem mínima menor | mínima do fundo; vai para o preço de entrada quando ganha o que arrisca | um topo do semáforo nível 3 (34/21/12) fica fixo |
+| **H4 · Semáforo N2** 🧪 *(em teste, sem aviso)* | sinal de fundo nos últimos 10 candles de 4h | igual ao semanal | igual | igual |
+| **Diário · Semáforo N3 após ζ** 🧪 *(em observação, sem aviso)* | ζ Fundo ≥ 60% nos últimos 10 pregões | um fundo do semáforo nível 3 fica fixo (12 candles) | igual | igual |
+
+Todas: no máximo 60 candles por operação; reentrada permitida dentro da janela do setup. O semáforo é calculado como no MT5, mas só conta o ponto **fixo** (o indicador original repinta). O Nadaraya é o kernel sem repintura (o envelope padrão usa candles futuros e, sem repintura, não funcionou).
+
+### Como as regras foram testadas
+
+1. **Mais de 150 regras** testadas no Ibovespa 2000–2026: rompimento de máxima/mínima, os três níveis do semáforo e o Nadaraya-Watson (envelope e kernel), com várias entradas e saídas.
+2. **Walk-forward (fora da amostra):** a cada ano de 2008 em diante, a melhor regra foi escolhida **só com os anos anteriores** e operada no ano seguinte. Isso mede se "escolher a melhor pelo passado" funciona de verdade.
+3. **PBO (probabilidade de overfitting do backtest):** o histórico foi dividido em 10 blocos e, em 252 combinações, a melhor regra de uma metade foi conferida na outra.
+
+| Tempo e lado | Escolhendo pelo passado (fora da amostra) | Regra escolhida ao acaso | PBO | Leitura |
+|---|---|---|---|---|
+| Diário · compra | **+2,0% a +3,5%** por operação | +0,4% | **6%** | a escolha se sustenta ✅ |
+| Semanal · compra | +6% a +10% | **+4,7%** | 33% | funciona, mas quase qualquer regra serve: o ganho vem do setup |
+| Diário · venda | +0,5% (faixa inclui perda) | −0,2% | **73%** | overfitting ❌ |
+| Semanal · venda | −2,5% | −0,3% | 31% | não funciona ❌ |
+
+*O backtest das regras escolhidas mostrava +3,2% (diário) e +15,8% (semanal) por operação; fora da amostra a expectativa realista é de **+2% a +3%** no diário e **~+5%** no semanal, com poucas operações por ano. O H4 tem só 2 anos de dados e não pôde ser testado fora da amostra. A lista de quais sinais são fortes ou moderados também saiu destes dados — mais uma razão para acompanhar o placar ao vivo. Custo de 0,05% por operação, índice à vista, sem impostos (no WIN o comprado paga o carrego dos juros). Estatística histórica, não recomendação.*

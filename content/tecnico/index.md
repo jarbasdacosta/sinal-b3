@@ -65,6 +65,19 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 | 21/11/2025 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **forte** | 68% |
 | 21/11/2025 | 🔴 Topo | **S180+BB** — Bear 180 depois de tocar a BB superior | moderado | 44% |
 
+**Entradas do método neste gráfico** (▲ = compra · ✖ = saída · tracejado âmbar = stop da compra em andamento · ● = fundo/topo fixo do semáforo) — [regras](metodologia#entradas-do-método)
+
+- **Semáforo N2** (✅ o ganho vem do setup): sem setup ativo
+
+*Operações anteriores a 23/10/2026 são simuladas no histórico (as regras estão em teste ao vivo desde então).*
+
+| Regra | Entrada | Saída | Resultado | Motivo |
+|---|---|---|---|---|
+| Semáforo N2 | 21/02/25 a 127,128 | 17/04/26 a 195,734 | **+54,0%** | limite de 60 candles |
+| Semáforo N2 | 26/07/24 a 127,492 | 08/11/24 a 127,492 | **+0,0%** | stop no preço de entrada |
+| Semáforo N2 | 24/05/24 a 124,306 | 31/05/24 a 123,397 | **-0,7%** | stop |
+| Semáforo N2 | 10/11/23 a 120,636 | 22/03/24 a 127,027 | **+5,3%** | saída do método (topo fixo do semáforo nível 3) |
+
 ## Diário
 
 ![Ibovespa Diário](graficos/tecnico_diario_20261022.png)
@@ -93,6 +106,22 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 | 13/07/2026 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% |
 | 09/06/2026 | 🟢 Fundo | **FD+RSI** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **forte** | 71% |
 
+**Entradas do método neste gráfico** (▲ = compra · ✖ = saída · tracejado âmbar = stop da compra em andamento · linha verde-água/âmbar = Nadaraya 12 · ● = fundo/topo fixo do semáforo) — [regras](metodologia#entradas-do-método)
+
+- **Nadaraya** (✅ passou fora da amostra): 🟢 comprado desde 25/08 a 174.577, stop 166.335, agora +16,9%
+- **Semáforo N3 após ζ Fundo** (🧪 em observação): sem setup ativo
+
+*Operações anteriores a 23/10/2026 são simuladas no histórico (as regras estão em teste ao vivo desde então).*
+
+| Regra | Entrada | Saída | Resultado | Motivo |
+|---|---|---|---|---|
+| Semáforo N3 após ζ Fundo | 01/09/26 a 179,723 | 24/09/26 a 183,966 | **+2,4%** | saída do método (topo fixo do semáforo nível 3) |
+| Semáforo N3 após ζ Fundo | 07/07/26 a 172,021 | 10/08/26 a 172,021 | **+0,0%** | stop no preço de entrada |
+| Nadaraya | 20/10/25 a 144,509 | 19/01/26 a 164,849 | **+14,1%** | limite de 60 candles |
+| Nadaraya | 12/06/25 a 137,800 | 15/07/25 a 135,250 | **-1,9%** | saída do método (linha rápida cruzou para baixo) |
+| Nadaraya | 14/04/25 a 129,454 | 09/06/25 a 135,699 | **+4,8%** | saída do método (linha rápida cruzou para baixo) |
+| Semáforo N3 após ζ Fundo | 30/01/25 a 126,913 | 07/03/25 a 125,035 | **-1,5%** | saída do método (topo fixo do semáforo nível 3) |
+
 <small>Direção = valor de hoje comparado com o do candle anterior (no semanal e no mensal, com o candle em formação). MACD-V: 🟩 verde subindo · 🟢 verde sem brilho · 🔴 vermelho sem brilho · 🟥 vermelho caindo. CCI: aqua subindo · magenta caindo · azul ≥ +200 · vermelho ≤ −200 · linha amarela = MME9 do CCI.</small>
 
-*Atualizado em 22/10/2026 19:12 BRT. Dados: Yahoo (^BVSP); semanal e mensal montados do diário.*
+*Atualizado em 22/10/2026 19:48 BRT. Dados: Yahoo (^BVSP); semanal e mensal montados do diário.*
