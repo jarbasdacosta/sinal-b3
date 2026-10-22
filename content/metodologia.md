@@ -1,5 +1,5 @@
 ---
-title: Metodologia
+title: Metodologia Sinal de Crise
 tags: [metodologia]
 ---
 

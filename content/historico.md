@@ -1,5 +1,5 @@
 ---
-title: Histórico
+title: Histórico do Sinal de Crise
 tags: [historico]
 ---
 

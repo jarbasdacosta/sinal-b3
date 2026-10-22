@@ -6,6 +6,13 @@ import * as Component from "./quartz/components"
 // (nomes de arquivo são YYYY-MM-DD, então ordenar pelo slug = ordenar por data)
 const explorerDateSort = Component.Explorer({
   sortFn: (a, b) => {
+    // menu: ordem fixa na raiz do site
+    const ordem = ["diario", "intraday", "sinais-topo-fundo", "tecnico", "historico", "metodologia"]
+    const ia = ordem.indexOf(a.slugSegment)
+    const ib = ordem.indexOf(b.slugSegment)
+    if (ia !== -1 || ib !== -1) {
+      return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib)
+    }
     if (a.isFolder && b.isFolder) {
       return a.displayName.localeCompare(b.displayName, undefined, {
         numeric: true,
