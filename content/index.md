@@ -8,33 +8,33 @@ tags: [home]
 
 Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco Antonio Leonel Caetano, ITA/INSPER) + **LPPL DS-Confidence** (Prof. Didier Sornette, ETH-Zurich).
 
-*Última atualização: 22/10/2026 16:00 BRT · ^BVSP · Intraday 15min · v5.3*
+*Última atualização: 22/10/2026 16:15 BRT · ^BVSP · Intraday 15min · v5.3*
 
 > [!warning] 🔥 Sinais de Topo e Fundo · Mensal — sinal forte em formação (confirma no fechamento do candle mensal)
 > - 🔴 Mensal · TOPO · **RSI75+MV** — RSI≥75 e MACD-V≥130
 >
 > [Ver os sinais](sinais-topo-fundo/)
 
-> [!success] Sinal de Crise · Intraday 15 min (22/10 15:45): 🟢 **VERDE** — Risco 0% · ▼ -1 p.p. vs leitura anterior
+> [!success] Sinal de Crise · Intraday 15 min (22/10 16:00): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
 > `░░░░░░░░░░░░░░░░░░░░`
 > Preço na faixa normal em torno da tendência.
 
 
-> [!warning] ⚠️ Nível alto agora — Sinal de Crise · Intraday 15 min (22/10 15:45)
-> - 🔵 **ζ Fundo 73%** — preço esticado abaixo da tendência
+> [!warning] ⚠️ Nível alto agora — Sinal de Crise · Intraday 15 min (22/10 16:00)
+> - 🔵 **ζ Fundo 70%** — preço esticado abaixo da tendência
 
 > [!note] 🧭 Sinal de Crise · Viés do diário (21/10): 🟡 **Preço esticado acima da tendência**
 > 👉 não aumentar posição, subir stop, realizar parcial
 >
 > *Estatística de 26 anos, não recomendação. [Como usar](metodologia#3-como-usar-na-prática).*
 
-| Indicador — Sinal de Crise · Intraday 15 min (22/10 15:45) | Valor |
+| Indicador — Sinal de Crise · Intraday 15 min (22/10 16:00) | Valor |
 |---|---|
 | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
-| 🔵 ζ Fundo — preço esticado abaixo da tendência | 🔵 **73%** |
+| 🔵 ζ Fundo — preço esticado abaixo da tendência | 🔵 **70%** |
 | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-| 📊 Ibovespa | 204.146 pts |
+| 📊 Ibovespa | 203.967 pts |
 
 **Multi-ativo:** 4% em tensão (1🔴 0🟡 de 24 ativos)
 
@@ -46,7 +46,7 @@ Monitoramento diário e intraday do Ibovespa — **IMA Wavelet** (Prof. Marco An
 
 | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 |---|---|---|---|---|---|
-| [22 Oct 2026](intraday/2026-10-22) | 🟢 VERDE | **0%** | 0% | 🔵 **73%** | 0% |
+| [22 Oct 2026](intraday/2026-10-22) | 🟢 VERDE | **0%** | 0% | 🔵 **70%** | 0% |
 | [21 Oct 2026](intraday/2026-10-21) | 🟢 VERDE | **0%** | 0% | 19% | 0% |
 
 <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
