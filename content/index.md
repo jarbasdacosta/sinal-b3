@@ -6,13 +6,12 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 22/10/2026 18:38 BRT · Intraday 15min*
+*Última atualização: 22/10/2026 19:12 BRT · Diário D1*
 
-> [!success] Onde o mercado está agora (22/10 17:15, candles de 15 min): **🟢 Calmo**
-> `Pânico ◀──────●──────────────▶ Euforia`
+> [!warning] Onde o mercado está no fechamento de 22/10: **🟡 Esticado para cima**
+> `Pânico ◀──────────────────●──▶ Euforia`
 >
-> O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
-> No gráfico diário: 🟡 Preço esticado acima da tendência.
+> O Ibovespa subiu mais rápido que o normal e está acima da sua faixa habitual.
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
 
@@ -21,15 +20,19 @@ tags: [home]
 >
 > *Como funciona: depois de um sinal de fundo (ou ζ Fundo ≥ 60%), o gatilho de compra é o rompimento da **máxima do candle anterior + 20% do tamanho dele**; depois de um sinal de topo (ou ζ Topo ≥ 60%), o de venda é o rompimento da **mínima − 20%**. Fica armado por até 5 candles, no mesmo tempo gráfico do sinal. [Estudo e regras](metodologia#gatilho-de-entrada) · leitura educacional do método, não recomendação.*
 
-> [!warning] 🔥 Sinais de Topo e Fundo · Mensal — sinal forte em formação (confirma no fechamento do candle mensal)
+> [!warning] 🔥 Sinais de Topo e Fundo · Mensal, Semanal — sinal forte em formação (confirma no fechamento do candle mensal, semanal)
 > - 🔴 Mensal · TOPO · **[RSI75+MV](tecnico/#mensal)** — RSI≥75 e MACD-V≥130 · 📈 [ver no gráfico Mensal](tecnico/#mensal)
+> - 🔴 Semanal · TOPO · **[FD+CCI](tecnico/#semanal)** — Fechou fora→dentro da BB superior + CCI≥200 · 📈 [ver no gráfico Semanal](tecnico/#semanal)
 >
 > [Ver os sinais](sinais-topo-fundo/)
 
+> [!warning] ⚠️ Nível alto agora — Sinal de Crise · Diário (22/10)
+> - 🟡 **ζ Topo 78%** — preço esticado acima da tendência (risco de reversão)
 
-
-> [!note] 🧭 Sinal de Crise · Viés do diário (21/10): 🟡 **Preço esticado acima da tendência**
+> [!note] 🧭 Sinal de Crise · Situação no diário: 🟡 **Preço esticado acima da tendência**
 > 📚 historicamente, a partir daqui o risco de correção ficou acima da média
+>
+> Eventos recentes: 📉 16/09 Esticamento desinflando · 🚀 09/09 Força · 🌱 23/07 Fundo se desfazendo · 🔪 22/05 Queda forte em curso
 >
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia#3-como-usar-na-prática).*
 
@@ -37,21 +40,21 @@ tags: [home]
 
 A Ondaleta tem três módulos: o **Sinal de Crise** (IMA + LPPL), os **Sinais de Topo e Fundo** e o **Gráfico Técnico**. Clique nos blocos abaixo para abrir os números.
 
-> [!success] Sinal de Crise · Intraday 15 min (22/10 17:15): 🟢 **VERDE** — Risco 0% · ▼ -5 p.p. vs leitura anterior
-> `░░░░░░░░░░░░░░░░░░░░`
-> Preço na faixa normal em torno da tendência.
+> [!warning] Sinal de Crise · Diário (22/10): 🟡 **AMARELO** — Risco 78% · ▲ +2 p.p. vs leitura anterior
+> `████████████████░░░░`
+> Atenção — preço esticado acima da tendência.
 
 
 > [!info]- 📊 Indicadores do Sinal de Crise
-> | Indicador — Sinal de Crise · Intraday 15 min (22/10 17:15) | Valor |
+> | Indicador — Sinal de Crise · Diário (22/10) | Valor |
 > |---|---|
-> | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
-> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 45% |
+> | 🔴 ζ Topo — preço esticado acima da tendência | 🟡 **78%** |
+> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 0% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
 > | 📊 Ibovespa | 204.120 pts |
 
-**Multi-ativo:** 8% em tensão (1🔴 1🟡 de 24 ativos)
+**Multi-ativo:** 29% em tensão (6🔴 1🟡 de 24 ativos)
 
 
 > [!tip]- O que 26 anos de dados mostram
@@ -60,7 +63,13 @@ A Ondaleta tem três módulos: o **Sinal de Crise** (IMA + LPPL), os **Sinais de
 > [!info]- 📅 Últimos 7 pregões
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [22 Oct 2026](intraday/2026-10-22) | 🟢 VERDE | **0%** | 0% | 45% | 0% |
+> | [22 Oct 2026](diario/2026-10-22) | 🟡 AMARELO | 🟡 **78%** | 🟡 **78%** | 0% | 0% |
+> | [21 Oct 2026](diario/2026-10-21) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 1% | 0% |
+> | [20 Oct 2026](diario/2026-10-20) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 1% | 0% |
+> | [19 Oct 2026](diario/2026-10-19) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 0% | 0% |
+> | [16 Oct 2026](diario/2026-10-16) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 0% | 0% |
+> | [15 Oct 2026](diario/2026-10-15) | 🟡 AMARELO | 🟡 **75%** | 🟡 **75%** | 0% | 0% |
+> | [14 Oct 2026](diario/2026-10-14) | 🟡 AMARELO | 🟡 **74%** | 🟡 **74%** | 1% | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
 

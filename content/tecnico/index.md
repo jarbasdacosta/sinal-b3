@@ -66,6 +66,7 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 
 | Candle | Tipo | Sinal | Força | Acerto histórico |
 |---|---|---|---|---|
+| 23/10/2026 (em formação) | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **forte** | 68% |
 | 10/04/2026 | 🔴 Topo | **RSI75+MV** — RSI≥75 e MACD-V≥130 | moderado | 56% |
 | 06/03/2026 | 🔴 Topo | **MV-** — MACD-V vira verde sem brilho acima do limiar | moderado | 46% |
 | 23/01/2026 | 🔴 Topo | **RSI75+MV** — RSI≥75 e MACD-V≥130 | moderado | 56% |
@@ -73,7 +74,6 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 | 05/12/2025 | 🔴 Topo | **MV-** — MACD-V vira verde sem brilho acima do limiar | moderado | 46% |
 | 21/11/2025 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **forte** | 68% |
 | 21/11/2025 | 🔴 Topo | **S180+BB** — Bear 180 depois de tocar a BB superior | moderado | 44% |
-| 21/11/2025 | 🔴 Topo | **S180** — Bear 180 | moderado | 38% |
 
 **Gatilho de entrada** (linha tracejada com ▲/▼ na direita = armado · ★ = disparou) — [como funciona](metodologia#gatilho-de-entrada)
 
@@ -124,4 +124,4 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 
 <small>Direção = valor de hoje comparado com o do candle anterior (no semanal e no mensal, com o candle em formação). MACD-V: 🟩 verde subindo · 🟢 verde sem brilho · 🔴 vermelho sem brilho · 🟥 vermelho caindo. CCI: aqua subindo · magenta caindo · azul ≥ +200 · vermelho ≤ −200 · linha amarela = MME9 do CCI.</small>
 
-*Atualizado em 22/10/2026 18:37 BRT. Dados: Yahoo (^BVSP); semanal e mensal montados do diário.*
+*Atualizado em 22/10/2026 19:12 BRT. Dados: Yahoo (^BVSP); semanal e mensal montados do diário.*
