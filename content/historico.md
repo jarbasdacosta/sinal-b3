@@ -1,5 +1,5 @@
 ---
-title: Histórico do Sinal de Crise
+title: "🌊 Crise · Histórico"
 tags: [historico]
 ---
 
