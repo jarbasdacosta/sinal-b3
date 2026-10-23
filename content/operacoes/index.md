@@ -24,6 +24,10 @@ Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/20
 
 *Resultado até o último fechamento. Posições abertas antes de 23/10/2026 são simuladas no histórico e não entram no placar ao vivo.*
 
+> [!info] 🌊 Contexto do IMA para compras
+> neutro, nenhum dos três contextos ativo — ζ Topo 78% · ζ Fundo 0% em 22/10
+> Informa, não filtra: veja como as compras se saíram em cada contexto no [🏆 Ranking](operacoes/ranking#contexto-do-ima).
+
 ## Agora
 
 | Regra | Situação | Nota | Validação ao vivo |
@@ -58,6 +62,7 @@ _Nenhuma operação encerrada ainda._ Posições abertas antes de 23/10 aparecem
 
 ## Páginas
 
+- 🏆 [Ranking das operações](operacoes/ranking) — as regras da que mais rendeu para a que menos rendeu
 - 📈 [Tendência MME9](operacoes/tendencia) — só compra, diário e semanal
 - 🎯 [Entradas do método](operacoes/entradas) — Nadaraya, Semáforo, H4 e ζ
 - 📋 [Últimas operações](operacoes/ultimas-operacoes) — as mais recentes de cada regra

@@ -7,6 +7,8 @@ description: "Só compra, diário e semanal: rompimento do candle que fecha acim
 
 > [!example] 📈 Tendência MME9 — só compra · 🧪 em teste ao vivo desde 23/10/2026
 >
+> 🌊 **Contexto do IMA para compras:** neutro, nenhum dos três contextos ativo — ζ Topo 78% · ζ Fundo 0% em 22/10 · *informa, não filtra*
+>
 > **Placar ao vivo:** nenhuma operação encerrada desde 23/10/2026.
 >
 > **Agora:** ⚠️ **sinal de saída** Diário

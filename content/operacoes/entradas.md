@@ -7,6 +7,8 @@ description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo
 
 > [!tip] 🎯 Entradas do método — 🧪 em teste ao vivo desde 23/10/2026 (só compra)
 >
+> 🌊 **Contexto do IMA para compras:** neutro, nenhum dos três contextos ativo — ζ Topo 78% · ζ Fundo 0% em 22/10 · *informa, não filtra*
+>
 > **Placar ao vivo:** nenhuma operação encerrada desde 23/10/2026. Este é o único resultado sem nenhum ajuste ao histórico.
 >
 > | Regra | Situação | Detalhes | Nota |
