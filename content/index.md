@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 23/10/2026 17:30 BRT · Intraday 15min*
+*Última atualização: 23/10/2026 17:57 BRT · Intraday 15min*
 
 > [!success] Onde o mercado está agora (23/10 17:15, candles de 15 min): **🟢 Calmo**
 > `Pânico ◀───────────●─────────▶ Euforia`
@@ -85,6 +85,7 @@ tags: [home]
 - 🎯 **[Operações](operacoes/)**: [Tendência MME9](operacoes/tendencia) · [Entradas do método](operacoes/entradas) · [Últimas operações](operacoes/ultimas-operacoes)
 - 🔔 **[Linha do tempo](linha-do-tempo/)**: todo sinal, ordem, stop e aviso, do mais recente para o mais antigo
 - 📍 **[Sinais](sinais-topo-fundo/)**: de hoje, 🎯 raros de grande fundo e ⚠️ alerta de topo · [Todos os sinais](sinais-topo-fundo/todos-os-sinais) · [Como ler](sinais-topo-fundo/tutorial)
+- 📊 **[Amplitude](amplitude/)** (% das ações do Ibovespa acima das médias) · 🌎 **[Capital estrangeiro](estrangeiros/)** (dados da B3): contexto do mercado, ainda em teste
 - 📈 **[Gráficos](tecnico/)**: mensal, semanal e diário com médias, Bollinger, MACD-V, CCI e RSI
 - 📚 **[Metodologia](metodologia/)**: [Crise](metodologia/crise) · [Sinais](metodologia/sinais) · [Regras de operação](metodologia/regras-de-operacao) · [O que não passou](metodologia/o-que-nao-passou)
 
