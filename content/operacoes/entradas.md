@@ -2,7 +2,7 @@
 title: "🎯 Entradas do método"
 date: 2026-10-22
 tags: [operacoes]
-description: Compra depois de um sinal de fundo: Nadaraya no diário, semáforo no semanal e H4
+description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo no semanal e H4"
 ---
 
 > [!tip] 🎯 Entradas do método — 🧪 em teste ao vivo desde 23/10/2026 (só compra)

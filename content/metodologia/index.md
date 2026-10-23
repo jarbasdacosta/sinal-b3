@@ -2,7 +2,7 @@
 title: "📚 Metodologia"
 date: 2026-10-22
 tags: [metodologia]
-description: Como cada módulo da Ondaleta funciona e como foi testado
+description: "Como cada módulo da Ondaleta funciona e como foi testado"
 ---
 
 A Ondaleta tem quatro módulos. Cada página explica como o módulo funciona, de onde vêm os números e o que foi testado.

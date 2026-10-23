@@ -2,7 +2,7 @@
 title: "🎯 Operações"
 date: 2026-10-22
 tags: [operacoes]
-description: Regras de compra testadas no Ibovespa, com placar ao vivo desde 23/10/2026
+description: "Regras de compra testadas no Ibovespa, com placar ao vivo desde 23/10/2026"
 ---
 
 Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/2026**. Daqui para frente cada operação entra no **placar ao vivo**, o único resultado sem nenhum ajuste ao histórico. Nenhuma regra de venda passou nos testes ([por quê](metodologia/o-que-nao-passou)).

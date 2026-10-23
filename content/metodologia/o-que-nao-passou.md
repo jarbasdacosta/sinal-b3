@@ -2,7 +2,7 @@
 title: "🧪 O que testamos e não passou"
 date: 2026-10-22
 tags: [metodologia]
-description: Venda, radar, harami, envelope do Nadaraya e outros
+description: "Venda, radar, harami, envelope do Nadaraya e outros"
 ---
 
 Também faz parte do método registrar o que **não** funcionou — para não cair na tentação de usar depois. Em todos os casos o teste foi o mesmo das regras aprovadas.

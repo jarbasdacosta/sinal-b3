@@ -2,7 +2,7 @@
 title: "📍 Sinais — metodologia"
 date: 2026-10-22
 tags: [metodologia]
-description: Sinais de topo e fundo, sinais raros e alerta de topo
+description: "Sinais de topo e fundo, sinais raros e alerta de topo"
 ---
 
 Os **Sinais de Topo e Fundo** combinam candles de **Oliver Velez** (bottom tail, top tail, bull/bear 180, elefantes) com **RSI** (Wilder), **CCI** (Lambert), **MACD-V** (Spiroglou) e **Bandas de Bollinger**, em cada tempo gráfico. Só entram os que tiveram vantagem sobre o acaso no Ibovespa 2000–2026; **forte** = vantagem em 2000–2014 **e** em 2015–2026, com pelo menos 2,5× o acaso. O passo a passo de leitura (ingredientes, cada sinal, como usar, o indicador no MT5) está no **[tutorial](sinais-topo-fundo/tutorial)**.

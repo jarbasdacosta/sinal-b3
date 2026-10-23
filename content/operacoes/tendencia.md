@@ -2,7 +2,7 @@
 title: "📈 Tendência MME9"
 date: 2026-10-22
 tags: [operacoes]
-description: Só compra, diário e semanal: rompimento do candle que fecha acima da MME9
+description: "Só compra, diário e semanal: rompimento do candle que fecha acima da MME9"
 ---
 
 > [!example] 📈 Tendência MME9 — só compra · 🧪 em teste ao vivo desde 23/10/2026

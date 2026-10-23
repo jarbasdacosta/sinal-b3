@@ -2,7 +2,7 @@
 title: "📋 Últimas operações"
 date: 2026-10-22
 tags: [operacoes]
-description: Operações recentes de todas as regras de compra
+description: "Operações recentes de todas as regras de compra"
 ---
 
 Operações recentes de todas as regras. 🧪 = operação do teste ao vivo (desde 23/10/2026); as demais são simuladas no histórico com as mesmas regras.

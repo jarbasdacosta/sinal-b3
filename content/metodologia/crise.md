@@ -2,7 +2,7 @@
 title: "🌊 Sinal de Crise — metodologia"
 date: 2026-10-22
 tags: [metodologia]
-description: IMA Wavelet (Caetano) e LPPL (Sornette) no Ibovespa
+description: "IMA Wavelet (Caetano) e LPPL (Sornette) no Ibovespa"
 ---
 
 <!-- v7-creditos -->
