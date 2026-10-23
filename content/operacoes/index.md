@@ -24,14 +24,14 @@ Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/20
 
 ## Agora
 
-| Regra | Situação | Nota |
-|---|---|---|
-| [📈 Tendência MME9 · Diário](operacoes/tendencia) | Diário 🟢 comprado desde 02/10 (+8,7%) · ⚠️ zera abaixo de 203.052 | 🧪 ao vivo |
-| [📈 Tendência MME9 · Semanal](operacoes/tendencia) | Semanal 🟢 comprado desde 31/08 (+15,7%) | 🧪 ao vivo |
-| [🎯 Diário · Nadaraya](operacoes/entradas) | 🟢 comprado desde 25/08 (+16,9%) | ✅ passou fora da amostra |
-| [🎯 Semanal · Semáforo N2](operacoes/entradas) | — sem setup | ✅ o ganho vem do setup |
-| [🎯 H4 · Semáforo N2](operacoes/entradas) | — sem setup | 🧪 em teste |
-| [🎯 Diário · Semáforo N3 após ζ Fundo](operacoes/entradas) | — sem setup | 🧪 em observação |
+| Regra | Situação | Nota | Validação ao vivo |
+|---|---|---|---|
+| [📈 Tendência MME9 · Diário](operacoes/tendencia) | Diário 🟢 comprado desde 02/10 (+8,7%) · ⚠️ zera abaixo de 203.052 | 🧪 em teste ao vivo | 0 de 10 operações ao vivo |
+| [📈 Tendência MME9 · Semanal](operacoes/tendencia) | Semanal 🟢 comprado desde 31/08 (+15,7%) | 🧪 em teste ao vivo | 0 de 10 operações ao vivo |
+| [🎯 Diário · Nadaraya](operacoes/entradas) | 🟢 comprado desde 25/08 (+16,9%) | ✅ passou fora da amostra | 0 de 10 operações ao vivo |
+| [🎯 Semanal · Semáforo N2](operacoes/entradas) | — sem setup | ✅ o ganho vem do setup | 0 de 10 operações ao vivo |
+| [🎯 H4 · Semáforo N2](operacoes/entradas) | — sem setup | 🧪 em teste | 0 de 10 operações ao vivo |
+| [🎯 Diário · Semáforo N3 após ζ Fundo](operacoes/entradas) | — sem setup | 🧪 em observação | 0 de 10 operações ao vivo |
 
 ## 🧪 Placar ao vivo (desde 23/10/2026)
 
@@ -41,6 +41,7 @@ _Nenhuma operação encerrada ainda._ Posições abertas antes de 23/10 aparecem
 > - **Agora:** a situação de cada regra — comprada, aguardando o gatilho (já houve o setup) ou sem setup.
 > - **🧪 Placar ao vivo:** só operações encerradas que começaram a partir de 23/10/2026, com as regras congeladas. É o único resultado sem nenhum ajuste ao histórico.
 > - **📅 Histórico por ano:** todas as operações simuladas desde 2000 e as ao vivo, ano a ano, por regra.
+> - **Validação ao vivo** (critério definido em 23/10/2026, antes de qualquer resultado): com **10 operações ao vivo**, média positiva e resultado fora dos 25% piores que o histórico da regra permitiria → ✅ validada. A partir de 5 operações, se cair entre os 5% piores → ⚠️ abaixo do esperado; com 10, se continuar lá (ou a sequência de perdas for pior que a pior do histórico) → ❌ suspensão sugerida. **Nada é desligado sozinho:** chega um aviso no Telegram e a decisão é sua.
 >
 > **Stops** — toda operação entra com stop definido; se o preço abre além dele (gap), conta o preço de abertura:
 >

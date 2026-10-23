@@ -61,6 +61,19 @@ Todas: no máximo 60 candles por operação; reentrada permitida dentro da janel
 - **Stops apertados pioram** o resultado. O stop de 10% praticamente não muda o histórico e protege de um tombo grande sem sinal.
 - **Menos da metade das operações dá lucro** (40% no diário, 48% no semanal) e a perda é limitada pelo stop; o resultado vem das poucas que pegam uma tendência longa (até +22% no diário e +60% no semanal). É preciso disciplina para seguir todas.
 
+### Critério de validação ao vivo (definido em 23/10/2026)
+
+Para não cair no mesmo viés de escolha, o critério foi fixado **antes** de qualquer resultado ao vivo e vale igual para todas as regras. O placar ao vivo de cada regra é comparado com 5.000 sequências do mesmo tamanho sorteadas do histórico dela (assim uma regra que acerta 40% não é condenada por 3 perdas seguidas):
+
+| Status | Critério |
+|---|---|
+| 🧪 em teste / em observação | ponto de partida |
+| ✅ **validada ao vivo** | 10 operações ao vivo, média positiva depois do custo e resultado fora dos 25% piores possíveis pelo histórico |
+| ⚠️ **abaixo do esperado** | a partir de 5 operações, resultado entre os 5% piores |
+| ❌ **suspensão sugerida** | com 10 operações, continua entre os 5% piores, ou a sequência de perdas é pior que a pior do histórico para o mesmo número de operações |
+
+**Nada é desligado automaticamente:** a mudança de status gera um aviso no Telegram e a decisão de suspender ou promover é manual. Pelas frequências históricas, chegar a 10 operações leva uns 8 meses na Tendência diária, 15 meses no H4, ~3 anos no Nadaraya e na Tendência semanal e bem mais no Semáforo semanal e no ζ → N3.
+
 <!-- v16 -->
 ### Tempos curtos: H4 e H2 (23/10/2026)
 
