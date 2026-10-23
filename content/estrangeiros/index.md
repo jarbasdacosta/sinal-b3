@@ -5,7 +5,7 @@ description: "Compras e vendas dos investidores estrangeiros no mercado à vista
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 18:35.*
+*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 18:37.*
 
 > [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
 > No ano de 2026: **+R$ 52,2 bi**
@@ -91,7 +91,10 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 | 2015 ¹ | **+R$ 16,3 bi** |
 | 2014 ¹ | **+R$ 19,3 bi** |
 | 2013 ¹ | **+R$ 12,0 bi** |
-| 2012 ¹ | **−R$ 4,3 bi** |
+| 2012 ¹ | **+R$ 217 mi** |
+| 2011 ¹ | **−R$ 2,3 bi** |
+| 2010 ¹ | **+R$ 9,1 bi** |
+| 2009 ¹ | **+R$ 18,5 bi** |
 
 *Anos com ¹: soma dos meses pelas postagens diárias do Pai Rico (dado diário da B3, sem IPOs, follow-ons e negócios em bloco — por isso pode diferir um pouco do total oficial).*
 
