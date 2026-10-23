@@ -62,11 +62,15 @@ Estudo com **6.370 pregões** (2000–2026). O ζ foi calculado **como teria sid
 | Situação | O que aconteceu depois | vs. referência | Confiança |
 |---|---|---|---|
 | 🚀 **ζ Topo sobe para 30–60%** (vindo de menos de 30%) | Subiu em **69%** das vezes no mês e **70%** em 3 meses; caiu 5%+ no mês só **24%** | 56% / 60% / 31% | ⭐⭐⭐ (78 casos) |
-| 📉 **ζ Topo desinfla** (cai abaixo de 45% depois de passar de 60%) | Caiu 5%+ em **39%** das vezes em 20 pregões; **60%** em 60 pregões | 31% / 52% | ⭐⭐ (56 casos) |
-| 📉 **ζ Topo desinfla do 🔴** (cai abaixo de 75% depois de passar de 90%) | Caiu 5%+ em **45%** das vezes em 20 pregões | 31% | ⭐⭐ (31 casos) |
+| 📉 **ζ Topo desinfla do 🔴** (cai abaixo de 75% depois de passar de 90%) | Caiu 5%+ em **45%** das vezes em 20 pregões; mesma direção nos dois períodos, mas pode ser acaso | 31% | ⭐ (31 casos) |
 | 🔪 **ζ Fundo dispara** (passa de 90%) | Subiu só **42%** das vezes em 60 pregões; retorno mediano **−1,9%** | 60% / +3,3% | ⭐⭐⭐ (31 casos) |
-| 🌱 **ζ Fundo desinfla** (cai abaixo de 75% depois de passar de 90%) | Subiu em **66%** das vezes em 60 pregões; retorno mediano **+4,8%** | 60% / +3,3% | ⭐ (32 casos) |
+| 📉 **ζ Topo desinfla** do 🟡 (cai abaixo de 45% depois de passar de 60%) | **Só contexto:** caiu 5%+ em 20 pregões em **32%** das vezes — igual a um dia qualquer | 31% | — (28 casos) |
+| 🌱 **ζ Fundo desinfla** (cai abaixo de 75% depois de passar de 90%) | **Só contexto:** subiu em 71% das vezes em 60 pregões em 2001–2013, mas **60%** em 2014–2026 — igual a um dia qualquer | 60% | — (32 casos) |
 | 🔴 **ζ Topo ≥ 90%** (estar na zona) | Chance de subir mais 5% em 20 pregões cai para **32%** | 41% | ⭐ |
+
+<!-- v20-eventos -->
+> [!warning] Revisão de 23/10/2026
+> Os eventos foram testados de novo **exatamente como o sistema dispara os alertas** (20 pregões entre eventos do mesmo tipo; o 📉 do 🟡 ignorado logo depois do 📉 do 🔴), separando 2001–2013 e 2014–2026, contra 5.000 sorteios de dias quaisquer. **Confirmados nos dois períodos:** 🚀 Força (subiu em 20 pregões em 68% e 70% das vezes, contra 55% e 57%) e 🔪 Queda forte (subiu em 60 pregões em 47% e 36%, contra 59% e 62%). O 📉 do 🔴 manteve a direção, mas sem força estatística (⭐). O **📉 do 🟡** e o **🌱 Fundo se desfazendo** não se confirmaram e passaram a ser **só contexto** — os números anteriores vinham de uma contagem sem as regras do alerta. No mesmo dia, as versões do ζ do livro *Mudanças Abruptas no Mercado Financeiro* (janela de 60 dias, tendência linear, escalas até 140) também foram testadas e ficaram piores que a atual; **o cálculo do ζ não mudou**.
 
 > [!info]- Como ler as estrelas (clique para expandir)
 > Cada situação foi comparada com **5.000 sorteios de datas aleatórias**. ⭐⭐⭐ = no período completo, o resultado ficou entre os **5%** mais extremos dos sorteios, e a direção se repetiu nos dois períodos. ⭐⭐ = entre os **11%** mais extremos, mesma direção nos dois períodos. ⭐ = mesma direção nos dois períodos, mas dentro do que o acaso explica. Como testamos dezenas de combinações, algumas parecem boas por acaso; por isso só entram aqui as que se repetiram nas duas metades da história.
@@ -82,8 +86,8 @@ Pense no ζ como um **semáforo de contexto** para o seu método, não como um b
 > [!success] 🚀 Momento de força — ζ Topo subindo para 30–60%
 > O preço começou a se afastar da tendência para cima, mas ainda não esticou demais. **Historicamente, a alta continuou**: 69% subiu no mês seguinte e 70% em 3 meses, com **menos** risco de queda que um dia qualquer (24% contra 31%). Favorece **manter ou montar posição comprada** e dar espaço ao movimento. Só vale quando o ζ Topo **sobe** de menos de 30% — quando ele cai de cima para essa faixa, o resultado foi igual ao acaso.
 
-> [!tip] 🌱 Fundo se desfazendo — ζ Fundo caindo de volta abaixo de 75%
-> Depois de uma queda forte (ζ Fundo ≥ 90%), o esticamento para baixo começa a desaparecer. É **o melhor momento estatístico para comprar depois de uma queda**: 66% subiu em 3 meses, contra 42% de quem comprou no auge do pânico. A vantagem sobre um dia qualquer é pequena — o ganho real é **evitar comprar cedo demais**.
+> [!note] 🌱 Fundo se desfazendo — ζ Fundo caindo de volta abaixo de 75% (só contexto)
+> Depois de uma queda forte (ζ Fundo ≥ 90%), o esticamento para baixo começa a desaparecer: o pânico passou. Em 2001–2013, 71% subiu em 3 meses; em 2014–2026, **60% — igual a um dia qualquer**. Não há vantagem confirmada para comprar só por isso. O que continua valendo é o lado do 🔪: **não comprar no auge do pânico**.
 
 > [!danger] 🔪 Não segure a faca — ζ Fundo disparando (≥ 90%)
 > Parece barato, mas **historicamente a queda continuou**: só 42% subiu em 3 meses, e metade das vezes ainda caiu mais 5% no mês seguinte. **Espere o ζ Fundo começar a cair.**
@@ -94,7 +98,7 @@ Pense no ζ como um **semáforo de contexto** para o seu método, não como um b
 > O preço está bem acima da tendência. **Isso, sozinho, não é sinal de queda**: o índice continuou subindo tanto quanto num dia qualquer. Mas o **potencial de alta encolhe** (no 🔴, chance de subir mais 5% cai de 41% para 32%). Bom momento para **não aumentar posição, subir o stop e realizar parte do lucro**.
 
 > [!failure] 📉 Esticamento desinflando — ζ Topo caindo
-> **Este é o momento de risco.** Quando o ζ Topo volta para baixo de 45% depois de ter passado de 60% (ou abaixo de 75% depois de 90%), a chance de uma queda de 5%+ no mês seguinte sobe de 31% para 39–45%. Favorece **reduzir exposição comprada ou proteger** (hedge, stop mais curto).
+> Quando o ζ Topo volta para baixo de **75% depois de ter passado de 90%** (o 🔴), a chance de uma queda de 5%+ no mês seguinte foi de **45%**, contra 31% num dia qualquer — mesma direção em 2001–2013 e 2014–2026, mas com 31 casos pode ser acaso. Favorece **proteger** (stop mais curto, hedge parcial). Já a volta abaixo de 45% depois de 60% (o 🟡) **não teve vantagem** (32% contra 31%): é só contexto — o esticamento acabou.
 
 ### Neutro
 
@@ -107,9 +111,10 @@ Pense no ζ como um **semáforo de contexto** para o seu método, não como um b
 |---|---|
 | ζ Topo **subindo** para 30–60% | 🟢 manter / comprar |
 | ζ Topo ≥ 60% | 🟡 não aumentar, subir stop, realizar parcial |
-| ζ Topo **caindo** de volta | 🟠 proteger / reduzir |
+| ζ Topo **caindo** de volta do 🔴 (abaixo de 75%) | 🟠 proteger (vantagem pequena) |
+| ζ Topo **caindo** de volta do 🟡 (abaixo de 45%) | ⚪ só contexto |
 | ζ Fundo **disparando** ≥ 90% | ⛔ não comprar ainda |
-| ζ Fundo **caindo** de volta | 🟢 comprar com stop |
+| ζ Fundo **caindo** de volta | ⚪ só contexto (o pânico passou) |
 | Tudo abaixo de 30% | ⚪ neutro |
 
 > [!important] Horizonte
@@ -128,15 +133,15 @@ Pense no ζ como um **semáforo de contexto** para o seu método, não como um b
 
 ## 5. Os alertas (v5.3)
 
-O **e-mail e o Telegram do diário (19h)** só disparam nos dias em que acontece um dos 5 eventos — os momentos em que a estatística mostrou vantagem:
+O **e-mail e o Telegram do diário (19h)** só disparam nos dias em que acontece um dos 5 eventos (dois deles, desde 23/10/2026, são só contexto):
 
 | Alerta | Dispara quando | Estatística favorece |
 |---|---|---|
 | 🚀 **Força** | ζ Topo sobe de menos de 30% para 30–60% | manter / comprar |
-| 📉 **Esticamento desinflando** | ζ Topo volta abaixo de 45% depois de passar de 60% | proteger / reduzir |
-| 📉 **Esticamento extremo desinflando** | ζ Topo volta abaixo de 75% depois de passar de 90% | proteger / reduzir |
+| 📉 **Esticamento desinflando** | ζ Topo volta abaixo de 45% depois de passar de 60% | ⚪ só contexto |
+| 📉 **Esticamento extremo desinflando** | ζ Topo volta abaixo de 75% depois de passar de 90% | proteger (vantagem pequena) |
 | 🔪 **Queda forte** | ζ Fundo passa de 90% | não comprar ainda |
-| 🌱 **Fundo se desfazendo** | ζ Fundo volta abaixo de 75% depois de passar de 90% | comprar com stop |
+| 🌱 **Fundo se desfazendo** | ζ Fundo volta abaixo de 75% depois de passar de 90% | ⚪ só contexto |
 
 Historicamente são uns **8 a 10 alertas por ano**. Cada tipo de evento só se repete depois de 20 pregões, e o "desinflando" do amarelo é suprimido quando vem logo depois do "desinflando" do vermelho (é o mesmo episódio).
 
