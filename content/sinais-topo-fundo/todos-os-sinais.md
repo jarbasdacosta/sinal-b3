@@ -1,6 +1,6 @@
 ---
 title: Todos os sinais
-date: 2026-10-22
+date: 2026-10-23
 tags: [sinais]
 description: Histórico dos sinais de topo e fundo por tempo gráfico
 ---
@@ -84,4 +84,4 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 | 12/08/2026 10h | 🟢 FUNDO | **[FD+RSI](sinais-topo-fundo/todos-os-sinais#h4)** — Fechou fora→dentro da BB inferior + RSI≤30 | moderado | 50% | 2,5× |
 | 10/08/2026 10h | 🟢 FUNDO | **[BT+BB](sinais-topo-fundo/todos-os-sinais#h4)** — Bottom tail tocando a BB inferior | moderado | 53% | 3,1× |
 
-*Atualizado em 22/10/2026 22:04 BRT.*
+*Atualizado em 23/10/2026 09:41 BRT.*

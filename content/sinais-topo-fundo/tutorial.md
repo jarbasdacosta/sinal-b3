@@ -76,24 +76,27 @@ tags: [sinais, tutorial]
 
 ---
 
+<!-- v16-site -->
 ## 4. No site
 
-Os sinais de topo e fundo ficam numa **pasta própria**, separada do Sinal de Crise B3 (IMA + LPPL):
+Os sinais ficam na pasta **📍 [Sinais](sinais-topo-fundo/)**, separada do Sinal de Crise (IMA + LPPL) e das Operações:
 
-- **[Sinais de Topo e Fundo](sinais-topo-fundo/)** — atualizada todo dia às 19h: sinais do fechamento, fortes ainda na janela, sinais em formação e os últimos sinais fortes de todos os tempos gráficos.
+- **[📍 Sinais](sinais-topo-fundo/)** — atualizada todo dia às 19h: sinais do fechamento, fortes ainda na janela, sinais em formação, os **🎯 sinais raros de grande fundo**, o **⚠️ alerta raro de topo** e os últimos sinais fortes.
 - **[Todos os sinais](sinais-topo-fundo/todos-os-sinais)** — histórico de cada tempo gráfico, fortes e moderados.
+- **[📈 Gráficos](tecnico/)** — os sinais marcados nos candles do mensal, semanal e diário.
 
-**Como os fortes chamam atenção:**
+**Como eles chamam atenção:**
 
 | Situação | Onde aparece | Como |
 |---|---|---|
-| 🔥 **Sinal forte novo** | Topo da página inicial, do relatório diário e da página dos sinais | Bloco grande, com borda grossa e piscando, verde (fundo) ou vermelho (topo) |
-| 🔥 **Sinal forte novo** | **Telegram** | Mensagem às 19h com o sinal, o acerto e o link (uma vez por sinal) |
-| 🔥 **Forte ainda na janela** | Topo da página inicial e dos sinais | Bloco menor com "2º de 3 pregões da janela" — o pivô ainda pode estar se formando |
-| 🔥 **Forte em formação** | Topo da página inicial e dos sinais | Aviso amarelo: semanal/mensal que pode sumir até o candle fechar |
-| Sinal moderado | Página inicial e dos sinais | Nota discreta, sem Telegram |
+| 🔥 **Sinal forte de fundo** | Página inicial (só no dia) e página dos Sinais; **Telegram** às 19h | Bloco verde grande, uma vez por sinal |
+| 🔥 **Forte ainda na janela** / **em formação** | Página inicial e dos Sinais | Bloco menor ("2º de 3 pregões da janela") ou aviso amarelo (semanal/mensal antes de fechar) |
+| 🎯 **Sinal raro de grande fundo** | Página inicial, Sinais e **Telegram** | Bloco verde com quantas vezes apareceu desde 2001 e o que veio em 12 meses |
+| ⚠️ **Alerta raro de topo (mensal)** | Página inicial, Sinais e **Telegram** (no mês em que confirmar) | Bloco laranja: aviso de **proteção**, não de venda |
+| 🟠 **Topo (proteção)** | Página dos Sinais | Nunca é "forte" e não vai para o Telegram: depois dos topos o índice subiu como num dia qualquer |
+| Sinal moderado | Página dos Sinais | Linha discreta, sem Telegram |
 
-**Janela** = quantos candles depois do sinal o topo/fundo costumava aparecer no estudo: 1 no mensal, 2 no semanal, 3 no diário e no H4.
+**Janela** = quantos candles depois do sinal o fundo costumava aparecer no estudo: 1 no mensal, 2 no semanal, 3 no diário e no H4.
 
 **Semanal** só conta na sexta (candle fechado) e **mensal** só no último pregão do mês; antes disso aparecem como "em formação".
 
@@ -103,9 +106,11 @@ Os sinais de topo e fundo ficam numa **pasta própria**, separada do Sinal de Cr
 
 **Instalar:**
 
-1. Copie `SinaisTopoFundo_v1.mq5` para a pasta `MQL5/Indicators/Jarbas/` do MT5.
+1. Copie `SinaisTopoFundo_v3.mq5` (a versão atual) para a pasta `MQL5/Indicators/Jarbas/` do MT5.
 2. Abra no MetaEditor e compile (F7).
 3. Arraste o indicador para um gráfico do **IBOV** (ou WIN) em **MN1, W1, D1 ou H4**.
+
+> [!note] A v3 ainda não tem os 🎯 sinais raros, os topos como proteção nem a Tendência MME9 (v4 em preparação). No site está tudo atualizado.
 
 **O que aparece:**
 

@@ -34,7 +34,7 @@ Todas: no máximo 60 candles por operação; reentrada permitida dentro da janel
 | Diário · venda | +0,5% (faixa inclui perda) | −0,2% | **73%** | overfitting ❌ |
 | Semanal · venda | −2,5% | −0,3% | 31% | não funciona ❌ |
 
-*O backtest das regras escolhidas mostrava +3,2% (diário) e +15,8% (semanal) por operação; fora da amostra a expectativa realista é de **+2% a +3%** no diário e **~+5%** no semanal, com poucas operações por ano. O H4 tem só 2 anos de dados e não pôde ser testado fora da amostra. A lista de quais sinais são fortes ou moderados também saiu destes dados — mais uma razão para acompanhar o placar ao vivo. Custo de 0,05% por operação, índice à vista, sem impostos (no WIN o comprado paga o carrego dos juros). Estatística histórica, não recomendação.*
+*O backtest das regras escolhidas mostrava +3,2% (diário) e +15,8% (semanal) por operação; fora da amostra a expectativa realista é de **+2% a +3%** no diário e **~+5%** no semanal, com poucas operações por ano. O H4 tem só ~3 anos de dados e não pôde ser testado fora da amostra; em 23/10/2026 foi conferido contra 2000 entradas ao acaso (nenhuma igualou o resultado) e passou a **avisar no Telegram**, ainda como 🧪 em teste. A lista de quais sinais são fortes ou moderados também saiu destes dados — mais uma razão para acompanhar o placar ao vivo. Custo de 0,05% por operação, índice à vista, sem impostos (no WIN o comprado paga o carrego dos juros). Estatística histórica, não recomendação.*
 
 ## Tendência MME9
 
@@ -60,6 +60,19 @@ Todas: no máximo 60 candles por operação; reentrada permitida dentro da janel
 - **Vender** (ficar sempre posicionado, comprado ou vendido) **não funcionou**: a venda perde dinheiro no Ibovespa. Por isso, só compra.
 - **Stops apertados pioram** o resultado. O stop de 10% praticamente não muda o histórico e protege de um tombo grande sem sinal.
 - **Menos da metade das operações dá lucro** (40% no diário, 48% no semanal) e a perda é limitada pelo stop; o resultado vem das poucas que pegam uma tendência longa (até +22% no diário e +60% no semanal). É preciso disciplina para seguir todas.
+
+<!-- v16 -->
+### Tempos curtos: H4 e H2 (23/10/2026)
+
+As três regras de compra foram aplicadas, **sem mudar nenhum parâmetro**, nos candles de 4 horas (10–14h e 14–18h) e de 2 horas (10–12, 12–14, 14–16 e 16–18h), com o 60 minutos do Yahoo de nov/2023 a out/2026 (~3 anos). Comparação com 2000 sorteios de entradas ao acaso (mesmo número de operações e mesmas durações):
+
+| Regra | H2 | H4 | Diário (mesmo período) |
+|---|---|---|---|
+| Tendência MME9 | +0,39% · 121 op · acaso 11% | +0,37% · 68 op · acaso 45% | +0,92% · 39 op · acaso 27% |
+| Nadaraya h12 | +0,90% · 23 op · acaso 16% | +1,67% · 13 op · acaso 14% | +1,48% · 9 op · acaso 47% |
+| Semáforo N2 | +0,50% · 45 op · acaso 24% | **+2,84% · 23 op · acaso 0%** | +1,90% · 13 op · acaso 29% |
+
+*Média por operação · nº de operações · % dos sorteios ao acaso com média igual ou melhor (baixo = a entrada acrescenta algo).* Tudo ficou positivo, nas duas metades e com custo de 0,10% — as regras não quebram em tempos curtos —, mas o Ibovespa subiu 62% no período e só o **Semáforo N2 no H4** se separou do acaso. Ele é a regra H4 que já estava em teste (os mesmos dados serviram para escolhê-la, então não é fora da amostra) e passou a avisar no Telegram. O **H2** não passou e o tempo curto não superou o diário: dá mais operações, com ganho menor por operação.
 
 > [!quote]- Aviso
 > Conteúdo educacional. Não constitui recomendação de investimento.

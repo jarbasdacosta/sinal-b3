@@ -36,6 +36,22 @@ Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/20
 ## 🧪 Placar ao vivo (desde 23/10/2026)
 
 _Nenhuma operação encerrada ainda._ Posições abertas antes de 23/10 aparecem como simuladas e não entram no placar.
+> [!note]- 📘 Como ler esta página (posições, placar e stops)
+> - **🟢 Posições em aberto:** cada compra que está aberta agora, com preço de entrada, stop, resultado até o último fechamento, há quantos candles está aberta e **quando sai**. *Simulada* = começou antes de 23/10/2026 (mesmas regras, mas não conta no placar); **🧪 ao vivo** = começou depois.
+> - **Agora:** a situação de cada regra — comprada, aguardando o gatilho (já houve o setup) ou sem setup.
+> - **🧪 Placar ao vivo:** só operações encerradas que começaram a partir de 23/10/2026, com as regras congeladas. É o único resultado sem nenhum ajuste ao histórico.
+> - **📅 Histórico por ano:** todas as operações simuladas desde 2000 e as ao vivo, ano a ano, por regra.
+>
+> **Stops** — toda operação entra com stop definido; se o preço abre além dele (gap), conta o preço de abertura:
+>
+> | Regra | Stop inicial | Move? | Saída normal |
+> |---|---|---|---|
+> | Tendência MME9 | 10% abaixo da entrada | não | candle fecha abaixo da MME9 e o preço rompe a mínima dele |
+> | Diário · Nadaraya | menor mínima dos 5 pregões antes da entrada | não | linha rápida cruza para baixo, ou 60 pregões |
+> | Semanal/H4 · Semáforo N2 e ζ → N3 | mínima do fundo do semáforo | vai para a entrada quando o lucro iguala o risco | topo do semáforo N3 fixo, ou 60 candles |
+>
+> Na Tendência e no Nadaraya o stop não acompanha o preço: o lucro é protegido pela **regra de saída**. Stops mais apertados pioraram o resultado nos testes. Avisos no Telegram: entrada, preparar compra, sinal de saída, saída e stops (H4 por volta das 14h e às 19h; o resto às 19h).
+
 
 ## Páginas
 

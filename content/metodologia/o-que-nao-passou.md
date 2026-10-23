@@ -20,6 +20,7 @@ Também faz parte do método registrar o que **não** funcionou — para não ca
 | **Harami** (qualquer, confirmado, clássico) | Sem valor sozinho; o semanal com a mãe abaixo da Bollinger não passou no teste (30% perto de grande fundo) |
 | **Stops fixos ou em % na Tendência MME9** | Stops apertados pioram; só o de 10% (proteção) não atrapalha |
 | **Tendência MME9 no semanal** | Rende quase o mesmo que comprar e segurar; o ganho é a queda máxima menor |
+| **Regras nos candles de 2 horas (H2)** | Positivas, mas nenhuma se separou de entradas ao acaso em ~3 anos de dados (23/10/2026). Só o Semáforo N2 no H4 passou |
 
 ## Venda em mercado de baixa — detalhes
 
