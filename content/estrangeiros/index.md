@@ -5,7 +5,7 @@ description: "Compras e vendas dos investidores estrangeiros no mercado à vista
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 17:57.*
+*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 18:35.*
 
 > [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
 > No ano de 2026: **+R$ 52,2 bi**
@@ -13,6 +13,35 @@ tags: [estrangeiros]
 Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **mercado à vista** da B3 (ações). Positivo = entrou dinheiro de fora; negativo = saiu.
 
 ![Capital estrangeiro na B3](graficos/estrangeiros_20261023.png)
+
+## Dia a dia
+
+> [!success] 21/10/2026: **+R$ 157 mi** · 2 pregão(ões) seguido(s) de entrada
+> Últimos 5 pregões: **+R$ 1,6 bi** · últimos 20: **+R$ 19,6 bi**
+
+![Capital estrangeiro dia a dia](graficos/estrangeirosdia_20261021.png)
+
+| Dia | Saldo do dia | Acumulado do mês |
+|---|---|---|
+| 21/10/2026 | **+R$ 157 mi** | +R$ 20,2 bi |
+| 20/10/2026 | **+R$ 18 mi** | +R$ 20,0 bi |
+| 19/10/2026 | **−R$ 1,0 bi** | +R$ 20,0 bi |
+| 16/10/2026 | **+R$ 2,2 bi** | +R$ 21,0 bi |
+| 15/10/2026 | **+R$ 213 mi** | +R$ 18,7 bi |
+| 14/10/2026 | **+R$ 708 mi** | +R$ 18,5 bi |
+| 13/10/2026 | **+R$ 2,1 bi** | +R$ 17,8 bi |
+| 09/10/2026 | **+R$ 1,0 bi** | +R$ 15,8 bi |
+| 08/10/2026 | **+R$ 1,6 bi** | +R$ 14,7 bi |
+| 07/10/2026 | **−R$ 628 mi** | +R$ 13,1 bi |
+| 06/10/2026 | **+R$ 1,1 bi** | +R$ 13,7 bi |
+| 05/10/2026 | **+R$ 10,1 bi** | +R$ 12,6 bi |
+| 02/10/2026 | **+R$ 2,3 bi** | +R$ 2,6 bi |
+| 01/10/2026 | **+R$ 268 mi** | +R$ 268 mi |
+| 30/09/2026 | **+R$ 322 mi** | +R$ 9,1 bi |
+
+**Posição dos estrangeiros no índice futuro** (última publicada, 01/09/2017): comprada em 3.065 contratos — a B3 mudou a forma de divulgar esse dado e ele deixou de ser publicado.
+
+*Dia a dia: postagens diárias do [Clube do Pai Rico](https://www.clubedopairico.com.br/) com o dado da B3 (4138 pregões desde 05/02/2009).*
 
 ## Mês a mês
 
@@ -40,6 +69,10 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 | mar/2025 | R$ 272 bi | R$ 269 bi | R$ 344 mi | **+R$ 3,5 bi** | 🟩🟩 | +R$ 11,0 bi |
 | fev/2025 | R$ 289 bi | R$ 289 bi | — | **+R$ 699 mi** | 🟩 | +R$ 7,5 bi |
 | jan/2025 | R$ 289 bi | R$ 282 bi | — | **+R$ 6,8 bi** | 🟩🟩🟩 | +R$ 6,8 bi |
+| dez/2024 ¹ | — | — | — | **+R$ 879 mi** | 🟩 | −R$ 32,9 bi |
+| nov/2024 ¹ | — | — | — | **−R$ 3,1 bi** | 🟥 | −R$ 33,8 bi |
+
+*¹ mês pelas postagens diárias do Clube do Pai Rico (o arquivo da B3 ainda não cobre).*
 
 ## Por ano
 
@@ -55,6 +88,12 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 | 2018 | **−R$ 4,8 bi** |
 | 2017 | **+R$ 39,6 bi** |
 | 2016 | **+R$ 19,5 bi** |
+| 2015 ¹ | **+R$ 16,3 bi** |
+| 2014 ¹ | **+R$ 19,3 bi** |
+| 2013 ¹ | **+R$ 12,0 bi** |
+| 2012 ¹ | **−R$ 4,3 bi** |
+
+*Anos com ¹: soma dos meses pelas postagens diárias do Pai Rico (dado diário da B3, sem IPOs, follow-ons e negócios em bloco — por isso pode diferir um pouco do total oficial).*
 
 ## Participação no volume (compra + venda)
 
