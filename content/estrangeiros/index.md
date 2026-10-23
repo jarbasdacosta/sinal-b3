@@ -5,7 +5,7 @@ description: "Compras e vendas dos investidores estrangeiros no mercado à vista
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 18:37.*
+*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 18:56.*
 
 > [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
 > No ano de 2026: **+R$ 52,2 bi**
@@ -42,6 +42,44 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 **Posição dos estrangeiros no índice futuro** (última publicada, 01/09/2017): comprada em 3.065 contratos — a B3 mudou a forma de divulgar esse dado e ele deixou de ser publicado.
 
 *Dia a dia: postagens diárias do [Clube do Pai Rico](https://www.clubedopairico.com.br/) com o dado da B3 (4138 pregões desde 05/02/2009).*
+
+## Todos os tipos de investidor
+
+Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **quem está do outro lado** dos estrangeiros.
+
+![Saldo acumulado por tipo de investidor](graficos/investidores_20261021.png)
+
+| Tipo | 21/10 | 5 pregões | 20 pregões | 10/2026 | 2026 |
+|---|---|---|---|---|---|
+| Estrangeiro | **+R$ 157 mi** | +R$ 1,6 bi | +R$ 19,6 bi | +R$ 20,2 bi | +R$ 47,6 bi |
+| Institucional | **−R$ 753 mi** | −R$ 3,1 bi | −R$ 10,4 bi | −R$ 10,9 bi | −R$ 46,4 bi |
+| Pessoa física | **+R$ 970 mi** | +R$ 1,1 bi | −R$ 3,5 bi | −R$ 4,9 bi | +R$ 883 mi |
+| Inst. financeiras | **−R$ 430 mi** | +R$ 799 mi | −R$ 1,9 bi | −R$ 396 mi | −R$ 908 mi |
+| Outros | **+R$ 56 mi** | −R$ 433 mi | −R$ 3,8 bi | −R$ 4,0 bi | −R$ 1,2 bi |
+
+> [!note]- Últimos 15 pregões
+> | Dia | Estrangeiro | Institucional | Pessoa física | Inst. financeiras | Outros |
+> |---|---|---|---|---|---|
+> | 21/10 | +R$ 157 mi | −R$ 753 mi | +R$ 970 mi | −R$ 430 mi | +R$ 56 mi |
+> | 20/10 | +R$ 18 mi | +R$ 130 mi | +R$ 55 mi | −R$ 39 mi | −R$ 164 mi |
+> | 19/10 | −R$ 1,0 bi | +R$ 464 mi | +R$ 632 mi | −R$ 56 mi | −R$ 31 mi |
+> | 16/10 | +R$ 2,2 bi | −R$ 2,5 bi | −R$ 770 mi | +R$ 1,2 bi | −R$ 213 mi |
+> | 15/10 | +R$ 213 mi | −R$ 457 mi | +R$ 210 mi | +R$ 117 mi | −R$ 82 mi |
+> | 14/10 | +R$ 708 mi | −R$ 802 mi | +R$ 163 mi | −R$ 6 mi | −R$ 63 mi |
+> | 13/10 | +R$ 2,1 bi | −R$ 2,2 bi | +R$ 381 mi | −R$ 137 mi | −R$ 113 mi |
+> | 09/10 | +R$ 1,0 bi | −R$ 710 mi | −R$ 320 mi | +R$ 196 mi | −R$ 196 mi |
+> | 08/10 | +R$ 1,6 bi | −R$ 53 mi | +R$ 29 mi | −R$ 1,4 bi | −R$ 214 mi |
+> | 07/10 | −R$ 628 mi | +R$ 676 mi | +R$ 155 mi | +R$ 177 mi | −R$ 380 mi |
+> | 06/10 | +R$ 1,1 bi | −R$ 638 mi | −R$ 266 mi | +R$ 120 mi | −R$ 308 mi |
+> | 05/10 | +R$ 10,1 bi | −R$ 4,0 bi | −R$ 5,3 bi | +R$ 802 mi | −R$ 1,6 bi |
+> | 02/10 | +R$ 2,3 bi | −R$ 292 mi | −R$ 971 mi | +R$ 72 mi | −R$ 1,1 bi |
+> | 01/10 | +R$ 268 mi | +R$ 200 mi | +R$ 158 mi | −R$ 1,0 bi | +R$ 386 mi |
+> | 30/09 | +R$ 322 mi | +R$ 454 mi | −R$ 290 mi | −R$ 515 mi | +R$ 29 mi |
+
+> [!warning] Ainda não testado
+> Histórico atual: 246 pregões (24/10/2025 a 21/10/2026). Para o teste de treino e teste contra o acaso, falta o histórico desde 2010 (pedido de acesso à API). Até lá é **só informação** — não entra em sinal nem em contexto das compras.
+
+*Fonte: B3, via [Dados de Mercado](https://www.dadosdemercado.com.br/fluxo) (arquivo baixado à mão).*
 
 ## Mês a mês
 
@@ -121,6 +159,12 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 > 2. No G5: `scp ~/Downloads/RELATORIO_DADOS_DE_MERCADO.csv root@192.168.18.100:/root/`
 > 3. No Proxmox: `pct push 109 /root/RELATORIO_DADOS_DE_MERCADO.csv /opt/sinal-b3/dados/b3/RELATORIO_$(date +%F).csv`
 > A página atualiza na rodada das 19h. Uma vez por semana é suficiente; com dois arquivos do mesmo mês, aparece o fluxo entre eles.
+
+> [!info]- Como atualizar os 5 tipos de investidor (à mão)
+> 1. Em [dadosdemercado.com.br/fluxo](https://www.dadosdemercado.com.br/fluxo), clique em "Baixar em .csv".
+> 2. No G5: `scp ~/Downloads/fluxo-estrangeiro.csv root@192.168.18.100:/root/`
+> 3. No Proxmox: `pct push 109 /root/fluxo-estrangeiro.csv /opt/sinal-b3/dados/dm/fluxo_$(date +%F).csv`
+> Cada arquivo traz ~1 ano; os dias se juntam ao histórico. Uma vez por semana é suficiente.
 
 [📊 Amplitude](amplitude/) · [Operações](operacoes/) · [Sinais](sinais-topo-fundo/)
 
