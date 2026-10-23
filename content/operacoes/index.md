@@ -12,6 +12,16 @@ Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/20
 >
 > [Ver operações](operacoes/)
 
+## 🟢 Posições em aberto
+
+| Regra | Entrada | Stop | Agora | Candles | Sai quando | |
+|---|---|---|---|---|---|---|
+| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | 169.052 | **+8,7%** | 13 | ⚠️ zera abaixo de **203.052** (vale por mais 3 candles) | simulada |
+| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | 158.779 | **+15,7%** | 7 | quando um candle fechar abaixo da MME9 e o preço romper a mínima dele | simulada |
+| [Diário · Nadaraya](operacoes/entradas) | 25/08/26 a 174.577 | 166.335 | **+16,9%** | 40 | quando a linha rápida do Nadaraya cruzar para baixo | simulada |
+
+*Resultado até o último fechamento. Posições abertas antes de 23/10/2026 são simuladas no histórico e não entram no placar ao vivo.*
+
 ## Agora
 
 | Regra | Situação | Nota |

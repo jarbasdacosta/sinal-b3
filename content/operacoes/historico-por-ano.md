@@ -10,6 +10,16 @@ Todas as operações de cada regra de compra, **simuladas no histórico com as m
 > [!info] Por que alguns anos têm muito mais operações
 > A **Tendência MME9 diária** opera muito (cerca de 14 vezes por ano) e a **semanal** umas 3 vezes; as **Entradas do método** só operam depois de um sinal de fundo, então ficam anos sem nenhuma operação. O **H4** só tem dados desde 2024. A página [Últimas operações](operacoes/ultimas-operacoes) mostra só as mais recentes de cada regra, por isso lá aparecem quase só 2025 e 2026.
 
+## 🟢 Posições em aberto
+
+| Regra | Entrada | Stop | Agora | Candles | Sai quando | |
+|---|---|---|---|---|---|---|
+| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | 169.052 | **+8,7%** | 13 | ⚠️ zera abaixo de **203.052** (vale por mais 3 candles) | simulada |
+| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | 158.779 | **+15,7%** | 7 | quando um candle fechar abaixo da MME9 e o preço romper a mínima dele | simulada |
+| [Diário · Nadaraya](operacoes/entradas) | 25/08/26 a 174.577 | 166.335 | **+16,9%** | 40 | quando a linha rápida do Nadaraya cruzar para baixo | simulada |
+
+*Resultado até o último fechamento. Posições abertas antes de 23/10/2026 são simuladas no histórico e não entram no placar ao vivo.*
+
 ## Resultado por ano
 
 | Ano | Tendência Diário | Tendência Semanal | Diário · Nadaraya | Semanal · Semáforo N2 | H4 · Semáforo N2 | Diário · Semáforo N3 após ζ Fundo | Total |
