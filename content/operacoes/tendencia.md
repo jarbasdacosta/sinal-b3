@@ -13,8 +13,8 @@ description: "Só compra, diário e semanal: rompimento do candle que fecha acim
 >
 > | Tempo | Situação | Próximo passo | Histórico (ao ano · maior queda) |
 > |---|---|---|---|
-> | **Diário** | 🟢 **comprado** desde 02/10 a 187.835 · agora **+8,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou abaixo da MME9 (204.120 × 204.830)</small> | ⚠️ zera se passar abaixo de **203.052** em até 3 pregões · stop 169.052 | +13,9% · 35% <small>(comprar e segurar: +9,6% · 60%)</small> |
-> | **Semanal** | 🟢 **comprado** desde 31/08 a 176.421 · agora **+15,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou acima da MME9 (205.430 × 191.437)</small> | segue enquanto não fechar abaixo da MME9 · stop 158.779 | +9,3% · 29% <small>(comprar e segurar: +9,6% · 57%)</small> |
+> | **Diário** | 🟢 **comprado** desde 02/10 a 187.835 · agora **+8,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou abaixo da MME9 (204.120 × 204.830)</small> | ⚡ ⚠️ zera se passar abaixo de **203.052** *(ordem stop, vale durante o pregão)* em até 3 pregões · ⚡ stop 169.052 | +13,9% · 35% <small>(comprar e segurar: +9,6% · 60%)</small> |
+> | **Semanal** | 🟢 **comprado** desde 31/08 a 176.421 · agora **+15,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou acima da MME9 (205.430 × 191.437)</small> | segue enquanto não fechar abaixo da MME9 (⏱️ no fechamento) · ⚡ stop 158.779 (durante o pregão) | +9,3% · 29% <small>(comprar e segurar: +9,6% · 57%)</small> |
 >
 > **Últimas operações** (antes do teste ao vivo = simuladas no histórico)
 >

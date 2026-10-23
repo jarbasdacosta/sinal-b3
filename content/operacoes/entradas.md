@@ -11,7 +11,7 @@ description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo
 >
 > | Regra | Situação | Detalhes | Nota |
 > |---|---|---|---|
-> | [Diário · Nadaraya](tecnico/#diário) | 🟢 **comprado** desde 25/08 a 174.577 *(simulada: começou antes do teste ao vivo)* | stop 166.335 · agora +16,9% em 40 pregões · sai quando a linha rápida do Nadaraya cruzar para baixo · setup BT+BB (moderado) | ✅ passou fora da amostra |
+> | [Diário · Nadaraya](tecnico/#diário) | 🟢 **comprado** desde 25/08 a 174.577 *(simulada: começou antes do teste ao vivo)* | ⚡ stop 166.335 (durante o pregão) · agora +16,9% em 40 pregões · ⏱️ sai quando a linha rápida do Nadaraya cruzar para baixo (no fechamento) · setup BT+BB (moderado) | ✅ passou fora da amostra |
 > | [Semanal · Semáforo N2](tecnico/#semanal) | — sem setup | espera um sinal de fundo | ✅ o ganho vem do setup |
 > | [H4 · Semáforo N2](sinais-topo-fundo/todos-os-sinais#h4) | — sem setup | espera um sinal de fundo | 🧪 em teste |
 > | [Diário · Semáforo N3 após ζ Fundo](tecnico/#diário) | — sem setup | espera um sinal de fundo ou ζ Fundo ≥ 60% | 🧪 em observação |
