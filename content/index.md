@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 23/10/2026 14:30 BRT · Intraday 15min*
+*Última atualização: 23/10/2026 14:31 BRT · Intraday 15min*
 
 > [!success] Onde o mercado está agora (23/10 14:15, candles de 15 min): **🟢 Calmo**
 > `Pânico ◀─────────●───────────▶ Euforia`
@@ -35,11 +35,11 @@ tags: [home]
 
 | Data e hora | Módulo | Evento | Detalhe | 📲 |
 |---|---|---|---|---|
+| 22/10/2026 <small>18:00 fechamento</small> | Tendência · Diário | ⚠️ Ordem de venda armada (fechou abaixo da MME9) ⚡ | zera se passar abaixo de 203.052 em até 3 pregões → ainda valendo | 📜 |
 | 20/10/2026 | Crise · diário | 🟡 Zona mudou: VERDE → AMARELO |  | 📜 |
 | 20/10/2026 <small>14:00 fechamento</small> | Entradas · H4 · Semáforo N2 | ⚪ Venda no fechamento — saída do método (topo fixo do semáforo nível 3) ⏱️ | a 208.658 · **+11,4%** (compra de 01/10) | 📜 |
 | 13/10/2026 <small>14:00 fechamento</small> | Sinais · H4 | 🟠 Topo (proteção) · MV- ⏱️ | MACD-V vira verde sem brilho acima do limiar · acertou 62% · 3,8× o acaso | — |
 | 08/10/2026 <small>18:00 fechamento</small> | Sinais · Diário | 🟠 Topo (proteção) · FD+CCI ⏱️ | Fechou fora→dentro da BB superior + CCI≥200 · acertou 40% · 1,7× o acaso | — |
-| 06/10/2026 <small>18:00 fechamento</small> | Sinais · Diário | 🟠 Topo (proteção) · TT+RSI ⏱️ | Top tail + RSI≥70 · acertou 35% · 1,6× o acaso | — |
 
 *[Linha do tempo completa](linha-do-tempo/) — todo sinal, ordem, stop e aviso, do mais recente para o mais antigo. ⚡ = vale durante o pregão · ⏱️ = no fechamento.*
 
