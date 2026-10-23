@@ -7,16 +7,14 @@ description: "Só compra, diário e semanal: rompimento do candle que fecha acim
 
 > [!example] 📈 Tendência MME9 — só compra · 🧪 em teste ao vivo desde 23/10/2026
 >
-> 🌊 **Contexto do IMA para compras:** neutro, nenhum dos três contextos ativo — ζ Topo 78% · ζ Fundo 0% em 22/10 · *informa, não filtra*
+> 🌊 **Contexto do IMA para compras:** neutro, nenhum dos três contextos ativo — ζ Topo 79% · ζ Fundo 0% em 23/10 · *informa, não filtra*
 >
 > **Placar ao vivo:** nenhuma operação encerrada desde 23/10/2026.
 >
-> **Agora:** ⚠️ **sinal de saída** Diário
->
 > | Tempo | Situação | Próximo passo | Histórico (ao ano · maior queda) |
 > |---|---|---|---|
-> | **Diário** | 🟢 **comprado** desde 02/10 a 187.835 · agora **+8,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou abaixo da MME9 (204.120 × 204.830)</small> | ⚡ ⚠️ zera se passar abaixo de **203.052** *(ordem stop, vale durante o pregão)* em até 3 pregões · ⚡ stop 169.052 | +13,9% · 35% <small>(comprar e segurar: +9,6% · 60%)</small> |
-> | **Semanal** | 🟢 **comprado** desde 31/08 a 176.421 · agora **+15,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou acima da MME9 (205.430 × 191.437)</small> | segue enquanto não fechar abaixo da MME9 (⏱️ no fechamento) · ⚡ stop 158.779 (durante o pregão) | +9,3% · 29% <small>(comprar e segurar: +9,6% · 57%)</small> |
+> | **Diário** | 🟢 **comprado** desde 02/10 a 187.835 · agora **+9,2%** *(simulada: antes do teste ao vivo)*<br><small>fechou acima da MME9 (205.083 × 204.881)</small> | segue enquanto não fechar abaixo da MME9 (⏱️ no fechamento) · ⚡ stop 169.052 (durante o pregão) | +13,9% · 35% <small>(comprar e segurar: +9,6% · 60%)</small> |
+> | **Semanal** | 🟢 **comprado** desde 31/08 a 176.421 · agora **+16,2%** *(simulada: antes do teste ao vivo)*<br><small>fechou acima da MME9 (205.083 × 194.166)</small> | segue enquanto não fechar abaixo da MME9 (⏱️ no fechamento) · ⚡ stop 158.779 (durante o pregão) | +9,3% · 29% <small>(comprar e segurar: +9,6% · 57%)</small> |
 >
 > **Últimas operações** (antes do teste ao vivo = simuladas no histórico)
 >
@@ -31,7 +29,7 @@ description: "Só compra, diário e semanal: rompimento do candle que fecha acim
 >
 > 🌡️ **Radar de grande queda:** 0% (liga em 30%) · fora da zona de grande queda. *Só contexto: no estudo ele achou a região dos grandes fundos, mas avisa cedo demais para servir de compra.*
 >
-> <small>Atualizado 23/10 14:31. Histórico desde 2000, índice à vista, custo 0,05% por operação, sem impostos (no WIN o comprado paga o carrego dos juros).</small>
+> <small>Atualizado 23/10 19:12. Histórico desde 2000, índice à vista, custo 0,05% por operação, sem impostos (no WIN o comprado paga o carrego dos juros).</small>
 >
 > *Regra: um candle **fecha acima da MME9** → compra se o preço passar da máxima dele em até 3 candles. Um candle **fecha abaixo da MME9** → zera se o preço passar da mínima dele em até 3 candles. Stop de segurança 10% abaixo da entrada. No semanal o sinal só conta com a semana fechada, mas a ordem pode executar em qualquer dia. Funcionou com médias de 5 a 50 (não é ajuste fino), mas o histórico não é teste fora da amostra: o placar ao vivo é o que vale. [Metodologia](metodologia/regras-de-operacao#tendência-mme9). Leitura educacional do método, não recomendação.*
 

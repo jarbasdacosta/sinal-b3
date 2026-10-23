@@ -5,7 +5,7 @@ description: "Porcentagem das ações do Ibovespa acima das médias de 20, 50 e 
 tags: [amplitude]
 ---
 
-*Atualizado 23/10/2026 18:23 · fechamento de 23/10/2026.*
+*Atualizado 23/10/2026 19:14 · fechamento de 23/10/2026.*
 
 A **amplitude** mostra quantas ações do Ibovespa estão acompanhando o movimento do índice: a porcentagem das ações da carteira que estão **acima das suas médias** de 20, 50 e 200 pregões. O **sentimento** é a média das três. **Abaixo de 20**: quase todas as ações caindo — exaustão vendedora, região de fundos. **Acima de 80**: quase todas subindo — força generalizada (no teste, **não** aumentou o risco de queda).
 

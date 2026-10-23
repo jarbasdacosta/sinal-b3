@@ -14,9 +14,9 @@ Todas as operações de cada regra de compra, **simuladas no histórico com as m
 
 | Regra | Entrada | Stop | Agora | Candles | Sai quando | |
 |---|---|---|---|---|---|---|
-| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | ⚡ 169.052 | **+8,7%** | 13 | ⚡ **zera abaixo de 203.052** — ordem stop, vale durante o pregão (por mais 3 candles) | simulada |
-| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | ⚡ 158.779 | **+15,7%** | 7 | ⏱️ sinal no fechamento (candle fecha abaixo da MME9), depois ⚡ ordem stop na mínima dele | simulada |
-| [Diário · Nadaraya](operacoes/entradas) | 25/08/26 a 174.577 | ⚡ 166.335 | **+16,9%** | 40 | ⏱️ no fechamento: quando a linha rápida do Nadaraya cruzar para baixo | simulada |
+| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | ⚡ 169.052 | **+9,2%** | 14 | ⏱️ sinal no fechamento (candle fecha abaixo da MME9), depois ⚡ ordem stop na mínima dele | simulada |
+| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | ⚡ 158.779 | **+16,2%** | 7 | ⏱️ sinal no fechamento (candle fecha abaixo da MME9), depois ⚡ ordem stop na mínima dele | simulada |
+| [Diário · Nadaraya](operacoes/entradas) | 25/08/26 a 174.577 | ⚡ 166.335 | **+17,5%** | 41 | ⏱️ no fechamento: quando a linha rápida do Nadaraya cruzar para baixo | simulada |
 
 > [!warning] ⚡ = vale **durante o pregão** (ordem stop: deixe a ordem na plataforma; o sistema confere a cada 15 min, avisa 🚨 a 0,5% do nível e avisa quando executar) · ⏱️ = só no **fechamento** do candle
 

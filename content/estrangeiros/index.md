@@ -5,7 +5,7 @@ description: "Compras e vendas dos investidores estrangeiros no mercado à vista
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 18:56.*
+*Dados oficiais da B3 até 21/10/2026 · página atualizada 23/10/2026 19:14.*
 
 > [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
 > No ano de 2026: **+R$ 52,2 bi**

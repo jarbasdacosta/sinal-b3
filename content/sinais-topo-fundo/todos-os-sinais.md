@@ -23,10 +23,11 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 
 ## Semanal
 
-Últimos 104 candles: 11 sinais, **1 fortes**.
+Últimos 104 candles: 12 sinais, **1 fortes**.
 
 | Candle | Tipo | Sinal | Força | Acerto | vs. acaso |
 |---|---|---|---|---|---|
+| 23/10/2026 | 🟠 TOPO (proteção) | **[FD+CCI](tecnico/#semanal)** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 68% | 2,6× |
 | 10/04/2026 | 🟠 TOPO (proteção) | **[RSI75+MV](tecnico/#semanal)** — RSI≥75 e MACD-V≥130 | moderado | 56% | 1,6× |
 | 06/03/2026 | 🟠 TOPO (proteção) | **[MV-](tecnico/#semanal)** — MACD-V vira verde sem brilho acima do limiar | moderado | 46% | 2,0× |
 | 23/01/2026 | 🟠 TOPO (proteção) | **[RSI75+MV](tecnico/#semanal)** — RSI≥75 e MACD-V≥130 | moderado | 56% | 1,6× |
@@ -84,4 +85,4 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 | 12/08/2026 10h | 🟢 FUNDO | **[FD+RSI](sinais-topo-fundo/todos-os-sinais#h4)** — Fechou fora→dentro da BB inferior + RSI≤30 | moderado | 50% | 2,5× |
 | 10/08/2026 10h | 🟢 FUNDO | **[BT+BB](sinais-topo-fundo/todos-os-sinais#h4)** — Bottom tail tocando a BB inferior | moderado | 53% | 3,1× |
 
-*Atualizado em 23/10/2026 09:41 BRT.*
+*Atualizado em 23/10/2026 19:11 BRT.*
