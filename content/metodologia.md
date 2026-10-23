@@ -222,3 +222,33 @@ Todas: no máximo 60 candles por operação; reentrada permitida dentro da janel
 | Semanal · venda | −2,5% | −0,3% | 31% | não funciona ❌ |
 
 *O backtest das regras escolhidas mostrava +3,2% (diário) e +15,8% (semanal) por operação; fora da amostra a expectativa realista é de **+2% a +3%** no diário e **~+5%** no semanal, com poucas operações por ano. O H4 tem só 2 anos de dados e não pôde ser testado fora da amostra. A lista de quais sinais são fortes ou moderados também saiu destes dados — mais uma razão para acompanhar o placar ao vivo. Custo de 0,05% por operação, índice à vista, sem impostos (no WIN o comprado paga o carrego dos juros). Estatística histórica, não recomendação.*
+
+<!-- v10-tendencia -->
+## Tendência MME9
+
+> [!warning] Em teste ao vivo desde 23/10/2026
+> Regra simples, testada no Ibovespa 2000–2026. Não é teste fora da amostra; por isso, a partir de 23/10/2026 o site mostra um **placar ao vivo** separado.
+
+**Só compra**, no **Diário** e no **Semanal**:
+
+| | Regra |
+|---|---|
+| **Sinal de compra** | um candle **fecha acima da MME9** (o anterior fechou abaixo ou em cima) |
+| **Entrada** | o preço passa da **máxima desse candle** em até 3 candles (ordem stop de compra) |
+| **Sinal de saída** | um candle **fecha abaixo da MME9** |
+| **Saída** | o preço passa da **mínima desse candle** em até 3 candles |
+| **Stop de segurança** | 10% abaixo do preço de entrada |
+| **Semanal** | o sinal só conta com a semana fechada; a entrada e a saída podem acontecer em qualquer dia da semana |
+
+### O que os estudos mostraram (Ibovespa 2000–2026, custo 0,05% por operação)
+
+- **Diário:** cerca de **+14% ao ano** com maior queda de **34%**, contra +9,6% ao ano e 60% de queda de quem comprou e segurou (Sharpe 0,75 contra 0,34). Fica comprado só parte do tempo e fica de fora da maior parte das grandes quedas.
+- **Semanal:** cerca de **+10% ao ano** com maior queda de **24%**.
+- **Não é ajuste fino:** o resultado se manteve com médias simples de 5 a 50 no diário e de 8 a 21 no semanal.
+- **Vender** (ficar sempre posicionado, comprado ou vendido) **não funcionou**: a venda perde dinheiro no Ibovespa. Por isso, só compra.
+- **Stops apertados pioram** o resultado. O stop de 10% praticamente não muda o histórico e protege de um tombo grande sem sinal.
+- **Acerto baixo, ganho grande:** a maioria das operações é pequena ou perde um pouco; o resultado vem das poucas que pegam uma tendência longa. É preciso disciplina para seguir todas.
+
+### Radar de grande queda (só contexto)
+
+Nota de 0 a 100% de sobrevenda **ao mesmo tempo** no mensal, no semanal e no diário (Bollinger, CCI, RSI, MACD-V, distância das médias, bottom tail, haramis com a mãe abaixo da Bollinger e o ζ do IMA). As condições e o nível de alerta foram escolhidos só com 2001–2013 e testados em 2014–2026: o radar esteve ligado perto dos **7 grandes fundos** do período, com poucos alarmes falsos. **Mas avisa cedo:** em média o preço ainda caiu mais 13% nos 6 meses seguintes, e comprar no alerta rendeu menos do que comprar num dia qualquer. Esperar um gatilho de virada dentro da zona também não superou o acaso. Por isso ele aparece só como contexto ("estamos numa grande queda"), não como sinal de compra.

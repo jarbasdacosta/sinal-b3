@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 22/10/2026 19:48 BRT · Diário D1*
+*Última atualização: 22/10/2026 21:15 BRT · Diário D1*
 
 > [!warning] Onde o mercado está no fechamento de 22/10: **🟡 Esticado para cima**
 > `Pânico ◀──────────────────●──▶ Euforia`
@@ -42,6 +42,34 @@ tags: [home]
 > <small>Atualizado 22/10 19:48. Nota: ✅ passou no teste fora da amostra (walk-forward 2008–2026) · 🧪 em teste ou em observação, sem aviso no Telegram · 🧪 na tabela = operação do teste ao vivo.</small>
 >
 > *Regras: depois de um sinal de fundo, o Diário entra quando o Nadaraya vira para cima; o Semanal e o H4 entram quando um fundo do semáforo fica fixo. Stop e saída de cada regra na [metodologia](metodologia#entradas-do-método). Nenhuma regra de venda passou no teste. Os números do histórico têm viés de escolha (overfitting); o placar ao vivo é o que vale. Leitura educacional do método, não recomendação.*
+
+> [!example] 📈 Tendência MME9 — só compra · 🧪 em teste ao vivo desde 23/10/2026
+>
+> **Placar ao vivo:** nenhuma operação encerrada desde 23/10/2026.
+>
+> **Agora:** ⚠️ **sinal de saída** Diário
+>
+> | Tempo | Situação | Próximo passo | Histórico (ao ano · maior queda) |
+> |---|---|---|---|
+> | **Diário** | 🟢 **comprado** desde 02/10 a 187.835 · agora **+8,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou abaixo da MME9 (204.120 × 204.830)</small> | ⚠️ zera se passar abaixo de **203.052** em até 3 pregões · stop 169.052 | +13,9% · 35% <small>(comprar e segurar: +9,6% · 60%)</small> |
+> | **Semanal** | 🟢 **comprado** desde 31/08 a 176.421 · agora **+15,7%** *(simulada: antes do teste ao vivo)*<br><small>fechou acima da MME9 (205.430 × 191.437)</small> | segue enquanto não fechar abaixo da MME9 · stop 158.779 | +9,3% · 29% <small>(comprar e segurar: +9,6% · 57%)</small> |
+>
+> **Últimas operações** (antes do teste ao vivo = simuladas no histórico)
+>
+> | Tempo | Entrada | Saída | Resultado | Motivo |
+> |---|---|---|---|---|
+> | Diário | 24/08/26 a 171.980 | 24/09/26 a 185.676 | **+8,0%** | rompeu a mínima do candle que fechou abaixo da MME9 |
+> | Semanal | 04/08/26 a 178.719 | 10/08/26 a 172.131 | **-3,7%** | rompeu a mínima do candle que fechou abaixo da MME9 |
+> | Diário | 31/07/26 a 177.159 | 07/08/26 a 175.515 | **-0,9%** | rompeu a mínima do candle que fechou abaixo da MME9 |
+> | Diário | 23/07/26 a 177.641 | 30/07/26 a 173.885 | **-2,1%** | rompeu a mínima do candle que fechou abaixo da MME9 |
+> | Semanal | 13/07/26 a 177.868 | 20/07/26 a 173.285 | **-2,6%** | rompeu a mínima do candle que fechou abaixo da MME9 |
+> | Diário | 10/07/26 a 172.933 | 17/07/26 a 173.537 | **+0,3%** | rompeu a mínima do candle que fechou abaixo da MME9 |
+>
+> 🌡️ **Radar de grande queda:** 0% (liga em 30%) · fora da zona de grande queda. *Só contexto: no estudo ele achou a região dos grandes fundos, mas avisa cedo demais para servir de compra.*
+>
+> <small>Atualizado 22/10 21:15. Histórico desde 2000, índice à vista, custo 0,05% por operação, sem impostos (no WIN o comprado paga o carrego dos juros).</small>
+>
+> *Regra: um candle **fecha acima da MME9** → compra se o preço passar da máxima dele em até 3 candles. Um candle **fecha abaixo da MME9** → zera se o preço passar da mínima dele em até 3 candles. Stop de segurança 10% abaixo da entrada. No semanal o sinal só conta com a semana fechada, mas a ordem pode executar em qualquer dia. Funcionou com médias de 5 a 50 (não é ajuste fino), mas o histórico não é teste fora da amostra: o placar ao vivo é o que vale. [Metodologia](metodologia#tendência-mme9). Leitura educacional do método, não recomendação.*
 
 > [!warning] 🔥 Sinais de Topo e Fundo · Mensal, Semanal — sinal forte em formação (confirma no fechamento do candle mensal, semanal)
 > - 🔴 Mensal · TOPO · **[RSI75+MV](tecnico/#mensal)** — RSI≥75 e MACD-V≥130 · 📈 [ver no gráfico Mensal](tecnico/#mensal)
