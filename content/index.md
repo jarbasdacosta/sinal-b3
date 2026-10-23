@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 22/10/2026 21:16 BRT · Diário D1*
+*Última atualização: 22/10/2026 21:31 BRT · Diário D1*
 
 > [!warning] Onde o mercado está no fechamento de 22/10: **🟡 Esticado para cima**
 > `Pânico ◀──────────────────●──▶ Euforia`
@@ -71,11 +71,9 @@ tags: [home]
 >
 > *Regra: um candle **fecha acima da MME9** → compra se o preço passar da máxima dele em até 3 candles. Um candle **fecha abaixo da MME9** → zera se o preço passar da mínima dele em até 3 candles. Stop de segurança 10% abaixo da entrada. No semanal o sinal só conta com a semana fechada, mas a ordem pode executar em qualquer dia. Funcionou com médias de 5 a 50 (não é ajuste fino), mas o histórico não é teste fora da amostra: o placar ao vivo é o que vale. [Metodologia](metodologia#tendência-mme9). Leitura educacional do método, não recomendação.*
 
-> [!warning] 🔥 Sinais de Topo e Fundo · Mensal, Semanal — sinal forte em formação (confirma no fechamento do candle mensal, semanal)
-> - 🔴 Mensal · TOPO · **[RSI75+MV](tecnico/#mensal)** — RSI≥75 e MACD-V≥130 · 📈 [ver no gráfico Mensal](tecnico/#mensal)
-> - 🔴 Semanal · TOPO · **[FD+CCI](tecnico/#semanal)** — Fechou fora→dentro da BB superior + CCI≥200 · 📈 [ver no gráfico Semanal](tecnico/#semanal)
->
-> [Ver os sinais](sinais-topo-fundo/)
+
+
+
 
 > [!warning] ⚠️ Nível alto agora — Sinal de Crise · Diário (22/10)
 > - 🟡 **ζ Topo 78%** — preço esticado acima da tendência (risco de reversão)

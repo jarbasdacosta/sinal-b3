@@ -252,3 +252,18 @@ Todas: no máximo 60 candles por operação; reentrada permitida dentro da janel
 ### Radar de grande queda (só contexto)
 
 Nota de 0 a 100% de sobrevenda **ao mesmo tempo** no mensal, no semanal e no diário (Bollinger, CCI, RSI, MACD-V, distância das médias, bottom tail, haramis com a mãe abaixo da Bollinger e o ζ do IMA). As condições e o nível de alerta foram escolhidos só com 2001–2013 e testados em 2014–2026: o radar esteve ligado perto dos **7 grandes fundos** do período, com poucos alarmes falsos. **Mas avisa cedo:** em média o preço ainda caiu mais 13% nos 6 meses seguintes, e comprar no alerta rendeu menos do que comprar num dia qualquer. Esperar um gatilho de virada dentro da zona também não superou o acaso. Por isso ele aparece só como contexto ("estamos numa grande queda"), não como sinal de compra.
+
+<!-- v11-raros -->
+## Sinais raros de grande fundo e topos (v11)
+
+**Sinais raros de grande fundo.** Três condições que aparecem menos de uma vez por ano e quase sempre perto de um grande fundo do Ibovespa (queda de 20% ou mais). Foram conferidas separando 2001–2013 e 2014–2026, com o candle fechado, e comparadas com 40 Ibovespas embaralhados:
+
+| Sinal | Desde 2001 | Perto de grande fundo | 12 meses depois (média) | Pior queda em 6 meses | Acaso igual ou melhor |
+|---|---|---|---|---|---|
+| **Semanal:** RSI ≤ 30 e CCI ≤ −200 no mesmo candle 🔥 | 8 | 8 de 8 | **+41%** | −10% | 14% |
+| **Mensal:** mínima abaixo da Bollinger inferior | 11 | 8 de 11 | **+26%** | −12% | 15% |
+| **Diário:** RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | 17 | 10 de 17 | **+27%** | −8% | 2% |
+
+Um dia qualquer no mesmo período: +14% em 12 meses. **Avisam a região, não o dia:** o preço ainda pode cair antes de subir (a mensal costuma vir cedo). São poucos casos, então é indício, não garantia. Ficam separados dos 14 sinais (não mudam as Entradas do método). O harami semanal com a mãe abaixo da Bollinger também foi testado e **não** passou (no teste, só 30% perto de grande fundo).
+
+**Topos rebaixados.** Depois dos sinais de topo o Ibovespa subiu como num dia qualquer: 6 meses depois ele estava mais baixo em 14% a 75% das vezes, conforme o sinal, contra 37% de um dia qualquer, e nenhuma regra de venda passou no walk-forward. Por isso nenhum sinal de topo é "forte" e eles não vão mais para o Telegram. 🟠 **Topo = aviso para proteger** (subir o stop, realizar parte), não para vender.

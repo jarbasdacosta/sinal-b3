@@ -12,11 +12,40 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 > [!note] Nenhum sinal no fechamento de 22/10/2026
 > Os blocos 🔥 aparecem aqui (e na página inicial) no dia em que surge um sinal **forte**.
 
-> [!warning] 🔥 Sinal FORTE em formação (ainda pode sumir até o candle fechar)
-> - Mensal · TOPO · **RSI75+MV** — RSI≥75 e MACD-V≥130 (62%, 2,7× o acaso)
-> - Semanal · TOPO · **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 (68%, 2,6× o acaso)
-> 
-> *Semanal confirma na sexta; mensal no último pregão do mês.*
+> [!info]- Sinal moderado em formação (clique para ver)
+> - Mensal · TOPO · **RSI75+MV** — RSI≥75 e MACD-V≥130
+> - Semanal · TOPO · **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200
+
+## 🎯 Sinais raros de grande fundo
+
+Aparecem menos de uma vez por ano e quase sempre perto de um **grande fundo** (queda de 20% ou mais). Foram conferidos separando 2001–2013 e 2014–2026 e comparados com Ibovespas embaralhados. **Avisam a região, não o dia:** o preço ainda pode cair antes de subir.
+
+| Sinal | Força | Desde 2001 | Perto de grande fundo | 12 meses depois | Pior queda (6 meses) | Último | Teste |
+|---|---|---|---|---|---|---|---|
+| **Semanal** · RSI ≤ 30 e CCI ≤ −200 no mesmo candle | 🔥 forte | 8 | 8 de 8 | **+41%** (7 de 8 positivos) | -10% | 13/03/2020 | treino 6 de 6 e teste 2 de 2 perto de grande fundo |
+| **Mensal** · mínima abaixo da Bollinger inferior | moderado | 11 | 8 de 11 | **+26%** (9 de 11 positivos) | -12% | 31/03/2023 | treino 4 de 5 e teste 4 de 6; costuma vir cedo (no 1º mês muitas vezes ainda cai) |
+| **Diário** · RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | moderado | 17 | 10 de 17 | **+27%** (15 de 17 positivos) | -8% | 08/06/2026 | treino 5 de 9 e teste 5 de 8; o melhor contra o acaso |
+
+*Um dia qualquer no mesmo período: +14% em 12 meses e pior queda média de -12% em 6 meses. Candle fechado: semanal na sexta, mensal no último pregão.*
+
+<details><summary>Últimas ocorrências</summary>
+
+| Data | Tempo | Sinal | Preço |
+|---|---|---|---|
+| 08/06/2026 | Diário | RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | 168.669 |
+| 31/03/2023 | Mensal | mínima abaixo da Bollinger inferior | 101.882 |
+| 30/06/2022 | Mensal | mínima abaixo da Bollinger inferior | 98.542 |
+| 24/06/2022 | Diário | RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | 98.672 |
+| 31/03/2020 | Mensal | mínima abaixo da Bollinger inferior | 73.020 |
+| 18/03/2020 | Diário | RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | 66.895 |
+| 16/03/2020 | Diário | RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | 71.168 |
+| 13/03/2020 | Semanal | RSI ≤ 30 e CCI ≤ −200 no mesmo candle | 82.678 |
+| 11/03/2020 | Diário | RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | 85.171 |
+| 15/06/2018 | Diário | RSI ≤ 30 e MACD-V ≤ −150 no mesmo candle | 70.758 |
+| 29/01/2016 | Mensal | mínima abaixo da Bollinger inferior | 40.406 |
+| 15/01/2016 | Semanal | RSI ≤ 30 e CCI ≤ −200 no mesmo candle | 38.569 |
+
+</details>
 
 ## 🔥 Últimos sinais fortes
 
@@ -24,14 +53,7 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 |---|---|---|---|---|---|---|
 | **09/06/2026** | Diário | 🟢 FUNDO | **[FD+RSI](tecnico/#diário)** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **FORTE** | **71%** | 2,8× |
 | **21/05/2026** | Diário | 🟢 FUNDO | **[BT+RSI](tecnico/#diário)** — Bottom tail + RSI≤30 | 🔥 **FORTE** | **73%** | 3,2× |
-| **30/04/2026** | Mensal | 🔴 TOPO | **[TT+RSI](tecnico/#mensal)** — Top tail + RSI≥70 | 🔥 **FORTE** | **38%** | 2,5× |
-| **30/04/2026** | Mensal | 🔴 TOPO | **[FD+CCI](tecnico/#mensal)** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **FORTE** | **50%** | 2,7× |
-| **28/02/2026** | Mensal | 🔴 TOPO | **[RSI75+MV](tecnico/#mensal)** — RSI≥75 e MACD-V≥130 | 🔥 **FORTE** | **62%** | 2,7× |
-| **21/11/2025** | Semanal | 🔴 TOPO | **[FD+CCI](tecnico/#semanal)** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **FORTE** | **68%** | 2,6× |
-| **26/09/2025** | Semanal | 🔴 TOPO | **[FD+CCI](tecnico/#semanal)** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **FORTE** | **68%** | 2,6× |
 | **10/01/2025** | Semanal | 🟢 FUNDO | **[FD+RSI](tecnico/#semanal)** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **FORTE** | **88%** | 3,2× |
-| **31/01/2024** | Mensal | 🔴 TOPO | **[FD+CCI](tecnico/#mensal)** — Fechou fora→dentro da BB superior + CCI≥200 | 🔥 **FORTE** | **50%** | 2,7× |
-| **31/01/2024** | Mensal | 🔴 TOPO | **[S180](tecnico/#mensal)** — Bear 180 | 🔥 **FORTE** | **62%** | 4,3× |
 
 Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 
@@ -39,14 +61,16 @@ Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 
 **Forte** = teve vantagem sobre o acaso em 2000–2014 **e** em 2015–2026, com pelo menos 2,5× o acaso. Entre parênteses, o acerto histórico. Os demais sinais validados são **moderados**.
 
+**Topos (v11):** nenhum sinal de topo é forte. No teste de 22/10/2026, depois deles o Ibovespa subiu como num dia qualquer e nenhuma regra de venda funcionou. 🟠 Topo = aviso para **proteger** (subir o stop, realizar parte), **não** para vender.
+
 | Tempo gráfico | 🟢 Fundo — fortes | 🔴 Topo — fortes |
 |---|---|---|
-| Mensal | — | **S180** (62%), **FD+CCI** (50%), **TT+RSI** (38%), **RSI75+MV** (62%) |
-| Semanal | **BT+CCI** (73%), **FD+RSI** (88%), **FD+CCI** (89%), **B180+BB** (67%) | **FD+CCI** (68%) |
+| Mensal | — | — |
+| Semanal | **BT+CCI** (73%), **FD+RSI** (88%), **FD+CCI** (89%), **B180+BB** (67%) | — |
 | Diário | **BT+RSI** (73%), **BT+CCI** (57%), **FD+RSI** (71%) | — |
 | H4 | — | — |
 
-*Atualizado em 22/10/2026 19:11 BRT (último pregão fechado: 22/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 22/10/2026 21:31 BRT (último pregão fechado: 22/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.
