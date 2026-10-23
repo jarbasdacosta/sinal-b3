@@ -35,6 +35,13 @@ description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo
 >
 > *Regras: depois de um sinal de fundo, o Diário entra quando o Nadaraya vira para cima; o Semanal e o H4 entram quando um fundo do semáforo fica fixo. Stop e saída de cada regra na [metodologia](metodologia/regras-de-operacao#entradas-do-método). Nenhuma regra de venda passou no teste. Os números do histórico têm viés de escolha (overfitting); o placar ao vivo é o que vale. Leitura educacional do método, não recomendação.*
 
+### 📚 O que os testes dizem de cada regra
+
+- **🎯 Diário · Nadaraya** · ✅ passou fora da amostra: fora da amostra (walk-forward 2008–2026): cerca de +2% a +3% por operação; poucas operações por ano
+- **🎯 Semanal · Semáforo N2** · ✅ o ganho vem do setup: fora da amostra: cerca de +5% por operação; comprar após sinal semanal funcionou com quase qualquer regra
+- **🎯 H4 · Semáforo N2** · 🧪 em teste: testado em 5 anos (MT5, out/2021–out/2026): positivo no treino (+1,3% por operação, 23 op) e no teste (+3,1%, 22 op), rendeu mais que o Ibovespa nos dois; acaso 11% e 0% — ainda curto para o ranking (menos de 10 anos)
+- **🎯 Diário · Semáforo N3 após ζ Fundo** · 🧪 em observação · sem aviso: só o nível 3 do semáforo funcionou no histórico (frágil)
+
 [← Operações](operacoes/) · [Regras e testes](metodologia/regras-de-operacao#entradas-do-método)
 
 > [!quote]- Aviso
