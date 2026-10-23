@@ -62,6 +62,7 @@ _Nenhuma operação encerrada ainda._ Posições abertas antes de 23/10 aparecem
 - 🎯 [Entradas do método](operacoes/entradas) — Nadaraya, Semáforo, H4 e ζ
 - 📋 [Últimas operações](operacoes/ultimas-operacoes) — as mais recentes de cada regra
 - 📅 [Histórico por ano](operacoes/historico-por-ano) — todas as operações, ano a ano, desde 2000
+- 🔔 [Linha do tempo](linha-do-tempo/) — cada ordem, stop e aviso com data e hora, do mais recente ao mais antigo
 - 📚 [Regras e testes](metodologia/regras-de-operacao) · 🧪 [O que não passou](metodologia/o-que-nao-passou)
 
 > [!quote]- Aviso
