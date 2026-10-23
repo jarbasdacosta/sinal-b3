@@ -5,7 +5,7 @@ description: "Todo sinal, ordem, stop e aviso da Ondaleta, do mais recente para 
 tags: [eventos]
 ---
 
-*Atualizada 23/10/2026 14:41 BRT · a cada 15 min no pregão e às 19h.*
+*Atualizada 23/10/2026 14:45 BRT · a cada 15 min no pregão e às 19h.*
 
 Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: sinais de topo e fundo, ordens de compra e de venda armadas, compras, vendas, stops, avisos de 🚨 preço perto do nível e mudanças da Crise. Os **últimos 7 dias** ficam abertos; o resto, por **ano → mês → dia**.
 
@@ -41,9 +41,9 @@ Clique no ano; na página do ano, clique no mês e depois no dia.
 
 | Ano | Eventos | 🟢 Compras | ⚪🔴 Vendas e stops | 📌⚠️ Ordens armadas | Sinais |
 |---|---|---|---|---|---|
-| **[2026](linha-do-tempo/2026)** | 170 | 21 | 37 | 30 | 37 |
-| **[2025](linha-do-tempo/2025)** | 109 | 30 | 25 | 43 | 11 |
-| **[2024](linha-do-tempo/2024)** | 146 | 41 | 45 | 57 | 3 |
+| **[2026](linha-do-tempo/2026)** | 176 | 21 | 37 | 30 | 37 |
+| **[2025](linha-do-tempo/2025)** | 112 | 30 | 25 | 43 | 11 |
+| **[2024](linha-do-tempo/2024)** | 155 | 41 | 45 | 57 | 3 |
 | **[2023](linha-do-tempo/2023)** | 98 | 22 | 22 | 53 | 1 |
 | **[2022](linha-do-tempo/2022)** | 91 | 26 | 24 | 39 | 2 |
 | **[2021](linha-do-tempo/2021)** | 77 | 15 | 17 | 45 | 0 |
