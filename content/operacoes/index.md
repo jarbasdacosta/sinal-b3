@@ -1,6 +1,6 @@
 ---
 title: "🎯 Operações"
-date: 2026-10-22
+date: 2026-10-23
 tags: [operacoes]
 description: "Regras de compra testadas no Ibovespa, com placar ao vivo desde 23/10/2026"
 ---
@@ -31,7 +31,8 @@ _Nenhuma operação encerrada ainda._ Posições abertas antes de 23/10 aparecem
 
 - 📈 [Tendência MME9](operacoes/tendencia) — só compra, diário e semanal
 - 🎯 [Entradas do método](operacoes/entradas) — Nadaraya, Semáforo, H4 e ζ
-- 📋 [Últimas operações](operacoes/ultimas-operacoes) — todas as regras
+- 📋 [Últimas operações](operacoes/ultimas-operacoes) — as mais recentes de cada regra
+- 📅 [Histórico por ano](operacoes/historico-por-ano) — todas as operações, ano a ano, desde 2000
 - 📚 [Regras e testes](metodologia/regras-de-operacao) · 🧪 [O que não passou](metodologia/o-que-nao-passou)
 
 > [!quote]- Aviso

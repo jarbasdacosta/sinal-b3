@@ -1,6 +1,6 @@
 ---
 title: "📋 Últimas operações"
-date: 2026-10-22
+date: 2026-10-23
 tags: [operacoes]
 description: "Operações recentes de todas as regras de compra"
 ---
@@ -48,7 +48,7 @@ Operações recentes de todas as regras. 🧪 = operação do teste ao vivo (des
 | Semanal · Semáforo N2 | semana de 15/08/22 a 111.496 | semana de 09/10/23 a 115.754 | **+3,8%** | limite de 60 candles |
 | Semanal · Semáforo N2 | semana de 03/01/22 a 102.719 | semana de 09/05/22 a 102.719 | **+0,0%** | stop no preço de entrada |
 
-[← Operações](operacoes/)
+[← Operações](operacoes/) · [📅 Histórico por ano](operacoes/historico-por-ano)
 
 > [!quote]- Aviso
 > Conteúdo educacional. Não constitui recomendação de investimento.

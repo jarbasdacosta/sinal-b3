@@ -1,6 +1,6 @@
 ---
 title: "📚 Metodologia"
-date: 2026-10-22
+date: 2026-10-23
 tags: [metodologia]
 description: "Como cada módulo da Ondaleta funciona e como foi testado"
 ---
