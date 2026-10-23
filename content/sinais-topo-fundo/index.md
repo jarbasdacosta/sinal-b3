@@ -47,6 +47,18 @@ Aparecem menos de uma vez por ano e quase sempre perto de um **grande fundo** (q
 
 </details>
 
+## ⚠️ Alerta raro de topo (mensal)
+
+**RSI ≥ 75 e MACD-V ≥ 130** no candle mensal. Não é sinal de venda: é aviso para **proteger** (subir o stop, realizar parte, não aumentar a compra) nos meses seguintes.
+
+> [!warning] ⚠️ Alerta raro de topo **em formação** no mês atual (confirma no último pregão do mês)
+
+| Desde 2001 | Mais baixo 3 meses depois | Mais baixo 6 meses depois | Média 3m · 6m · 12m | Maior queda em 6 meses (média) | Último |
+|---|---|---|---|---|---|
+| 8 | 5 de 8 | 6 de 8 | -7% · -3% · **+17%** | -22% | 27/02/2026 |
+
+*treino: mais baixo 6 meses depois em 3 de 5; teste (2018, 2019, fev/2026): 3 de 3. Poucos casos (8): é indício, não garantia. 12 meses depois o Ibovespa costumou estar mais alto — por isso é proteção, não venda.*
+
 ## 🔥 Últimos sinais fortes
 
 | Candle | Tempo gráfico | Tipo | Sinal | Força | Acerto | vs. acaso |
@@ -70,7 +82,7 @@ Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 | Diário | **BT+RSI** (73%), **BT+CCI** (57%), **FD+RSI** (71%) | — |
 | H4 | — | — |
 
-*Atualizado em 22/10/2026 21:31 BRT (último pregão fechado: 22/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 22/10/2026 21:44 BRT (último pregão fechado: 22/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.

@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 22/10/2026 21:31 BRT · Diário D1*
+*Última atualização: 22/10/2026 21:44 BRT · Diário D1*
 
 > [!warning] Onde o mercado está no fechamento de 22/10: **🟡 Esticado para cima**
 > `Pânico ◀──────────────────●──▶ Euforia`
@@ -71,6 +71,11 @@ tags: [home]
 >
 > *Regra: um candle **fecha acima da MME9** → compra se o preço passar da máxima dele em até 3 candles. Um candle **fecha abaixo da MME9** → zera se o preço passar da mínima dele em até 3 candles. Stop de segurança 10% abaixo da entrada. No semanal o sinal só conta com a semana fechada, mas a ordem pode executar em qualquer dia. Funcionou com médias de 5 a 50 (não é ajuste fino), mas o histórico não é teste fora da amostra: o placar ao vivo é o que vale. [Metodologia](metodologia#tendência-mme9). Leitura educacional do método, não recomendação.*
 
+
+
+> [!warning] ⚠️ Alerta raro de topo **em formação** no mês atual (RSI ≥ 75 e MACD-V ≥ 130 no mensal; confirma no último pregão do mês)
+>
+> Desde 2001: 3 meses depois o Ibovespa estava mais baixo em 5 de 8 vezes (nos 3 últimos casos, todas), mas 12 meses depois subiu +17% em média. **Proteção** (subir o stop, realizar parte), não venda. [Detalhes](sinais-topo-fundo/) · *leitura educacional, não recomendação*
 
 
 
