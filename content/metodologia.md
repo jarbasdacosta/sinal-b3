@@ -242,12 +242,12 @@ Todas: no máximo 60 candles por operação; reentrada permitida dentro da janel
 
 ### O que os estudos mostraram (Ibovespa 2000–2026, custo 0,05% por operação)
 
-- **Diário:** cerca de **+14% ao ano** com maior queda de **34%**, contra +9,6% ao ano e 60% de queda de quem comprou e segurou (Sharpe 0,75 contra 0,34). Fica comprado só parte do tempo e fica de fora da maior parte das grandes quedas.
-- **Semanal:** cerca de **+10% ao ano** com maior queda de **24%**.
+- **Diário:** cerca de **+14% ao ano** com maior queda de **35%**, contra +9,6% ao ano e 60% de queda de quem comprou e segurou (Sharpe 0,75 contra 0,34). Fica comprado só parte do tempo e fica de fora da maior parte das grandes quedas.
+- **Semanal:** cerca de **+9% ao ano**, perto de comprar e segurar, mas com maior queda de **29%** contra 57%: no semanal o ganho é a queda menor, não o retorno.
 - **Não é ajuste fino:** o resultado se manteve com médias simples de 5 a 50 no diário e de 8 a 21 no semanal.
 - **Vender** (ficar sempre posicionado, comprado ou vendido) **não funcionou**: a venda perde dinheiro no Ibovespa. Por isso, só compra.
 - **Stops apertados pioram** o resultado. O stop de 10% praticamente não muda o histórico e protege de um tombo grande sem sinal.
-- **Acerto baixo, ganho grande:** a maioria das operações é pequena ou perde um pouco; o resultado vem das poucas que pegam uma tendência longa. É preciso disciplina para seguir todas.
+- **Menos da metade das operações dá lucro** (40% no diário, 48% no semanal) e a perda é limitada pelo stop; o resultado vem das poucas que pegam uma tendência longa (até +22% no diário e +60% no semanal). É preciso disciplina para seguir todas.
 
 ### Radar de grande queda (só contexto)
 
