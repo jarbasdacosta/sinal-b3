@@ -6,10 +6,10 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 23/10/2026 17:15 BRT · Intraday 15min*
+*Última atualização: 23/10/2026 17:30 BRT · Intraday 15min*
 
-> [!success] Onde o mercado está agora (23/10 17:00, candles de 15 min): **🟢 Calmo**
-> `Pânico ◀────────────●────────▶ Euforia`
+> [!success] Onde o mercado está agora (23/10 17:15, candles de 15 min): **🟢 Calmo**
+> `Pânico ◀───────────●─────────▶ Euforia`
 >
 > O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
 > No gráfico diário: 🟡 Preço esticado acima da tendência.
@@ -20,7 +20,7 @@ tags: [home]
 
 | Módulo | Agora | |
 |---|---|---|
-| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 16% | [relatório](intraday/2026-10-23) |
+| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 10% | [relatório](intraday/2026-10-23) |
 | 📈 **Tendência MME9** | Diário 🟢 comprado desde 02/10 (+8,7%) · ⚡ zera abaixo de 203.052 (durante o pregão)<br>Semanal 🟢 comprado desde 31/08 (+15,7%) | [abrir](operacoes/tendencia) |
 | 🎯 **Entradas do método** | 🟢 comprado: Diário · Nadaraya | [abrir](operacoes/entradas) |
 | 📍 **Sinais** | hoje: nenhum sinal<br>⚠️ alerta raro de topo mensal em formação | [abrir](sinais-topo-fundo/) |
@@ -54,15 +54,15 @@ tags: [home]
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Intraday 15 min (23/10 17:00): 🟢 **VERDE** — Risco 16% · ▼ -1 p.p. vs leitura anterior
-> > `███░░░░░░░░░░░░░░░░░`
+> > [!success] Sinal de Crise · Intraday 15 min (23/10 17:15): 🟢 **VERDE** — Risco 10% · ▼ -6 p.p. vs leitura anterior
+> > `██░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Intraday 15 min (23/10 17:00) | Valor |
+> | Indicador — Sinal de Crise · Intraday 15 min (23/10 17:15) | Valor |
 > |---|---|
-> | 🔴 ζ Topo — preço esticado acima da tendência | **16%** |
-> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 0% |
+> | 🔴 ζ Topo — preço esticado acima da tendência | **10%** |
+> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 1% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
 > | 📊 Ibovespa | 205.083 pts |
@@ -73,8 +73,7 @@ tags: [home]
 >
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [23/10/2026](intraday/2026-10-23) | 🟢 VERDE | **16%** | 16% | 0% | 0% |
-> | [22/10/2026](intraday/2026-10-22) | 🟢 VERDE | **0%** | 0% | 45% | 0% |
+> | [23/10/2026](intraday/2026-10-23) | 🟢 VERDE | **10%** | 10% | 1% | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
 >
