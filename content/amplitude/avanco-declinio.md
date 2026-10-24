@@ -5,14 +5,38 @@ description: "Linha de avanço e declínio do Ibovespa: ações que subiram meno
 tags: [amplitude]
 ---
 
-*Atualizado 23/10/2026 22:05 · fechamento de 23/10/2026.*
+*Atualizado 23/10/2026 22:20 · fechamento de 23/10/2026.*
 
-Em cada pregão, conta quantas ações da carteira do Ibovespa **subiram** e quantas **caíram**. O saldo do dia (subiram − caíram) é somado dia após dia: essa é a **linha de avanço e declínio**. Ela mostra se a alta do índice é de muitas ações ou só de algumas grandes. A tese clássica: **topos de mercado vêm com divergência** — o Ibovespa faz um topo maior e a linha **não** faz.
+Em cada pregão, conta quantas ações da carteira do Ibovespa **subiram** e quantas **caíram**. O saldo do dia (subiram − caíram) é somado dia após dia: essa é a **linha de avanço e declínio**. Ela mostra se a alta do índice é de muitas ações ou só de algumas grandes. **Divergência:** o Ibovespa faz um **topo maior** que o topo anterior e a linha, nesse topo, fica **abaixo** do pico que tinha no topo anterior — a alta está ficando estreita.
 
-> [!note] 23/10/2026: **54 subiram · 21 caíram** · saldo **+33** · linha 1.199
-> **3 meses**: Ibovespa fora da máxima (topo em 09/10) · **6 meses**: Ibovespa fora da máxima (topo em 09/10) · **12 meses**: Ibovespa fora da máxima (topo em 09/10)
+> [!warning] ⚠ **Divergência em formação** — o Ibovespa está num topo de **209.067** (09/10), acima do topo de 14/04 (198.657), mas a linha ficou **186 abaixo** do pico daquele topo. **Confirma se o Ibovespa fechar abaixo de 198.614** (−5% do topo; hoje 205.083).
+> 23/10/2026: 54 subiram · 21 caíram · saldo **+33**
 
 ![Linha de avanço e declínio](graficos/linha_ad_20261023.png)
+
+## Topos maiores e a linha
+
+Um topo só conta quando o Ibovespa cai 5% a partir dele (até lá, está "em formação"). Cada topo é comparado com o maior topo dos 12 meses anteriores.
+
+| Topo do Ibovespa | Topo superado | Linha × pico anterior | Confirmado em | Queda depois (do topo) |
+|---|---|---|---|---|
+| **09/10/2026 · 209.067** | 14/04/2026 · 198.657 | -186 ⚠ **divergência** | *em formação* | — |
+| 14/04/2026 · 198.657 | 24/02/2026 · 191.490 | -17 ⚠ divergência | 28/04/2026 | -16% |
+| 24/02/2026 · 191.490 | 04/07/2025 · 141.478 | +1035 ✅ confirmou | 05/03/2026 | -13% |
+| 04/07/2025 · 141.478 | 28/08/2024 · 137.344 | -161 ⚠ divergência | 18/07/2025 | -7% |
+| 28/08/2024 · 137.344 | 27/12/2023 · 134.194 | -465 ⚠ divergência | 09/10/2024 | -14% |
+| 27/12/2023 · 134.194 | 26/07/2023 · 122.560 | -1 ⚠ divergência | 18/01/2024 | -12% |
+| 26/07/2023 · 122.560 | 21/10/2022 · 119.929 | +185 ✅ confirmou | 15/08/2023 | -8% |
+| 07/06/2021 · 130.776 | 08/01/2021 · 125.077 | -117 ⚠ divergência | 30/07/2021 | -26% |
+| 08/01/2021 · 125.077 | 23/01/2020 · 119.528 | -182 ⚠ divergência | 21/01/2021 | -19% |
+| 23/01/2020 · 119.528 | 10/07/2019 · 105.817 | +514 ✅ confirmou | 10/02/2020 | -47% |
+| 10/07/2019 · 105.817 | 18/03/2019 · 99.994 | +133 ✅ confirmou | 05/08/2019 | -40% |
+| 18/03/2019 · 99.994 | 03/12/2018 · 89.820 | +223 ✅ confirmou | 22/03/2019 | -36% |
+| 03/12/2018 · 89.820 | 05/11/2018 · 89.598 | +0 ✅ confirmou | 20/12/2018 | -5% |
+| 05/11/2018 · 89.598 | 26/02/2018 · 87.653 | -462 ⚠ divergência | 13/11/2018 | -5% |
+| 26/02/2018 · 87.653 | 26/01/2018 · 85.531 | +12 ✅ confirmou | 16/04/2018 | -20% |
+
+Desde 2001: **41** topos maiores confirmados · **14** com divergência.
 
 ## Últimos pregões
 
@@ -28,10 +52,19 @@ Em cada pregão, conta quantas ações da carteira do Ibovespa **subiram** e qua
 | 14/10/2026 | 27 | 49 | **-22** | 1.218 | 206.506 |
 | 13/10/2026 | 16 | 61 | **-45** | 1.240 | 206.888 |
 | 09/10/2026 | 61 | 14 | **+47** | 1.285 | 209.067 |
-| 08/10/2026 | 59 | 16 | **+43** | 1.238 | 206.220 |
-| 07/10/2026 | 44 | 33 | **+11** | 1.195 | 204.302 |
 
-**Últimas divergências de 6 meses** (Ibovespa na máxima, linha não): 05/10/2026 · 08/04/2026 · 26/11/2025 · 27/10/2025 · 05/09/2025 · 03/07/2025 · 24/04/2025 · 13/08/2024
+## O que o teste mostrou (23/10/2026)
+
+Carteiras reconstruídas por liquidez, 2001–2026, treino 2001–2013 × teste 2014–hoje. Resultado medido a partir da **confirmação** do topo (quando ele fica conhecido) — é o que daria para operar.
+
+| Leitura | O que aconteceu depois | Confiança |
+|---|---|---|
+| ⚠ **Topo a topo** (topo maior no Ibovespa, linha abaixo do pico do topo anterior) | 60 pregões depois **−1,1%** e **−2,3%** × **+7,4%** e **+1,4%** quando a linha confirmou; queda de 10%+ em 60 pregões em **50%** e **38%** × 27% e 17% | 🟡 **indício**: as 10 medidas na mesma direção nos dois períodos, mas só 14 casos (acaso 8% no treino, 14–34% no teste) |
+| Dia de máxima (Ibovespa na máxima de 3, 6 ou 12 meses e a linha não, no mesmo dia) | igual aos outros dias de máxima | ❌ — pega muito atraso de poucos dias no meio da alta |
+| Grandes topos (queda de 20%+) | a linha virou antes em metade (2008: em out/2007; 2021: em jul/2020) | — |
+| Divergência de alta nos fundos | não ajudou | ❌ |
+
+**Aviso no Telegram** quando uma divergência é **confirmada** (o Ibovespa fecha 5% abaixo do topo), marcado como indício. Topos são raros — o sinal também é (14 vezes em 25 anos).
 
 ## Os grandes topos (Ibovespa caiu 20% ou mais depois)
 
@@ -46,24 +79,9 @@ Em cada pregão, conta quantas ações da carteira do Ibovespa **subiram** e qua
 | 09/05/2006 · 41.979 | -22% | 09/05/2006 | — não (confirmou) |
 | 26/01/2004 · 24.350 | -28% | 05/01/2004 | ⚠ sim. 15 pregões antes |
 
-Em **4 de 8** grandes topos a linha já tinha virado antes do Ibovespa. Só entram topos que eram máxima de 12 meses (repiques dentro de uma queda ficam de fora).
-
-## O que o teste mostrou (23/10/2026)
-
-Carteiras reconstruídas por liquidez, 2001–2026, treino 2001–2013 × teste 2014–hoje. A pergunta honesta: **dado que o Ibovespa está na máxima, a linha não confirmar piora o que vem depois?**
-
-| Situação | O que aconteceu depois | Confiança |
-|---|---|---|
-| Divergência (Ibovespa na máxima de 3, 6 ou 12 meses, linha não) | igual aos outros dias de máxima — em 60 pregões **+4,9%** × +5,2% (treino) e **+1,3%** × −0,1% (teste) | ❌ não antecipou queda |
-| Divergência **forte** (linha ainda no 1/5 de baixo da sua faixa) | treino: **−5,4%** em 60 pregões (× +5,2%) e queda de 10%+ em **75%** das vezes (× 25%) — mas só 4 a 7 casos; no teste (14 casos) o efeito sumiu | ❌ não se repetiu |
-| Topo **confirmado** (os dois na máxima) | um pouco melhor que as outras máximas | sem força estatística |
-| Grandes topos | a linha virou antes em metade deles (2008: em out/2007; 2021: em jul/2020) | — |
-| Divergência de alta nos fundos | não ajudou | ❌ |
-
-**Por que é só contexto:** a divergência aparece em metade dos grandes topos, mas aparece **muito mais vezes sem topo nenhum** (cerca de 80 divergências de 3 meses em 25 anos, para 8 grandes topos). Por isso não há aviso no Telegram: serve para ver se a alta é de muitas ações ou de poucas.
-
 > [!info]- Como é calculado e limites
 > - Mesma base da [📊 Amplitude](amplitude/): cotações ajustadas do Yahoo; a carteira de cada época (a atual da B3 e, para o passado, reconstruída por liquidez em janeiro, maio e setembro).
+> - Pico da linha num topo = a máxima da linha de 5 pregões antes a 5 depois do topo.
 > - Só as ações da carteira do Ibovespa (a linha clássica usa todas as ações da bolsa). Ações que fecharam o capital não têm cotação e ficam de fora. Ação parada no dia (sem variação) não conta.
 > - O valor da linha não importa — o que importa é a direção e se ela acompanha os topos do índice.
 
