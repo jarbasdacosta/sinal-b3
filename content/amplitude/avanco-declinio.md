@@ -5,7 +5,7 @@ description: "Linha de avanço e declínio do Ibovespa: ações que subiram meno
 tags: [amplitude]
 ---
 
-*Atualizado 23/10/2026 22:20 · fechamento de 23/10/2026.*
+*Atualizado 23/10/2026 22:36 · fechamento de 23/10/2026.*
 
 Em cada pregão, conta quantas ações da carteira do Ibovespa **subiram** e quantas **caíram**. O saldo do dia (subiram − caíram) é somado dia após dia: essa é a **linha de avanço e declínio**. Ela mostra se a alta do índice é de muitas ações ou só de algumas grandes. **Divergência:** o Ibovespa faz um **topo maior** que o topo anterior e a linha, nesse topo, fica **abaixo** do pico que tinha no topo anterior — a alta está ficando estreita.
 
@@ -52,6 +52,23 @@ Desde 2001: **41** topos maiores confirmados · **14** com divergência.
 | 14/10/2026 | 27 | 49 | **-22** | 1.218 | 206.506 |
 | 13/10/2026 | 16 | 61 | **-45** | 1.240 | 206.888 |
 | 09/10/2026 | 61 | 14 | **+47** | 1.285 | 209.067 |
+
+## 📦 OBV — o volume (só informação)
+
+O **OBV** (*On-Balance Volume*) soma o volume financeiro das ações da carteira nos dias de alta do Ibovespa e subtrai nos dias de queda. A teoria diz o mesmo da linha: topo maior no índice com OBV abaixo do pico anterior = divergência de baixa; fundo menor com OBV acima do vale anterior = divergência de alta.
+
+> [!note] **OBV do índice:** ⚠ divergência no topo em formação (OBV abaixo do pico do topo de 14/04) · **OBV agregado** (ação por ação): acompanhando
+> **No teste a divergência do OBV funcionou AO CONTRÁRIO da teoria** — não use como sinal (detalhes abaixo).
+
+![OBV do Ibovespa](graficos/linha_ad_obv_20261023.png)
+
+| OBV no teste (23/10/2026, topo/fundo confirmado por 5%) | O que aconteceu depois | Leitura |
+|---|---|---|
+| Divergência de **baixa** no topo (OBV do índice) | o Ibovespa **subiu mais**: 20 pregões **+5,5%** e **+5,6%** × −1,1% e −0,7% quando o OBV confirmou; caiu 10%+ em 60 pregões em **0%** × 41% e 29% | ↩ ao contrário, nos dois períodos (só 7 casos) |
+| Divergência de **alta** no fundo | **pior** que o fundo confirmado pelo OBV: 60 pregões +3,0% e +10,5% × +14,4% e +14,8% | ↩ ao contrário — o melhor fundo foi o que o volume confirmou |
+
+Uma explicação possível (não testada): no Brasil o volume dispara nos dias de queda forte — isso derruba o OBV e cria falsas divergências no meio de altas que continuam; e o fundo com volume "confirmando" costuma ser a capitulação. Também **não** vale inverter a regra: seria escolhida depois de ver o resultado, com poucos casos.
+
 
 ## O que o teste mostrou (23/10/2026)
 
