@@ -5,7 +5,7 @@ description: "Os três prazos de Larry Williams lidos no Ibovespa: estrutura, Mo
 tags: [estudos, amplitude]
 ---
 
-*Atualizado 24/10/2026 11:14 · fechamento de 23/10/2026.*
+*Atualizado 24/10/2026 16:20 · fechamento de 23/10/2026.*
 
 > [!warning] Só informação
 > Leitura diária das ferramentas de **Larry Williams** (livros *The Secret of Selecting Stocks* e *Long-Term Secrets to Short-Term Trading*). **No teste no Ibovespa quase nada funcionou** (tabela abaixo) — nada aqui é regra do site nem manda alerta. O único gatilho que passou no índice, o **rompimento de 40%**, **não se confirmou no WIN**.
@@ -32,6 +32,40 @@ tags: [estudos, amplitude]
 > [!tip] Como ler o gráfico — as bolinhas só existem DEPOIS
 > Cada bolinha está no dia do topo/fundo, mas **nesse dia ninguém sabia** que era um topo: o ponto intermediário só fica conhecido quando o próximo ponto de curto prazo do lado direito se forma (o **✕**, ligado à bolinha por uma linha pontilhada). Um ponto confirmado **não muda nem some** depois — só o mais recente ainda não aparece, porque não foi confirmado. O que dava para operar de verdade são os **▲▼**: a regra compra quando o Ibovespa fecha acima do último topo confirmado e sai quando fecha abaixo do último fundo confirmado (no teste: ~+12%/ano nos dois períodos, mas igual ao acaso).
 
+## 🟡 %R mensal — o indício que sobrou
+
+Testei os três indicadores "modernos" do Larry (%R, Ultimate Oscillator e Williams Vix Fix) no mensal, semanal, diário e H4 contra os topos e fundos principais do Ibovespa. **Só um passou nos dois períodos:** o **%R de Williams de 14 meses saindo da sobrevenda** (volta acima de −80) como sinal de **compra**. Nos topos, nenhum indicador do Larry funcionou, em nenhum tempo gráfico.
+
+> [!note] **%R mensal: -19** (mês fechado 09/2026) — sem sinal; o sinal precisa de um mês fechado abaixo de −80 e depois a volta acima. Mês em formação (10/2026): -7 se fechasse hoje.
+> Indício, não regra: 13 sinais desde 2001. Último sinal: **07/2022**.
+
+| | Sinais | Ibovespa 3 meses depois | Um mês qualquer | Acaso |
+|---|---|---|---|---|
+| Treino 2001–2013 | 8 | **+11,0%** | +3,5% | 6% |
+| Teste 2014–hoje | 5 | **+12,3%** | +3,3% | 3% |
+
+Pegou 7 dos 8 fundos principais mensais (virada de 20%), no mês do fundo ou no seguinte — só não pegou 2008. Com tão poucos casos, um ou dois a mais ou a menos mudam a conta.
+
+<details><summary>Todos os sinais desde 2001</summary>
+
+| Mês | Ibovespa | 3 meses depois |
+|---|---|---|
+| 07/2022 | 103.165 | +12,5% |
+| 04/2020 | 80.506 | +27,8% |
+| 02/2016 | 42.794 | +13,3% |
+| 02/2015 | 51.583 | +2,3% |
+| 03/2014 | 50.415 | +5,5% |
+| 07/2013 | 48.234 | +12,5% |
+| 10/2011 | 58.338 | +8,1% |
+| 08/2011 | 56.495 | +0,7% |
+| 03/2009 | 40.926 | +25,8% |
+| 01/2009 | 39.301 | +20,3% |
+| 10/2002 | 10.168 | +7,6% |
+| 08/2002 | 10.382 | +1,2% |
+| 10/2001 | 11.365 | +11,9% |
+
+</details>
+
 ## Como o Larry usa cada prazo
 
 - **Estrutura do mercado (os três swings):** topo de curto prazo = máxima com máximas menores dos dois lados (dias de dentro não contam); topo intermediário = topo de curto prazo com topos de curto prazo menores dos dois lados; topo de longo prazo = o mesmo um nível acima (fundos: o espelho). A tendência de cada prazo vira quando o preço fecha além do último topo ou fundo daquele prazo. *"Compre os recuos a favor da tendência maior."*
@@ -46,6 +80,7 @@ Ibovespa 2001–2026, treino 2001–2013 × teste 2014–hoje, custo incluso, co
 
 | Ferramenta | Resultado | Veredito |
 |---|---|---|
+| **%R de Williams MENSAL saindo da sobrevenda (compra)** | Ibovespa 3 meses depois +11,0% e +12,3% × +3,5% e +3,3% de um mês qualquer (acaso 6% e 3%) | 🟡 **passou — indício** (13 sinais em 25 anos) |
 | **Rompimento de 40% (compra)** | +0,14% por operação no treino (acaso 2%) e +0,09% no teste (acaso 0%), ~50–95 operações/ano; estável de 0,2 a 0,5; 15 de 22 anos positivos | 🟡 **passou no índice, NÃO confirmou no WIN** (2021–hoje: +99 pontos/op com custo real, acaso 24%) — fica só como leitura |
 | Rompimento na venda, Oops!, Smash Day, GSV, armadilha, virada do mês, dia da semana | não se repetiram no teste | ❌ |
 | Juros (DI e juro dos EUA) como motivo/gatilho | não melhoraram nada | ❌ |
