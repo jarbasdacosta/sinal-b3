@@ -5,7 +5,7 @@ description: "Os três prazos de Larry Williams lidos no Ibovespa: estrutura, Mo
 tags: [estudos, amplitude]
 ---
 
-*Atualizado 24/10/2026 10:43 · fechamento de 23/10/2026.*
+*Atualizado 24/10/2026 10:51 · fechamento de 23/10/2026.*
 
 > [!warning] Só informação
 > Leitura diária das ferramentas de **Larry Williams** (livros *The Secret of Selecting Stocks* e *Long-Term Secrets to Short-Term Trading*). **No teste no Ibovespa quase nada funcionou** (tabela abaixo) — nada aqui é regra do site nem manda alerta. O único gatilho que passou no índice, o **rompimento de 40%**, **não se confirmou no WIN**.
@@ -28,6 +28,9 @@ tags: [estudos, amplitude]
 > **No WIN não se confirmou:** executando no mini, no mesmo minuto do sinal (2021–hoje, 370 operações), deu +99 pontos por contrato por operação com custo real, mas **igual ao acaso** (24%; 1ª metade +22, 2ª +176). Metade da vantagem do índice some no WIN — a abertura do índice fica parada nos primeiros minutos e engorda o resultado no papel.
 
 ![Larry Williams no Ibovespa](graficos/larry_20261023.png)
+
+> [!tip] Como ler o gráfico — as bolinhas só existem DEPOIS
+> Cada bolinha está no dia do topo/fundo, mas **nesse dia ninguém sabia** que era um topo: o ponto intermediário só fica conhecido quando o próximo ponto de curto prazo do lado direito se forma (o **✕**, ligado à bolinha por uma linha pontilhada). Um ponto confirmado **não muda nem some** depois — só o mais recente ainda não aparece, porque não foi confirmado. O que dava para operar de verdade são os **▲▼**: a regra compra quando o Ibovespa fecha acima do último topo confirmado e sai quando fecha abaixo do último fundo confirmado (no teste: ~+12%/ano nos dois períodos, mas igual ao acaso).
 
 ## Como o Larry usa cada prazo
 
