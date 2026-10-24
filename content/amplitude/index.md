@@ -5,7 +5,7 @@ description: "Porcentagem das ações do Ibovespa acima das médias de 20, 50 e 
 tags: [amplitude]
 ---
 
-*Atualizado 23/10/2026 19:14 · fechamento de 23/10/2026.*
+*Atualizado 23/10/2026 22:05 · fechamento de 23/10/2026.*
 
 A **amplitude** mostra quantas ações do Ibovespa estão acompanhando o movimento do índice: a porcentagem das ações da carteira que estão **acima das suas médias** de 20, 50 e 200 pregões. O **sentimento** é a média das três. **Abaixo de 20**: quase todas as ações caindo — exaustão vendedora, região de fundos. **Acima de 80**: quase todas subindo — força generalizada (no teste, **não** aumentou o risco de queda).
 
@@ -14,7 +14,7 @@ A **amplitude** mostra quantas ações do Ibovespa estão acompanhando o movimen
 
 ![Amplitude do Ibovespa](graficos/amplitude_20261023.png)
 
-![Amplitude do Ibovespa](graficos/amplitude_20261023.png)
+📈 Veja também a **[linha de avanço e declínio](amplitude/avanco-declinio)** — quantas ações do Ibovespa subiram menos quantas caíram, dia a dia, e se ela acompanha os topos do índice.
 
 ## Últimos pregões
 
@@ -71,7 +71,7 @@ Nas compras das regras do site, a amplitude não serviu de filtro (poucos casos 
 > - **Carteira:** a atual vem da B3. As antigas foram **reconstruídas por liquidez** — em janeiro, maio e setembro de cada ano, as ações mais negociadas dos 12 meses anteriores, no tamanho que o índice tinha na época (78 carteiras desde 2001). É o critério principal da B3 (negociabilidade), mas não é a carteira oficial. Conferência: a reconstrução para 01/09/2026 acerta **73 de 76** ações da carteira oficial (96%). Ações que fecharam o capital ou quebraram não têm cotação no Yahoo e ficam de fora.
 > - A carteira muda em janeiro, maio e setembro: o arquivo da B3 precisa ser atualizado nessas datas.
 
-[Sinais](sinais-topo-fundo/) · [Operações](operacoes/) · [🌎 Capital estrangeiro](estrangeiros/)
+[📈 Avanço e declínio](amplitude/avanco-declinio) · [Sinais](sinais-topo-fundo/) · [Operações](operacoes/) · [🌎 Capital estrangeiro](estrangeiros/)
 
 > [!quote]- Aviso
 > Conteúdo educacional. Não constitui recomendação de investimento.
