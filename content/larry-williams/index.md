@@ -5,7 +5,7 @@ description: "Os três prazos de Larry Williams lidos no Ibovespa: estrutura, Mo
 tags: [estudos, amplitude]
 ---
 
-*Atualizado 24/10/2026 10:51 · fechamento de 23/10/2026.*
+*Atualizado 24/10/2026 11:14 · fechamento de 23/10/2026.*
 
 > [!warning] Só informação
 > Leitura diária das ferramentas de **Larry Williams** (livros *The Secret of Selecting Stocks* e *Long-Term Secrets to Short-Term Trading*). **No teste no Ibovespa quase nada funcionou** (tabela abaixo) — nada aqui é regra do site nem manda alerta. O único gatilho que passou no índice, o **rompimento de 40%**, **não se confirmou no WIN**.
@@ -16,7 +16,7 @@ tags: [estudos, amplitude]
 |---|---|---|---|
 | **Longo** | Estrutura: topos/fundos de longo prazo | 🟢 **alta** | último topo 14/04/2026 · 199.355 · último fundo 14/08/2026 · 164.835 |
 | **Médio** | Estrutura: topos/fundos intermediários | 🟢 **alta** | fechamento abaixo de **181.562** (último fundo) = baixa · acima de **209.714** (último topo) = alta |
-| **Médio** | Trading Index (10 dias) | 0,89 | sobrecomprado (≤ 0,90) |
+| **Médio** | Trading Index (10 dias) | 0,95 | neutro |
 | **Médio** | 20 mais negociadas (soma de 3 semanas) | 6 | ≤ −30 compra · ≤ −40 "hipoteque a casa" |
 | **Curto** | Estrutura: topos/fundos de curto prazo | 🟢 **alta** | fechamento abaixo de **203.110** = baixa · acima de **209.245** = alta |
 | **Curto** | Momentum Index | -5,0% | neutro · ontem -3,8 · anteontem +3,6 |
@@ -60,7 +60,7 @@ Ibovespa 2001–2026, treino 2001–2013 × teste 2014–hoje, custo incluso, co
 
 > [!info]- Como é calculado e limites
 > - Momentum Index = média de 10 dias de (ações que subiram − que caíram), em % da carteira do Ibovespa. Os limites do Larry (−2.000 e +1.000 na Bolsa de Nova York, ~1.600 ações) viram −12,5% e +6,25%.
-> - Trading Index = (subiram ÷ caíram) ÷ (volume das que subiram ÷ volume das que caíram), pela soma de 10 dias (com ~66 ações o índice de um dia só explode).
+> - Trading Index = (subiram ÷ caíram) ÷ (volume em AÇÕES negociadas das que subiram ÷ das que caíram, como no índice de Arms original), pela soma de 10 dias (com ~66 ações o índice de um dia só explode).
 > - %R = onde o fechamento está no intervalo de 10 dias (0 = na máxima, 100 = na mínima).
 > - Base de ações: a mesma da [📊 Amplitude](amplitude/). Ibovespa do Yahoo (máxima, mínima e fechamento). No Yahoo, de 20% a 39% das ABERTURAS do Ibovespa por ano estão erradas; os testes usaram o BOVA11 e o IBOV do MT5 onde a abertura do Yahoo não presta.
 
