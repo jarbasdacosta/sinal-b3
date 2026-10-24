@@ -5,10 +5,10 @@ description: "Os três prazos de Larry Williams lidos no Ibovespa: estrutura, Mo
 tags: [estudos, amplitude]
 ---
 
-*Atualizado 24/10/2026 10:33 · fechamento de 23/10/2026.*
+*Atualizado 24/10/2026 10:43 · fechamento de 23/10/2026.*
 
 > [!warning] Só informação
-> Leitura diária das ferramentas de **Larry Williams** (livros *The Secret of Selecting Stocks* e *Long-Term Secrets to Short-Term Trading*). **No teste no Ibovespa quase nada funcionou** (tabela abaixo) — nada aqui é regra do site nem manda alerta. O único gatilho que passou, o **rompimento de 40%**, está **em estudo**.
+> Leitura diária das ferramentas de **Larry Williams** (livros *The Secret of Selecting Stocks* e *Long-Term Secrets to Short-Term Trading*). **No teste no Ibovespa quase nada funcionou** (tabela abaixo) — nada aqui é regra do site nem manda alerta. O único gatilho que passou no índice, o **rompimento de 40%**, **não se confirmou no WIN**.
 
 ## Hoje, nos três prazos
 
@@ -23,8 +23,9 @@ tags: [estudos, amplitude]
 | **Curto** | %R de Williams (10 dias) | 70 | neutro |
 | **Curto** | "Espero duas coisas" | 🔴 **as duas condições de VENDA** (esticado + Momentum virando para baixo) | esticado nos últimos 10 pregões + Momentum 2 dias na mesma direção |
 
-> [!example] Rompimento de 40% para o próximo pregão — 🧪 em estudo (não é regra)
+> [!example] Rompimento de 40% para o próximo pregão — só leitura (não é regra)
 > Compra se o Ibovespa subir **932 pontos acima da abertura** (0,4 × o intervalo de hoje, 2.329 pontos) · stop **3.174 pontos** abaixo da entrada (1 × o intervalo médio de 10 dias) · sai na **primeira abertura com lucro** ou no fechamento do 5º pregão.
+> **No WIN não se confirmou:** executando no mini, no mesmo minuto do sinal (2021–hoje, 370 operações), deu +99 pontos por contrato por operação com custo real, mas **igual ao acaso** (24%; 1ª metade +22, 2ª +176). Metade da vantagem do índice some no WIN — a abertura do índice fica parada nos primeiros minutos e engorda o resultado no papel.
 
 ![Larry Williams no Ibovespa](graficos/larry_20261023.png)
 
@@ -42,7 +43,7 @@ Ibovespa 2001–2026, treino 2001–2013 × teste 2014–hoje, custo incluso, co
 
 | Ferramenta | Resultado | Veredito |
 |---|---|---|
-| **Rompimento de 40% (compra)** | +0,14% por operação no treino (acaso 2%) e +0,09% no teste (acaso 0%), ~50–95 operações/ano | 🧪 **passou — em estudo** (vantagem pequena; 0,6 e 1,0 não se sustentaram) |
+| **Rompimento de 40% (compra)** | +0,14% por operação no treino (acaso 2%) e +0,09% no teste (acaso 0%), ~50–95 operações/ano; estável de 0,2 a 0,5; 15 de 22 anos positivos | 🟡 **passou no índice, NÃO confirmou no WIN** (2021–hoje: +99 pontos/op com custo real, acaso 24%) — fica só como leitura |
 | Rompimento na venda, Oops!, Smash Day, GSV, armadilha, virada do mês, dia da semana | não se repetiram no teste | ❌ |
 | Juros (DI e juro dos EUA) como motivo/gatilho | não melhoraram nada | ❌ |
 | Momentum Index com "as duas condições" (régua do Larry, do treino ou %R) | igual a um dia qualquer; no treino, pior | ❌ |
