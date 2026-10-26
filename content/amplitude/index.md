@@ -1,23 +1,23 @@
 ---
 title: "📊 Amplitude (Market Breadth)"
-date: 2026-10-24
+date: 2026-10-26
 description: "Porcentagem das ações do Ibovespa acima das médias de 20, 50 e 200 pregões"
 tags: [amplitude]
 ---
 
-*Atualizado 24/10/2026 08:34 · fechamento de 23/10/2026.*
+*Atualizado 26/10/2026 19:14 · fechamento de 26/10/2026.*
 
 A **amplitude** mostra quantas ações do Ibovespa estão acompanhando o movimento do índice: a porcentagem das ações da carteira que estão **acima das suas médias** de 20, 50 e 200 pregões. O **sentimento** é a média das três. **Abaixo de 20**: quase todas as ações caindo — exaustão vendedora, região de fundos. **Acima de 80**: quase todas subindo — força generalizada (no teste, **não** aumentou o risco de queda).
 
-> [!danger] Sentimento **80%** ▼ · 🔴 acima de 80 · força generalizada
-> Acima da MM 20: **79%** · MM 50: **86%** · MM 200: **76%** <small>(76 de 76 ações com dados)</small>
+> [!success] Sentimento **18%** ▼ · 🟢 exaustão vendedora (abaixo de 20)
+> Acima da MM 20: **9%** · MM 50: **17%** · MM 200: **26%** <small>(76 de 76 ações com dados)</small>
 
 <iframe src="https://jarbasdacosta.github.io/sinal-b3/static/amplitude_grafico.html" title="Amplitude do Ibovespa — interativo" style="width:100%;height:640px;border:0;border-radius:8px" loading="lazy"></iframe>
 
 *Gráfico interativo: clique na legenda para ligar/desligar cada linha, arraste ou use a rodinha para zoom, botões 3m · 6m · 1a · 3a · 5a · tudo. [Abrir em tela cheia ↗](https://jarbasdacosta.github.io/sinal-b3/static/amplitude_grafico.html)*
 
 > [!note]- Imagem estática (últimos 3 anos)
-> ![Amplitude do Ibovespa](graficos/amplitude_20261023.png)
+> ![Amplitude do Ibovespa](graficos/amplitude_20261026.png)
 
 📈 Veja também a **[linha de avanço e declínio](amplitude/avanco-declinio)** — quantas ações do Ibovespa subiram menos quantas caíram, dia a dia, e se ela acompanha os topos do índice.
 
@@ -25,6 +25,7 @@ A **amplitude** mostra quantas ações do Ibovespa estão acompanhando o movimen
 
 | Data | Sentimento | MM 20 | MM 50 | MM 200 |
 |---|---|---|---|---|
+| 26/10/2026 | **18%** 🟢 | 9% | 17% | 26% |
 | 23/10/2026 | **80%** 🔴 | 79% | 86% | 76% |
 | 22/10/2026 | **82%** 🔴 | 86% | 86% | 75% |
 | 21/10/2026 | **84%** 🔴 | 87% | 86% | 79% |
@@ -34,12 +35,12 @@ A **amplitude** mostra quantas ações do Ibovespa estão acompanhando o movimen
 | 15/10/2026 | **80%** 🔴 | 79% | 86% | 75% |
 | 14/10/2026 | **84%** 🔴 | 84% | 87% | 79% |
 | 13/10/2026 | **85%** 🔴 | 87% | 88% | 79% |
-| 09/10/2026 | **86%** 🔴 | 87% | 88% | 83% |
 
 ## Quando entrou nas zonas
 
 | Início | Zona | Sentimento |
 |---|---|---|
+| 26/10/2026 | 🟢 abaixo de 20 | 18% |
 | 05/10/2026 | 🔴 acima de 80 | 85% |
 | 10/09/2026 | 🔴 acima de 80 | 82% |
 | 17/08/2026 | 🟢 abaixo de 20 | 20% |
@@ -54,7 +55,6 @@ A **amplitude** mostra quantas ações do Ibovespa estão acompanhando o movimen
 | 05/11/2025 | 🔴 acima de 80 | 83% |
 | 17/09/2025 | 🔴 acima de 80 | 84% |
 | 08/01/2025 | 🟢 abaixo de 20 | 16% |
-| 18/12/2024 | 🟢 abaixo de 20 | 14% |
 
 ## O que o teste mostrou (23/10/2026)
 

@@ -5,7 +5,7 @@ tags: [operacoes]
 description: "As regras de compra do site ordenadas pelo resultado, com treino, teste e placar ao vivo"
 ---
 
-*Atualizado 26/10/2026 18:25 · histórico simulado com as regras congeladas em 23/10/2026 + placar ao vivo.*
+*Atualizado 26/10/2026 19:14 · histórico simulado com as regras congeladas em 23/10/2026 + placar ao vivo.*
 
 As regras de compra do site, **da que mais rendeu para a que menos rendeu**. O resultado é por operação, no índice à vista, sem custos e sem juros compostos (a soma é só a soma das operações). **Treino** = entradas de 2001 a 2013 e **teste** = 2014 em diante: uma regra só é confiável se ganhou nos dois. O único resultado sem nenhum ajuste ao histórico é o **placar ao vivo**.
 
@@ -35,14 +35,14 @@ As regras de compra do site, **da que mais rendeu para a que menos rendeu**. O r
 
 ## Como carteira (Tendência)
 
-- **📈 Tendência MME9 · Diário**: +13,9% ao ano, maior queda 35% (comprar e segurar +9,6% e 60%)
+- **📈 Tendência MME9 · Diário**: +13,3% ao ano, maior queda 35% (comprar e segurar +9,0% e 60%)
 - **📈 Tendência MME9 · Semanal**: +9,3% ao ano, maior queda 29% (comprar e segurar +9,6% e 57%)
 
 ## Contexto do IMA
 
 Como as compras de cada regra se saíram conforme o **ζ do pregão anterior** (estudo de 23/10/2026). **Informa, não filtra:** nenhum desses contextos passou no critério rigoroso; aparecem nos avisos de compra para você pesar na decisão.
 
-**Agora:** neutro, nenhum dos três contextos ativo — ζ Topo 79% · ζ Fundo 0% em 23/10
+**Agora:** neutro, nenhum dos três contextos ativo — ζ Topo 66% · ζ Fundo 3% em 26/10
 
 | Regra | Normal | 🔪 queda forte ativa | 🔴 ζ Topo no vermelho | 🚀 Força recente |
 |---|---|---|---|---|

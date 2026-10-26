@@ -1,6 +1,6 @@
 ---
 title: 📍 Sinais
-date: 2026-10-23
+date: 2026-10-26
 tags: [sinais]
 description: Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger no Ibovespa
 ---
@@ -9,11 +9,11 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 
 📘 [Tutorial — como ler e usar](sinais-topo-fundo/tutorial) · 📋 [Todos os sinais (fortes e moderados)](sinais-topo-fundo/todos-os-sinais)
 
-> [!note] Sinal moderado no fechamento de 23/10/2026
-> - Semanal · TOPO · **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 (68%, 2,6× o acaso)
+> [!note] Sinal moderado no fechamento de 26/10/2026
+> - Diário · FUNDO · **ELEF-** — Elefante de exaustão de baixa (43%, 2,0× o acaso)
 
 > [!info]- Sinal moderado em formação (clique para ver)
-> - Mensal · TOPO · **RSI75+MV** — RSI≥75 e MACD-V≥130
+> - Mensal · TOPO · **TT+RSI** — Top tail + RSI≥70
 
 ## 🎯 Sinais raros de grande fundo
 
@@ -50,8 +50,6 @@ Aparecem menos de uma vez por ano e quase sempre perto de um **grande fundo** (q
 
 **RSI ≥ 75 e MACD-V ≥ 130** no candle mensal. Não é sinal de venda: é aviso para **proteger** (subir o stop, realizar parte, não aumentar a compra) nos meses seguintes.
 
-> [!warning] ⚠️ Alerta raro de topo **em formação** no mês atual (confirma no último pregão do mês)
-
 | Desde 2001 | Mais baixo 3 meses depois | Mais baixo 6 meses depois | Média 3m · 6m · 12m | Maior queda em 6 meses (média) | Último |
 |---|---|---|---|---|---|
 | 8 | 5 de 8 | 6 de 8 | -7% · -3% · **+17%** | -22% | 27/02/2026 |
@@ -81,7 +79,7 @@ Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 | Diário | **BT+RSI** (73%), **BT+CCI** (57%), **FD+RSI** (71%) | — |
 | H4 | — | — |
 
-*Atualizado em 23/10/2026 19:11 BRT (último pregão fechado: 23/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 26/10/2026 19:11 BRT (último pregão fechado: 26/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.

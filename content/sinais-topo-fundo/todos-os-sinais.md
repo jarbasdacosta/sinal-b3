@@ -1,6 +1,6 @@
 ---
 title: Todos os sinais
-date: 2026-10-23
+date: 2026-10-26
 tags: [sinais]
 description: Histórico dos sinais de topo e fundo por tempo gráfico
 ---
@@ -42,10 +42,11 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 
 ## Diário
 
-Últimos 250 candles: 13 sinais, **2 fortes**.
+Últimos 250 candles: 14 sinais, **2 fortes**.
 
 | Candle | Tipo | Sinal | Força | Acerto | vs. acaso |
 |---|---|---|---|---|---|
+| 26/10/2026 | 🟢 FUNDO | **[ELEF-](tecnico/#diário)** — Elefante de exaustão de baixa | moderado | 43% | 2,0× |
 | 08/10/2026 | 🟠 TOPO (proteção) | **[FD+CCI](tecnico/#diário)** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% | 1,7× |
 | 06/10/2026 | 🟠 TOPO (proteção) | **[TT+RSI](tecnico/#diário)** — Top tail + RSI≥70 | moderado | 35% | 1,6× |
 | 04/09/2026 | 🟠 TOPO (proteção) | **[FD+CCI](tecnico/#diário)** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% | 1,7× |
@@ -85,4 +86,4 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 | 12/08/2026 10h | 🟢 FUNDO | **[FD+RSI](sinais-topo-fundo/todos-os-sinais#h4)** — Fechou fora→dentro da BB inferior + RSI≤30 | moderado | 50% | 2,5× |
 | 10/08/2026 10h | 🟢 FUNDO | **[BT+BB](sinais-topo-fundo/todos-os-sinais#h4)** — Bottom tail tocando a BB inferior | moderado | 53% | 3,1× |
 
-*Atualizado em 23/10/2026 19:11 BRT.*
+*Atualizado em 26/10/2026 19:11 BRT.*

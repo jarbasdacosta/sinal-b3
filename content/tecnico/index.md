@@ -1,34 +1,34 @@
 ---
 title: 📈 Gráficos
-date: 2026-10-23
+date: 2026-10-26
 tags: [tecnico]
 description: Ibovespa no mensal, semanal e diário com médias, Bollinger, MACD-V, CCI e RSI
 ---
 
-Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20,2)**, mais **MACD-V**, **CCI(20)** e **RSI(14)**, com os **Sinais de Topo e Fundo** marcados nos candles. Fechamento de **23/10/2026**; o semanal e o mensal mostram o candle atual ainda em formação.
+Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20,2)**, mais **MACD-V**, **CCI(20)** e **RSI(14)**, com os **Sinais de Topo e Fundo** marcados nos candles. Fechamento de **26/10/2026**; o semanal e o mensal mostram o candle atual ainda em formação.
 
 **Atalhos:** [Mensal](#mensal) · [Semanal](#semanal) · [Diário](#diário)
 
 ## Mensal
 
-![Ibovespa Mensal](graficos/tecnico_mensal_20261023.png)
+![Ibovespa Mensal](graficos/tecnico_mensal_20261026.png)
 
 | Indicador | Valor | Posição | Direção (vs. candle anterior) |
 |---|---|---|---|
-| MME(9) | 181.881 | 🟢 preço acima (+12,8%) | ↗ subindo |
-| MMA(20) | 163.463 | 🟢 preço acima (+25,5%) | ↗ subindo |
-| MMA(50) | 137.497 | 🟢 preço acima (+49,2%) | ↗ subindo |
-| MMA(200) | 89.804 | 🟢 preço acima (+128,4%) | ↗ subindo |
-| Bollinger(20,2) | 118.549 – 208.377 | dentro das bandas (%B 96%) | ↔ abrindo |
-| MACD-V | 141,6 (média 146,7) | 🔴 abaixo da média (sinal) | 🔴 ↗ subindo |
-| CCI(20) | 136,7 (MME9 116,3) | 🟢 acima da MME9 · acima de zero | ↗ subindo |
-| RSI(14) | 76,6 | ⚠️ **sobrecomprado (≥ 70)** | ↗ subindo |
+| MME(9) | 176.186 | 🟢 preço acima (+0,2%) | ↗ subindo |
+| MMA(20) | 162.039 | 🟢 preço acima (+9,0%) | ↗ subindo |
+| MMA(50) | 136.927 | 🟢 preço acima (+29,0%) | ↗ subindo |
+| MMA(200) | 89.661 | 🟢 preço acima (+97,0%) | ↗ subindo |
+| Bollinger(20,2) | 120.841 – 203.237 | dentro das bandas (%B 68%) | →← fechando |
+| MACD-V | 115,8 (média 143,8) | 🔴 abaixo da média (sinal) | 🟥 ↘ caindo |
+| CCI(20) | 51,5 (MME9 99,2) | 🔴 abaixo da MME9 · acima de zero | ↘ caindo |
+| RSI(14) | 62,1 | neutro · acima de 50 | ↘ caindo |
 
 **Sinais de Topo e Fundo marcados no gráfico** (▲ fundo · ▼ topo · maior = forte · vazado = em formação) — [como ler](sinais-topo-fundo/tutorial)
 
 | Candle | Tipo | Sinal | Força | Acerto histórico |
 |---|---|---|---|---|
-| 10/2026 (em formação) | 🔴 Topo | **RSI75+MV** — RSI≥75 e MACD-V≥130 | moderado | 62% |
+| 10/2026 (em formação) | 🔴 Topo | **TT+RSI** — Top tail + RSI≥70 | moderado | 38% |
 | 05/2026 | 🔴 Topo | **MV-** — MACD-V vira verde sem brilho acima do limiar | moderado | 75% |
 | 04/2026 | 🔴 Topo | **TT+RSI** — Top tail + RSI≥70 | moderado | 38% |
 | 04/2026 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 50% |
@@ -39,18 +39,18 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 
 ## Semanal
 
-![Ibovespa Semanal](graficos/tecnico_semanal_20261023.png)
+![Ibovespa Semanal](graficos/tecnico_semanal_20261026.png)
 
 | Indicador | Valor | Posição | Direção (vs. candle anterior) |
 |---|---|---|---|
-| MME(9) | 194.166 | 🟢 preço acima (+5,6%) | ↗ subindo |
-| MMA(20) | 181.489 | 🟢 preço acima (+13,0%) | ↗ subindo |
-| MMA(50) | 177.818 | 🟢 preço acima (+15,3%) | ↗ subindo |
-| MMA(200) | 138.341 | 🟢 preço acima (+48,2%) | ↗ subindo |
-| Bollinger(20,2) | 156.842 – 206.137 | dentro das bandas (%B 98%) | ↔ abrindo |
-| MACD-V | 103,3 (média 46,5) | 🟢 acima da média (sinal) | 🟩 ↗ subindo |
-| CCI(20) | 156,0 (MME9 141,3) | 🟢 acima da MME9 · acima de zero | ↘ caindo |
-| RSI(14) | 68,1 | neutro · acima de 50 | ↘ caindo |
+| MME(9) | 190.654 | 🔴 preço abaixo (−7,4%) | ↘ caindo |
+| MMA(20) | 181.763 | 🔴 preço abaixo (−2,8%) | ↗ subindo |
+| MMA(50) | 178.196 | 🔴 preço abaixo (−0,9%) | ↗ subindo |
+| MMA(200) | 138.674 | 🟢 preço acima (+27,4%) | ↗ subindo |
+| Bollinger(20,2) | 157.463 – 206.064 | dentro das bandas (%B 39%) | →← fechando |
+| MACD-V | 68,3 (média 54,3) | 🟢 acima da média (sinal) | 🟢 ↘ caindo |
+| CCI(20) | -34,8 (MME9 106,1) | 🔴 abaixo da MME9 · abaixo de zero | ↘ caindo |
+| RSI(14) | 46,0 | neutro · abaixo de 50 | ↘ caindo |
 
 **Sinais de Topo e Fundo marcados no gráfico** (▲ fundo · ▼ topo · maior = forte · vazado = em formação) — [como ler](sinais-topo-fundo/tutorial)
 
@@ -80,23 +80,24 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 
 ## Diário
 
-![Ibovespa Diário](graficos/tecnico_diario_20261023.png)
+![Ibovespa Diário](graficos/tecnico_diario_20261026.png)
 
 | Indicador | Valor | Posição | Direção (vs. candle anterior) |
 |---|---|---|---|
-| MME(9) | 204.881 | 🟢 preço acima (+0,1%) | ↗ subindo |
-| MMA(20) | 200.025 | 🟢 preço acima (+2,5%) | ↗ subindo |
-| MMA(50) | 187.601 | 🟢 preço acima (+9,3%) | ↗ subindo |
-| MMA(200) | 181.227 | 🟢 preço acima (+13,2%) | ↗ subindo |
-| Bollinger(20,2) | 181.182 – 218.868 | dentro das bandas (%B 63%) | →← fechando |
-| MACD-V | 150,0 (média 177,1) | 🔴 abaixo da média (sinal) · ⚠️ **extremo** | 🟥 ↘ caindo |
-| CCI(20) | 40,0 (MME9 73,5) | 🔴 abaixo da MME9 · acima de zero | ↗ subindo |
-| RSI(14) | 63,6 | neutro · acima de 50 | ↗ subindo |
+| MME(9) | 199.226 | 🔴 preço abaixo (−11,4%) | ↘ caindo |
+| MMA(20) | 199.682 | 🔴 preço abaixo (−11,6%) | ↘ caindo |
+| MMA(50) | 187.791 | 🔴 preço abaixo (−6,0%) | ↗ subindo |
+| MMA(200) | 181.300 | 🔴 preço abaixo (−2,6%) | ↗ subindo |
+| Bollinger(20,2) | 179.446 – 219.918 | ⚠️ **fechou abaixo da banda inferior** (%B -7%) | ↔ abrindo |
+| MACD-V | 59,7 (média 162,6) | 🔴 abaixo da média (sinal) | 🟥 ↘ caindo |
+| CCI(20) | -172,8 (MME9 24,2) | 🔴 abaixo da MME9 · abaixo de zero | ↘ caindo |
+| RSI(14) | 30,3 | neutro · abaixo de 50 | ↘ caindo |
 
 **Sinais de Topo e Fundo marcados no gráfico** (▲ fundo · ▼ topo · maior = forte · vazado = em formação) — [como ler](sinais-topo-fundo/tutorial)
 
 | Candle | Tipo | Sinal | Força | Acerto histórico |
 |---|---|---|---|---|
+| 26/10/2026 | 🟢 Fundo | **ELEF-** — Elefante de exaustão de baixa | moderado | 43% |
 | 08/10/2026 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% |
 | 06/10/2026 | 🔴 Topo | **TT+RSI** — Top tail + RSI≥70 | moderado | 35% |
 | 04/09/2026 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% |
@@ -104,11 +105,10 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 | 14/08/2026 | 🟢 Fundo | **BT+BB** — Bottom tail tocando a BB inferior | moderado | 51% |
 | 11/08/2026 | 🟢 Fundo | **ELEF-** — Elefante de exaustão de baixa | moderado | 43% |
 | 13/07/2026 | 🔴 Topo | **FD+CCI** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% |
-| 09/06/2026 | 🟢 Fundo | **FD+RSI** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **forte** | 71% |
 
 **Entradas do método neste gráfico** (▲ = compra · ✖ = saída · tracejado âmbar = stop da compra em andamento · linha verde-água/âmbar = Nadaraya 12 · ● = fundo/topo fixo do semáforo) — [regras](metodologia/regras-de-operacao#entradas-do-método)
 
-- **Nadaraya** (✅ passou fora da amostra): 🟢 comprado desde 25/08 a 174.577, stop 166.335, agora +17,5%
+- **Nadaraya** (✅ passou fora da amostra): 🟢 comprado desde 25/08 a 174.577, stop 166.335, agora +1,2%
 - **Semáforo N3 após ζ Fundo** (🧪 em observação): sem setup ativo
 
 *Operações anteriores a 23/10/2026 são simuladas no histórico (as regras estão em teste ao vivo desde então).*
@@ -124,4 +124,4 @@ Ibovespa com **MME(9)**, **MMA(20)**, **MMA(50)**, **MMA(200)** e **Bollinger(20
 
 <small>Direção = valor de hoje comparado com o do candle anterior (no semanal e no mensal, com o candle em formação). MACD-V: 🟩 verde subindo · 🟢 verde sem brilho · 🔴 vermelho sem brilho · 🟥 vermelho caindo. CCI: aqua subindo · magenta caindo · azul ≥ +200 · vermelho ≤ −200 · linha amarela = MME9 do CCI.</small>
 
-*Atualizado em 23/10/2026 19:14 BRT. Dados: Yahoo (^BVSP); semanal e mensal montados do diário.*
+*Atualizado em 26/10/2026 19:14 BRT. Dados: Yahoo (^BVSP); semanal e mensal montados do diário.*
