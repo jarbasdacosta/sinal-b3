@@ -6,18 +6,19 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 26/10/2026 20:39 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 26/10/2026 20:55 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|
 | [**Tendência Forte do Dia**](tendencia-forte-do-dia) | ✅ aprovado | Entra a favor do dia que já mostrou força: preço do lado certo das 3 médias, bem longe da abertura e uma vela confirmando. | +46% | −16% | +45 → +36 | [assistir](https://youtu.be/N4CJ9Yv8To8) |
 | [**ADX da Manhã**](adx-da-manha) | 🟡 promissor | Aposta curta e barata no começo da tendência das 10h às 11h: vela a favor com o ADX subindo, stop pequeno e alvo bem longo. | +37% | −15% | +10 → +47 | [assistir](https://youtu.be/D9mwdxexECE) |
+| [**IFR de Tendência**](ifr-de-tendencia) | ✅ aprovado | Entra quando o IFR mostra força nos horários de tendência do dia (10h–11h e 14h–16h): vela a favor com o IFR acima de 70 ou abaixo de 30, stop curto e alvo longo. | +43% | −7% | +56 → +99 | [assistir](https://youtu.be/sswleA6JTvY) |
 | *CDI* | | | *+13%* | *0%* | | |
 | *Ibovespa comprado* | | | *+11%* | *−21%* | | |
 
 ### [🧺 Carteira: o que vale a pena operar junto](carteira)
 
-Os 2 setups juntos, com o capital dividido igualmente: **+43% ao ano**, pior queda de **−12%** e Sharpe **1,41**. A página da carteira mostra todas as combinações e se os setups se ajudam.
+Os 3 setups juntos, com o capital dividido igualmente: **+43% ao ano**, pior queda de **−10%** e Sharpe **1,61**. A página da carteira mostra todas as combinações e se os setups se ajudam.
 
 ### Como um setup entra nesta lista
 
