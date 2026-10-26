@@ -8,7 +8,7 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · sinais da 1ª vela do dia até 17h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "encontrei uma coisa absurda nos testes"](https://youtu.be/N4CJ9Yv8To8) · testado de forma independente nos nossos dados em 25 e 26/10/2026 · página gerada em 26/10/2026 20:32 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "encontrei uma coisa absurda nos testes"](https://youtu.be/N4CJ9Yv8To8) · testado de forma independente nos nossos dados em 25 e 26/10/2026 · página gerada em 26/10/2026 20:39 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R$ 10.000 aplicados em nov/2021 viraram
 > - **R$ 64.671** na versão ATR 0,36 / 0,15 / 3,75× com o capital no CDI (+46% ao ano · pior queda −16%)
@@ -152,6 +152,9 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 | 2024 | +21,6% | +29,5% | +31,5% | +10,8% | −10,4% | pontos fixos 400/400 + CDI |
 | 2025 | +32,2% | +22,2% | +19,8% | +14,2% | +34,0% | Ibovespa |
 | 2026* | +71,9% | +38,7% | +65,6% | +11,4% | +9,6% | ATR 0,36 / 0,15 / 3,75× + CDI |
+| **Acumulado no período** | **+546,7%** | **+378,5%** | **+457,6%** | **+81,2%** | **+67,3%** | **ATR 0,36 / 0,15 / 3,75× + CDI** |
+| **R$ 10.000 viraram** | **R$ 64.671** | **R$ 47.850** | **R$ 55.763** | **R$ 18.119** | **R$ 16.732** | |
+| **Média ao ano** | **+46,0%** | **+37,3%** | **+41,6%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
@@ -220,6 +223,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 > | ago/2026 | +9,9% | +4,6% | +0,9% | +1,1% | −0,3% |
 > | set/2026 | +4,2% | −2,0% | +6,7% | +1,1% | +5,0% |
 > | out/2026 | +7,8% | −2,5% | +6,4% | +0,8% | −5,2% |
+> | **Acumulado** | **+546,7%** | **+378,5%** | **+457,6%** | **+81,2%** | **+67,3%** |
 
 ### E se o capital por contrato for outro?
 

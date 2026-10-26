@@ -8,7 +8,7 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 15 minutos · só as velas das 10h00, 10h15, 10h30, 10h45 e 11h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 20:32 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 20:39 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R$ 10.000 aplicados em nov/2021 viraram
 > - **R$ 48.116** na versão filtro 0,89% com o capital no CDI (+37% ao ano · pior queda −15%)
@@ -132,6 +132,9 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 | 2024 | +36,5% | +63,7% | +10,8% | −10,4% | como no vídeo + CDI |
 | 2025 | +65,9% | +42,1% | +14,2% | +34,0% | filtro 0,89% + CDI |
 | 2026* | +43,1% | +31,6% | +11,4% | +9,6% | filtro 0,89% + CDI |
+| **Acumulado no período** | **+381,2%** | **+320,4%** | **+81,2%** | **+67,3%** | **filtro 0,89% + CDI** |
+| **R$ 10.000 viraram** | **R$ 48.116** | **R$ 42.044** | **R$ 18.119** | **R$ 16.732** | |
+| **Média ao ano** | **+37,5%** | **+33,8%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
@@ -200,6 +203,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 > | ago/2026 | +1,9% | −2,8% | +1,1% | −0,3% |
 > | set/2026 | +16,4% | +10,4% | +1,1% | +5,0% |
 > | out/2026 | +4,4% | −2,3% | +0,8% | −5,2% |
+> | **Acumulado** | **+381,2%** | **+320,4%** | **+81,2%** | **+67,3%** |
 
 ### E se o capital por contrato for outro?
 

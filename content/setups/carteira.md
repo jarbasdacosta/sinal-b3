@@ -6,7 +6,7 @@ tags: [setup, carteira]
 
 **O que acontece quando os setups aprovados são operados juntos? A carteira divide o capital igualmente entre eles e testa todas as combinações, sempre comparando com o CDI e com o Ibovespa comprado.**
 
-*Página gerada em 26/10/2026 20:32 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
+*Página gerada em 26/10/2026 20:39 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
 
 > [!success] Em resumo: com R$ 10.000, operando os 2 setups juntos (capital dividido igualmente, capital no CDI)
 > - **R$ 57.863** (+43% ao ano · pior queda −12% · Sharpe 1,41)
@@ -57,6 +57,9 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 | 2024 | +21,6% | +36,5% | +29,2% | +10,8% | −10,4% | ADX da Manhã |
 | 2025 | +32,2% | +65,9% | +49,0% | +14,2% | +34,0% | ADX da Manhã |
 | 2026* | +71,9% | +43,1% | +59,1% | +11,4% | +9,6% | Tendência Forte do Dia |
+| **Acumulado no período** | **+546,7%** | **+381,2%** | **+478,6%** | **+81,2%** | **+67,3%** | **Tendência Forte do Dia** |
+| **R$ 10.000 viraram** | **R$ 64.671** | **R$ 48.116** | **R$ 57.863** | **R$ 18.119** | **R$ 16.732** | |
+| **Média ao ano** | **+46,0%** | **+37,5%** | **+42,7%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
@@ -125,6 +128,7 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 > | ago/2026 | +9,9% | +1,9% | +6,0% | +1,1% | −0,3% |
 > | set/2026 | +4,2% | +16,4% | +10,3% | +1,1% | +5,0% |
 > | out/2026 | +7,8% | +4,4% | +6,4% | +0,8% | −5,2% |
+> | **Acumulado** | **+546,7%** | **+381,2%** | **+478,6%** | **+81,2%** | **+67,3%** |
 
 ## Como a carteira é montada
 
