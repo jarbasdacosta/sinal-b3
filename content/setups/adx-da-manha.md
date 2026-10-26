@@ -8,10 +8,10 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 15 minutos · só as velas das 10h00, 10h15, 10h30, 10h45 e 11h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 20:19 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 20:32 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R$ 10.000 aplicados em nov/2021 viraram
-> - **R$ 40.963** na versão ADX subindo com o capital no CDI (+33% ao ano · pior queda −14%)
+> - **R$ 48.116** na versão filtro 0,89% com o capital no CDI (+37% ao ano · pior queda −15%)
 > - **R$ 42.044** na versão como no vídeo com o capital no CDI (+34% ao ano · pior queda −13%)
 > - **R$ 18.119** só no CDI (+13% ao ano)
 > - **R$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
@@ -29,50 +29,51 @@ tags: [setup, win]
 |---|---|---|
 | **1. Horário** | a vela começa entre 10h00 e 11h00 | igual |
 | **2. Vela a favor** | a vela é **positiva** (fecha acima da abertura) | a vela é **negativa** (fecha abaixo da abertura) |
-| **3. ADX(9, média 9)** | o ADX está **subindo** (maior que na vela anterior) | o ADX está **subindo** (versão principal — o ADX mede força, não direção) ou descendo (como no vídeo) |
-| **4. Filtro** | a vela tem **no máximo 1.000 pontos** (evita dias de volatilidade anormal) | igual |
+| **3. ADX(9, média 9)** | o ADX está **subindo** (maior que na vela anterior) | o ADX está **subindo** também — o ADX mede a força do movimento, não a direção |
+| **4. Filtro** | a vela tem **no máximo 0,89% do preço** de tamanho (≈ 1.587 pts hoje; evita dias de volatilidade anormal) | igual |
 | **Entrada** | compra **a mercado** na abertura da vela seguinte | vende a mercado na abertura da vela seguinte |
-| **Stop** | **0,15%** abaixo da entrada (≈ 270 pts) | 0,15% acima da entrada |
-| **Alvo** | **1,30%** acima da entrada (≈ 2.300 pts) | 1,30% abaixo da entrada |
+| **Stop** | **0,15%** abaixo da entrada (≈ 267 pts hoje) | 0,15% acima da entrada |
+| **Alvo** | **1,30%** acima da entrada (≈ 2.317 pts hoje) | 1,30% abaixo da entrada |
 | **Fim do dia** | se não bateu stop nem alvo, zera às 18h20 | igual |
 
 - **Uma operação de cada vez.** Se tomar stop cedo, pode entrar de novo numa vela seguinte ainda dentro da janela das 10h às 11h.
 - **Acerta pouco e ganha muito quando acerta:** cerca de 1 em cada 5 operações dá lucro, mas o ganho médio é 5 a 6 vezes a perda média.
 - **Sem condução do trade** (sem stop no zero a zero), exatamente como no vídeo.
+- **De onde veio:** no vídeo o filtro é de 1.000 pontos fixos e a venda é com o ADX descendo. Aqui o filtro virou 0,89% do preço (com o índice subindo, os 1.000 pts barravam cada vez mais velas normais) e a venda usa o ADX subindo (escolhidos no treino, testados em 26/10/2026).
 
 ### As versões testadas
 
-| | ADX subindo (principal) | como no vídeo |
+| | filtro 0,89% (principal) | como no vídeo |
 |---|---|---|
-| Regra | venda com ADX subindo · alvo 1,30% · stop 0,15% | venda com ADX descendo · alvo 1,30% · stop 0,15% |
+| Regra | venda com ADX subindo · filtro 0,89% do preço · alvo 1,30% · stop 0,15% | venda com ADX descendo · filtro 1.000 pts · alvo 1,30% · stop 0,15% |
 | Acerto | 18% | 18% |
-| Payoff | 5,10 | 5,21 |
-| Treino → teste (pts por operação) | +9,6 → +40,4 | +7,9 → +41,1 |
-| Retorno ao ano (+ CDI) | +33,1% | +33,8% |
-| Pior queda (+ CDI) | −14,4% | −13,2% |
+| Payoff | 5,21 | 5,21 |
+| Treino → teste (pts por operação) | +9,8 → +46,8 | +7,9 → +41,1 |
+| Retorno ao ano (+ CDI) | +37,5% | +33,8% |
+| Pior queda (+ CDI) | −15,4% | −13,2% |
 
 ## Estatísticas da operação (1 contrato, em pontos)
 
 Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e escorregão). R$ = pontos × R$ 0,20 por contrato. **Treino** = nov/2021 a dez/2023 · **Teste** = 2024 até hoje.
 
-### Versão ADX subindo
+### Versão filtro 0,89%
 
 | | Treino | Teste | Total |
 |---|---|---|---|
-| Operações | 819 | 915 | 1.734 |
-| Operações por mês | 30,3 | 26,9 | 28,4 |
-| Taxa de acerto | 15,1% | 21,3% | 18,4% |
-| Bateram o alvo / o stop / zeraram no fim do dia | 8% / 84% / 8% | 5% / 78% / 17% | 7% / 81% / 12% |
-| Stop típico | 167 pts | 206 pts | 188 pts |
-| Ganho médio · perda média | +1.086 · −182 pts | +1.066 · −237 pts | +1.074 · −210 pts |
-| Payoff (ganho médio ÷ perda média) | 5,95 | 4,49 | 5,10 |
-| Fator de lucro (total ganho ÷ total perdido) | 1,06 | 1,22 | 1,15 |
-| Resultado médio por operação | +9,6 pts (+24,6 sem custo) | +40,4 pts (+55,4 sem custo) | +25,9 pts (+40,9 sem custo) |
-| **Lucro líquido** | **+7.899 pts · R$ 1.580** | **+36.962 pts · R$ 7.392** | **+44.861 pts · R$ 8.972** |
-| Pior queda (drawdown) | −6.191 pts · −R$ 1.238 | −8.455 pts · −R$ 1.691 | −8.455 pts · −R$ 1.691 |
+| Operações | 818 | 968 | 1.786 |
+| Operações por mês | 30,3 | 28,5 | 29,3 |
+| Taxa de acerto | 15,2% | 21,1% | 18,4% |
+| Bateram o alvo / o stop / zeraram no fim do dia | 8% / 84% / 8% | 6% / 78% / 16% | 7% / 81% / 12% |
+| Stop típico | 167 pts | 208 pts | 189 pts |
+| Ganho médio · perda média | +1.086 · −182 pts | +1.124 · −241 pts | +1.110 · −213 pts |
+| Payoff (ganho médio ÷ perda média) | 5,95 | 4,67 | 5,21 |
+| Fator de lucro (total ganho ÷ total perdido) | 1,06 | 1,25 | 1,17 |
+| Resultado médio por operação | +9,8 pts (+24,8 sem custo) | +46,8 pts (+61,8 sem custo) | +29,9 pts (+44,9 sem custo) |
+| **Lucro líquido** | **+8.040 pts · R$ 1.608** | **+45.340 pts · R$ 9.068** | **+53.380 pts · R$ 10.676** |
+| Pior queda (drawdown) | −6.554 pts · −R$ 1.311 | −9.419 pts · −R$ 1.884 | −9.419 pts · −R$ 1.884 |
 | Maior sequência de perdas | 24 seguidas | 18 seguidas | 24 seguidas |
-| Compras: acerto · lucro | 15% · +471 pts | 20% · +14.284 pts | 17% · +14.755 pts |
-| Vendas: acerto · lucro | 16% · +7.427 pts | 23% · +22.678 pts | 19% · +30.106 pts |
+| Compras: acerto · lucro | 15% · +627 pts | 20% · +17.056 pts | 17% · +17.683 pts |
+| Vendas: acerto · lucro | 16% · +7.413 pts | 22% · +28.284 pts | 19% · +35.697 pts |
 
 ### Versão como no vídeo
 
@@ -108,36 +109,36 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 
 A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos cresce junto com o capital). Na versão **+ CDI** o capital fica aplicado no CDI / Tesouro Selic (aceito como garantia) e o resultado do setup soma por cima — é a comparação justa. Na **pura**, o capital fica parado. O Ibovespa já inclui dividendos. Sem imposto.
 
-| | ADX subindo + CDI | como no vídeo + CDI | ADX subindo pura | CDI | Ibovespa |
+| | filtro 0,89% + CDI | como no vídeo + CDI | filtro 0,89% pura | CDI | Ibovespa |
 |---|---|---|---|---|---|
-| **R$ 10.000 viraram** | **R$ 40.963** | **R$ 42.044** | **R$ 22.616** | **R$ 18.119** | **R$ 16.732** |
-| Retorno ao ano | +33,1% | +33,8% | +18,0% | +12,8% | +11,0% |
-| Pior queda | −14,4% | −13,2% | −15,5% | +0,0% | −20,9% |
-| Oscilação ao ano | 20,5% | 22,1% | 20,5% | 0,1% | 18,6% |
-| Sharpe (acima do CDI) | 0,91 | 0,88 | 0,32 | — | 0,01 |
-| Meses acima do CDI | 60% | 60% | 53% | — | 55% |
-| Meses acima do Ibovespa | 60% | 57% | 50% | 45% | — |
-| Pior mês · melhor mês | −10,0% · +18,9% | −7,4% · +15,6% | −10,9% · +17,7% | +0,6% · +1,3% | −11,5% · +12,6% |
+| **R$ 10.000 viraram** | **R$ 48.116** | **R$ 42.044** | **R$ 26.567** | **R$ 18.119** | **R$ 16.732** |
+| Retorno ao ano | +37,5% | +33,8% | +21,9% | +12,8% | +11,0% |
+| Pior queda | −15,4% | −13,2% | −17,2% | +0,0% | −20,9% |
+| Oscilação ao ano | 21,4% | 22,1% | 21,4% | 0,1% | 18,6% |
+| Sharpe (acima do CDI) | 1,03 | 0,88 | 0,47 | — | 0,01 |
+| Meses acima do CDI | 63% | 60% | 55% | — | 55% |
+| Meses acima do Ibovespa | 60% | 57% | 52% | 45% | — |
+| Pior mês · melhor mês | −10,0% · +23,4% | −7,4% · +15,6% | −10,9% · +22,1% | +0,6% · +1,3% | −11,5% · +12,6% |
 
 ![Quedas](img/adx-da-manha_queda.png)
 
 ### Ano a ano
 
-| Ano | ADX subindo + CDI | como no vídeo + CDI | CDI | Ibovespa | Quem ganhou |
+| Ano | filtro 0,89% + CDI | como no vídeo + CDI | CDI | Ibovespa | Quem ganhou |
 |---|---|---|---|---|---|
-| 2021* | +2,1% | −2,8% | +1,3% | −0,7% | ADX subindo + CDI |
-| 2022 | +29,8% | +26,8% | +12,3% | +4,7% | ADX subindo + CDI |
-| 2023 | +11,7% | +11,5% | +13,0% | +22,3% | Ibovespa |
+| 2021* | +2,1% | −2,8% | +1,3% | −0,7% | filtro 0,89% + CDI |
+| 2022 | +29,8% | +26,8% | +12,3% | +4,7% | filtro 0,89% + CDI |
+| 2023 | +12,0% | +11,5% | +13,0% | +22,3% | Ibovespa |
 | 2024 | +36,5% | +63,7% | +10,8% | −10,4% | como no vídeo + CDI |
-| 2025 | +67,5% | +42,1% | +14,2% | +34,0% | ADX subindo + CDI |
-| 2026* | +21,0% | +31,6% | +11,4% | +9,6% | como no vídeo + CDI |
+| 2025 | +65,9% | +42,1% | +14,2% | +34,0% | filtro 0,89% + CDI |
+| 2026* | +43,1% | +31,6% | +11,4% | +9,6% | filtro 0,89% + CDI |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
 ![Retorno por ano](img/adx-da-manha_anos.png)
 
 > [!example]- Mês a mês (clique para abrir)
-> | Mês | ADX subindo + CDI | como no vídeo + CDI | CDI | Ibovespa |
+> | Mês | filtro 0,89% + CDI | como no vídeo + CDI | CDI | Ibovespa |
 > |---|---|---|---|---|
 > | nov/2021 | +1,3% | +1,8% | +0,6% | −3,4% |
 > | dez/2021 | +0,8% | −4,5% | +0,7% | +2,9% |
@@ -156,8 +157,8 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 > | jan/2023 | −0,1% | +1,2% | +1,1% | +3,4% |
 > | fev/2023 | +7,9% | +1,7% | +0,9% | −7,5% |
 > | mar/2023 | −2,9% | +9,3% | +1,2% | −2,9% |
-> | abr/2023 | +6,3% | +4,4% | +0,9% | +2,5% |
-> | mai/2023 | +4,7% | −3,2% | +1,1% | +3,7% |
+> | abr/2023 | +7,4% | +4,4% | +0,9% | +2,5% |
+> | mai/2023 | +3,9% | −3,2% | +1,1% | +3,7% |
 > | jun/2023 | −4,6% | −0,2% | +1,1% | +9,0% |
 > | jul/2023 | +3,2% | +1,5% | +1,1% | +3,3% |
 > | ago/2023 | +0,6% | −2,6% | +1,1% | −5,1% |
@@ -186,28 +187,28 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 > | jul/2025 | +4,0% | +2,0% | +1,3% | −4,2% |
 > | ago/2025 | +8,2% | −2,4% | +1,2% | +6,3% |
 > | set/2025 | +3,8% | −0,8% | +1,2% | +3,4% |
-> | out/2025 | +5,6% | +3,7% | +1,3% | +2,3% |
+> | out/2025 | +5,1% | +3,7% | +1,3% | +2,3% |
 > | nov/2025 | +7,3% | +7,5% | +1,1% | +6,4% |
-> | dez/2025 | −9,2% | −6,2% | +1,1% | +1,3% |
-> | jan/2026 | +7,8% | +6,0% | +1,2% | +12,6% |
+> | dez/2025 | −9,7% | −6,2% | +1,1% | +1,3% |
+> | jan/2026 | +7,3% | +6,0% | +1,2% | +12,6% |
 > | fev/2026 | −10,0% | −4,1% | +1,0% | +4,1% |
-> | mar/2026 | +1,5% | +15,6% | +1,2% | −0,7% |
-> | abr/2026 | +18,9% | +1,0% | +1,1% | −0,1% |
-> | mai/2026 | +1,0% | −0,1% | +1,1% | −7,2% |
-> | jun/2026 | −0,2% | −2,3% | +1,1% | −1,0% |
-> | jul/2026 | −0,4% | +8,4% | +1,2% | +3,5% |
-> | ago/2026 | +4,2% | −2,8% | +1,1% | −0,3% |
-> | set/2026 | +1,0% | +10,4% | +1,1% | +5,0% |
-> | out/2026 | −2,2% | −2,3% | +0,8% | −5,2% |
+> | mar/2026 | +1,9% | +15,6% | +1,2% | −0,7% |
+> | abr/2026 | +23,4% | +1,0% | +1,1% | −0,1% |
+> | mai/2026 | −1,8% | −0,1% | +1,1% | −7,2% |
+> | jun/2026 | −2,9% | −2,3% | +1,1% | −1,0% |
+> | jul/2026 | −0,1% | +8,4% | +1,2% | +3,5% |
+> | ago/2026 | +1,9% | −2,8% | +1,1% | −0,3% |
+> | set/2026 | +16,4% | +10,4% | +1,1% | +5,0% |
+> | out/2026 | +4,4% | −2,3% | +0,8% | −5,2% |
 
 ### E se o capital por contrato for outro?
 
-| Capital por contrato | ADX subindo + CDI | como no vídeo + CDI |
+| Capital por contrato | filtro 0,89% + CDI | como no vídeo + CDI |
 |---|---|---|
-| R$ 5.000 | +51% ao ano · pior queda −28% | +51% ao ano · pior queda −29% |
-| R$ 10.000 | +33% ao ano · pior queda −14% | +34% ao ano · pior queda −13% |
-| R$ 20.000 | +23% ao ano · pior queda −7% | +24% ao ano · pior queda −6% |
-| R$ 40.000 | +18% ao ano · pior queda −3% | +18% ao ano · pior queda −3% |
+| R$ 5.000 | +60% ao ano · pior queda −30% | +51% ao ano · pior queda −29% |
+| R$ 10.000 | +37% ao ano · pior queda −15% | +34% ao ano · pior queda −13% |
+| R$ 20.000 | +25% ao ano · pior queda −7% | +24% ao ano · pior queda −6% |
+| R$ 40.000 | +19% ao ano · pior queda −3% | +18% ao ano · pior queda −3% |
 
 *Referência: CDI +13% ao ano · Ibovespa +11% ao ano, pior queda −21%.*
 
@@ -218,15 +219,15 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 | Pergunta | Resposta |
 |---|---|
 | **Bate com o vídeo?** | Sim. O vídeo mostra 1.940 operações, 18% de acerto, payoff 6,09 e fator de lucro 1,35 (sem custo); nos nossos dados deu 1.960 operações, 18%, 5,67 e 1,25. |
-| **Ganha do acaso?** | No **teste** sim (p ≈ 0,05; acaso no mesmo horário ≈ +9 pts por operação, setup +40). No **treino** não (setup +10, acaso ≈ 0, p 0,28). |
+| **Ganha do acaso?** | No **teste** sim (versão principal: p 0,008 contra entradas quaisquer no mesmo horário). No **treino** não (setup ~+10 pts por operação, acaso ≈ 0, p 0,28). |
+| **Filtro em pontos, % ou ATR?** | Em pontos fixos era o pior dos quatro jeitos; em % do preço ou em ATR o resultado melhora (Sharpe de 0,91 para 1,0–1,1). Stop e alvo continuam melhores em % do que em ATR neste setup. |
 | **É sorte de parâmetro?** | Não. Stop 0,10/0,15/0,20% × alvo 0,65/1,0/1,3/1,6%: 11 das 12 combinações deram lucro no treino **e** no teste — mas no treino todas ganham pouco (+1 a +19 pts). |
 | **Cada condição importa?** | O ADX e o horário importam: sem o ADX cai para +4|+8 pts por operação; o dia inteiro, em vez das 10h–11h, fica negativo no teste. A cor da vela pesa pouco. |
-| **O jeito da venda importa?** | Não muito: venda com ADX subindo ou descendo, com ou sem o filtro de 1.000 pts — as 4 versões dão resultados parecidos. |
 
 ## Riscos e cuidados
 
-- **Fases ruins:** a pior queda da versão ADX subindo foi de −R$ 1.691 por contrato (começou em jan/2026, recuperada em abr/2026); 24 perdas seguidas aconteceram no período.
-- **Mês a mês é quase cara ou coroa:** a versão ADX subindo + CDI ficou abaixo do CDI em 40% dos meses. O resultado aparece no ano.
+- **Fases ruins:** a pior queda da versão filtro 0,89% foi de −R$ 1.884 por contrato (começou em nov/2025, recuperada em abr/2026); 24 perdas seguidas aconteceram no período.
+- **Mês a mês é quase cara ou coroa:** a versão filtro 0,89% + CDI ficou abaixo do CDI em 37% dos meses. O resultado aparece no ano.
 - **Treino fraco:** em 2021–2023 o setup ganhou só ~10 pts por operação e não bateu o acaso; com custo de 25 pts já seria zero. Quase todo o lucro veio de 2024–2025.
 - **Acerto de ~18%:** sequências longas de stops são normais neste setup.
 - **Poucos anos de dados** (desde out/2021) e **sem imposto** (day trade paga 20% sobre o lucro).
