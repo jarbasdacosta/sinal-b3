@@ -5,7 +5,7 @@ description: "Os três prazos de Larry Williams lidos no Ibovespa: estrutura, Mo
 tags: [estudos, amplitude]
 ---
 
-*Atualizado 27/10/2026 14:55 · fechamento de 27/10/2026.*
+*Atualizado 27/10/2026 15:04 · fechamento de 27/10/2026.*
 
 > [!warning] Só informação
 > Leitura diária das ferramentas de **Larry Williams** (livros *The Secret of Selecting Stocks* e *Long-Term Secrets to Short-Term Trading*). **No teste no Ibovespa quase nada funcionou** (tabela abaixo) — nada aqui é regra do site nem manda alerta. O único gatilho que passou no índice, o **rompimento de 40%**, **não se confirmou no WIN**.
@@ -20,7 +20,7 @@ tags: [estudos, amplitude]
 | **Médio** | 20 mais negociadas (soma de 3 semanas) | -20 | ≤ −30 compra · ≤ −40 "hipoteque a casa" |
 | **Curto** | Estrutura: topos/fundos de curto prazo | 🔴 **baixa** | fechamento abaixo de **203.110** = baixa · acima de **209.245** = alta |
 | **Curto** | Momentum Index | —% | neutro · ontem -19,0 · anteontem -5,0 |
-| **Curto** | %R de Williams (10 dias) | 83 | sobrevendido (≥ 80) |
+| **Curto** | %R de Williams (10 dias) | 84 | sobrevendido (≥ 80) |
 | **Curto** | "Espero duas coisas" | nenhuma das duas condições completa | esticado nos últimos 10 pregões + Momentum 2 dias na mesma direção |
 
 > [!example] Rompimento de 40% para o próximo pregão — só leitura (não é regra)
