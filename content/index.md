@@ -6,10 +6,10 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 27/10/2026 15:00 BRT · Intraday 15min*
+*Última atualização: 27/10/2026 15:15 BRT · Intraday 15min*
 
-> [!success] Onde o mercado está agora (27/10 14:45, candles de 15 min): **🟢 Calmo**
-> `Pânico ◀────●────────────────▶ Euforia`
+> [!success] Onde o mercado está agora (27/10 15:00, candles de 15 min): **🟢 Calmo**
+> `Pânico ◀─────●───────────────▶ Euforia`
 >
 > O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
 > No gráfico diário: 🟡 Preço esticado acima da tendência.
@@ -54,26 +54,26 @@ tags: [home]
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Intraday 15 min (27/10 14:45): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
+> > [!success] Sinal de Crise · Intraday 15 min (27/10 15:00): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
 > > `░░░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Intraday 15 min (27/10 14:45) | Valor |
+> | Indicador — Sinal de Crise · Intraday 15 min (27/10 15:00) | Valor |
 > |---|---|
 > | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
-> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 56% |
+> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 52% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-> | 📊 Ibovespa | 175.834 pts |
+> | 📊 Ibovespa | 176.024 pts |
 >
-> **Multi-ativo:** 12% em tensão (1🔴 3🟡 de 26 ativos)
+> **Multi-ativo:** 15% em tensão (1🔴 4🟡 de 26 ativos)
 >
 > **Últimos 7 pregões**
 >
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [27/10/2026](intraday/2026-10-27) | 🟢 VERDE | **0%** | 0% | 56% | 0% |
+> | [27/10/2026](intraday/2026-10-27) | 🟢 VERDE | **0%** | 0% | 52% | 0% |
 > | [26/10/2026](intraday/2026-10-26) | 🟢 VERDE | **1%** | 1% | 🔪 **95%** | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
