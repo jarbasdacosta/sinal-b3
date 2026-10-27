@@ -1,28 +1,29 @@
 ---
 title: "🌎 Capital estrangeiro"
-date: 2026-10-26
+date: 2026-10-27
 description: "Compras e vendas dos investidores estrangeiros no mercado à vista da B3"
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 26/10/2026 19:14.*
+*Dados oficiais da B3 até 21/10/2026 · página atualizada 27/10/2026 19:04.*
 
 > [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
 > No ano de 2026: **+R$ 52,2 bi**
 
 Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **mercado à vista** da B3 (ações). Positivo = entrou dinheiro de fora; negativo = saiu.
 
-![Capital estrangeiro na B3](graficos/estrangeiros_20261026.png)
+![Capital estrangeiro na B3](graficos/estrangeiros_20261027.png)
 
 ## Dia a dia
 
-> [!danger] 22/10/2026: **−R$ 1,0 bi** · 1 pregão(ões) seguido(s) de saída
-> Últimos 5 pregões: **+R$ 380 mi** · últimos 20: **+R$ 19,3 bi**
+> [!danger] 23/10/2026: **−R$ 2,9 bi** · 2 pregão(ões) seguido(s) de saída
+> Últimos 5 pregões: **−R$ 4,8 bi** · últimos 20: **+R$ 16,2 bi**
 
-![Capital estrangeiro dia a dia](graficos/estrangeirosdia_20261022.png)
+![Capital estrangeiro dia a dia](graficos/estrangeirosdia_20261023.png)
 
 | Dia | Saldo do dia | Acumulado do mês |
 |---|---|---|
+| 23/10/2026 | **−R$ 2,9 bi** | +R$ 16,2 bi |
 | 22/10/2026 | **−R$ 1,0 bi** | +R$ 19,1 bi |
 | 21/10/2026 | **+R$ 157 mi** | +R$ 20,2 bi |
 | 20/10/2026 | **+R$ 18 mi** | +R$ 20,0 bi |
@@ -37,11 +38,10 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 | 06/10/2026 | **+R$ 1,1 bi** | +R$ 13,7 bi |
 | 05/10/2026 | **+R$ 10,1 bi** | +R$ 12,6 bi |
 | 02/10/2026 | **+R$ 2,3 bi** | +R$ 2,6 bi |
-| 01/10/2026 | **+R$ 268 mi** | +R$ 268 mi |
 
 **Posição dos estrangeiros no índice futuro** (última publicada, 01/09/2017): comprada em 3.065 contratos — a B3 mudou a forma de divulgar esse dado e ele deixou de ser publicado.
 
-*Dia a dia: postagens diárias do [Clube do Pai Rico](https://www.clubedopairico.com.br/) com o dado da B3 (4139 pregões desde 05/02/2009).*
+*Dia a dia: postagens diárias do [Clube do Pai Rico](https://www.clubedopairico.com.br/) com o dado da B3 (4140 pregões desde 05/02/2009).*
 
 ## Todos os tipos de investidor
 
