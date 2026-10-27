@@ -8,7 +8,7 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 10h00 às 11h00 e das 14h00 às 16h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "só precisei de 1 indicador no mini índice"](https://youtu.be/sswleA6JTvY) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 20:55 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "só precisei de 1 indicador no mini índice"](https://youtu.be/sswleA6JTvY) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 21:03 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R$ 10.000 aplicados em nov/2021 viraram
 > - **R$ 57.840** na versão manhã + tarde com o capital no CDI (+43% ao ano · pior queda −7%)
@@ -22,7 +22,7 @@ tags: [setup, win]
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
 
-![Curva de capital contra CDI e Ibovespa](img/ifr-de-tendencia_curva.png)
+![Curva de capital contra CDI e Ibovespa](setups/img/ifr-de-tendencia_curva.png)
 
 ## Como o setup funciona
 
@@ -114,7 +114,7 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 | Compras: acerto · lucro | 34% · +10.457 pts | 37% · +26.961 pts | 36% · +37.418 pts |
 | Vendas: acerto · lucro | 26% · +914 pts | 33% · +7.476 pts | 30% · +8.390 pts |
 
-![Pontos acumulados com 1 contrato](img/ifr-de-tendencia_pontos.png)
+![Pontos acumulados com 1 contrato](setups/img/ifr-de-tendencia_pontos.png)
 
 > [!info]- O que significa cada número (clique para abrir)
 > - **Taxa de acerto:** de cada 100 operações, quantas deram lucro.
@@ -140,7 +140,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 | Meses acima do Ibovespa | 60% | 55% | 60% | 53% | 45% | — |
 | Pior mês · melhor mês | −3,5% · +14,6% | −2,6% · +8,0% | −3,5% · +14,4% | −4,7% · +13,3% | +0,6% · +1,3% | −11,5% · +12,6% |
 
-![Quedas](img/ifr-de-tendencia_queda.png)
+![Quedas](setups/img/ifr-de-tendencia_queda.png)
 
 ### Ano a ano
 
@@ -158,7 +158,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
-![Retorno por ano](img/ifr-de-tendencia_anos.png)
+![Retorno por ano](setups/img/ifr-de-tendencia_anos.png)
 
 > [!example]- Mês a mês (clique para abrir)
 > | Mês | manhã + tarde + CDI | só a tarde + CDI | como no vídeo + CDI | CDI | Ibovespa |

@@ -8,7 +8,7 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 15 minutos · só as velas das 10h00, 10h15, 10h30, 10h45 e 11h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 20:55 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 21:03 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R$ 10.000 aplicados em nov/2021 viraram
 > - **R$ 48.116** na versão filtro 0,89% com o capital no CDI (+37% ao ano · pior queda −15%)
@@ -21,7 +21,7 @@ tags: [setup, win]
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
 
-![Curva de capital contra CDI e Ibovespa](img/adx-da-manha_curva.png)
+![Curva de capital contra CDI e Ibovespa](setups/img/adx-da-manha_curva.png)
 
 ## Como o setup funciona
 
@@ -94,7 +94,7 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 | Compras: acerto · lucro | 14% · −2.086 pts | 22% · +31.214 pts | 19% · +29.128 pts |
 | Vendas: acerto · lucro | 15% · +9.388 pts | 20% · +11.415 pts | 18% · +20.803 pts |
 
-![Pontos acumulados com 1 contrato](img/adx-da-manha_pontos.png)
+![Pontos acumulados com 1 contrato](setups/img/adx-da-manha_pontos.png)
 
 > [!info]- O que significa cada número (clique para abrir)
 > - **Taxa de acerto:** de cada 100 operações, quantas deram lucro.
@@ -120,7 +120,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 | Meses acima do Ibovespa | 60% | 57% | 52% | 45% | — |
 | Pior mês · melhor mês | −10,0% · +23,4% | −7,4% · +15,6% | −10,9% · +22,1% | +0,6% · +1,3% | −11,5% · +12,6% |
 
-![Quedas](img/adx-da-manha_queda.png)
+![Quedas](setups/img/adx-da-manha_queda.png)
 
 ### Ano a ano
 
@@ -138,7 +138,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos 
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
-![Retorno por ano](img/adx-da-manha_anos.png)
+![Retorno por ano](setups/img/adx-da-manha_anos.png)
 
 > [!example]- Mês a mês (clique para abrir)
 > | Mês | filtro 0,89% + CDI | como no vídeo + CDI | CDI | Ibovespa |

@@ -6,7 +6,7 @@ tags: [setup, carteira]
 
 **O que acontece quando os setups aprovados são operados juntos? A carteira divide o capital igualmente entre eles e testa todas as combinações, sempre comparando com o CDI e com o Ibovespa comprado.**
 
-*Página gerada em 26/10/2026 20:55 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
+*Página gerada em 26/10/2026 21:03 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
 
 > [!success] Em resumo: com R$ 10.000, operando os 3 setups juntos (capital dividido igualmente, capital no CDI)
 > - **R$ 58.599** (+43% ao ano · pior queda −10% · Sharpe 1,61)
@@ -16,7 +16,7 @@ tags: [setup, carteira]
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
 
-![Curva de capital da carteira](img/carteira_curva.png)
+![Curva de capital da carteira](setups/img/carteira_curva.png)
 
 ## Todas as combinações
 
@@ -52,7 +52,7 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 - **Tendência Forte do Dia** e **IFR de Tendência** operaram no mesmo dia em 50% dos dias em que pelo menos um deles operou.
 - **ADX da Manhã** e **IFR de Tendência** operaram no mesmo dia em 48% dos dias em que pelo menos um deles operou.
 
-![Quedas da carteira](img/carteira_queda.png)
+![Quedas da carteira](setups/img/carteira_queda.png)
 
 ## Ano a ano
 
@@ -70,7 +70,7 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
-![Retorno por ano da carteira](img/carteira_anos.png)
+![Retorno por ano da carteira](setups/img/carteira_anos.png)
 
 > [!example]- Mês a mês (clique para abrir)
 > | Mês | Tendência Forte do Dia | ADX da Manhã | IFR de Tendência | Carteira (todos) | CDI | Ibovespa |
