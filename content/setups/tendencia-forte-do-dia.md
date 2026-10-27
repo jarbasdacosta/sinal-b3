@@ -8,7 +8,7 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · sinais da 1ª vela do dia até 17h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "encontrei uma coisa absurda nos testes"](https://youtu.be/N4CJ9Yv8To8) · testado de forma independente nos nossos dados em 25 e 26/10/2026 · página gerada em 27/10/2026 09:19 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "encontrei uma coisa absurda nos testes"](https://youtu.be/N4CJ9Yv8To8) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 27/10/2026 09:30 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 64.704** na versão ATR 0,36 / 0,15 / 3,75× com o capital no CDI (+46% ao ano · pior queda −16%)
@@ -20,6 +20,9 @@ tags: [setup, win]
 > - **R\$ 136.757** na versão ATR 0,36 / 0,15 / 3,75× **arriscando 1% do capital por operação** (+70% ao ano · pior queda −24%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
 > Com 1 contrato de WIN para cada R\$ 10.000 (ou pelo risco de 1%), sem imposto.
+
+> [!example] Ao vivo: desde 27/10/2026 (dias que nenhum vídeo viu)
+> Ainda sem operações. O resultado aparece aqui conforme os dias passam.
 
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
@@ -38,17 +41,19 @@ tags: [setup, win]
 | **Alvo** | **3,75 × o stop** = 0,56 ATR (≈ 2.064 pts hoje) | o mesmo, para baixo |
 | **Fim do dia** | se não bateu stop nem alvo, zera às 18h20 | igual |
 
+- **Versão principal (escolhida só pelo treino): ATR 0,36 / 0,15 / 3,75×** — stop 0,150 ATR · alvo 0,562 ATR (3,8× o stop); hoje ≈ 550 pts de stop e 2.064 pts de alvo.
 - **ATR** = quanto o índice costuma andar num dia: a média da distância entre a máxima e a mínima dos últimos 14 pregões (hoje ≈ 3.670 pts). Usar múltiplos do ATR em vez de pontos fixos faz o setup acompanhar o mercado quando ele fica mais calmo ou mais agitado.
 - **Quantas operações:** sem limite por dia, mas uma de cada vez — enquanto o dia continuar forte, o setup entra de novo depois que a operação anterior termina.
 - **A ordem das médias entre si não importa**, só o preço estar do mesmo lado das três.
 - **A ideia:** em dia de tendência forte, cada nova vela de força tende a ter continuação.
 - **De onde veio:** o vídeo usa 700 / 400 / 1.500 pontos fixos. Aqui esses valores viraram múltiplos do ATR (testado em 26/10/2026), porque 700 pontos era 0,7% do índice em 2021 e hoje é menos da metade.
+- **Testado pela bateria padrão** (a mesma para todos os setups): réplica do vídeo, pontos/% × ATR, vizinhança, peça por peça, custo e comparação com o acaso. Veredito por regras fixas, refeito todo sábado com os dados novos.
 
 ### As versões testadas
 
 | | ATR 0,36 / 0,15 / 3,75× (principal) | ATR ≈ 400/400 | pontos fixos 400/400 |
 |---|---|---|---|
-| Regra | distância 0,36 ATR · stop 0,15 ATR · alvo 3,75× o stop | distância 0,36 ATR · stop 0,21 ATR · alvo = stop (o 700/400/400 do vídeo em ATR) | distância 700 · stop 400 · alvo 400 pts (a versão antiga, para comparar) |
+| Regra | stop 0,150 ATR · alvo 0,562 ATR (3,8× o stop) | stop 0,210 ATR · alvo 0,210 ATR (1,0× o stop) | stop 400 · alvo 400 pts |
 | Acerto | 34% | 55% | 55% |
 | Payoff | 2,26 | 0,93 | 0,94 |
 | Treino → teste (pts por operação) | +44,6 → +36,3 | +27,7 → +17,5 | +24,0 → +21,2 |
@@ -242,21 +247,23 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ## O que os testes mostraram
 
-*Testes de robustez rodados em 25 e 26/10/2026.*
+*Testes de robustez rodados em 27/10/2026.*
 
 | Pergunta | Resposta |
 |---|---|
-| **Bate com o vídeo?** | Sim. No 1.500/400 o vídeo mostra 32% de acerto, payoff 2,52 e fator de lucro 1,19; nos nossos dados deu 36%, 2,10 e 1,21 (sem custo). |
-| **Ganha do acaso?** | Sim. Na versão principal, entradas em horários quaisquer com o mesmo stop e alvo perdem 0,05R por operação; o setup ganha +0,12R no teste (p < 0,001). |
-| **Pontos fixos, % do preço ou ATR?** | ATR. Do treino para o teste o índice subiu ~23%, mas a oscilação diária em pontos ficou igual (ATR ~1.900 pts). Com % do preço o stop cresceu demais e o resultado caiu à metade; com ATR ficou igual ou melhor. |
-| **É sorte de parâmetro?** | Não. Na grade em ATR (distância 0,25 a 0,45 × stop 0,15 a 0,30 × alvo 1 a 3,75× o stop), 35 das 36 combinações deram lucro no treino **e** no teste. A versão principal foi a melhor no treino, e as vizinhas também são boas. |
-| **Cada condição importa?** | Sim. Tirar as médias, a distância ou o gatilho piora; cada condição sozinha não funciona. |
-| **Aguenta custo maior?** | Na versão em pontos, até uns 30 pts por operação (o lucro só zerava com ~36 pts). |
+| **Bate com o vídeo?** | Na versão do vídeo, sem custo, nossos dados deram 1751 operações, 35% de acerto e fator de lucro 1,28. O vídeo mostra: fator de lucro 1,19 (pontos fixos 700/400/400). |
+| **Ganha do acaso?** | Entradas quaisquer nos mesmos horários ficam perto de zero; o setup faz +0,16R por operação no treino (p 0,001) e +0,12R no teste (p 0,001). |
+| **É sorte de parâmetro?** | 8 de 9 combinações de stop × alvo deram lucro no treino **e** no teste (−0,00 a +0,17R por operação). |
+| **Cada condição importa?** | COMPLETO (versão principal): +0,16 → +0,12R · sem as médias: +0,06 → +0,08R · sem a distância da abertura: +0,06 → +0,00R · sem fechar além da vela anterior: +0,14 → +0,09R (treino → teste). |
+| **Pontos, % ou ATR?** | O treino escolheu **ATR**. |
+| **E se o custo for maior?** | 15 pts: +0,16 → +0,12R · 25 pts: +0,12 → +0,09R · 30 pts: +0,11 → +0,07R (treino → teste). |
 
 ## Riscos e cuidados
 
 - **Fases ruins:** a pior queda da versão ATR 0,36 / 0,15 / 3,75× foi de −R\$ 1.946 por contrato (começou em mai/2026, recuperada em jul/2026); 14 perdas seguidas aconteceram no período.
 - **Mês a mês é quase cara ou coroa:** a versão ATR 0,36 / 0,15 / 3,75× + CDI ficou abaixo do CDI em 40% dos meses. O resultado aparece no ano.
+- **Anos negativos:** 2021.
+- **Acerto de ~35%:** a maioria das operações dá stop; sequências de stops são normais.
 - **Escolha entre 36 combinações:** a versão principal foi a melhor do treino numa grade de 36; as vizinhas também funcionam, mas é normal ela render um pouco menos daqui para frente.
 - **Poucos anos de dados** (desde out/2021) e **sem imposto** (day trade paga 20% sobre o lucro).
 

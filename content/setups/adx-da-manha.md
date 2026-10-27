@@ -8,17 +8,21 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 15 minutos · só as velas das 10h00, 10h15, 10h30, 10h45 e 11h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 27/10/2026 09:19 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 27/10/2026 09:30 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 48.141** na versão filtro 0,89% com o capital no CDI (+37% ao ano · pior queda −15%)
-> - **R\$ 42.065** na versão como no vídeo com o capital no CDI (+34% ao ano · pior queda −13%)
+> - **R\$ 42.300** na versão como no vídeo com o capital no CDI (+34% ao ano · pior queda −13%)
+> - **R\$ 46.678** na versão ATR 0,09 / 0,75 com o capital no CDI (+37% ao ano · pior queda −17%)
 > - **R\$ 18.128** só no CDI (+13% ao ano)
 > - **R\$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
 >
 > - **R\$ 119.316** na versão filtro 0,89% **arriscando 1% do capital por operação** (+65% ao ano · pior queda −31%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
 > Com 1 contrato de WIN para cada R\$ 10.000 (ou pelo risco de 1%), sem imposto.
+
+> [!example] Ao vivo: desde 27/10/2026 (dias que nenhum vídeo viu)
+> Ainda sem operações. O resultado aparece aqui conforme os dias passam.
 
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
@@ -38,21 +42,23 @@ tags: [setup, win]
 | **Alvo** | **1,30%** acima da entrada (≈ 2.317 pts hoje) | 1,30% abaixo da entrada |
 | **Fim do dia** | se não bateu stop nem alvo, zera às 18h20 | igual |
 
+- **Versão principal (escolhida só pelo treino): filtro 0,89%** — stop 0,15% · alvo 1,30% do preço; hoje ≈ 267 pts de stop e 2.317 pts de alvo.
 - **Uma operação de cada vez.** Se tomar stop cedo, pode entrar de novo numa vela seguinte ainda dentro da janela das 10h às 11h.
 - **Acerta pouco e ganha muito quando acerta:** cerca de 1 em cada 5 operações dá lucro, mas o ganho médio é 5 a 6 vezes a perda média.
 - **Sem condução do trade** (sem stop no zero a zero), exatamente como no vídeo.
 - **De onde veio:** no vídeo o filtro é de 1.000 pontos fixos e a venda é com o ADX descendo. Aqui o filtro virou 0,89% do preço (com o índice subindo, os 1.000 pts barravam cada vez mais velas normais) e a venda usa o ADX subindo (escolhidos no treino, testados em 26/10/2026).
+- **Testado pela bateria padrão** (a mesma para todos os setups): réplica do vídeo, pontos/% × ATR, vizinhança, peça por peça, custo e comparação com o acaso. Veredito por regras fixas, refeito todo sábado com os dados novos.
 
 ### As versões testadas
 
-| | filtro 0,89% (principal) | como no vídeo |
-|---|---|---|
-| Regra | venda com ADX subindo · filtro 0,89% do preço · alvo 1,30% · stop 0,15% | venda com ADX descendo · filtro 1.000 pts · alvo 1,30% · stop 0,15% |
-| Acerto | 18% | 18% |
-| Payoff | 5,21 | 5,21 |
-| Treino → teste (pts por operação) | +9,8 → +46,8 | +7,9 → +41,1 |
-| Retorno ao ano (+ CDI) | +37,5% | +33,8% |
-| Pior queda (+ CDI) | −15,4% | −13,2% |
+| | filtro 0,89% (principal) | como no vídeo | ATR 0,09 / 0,75 |
+|---|---|---|---|
+| Regra | stop 0,15% · alvo 1,30% do preço | stop 0,15% · alvo 1,30% do preço | stop 0,086 ATR · alvo 0,749 ATR (8,7× o stop) |
+| Acerto | 18% | 18% | 17% |
+| Payoff | 5,21 | 5,21 | 5,73 |
+| Treino → teste (pts por operação) | +9,8 → +46,8 | +7,9 → +41,4 | +12,9 → +40,3 |
+| Retorno ao ano (+ CDI) | +37,5% | +33,9% | +36,6% |
+| Pior queda (+ CDI) | −15,4% | −13,2% | −17,4% |
 
 ## Estatísticas da operação (1 contrato, em pontos)
 
@@ -81,20 +87,39 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 
 | | Treino | Teste | Total |
 |---|---|---|---|
-| Operações | 923 | 1.037 | 1.960 |
+| Operações | 923 | 1.036 | 1.959 |
 | Operações por mês | 34,2 | 30,5 | 32,1 |
 | Taxa de acerto | 14,8% | 20,9% | 18,1% |
 | Bateram o alvo / o stop / zeraram no fim do dia | 8% / 84% / 7% | 6% / 78% / 16% | 7% / 81% / 12% |
 | Stop típico | 168 pts | 205 pts | 189 pts |
 | Ganho médio · perda média | +1.100 · −182 pts | +1.085 · −235 pts | +1.091 · −209 pts |
-| Payoff (ganho médio ÷ perda média) | 6,03 | 4,61 | 5,21 |
+| Payoff (ganho médio ÷ perda média) | 6,03 | 4,62 | 5,21 |
 | Fator de lucro (total ganho ÷ total perdido) | 1,05 | 1,22 | 1,15 |
-| Resultado médio por operação | +7,9 pts (+22,9 sem custo) | +41,1 pts (+56,1 sem custo) | +25,5 pts (+40,5 sem custo) |
-| **Lucro líquido** | **+7.301 pts · R\$ 1.460** | **+42.629 pts · R\$ 8.526** | **+49.931 pts · R\$ 9.986** |
+| Resultado médio por operação | +7,9 pts (+22,9 sem custo) | +41,4 pts (+56,4 sem custo) | +25,6 pts (+40,6 sem custo) |
+| **Lucro líquido** | **+7.302 pts · R\$ 1.460** | **+42.908 pts · R\$ 8.582** | **+50.210 pts · R\$ 10.042** |
 | Pior queda (drawdown) | −9.325 pts · −R\$ 1.865 | −7.054 pts · −R\$ 1.411 | −9.325 pts · −R\$ 1.865 |
 | Maior sequência de perdas | 32 seguidas | 30 seguidas | 32 seguidas |
-| Compras: acerto · lucro | 14% · −2.086 pts | 22% · +31.214 pts | 19% · +29.128 pts |
-| Vendas: acerto · lucro | 15% · +9.388 pts | 20% · +11.415 pts | 18% · +20.803 pts |
+| Compras: acerto · lucro | 14% · −2.263 pts | 22% · +31.492 pts | 19% · +29.229 pts |
+| Vendas: acerto · lucro | 15% · +9.565 pts | 20% · +11.415 pts | 18% · +20.980 pts |
+
+### Versão ATR 0,09 / 0,75
+
+| | Treino | Teste | Total |
+|---|---|---|---|
+| Operações | 788 | 1.060 | 1.848 |
+| Operações por mês | 29,2 | 31,2 | 30,3 |
+| Taxa de acerto | 15,4% | 18,2% | 17,0% |
+| Bateram o alvo / o stop / zeraram no fim do dia | 7% / 84% / 8% | 9% / 82% / 9% | 8% / 83% / 9% |
+| Stop típico | 166 pts | 165 pts | 166 pts |
+| Ganho médio · perda média | +1.125 · −189 pts | +1.146 · −206 pts | +1.138 · −198 pts |
+| Payoff (ganho médio ÷ perda média) | 5,96 | 5,57 | 5,73 |
+| Fator de lucro (total ganho ÷ total perdido) | 1,08 | 1,24 | 1,17 |
+| Resultado médio por operação | +12,9 pts (+27,9 sem custo) | +40,3 pts (+55,3 sem custo) | +28,6 pts (+43,6 sem custo) |
+| **Lucro líquido** | **+10.181 pts · R\$ 2.036** | **+42.733 pts · R\$ 8.547** | **+52.915 pts · R\$ 10.583** |
+| Pior queda (drawdown) | −8.651 pts · −R\$ 1.730 | −11.443 pts · −R\$ 2.289 | −11.443 pts · −R\$ 2.289 |
+| Maior sequência de perdas | 24 seguidas | 18 seguidas | 24 seguidas |
+| Compras: acerto · lucro | 15% · +1.299 pts | 18% · +21.125 pts | 17% · +22.423 pts |
+| Vendas: acerto · lucro | 16% · +8.883 pts | 18% · +21.608 pts | 17% · +30.491 pts |
 
 ![Pontos acumulados com 1 contrato](setups/img/adx-da-manha_pontos.png)
 
@@ -113,129 +138,133 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 *Colunas: cada versão com 1 contrato por R\$ 10 mil e o capital no CDI · **risco 1%** = a versão principal arriscando 1% por operação · **pura** = a principal sem o CDI.*
 
-| | filtro 0,89% | como no vídeo | risco 1% | pura | CDI | Ibovespa |
-|---|---|---|---|---|---|---|
-| **R\$ 10.000 viraram** | **R\$ 48.141** | **R\$ 42.065** | **R\$ 119.316** | **R\$ 26.567** | **R\$ 18.128** | **R\$ 16.732** |
-| Retorno ao ano | +37,5% | +33,8% | +65,2% | +21,9% | +12,8% | +11,0% |
-| Pior queda | −15,4% | −13,2% | −30,8% | −17,2% | +0,0% | −20,9% |
-| Oscilação ao ano | 21,4% | 22,1% | 49,1% | 21,4% | 0,1% | 18,6% |
-| Sharpe (acima do CDI) | 1,03 | 0,88 | 1,02 | 0,47 | — | 0,01 |
-| Meses acima do CDI | 63% | 60% | 60% | 55% | — | 55% |
-| Meses acima do Ibovespa | 60% | 57% | 63% | 52% | 45% | — |
-| Pior mês · melhor mês | −10,0% · +23,4% | −7,4% · +15,6% | −19,1% · +38,5% | −10,9% · +22,1% | +0,6% · +1,3% | −11,5% · +12,6% |
+| | filtro 0,89% | como no vídeo | ATR 0,09 / 0,75 | risco 1% | pura | CDI | Ibovespa |
+|---|---|---|---|---|---|---|---|
+| **R\$ 10.000 viraram** | **R\$ 48.141** | **R\$ 42.300** | **R\$ 46.678** | **R\$ 119.316** | **R\$ 26.567** | **R\$ 18.128** | **R\$ 16.732** |
+| Retorno ao ano | +37,5% | +33,9% | +36,6% | +65,2% | +21,9% | +12,8% | +11,0% |
+| Pior queda | −15,4% | −13,2% | −17,4% | −30,8% | −17,2% | +0,0% | −20,9% |
+| Oscilação ao ano | 21,4% | 22,1% | 21,4% | 49,1% | 21,4% | 0,1% | 18,6% |
+| Sharpe (acima do CDI) | 1,03 | 0,89 | 1,00 | 1,02 | 0,47 | — | 0,01 |
+| Meses acima do CDI | 63% | 60% | 60% | 60% | 55% | — | 55% |
+| Meses acima do Ibovespa | 60% | 57% | 62% | 63% | 52% | 45% | — |
+| Pior mês · melhor mês | −10,0% · +23,4% | −7,4% · +15,6% | −10,4% · +31,3% | −19,1% · +38,5% | −10,9% · +22,1% | +0,6% · +1,3% | −11,5% · +12,6% |
 
 ![Quedas](setups/img/adx-da-manha_queda.png)
 
 ### Ano a ano
 
-| Ano | filtro 0,89% | como no vídeo | risco 1% | CDI | Ibovespa | Quem ganhou |
-|---|---|---|---|---|---|---|
-| 2021* | +2,1% | −2,8% | +2,0% | +1,3% | −0,7% | filtro 0,89% |
-| 2022 | +29,8% | +26,8% | +51,0% | +12,3% | +4,7% | risco 1% |
-| 2023 | +12,0% | +11,5% | +7,4% | +13,0% | +22,3% | Ibovespa |
-| 2024 | +36,5% | +63,7% | +71,5% | +10,8% | −10,4% | risco 1% |
-| 2025 | +65,9% | +42,1% | +161,6% | +14,2% | +34,0% | risco 1% |
-| 2026* | +43,2% | +31,7% | +60,6% | +11,5% | +9,6% | risco 1% |
-| **Acumulado no período** | **+381,4%** | **+320,7%** | **+1093,2%** | **+81,3%** | **+67,3%** | **risco 1%** |
-| **R\$ 10.000 viraram** | **R\$ 48.141** | **R\$ 42.065** | **R\$ 119.316** | **R\$ 18.128** | **R\$ 16.732** | |
-| **Média ao ano** | **+37,5%** | **+33,8%** | **+65,2%** | **+12,8%** | **+11,0%** | |
+| Ano | filtro 0,89% | como no vídeo | ATR 0,09 / 0,75 | risco 1% | CDI | Ibovespa | Quem ganhou |
+|---|---|---|---|---|---|---|---|
+| 2021* | +2,1% | −2,8% | −7,2% | +2,0% | +1,3% | −0,7% | filtro 0,89% |
+| 2022 | +29,8% | +26,8% | +27,8% | +51,0% | +12,3% | +4,7% | risco 1% |
+| 2023 | +12,0% | +11,5% | +27,4% | +7,4% | +13,0% | +22,3% | ATR 0,09 / 0,75 |
+| 2024 | +36,5% | +63,7% | +32,5% | +71,5% | +10,8% | −10,4% | risco 1% |
+| 2025 | +65,9% | +42,1% | +61,1% | +161,6% | +14,2% | +34,0% | risco 1% |
+| 2026* | +43,2% | +32,4% | +44,8% | +60,6% | +11,5% | +9,6% | risco 1% |
+| **Acumulado no período** | **+381,4%** | **+323,0%** | **+366,8%** | **+1093,2%** | **+81,3%** | **+67,3%** | **risco 1%** |
+| **R\$ 10.000 viraram** | **R\$ 48.141** | **R\$ 42.300** | **R\$ 46.678** | **R\$ 119.316** | **R\$ 18.128** | **R\$ 16.732** | |
+| **Média ao ano** | **+37,5%** | **+33,9%** | **+36,6%** | **+65,2%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
 ![Retorno por ano](setups/img/adx-da-manha_anos.png)
 
 > [!example]- Mês a mês (clique para abrir)
-> | Mês | filtro 0,89% | como no vídeo | risco 1% | CDI | Ibovespa |
-> |---|---|---|---|---|---|
-> | nov/2021 | +1,3% | +1,8% | +2,1% | +0,6% | −3,4% |
-> | dez/2021 | +0,8% | −4,5% | −0,0% | +0,7% | +2,9% |
-> | jan/2022 | +2,7% | +2,2% | +5,7% | +0,7% | +7,0% |
-> | fev/2022 | −1,1% | +5,6% | −4,6% | +0,8% | +0,9% |
-> | mar/2022 | +4,5% | +0,6% | +10,4% | +0,9% | +6,1% |
-> | abr/2022 | −4,1% | −2,9% | −12,3% | +0,8% | −10,1% |
-> | mai/2022 | +6,6% | +5,1% | +16,7% | +1,0% | +3,2% |
-> | jun/2022 | −1,2% | +1,2% | −5,5% | +1,0% | −11,5% |
-> | jul/2022 | −2,9% | −6,5% | −11,1% | +1,0% | +4,7% |
-> | ago/2022 | +12,3% | +5,6% | +32,9% | +1,2% | +6,2% |
-> | set/2022 | −1,7% | −5,7% | −7,1% | +1,1% | +0,5% |
-> | out/2022 | +6,3% | +2,5% | +14,5% | +1,0% | +5,5% |
-> | nov/2022 | −1,0% | +13,4% | −5,2% | +1,0% | −3,1% |
-> | dez/2022 | +7,2% | +4,5% | +17,7% | +1,1% | −2,4% |
-> | jan/2023 | −0,1% | +1,2% | −2,8% | +1,1% | +3,4% |
-> | fev/2023 | +7,9% | +1,7% | +20,2% | +0,9% | −7,5% |
-> | mar/2023 | −2,9% | +9,3% | −11,3% | +1,2% | −2,9% |
-> | abr/2023 | +7,4% | +4,4% | +20,2% | +0,9% | +2,5% |
-> | mai/2023 | +3,9% | −3,2% | +8,6% | +1,1% | +3,7% |
-> | jun/2023 | −4,6% | −0,2% | −13,7% | +1,1% | +9,0% |
-> | jul/2023 | +3,2% | +1,5% | +5,8% | +1,1% | +3,3% |
-> | ago/2023 | +0,6% | −2,6% | −0,7% | +1,1% | −5,1% |
-> | set/2023 | −1,6% | −1,8% | −5,5% | +1,0% | +0,7% |
-> | out/2023 | +1,0% | +7,4% | +0,7% | +1,0% | −2,9% |
-> | nov/2023 | +3,4% | −1,6% | +7,3% | +0,9% | +12,5% |
-> | dez/2023 | −5,7% | −4,2% | −14,2% | +0,9% | +5,4% |
-> | jan/2024 | +10,5% | +10,5% | +24,2% | +1,0% | −4,8% |
-> | fev/2024 | +7,2% | +13,5% | +16,0% | +0,8% | +1,0% |
-> | mar/2024 | −5,6% | −4,0% | −14,1% | +0,8% | −0,7% |
-> | abr/2024 | +3,2% | +7,2% | +6,2% | +0,9% | −1,7% |
-> | mai/2024 | −4,0% | +7,5% | −10,5% | +0,8% | −3,0% |
-> | jun/2024 | −0,9% | +0,2% | −3,9% | +0,8% | +1,5% |
-> | jul/2024 | −1,9% | −3,9% | −6,0% | +0,9% | +3,0% |
-> | ago/2024 | +4,7% | +4,9% | +9,3% | +0,9% | +6,5% |
-> | set/2024 | +2,2% | +3,8% | +3,4% | +0,8% | −3,1% |
-> | out/2024 | +6,2% | +2,0% | +13,3% | +0,9% | −1,6% |
-> | nov/2024 | +2,3% | +2,9% | +3,8% | +0,8% | −3,1% |
-> | dez/2024 | +9,0% | +7,3% | +21,3% | +0,8% | −4,3% |
-> | jan/2025 | +8,6% | +11,0% | +19,5% | +1,0% | +4,9% |
-> | fev/2025 | +5,5% | +8,9% | +11,8% | +1,0% | −2,6% |
-> | mar/2025 | +7,3% | +6,5% | +16,4% | +1,0% | +6,1% |
-> | abr/2025 | +0,7% | −7,4% | +0,4% | +1,1% | +3,7% |
-> | mai/2025 | +10,5% | +9,4% | +22,7% | +1,1% | +1,5% |
-> | jun/2025 | +2,0% | +5,5% | +2,5% | +1,1% | +1,3% |
-> | jul/2025 | +4,0% | +2,0% | +6,9% | +1,3% | −4,2% |
-> | ago/2025 | +8,2% | −2,4% | +17,5% | +1,2% | +6,3% |
-> | set/2025 | +3,8% | −0,8% | +6,4% | +1,2% | +3,4% |
-> | out/2025 | +5,1% | +3,7% | +8,9% | +1,3% | +2,3% |
-> | nov/2025 | +7,3% | +7,5% | +13,4% | +1,1% | +6,4% |
-> | dez/2025 | −9,7% | −6,2% | −19,1% | +1,1% | +1,3% |
-> | jan/2026 | +7,3% | +6,0% | +12,6% | +1,2% | +12,6% |
-> | fev/2026 | −10,0% | −4,1% | −16,9% | +1,0% | +4,1% |
-> | mar/2026 | +1,9% | +15,6% | +2,0% | +1,2% | −0,7% |
-> | abr/2026 | +23,4% | +1,0% | +38,5% | +1,1% | −0,1% |
-> | mai/2026 | −1,8% | −0,1% | −4,5% | +1,1% | −7,2% |
-> | jun/2026 | −2,9% | −2,3% | −6,5% | +1,1% | −1,0% |
-> | jul/2026 | −0,1% | +8,4% | −1,6% | +1,2% | +3,5% |
-> | ago/2026 | +1,9% | −2,8% | +2,1% | +1,1% | −0,3% |
-> | set/2026 | +16,4% | +10,4% | +27,8% | +1,1% | +5,0% |
-> | out/2026 | +4,4% | −2,3% | +5,8% | +0,9% | −5,2% |
-> | **Acumulado** | **+381,4%** | **+320,7%** | **+1093,2%** | **+81,3%** | **+67,3%** |
+> | Mês | filtro 0,89% | como no vídeo | ATR 0,09 / 0,75 | risco 1% | CDI | Ibovespa |
+> |---|---|---|---|---|---|---|
+> | nov/2021 | +1,3% | +1,8% | −0,0% | +2,1% | +0,6% | −3,4% |
+> | dez/2021 | +0,8% | −4,5% | −7,2% | −0,0% | +0,7% | +2,9% |
+> | jan/2022 | +2,7% | +2,2% | +2,4% | +5,7% | +0,7% | +7,0% |
+> | fev/2022 | −1,1% | +5,6% | −1,9% | −4,6% | +0,8% | +0,9% |
+> | mar/2022 | +4,5% | +0,6% | +4,6% | +10,4% | +0,9% | +6,1% |
+> | abr/2022 | −4,1% | −2,9% | −4,1% | −12,3% | +0,8% | −10,1% |
+> | mai/2022 | +6,6% | +5,1% | +2,7% | +16,7% | +1,0% | +3,2% |
+> | jun/2022 | −1,2% | +1,2% | −0,5% | −5,5% | +1,0% | −11,5% |
+> | jul/2022 | −2,9% | −6,5% | −2,3% | −11,1% | +1,0% | +4,7% |
+> | ago/2022 | +12,3% | +5,6% | +13,1% | +32,9% | +1,2% | +6,2% |
+> | set/2022 | −1,7% | −5,7% | −5,0% | −7,1% | +1,1% | +0,5% |
+> | out/2022 | +6,3% | +2,5% | +7,8% | +14,5% | +1,0% | +5,5% |
+> | nov/2022 | −1,0% | +13,4% | +7,5% | −5,2% | +1,0% | −3,1% |
+> | dez/2022 | +7,2% | +4,5% | +2,1% | +17,7% | +1,1% | −2,4% |
+> | jan/2023 | −0,1% | +1,2% | +2,0% | −2,8% | +1,1% | +3,4% |
+> | fev/2023 | +7,9% | +1,7% | +9,0% | +20,2% | +0,9% | −7,5% |
+> | mar/2023 | −2,9% | +9,3% | −4,8% | −11,3% | +1,2% | −2,9% |
+> | abr/2023 | +7,4% | +4,4% | +8,0% | +20,2% | +0,9% | +2,5% |
+> | mai/2023 | +3,9% | −3,2% | +4,3% | +8,6% | +1,1% | +3,7% |
+> | jun/2023 | −4,6% | −0,2% | −8,3% | −13,7% | +1,1% | +9,0% |
+> | jul/2023 | +3,2% | +1,5% | +10,0% | +5,8% | +1,1% | +3,3% |
+> | ago/2023 | +0,6% | −2,6% | +2,5% | −0,7% | +1,1% | −5,1% |
+> | set/2023 | −1,6% | −1,8% | −0,9% | −5,5% | +1,0% | +0,7% |
+> | out/2023 | +1,0% | +7,4% | +4,3% | +0,7% | +1,0% | −2,9% |
+> | nov/2023 | +3,4% | −1,6% | +4,4% | +7,3% | +0,9% | +12,5% |
+> | dez/2023 | −5,7% | −4,2% | −4,1% | −14,2% | +0,9% | +5,4% |
+> | jan/2024 | +10,5% | +10,5% | +1,4% | +24,2% | +1,0% | −4,8% |
+> | fev/2024 | +7,2% | +13,5% | +8,4% | +16,0% | +0,8% | +1,0% |
+> | mar/2024 | −5,6% | −4,0% | −0,2% | −14,1% | +0,8% | −0,7% |
+> | abr/2024 | +3,2% | +7,2% | +6,5% | +6,2% | +0,9% | −1,7% |
+> | mai/2024 | −4,0% | +7,5% | −1,2% | −10,5% | +0,8% | −3,0% |
+> | jun/2024 | −0,9% | +0,2% | +0,3% | −3,9% | +0,8% | +1,5% |
+> | jul/2024 | −1,9% | −3,9% | −2,3% | −6,0% | +0,9% | +3,0% |
+> | ago/2024 | +4,7% | +4,9% | +8,6% | +9,3% | +0,9% | +6,5% |
+> | set/2024 | +2,2% | +3,8% | −2,6% | +3,4% | +0,8% | −3,1% |
+> | out/2024 | +6,2% | +2,0% | +2,7% | +13,3% | +0,9% | −1,6% |
+> | nov/2024 | +2,3% | +2,9% | −0,5% | +3,8% | +0,8% | −3,1% |
+> | dez/2024 | +9,0% | +7,3% | +8,4% | +21,3% | +0,8% | −4,3% |
+> | jan/2025 | +8,6% | +11,0% | +9,1% | +19,5% | +1,0% | +4,9% |
+> | fev/2025 | +5,5% | +8,9% | +4,7% | +11,8% | +1,0% | −2,6% |
+> | mar/2025 | +7,3% | +6,5% | +4,8% | +16,4% | +1,0% | +6,1% |
+> | abr/2025 | +0,7% | −7,4% | +4,8% | +0,4% | +1,1% | +3,7% |
+> | mai/2025 | +10,5% | +9,4% | +8,5% | +22,7% | +1,1% | +1,5% |
+> | jun/2025 | +2,0% | +5,5% | −0,3% | +2,5% | +1,1% | +1,3% |
+> | jul/2025 | +4,0% | +2,0% | +6,1% | +6,9% | +1,3% | −4,2% |
+> | ago/2025 | +8,2% | −2,4% | +8,3% | +17,5% | +1,2% | +6,3% |
+> | set/2025 | +3,8% | −0,8% | +6,5% | +6,4% | +1,2% | +3,4% |
+> | out/2025 | +5,1% | +3,7% | +6,5% | +8,9% | +1,3% | +2,3% |
+> | nov/2025 | +7,3% | +7,5% | +0,6% | +13,4% | +1,1% | +6,4% |
+> | dez/2025 | −9,7% | −6,2% | −9,5% | −19,1% | +1,1% | +1,3% |
+> | jan/2026 | +7,3% | +6,0% | +4,4% | +12,6% | +1,2% | +12,6% |
+> | fev/2026 | −10,0% | −4,1% | −10,4% | −16,9% | +1,0% | +4,1% |
+> | mar/2026 | +1,9% | +15,6% | +3,0% | +2,0% | +1,2% | −0,7% |
+> | abr/2026 | +23,4% | +1,0% | +31,3% | +38,5% | +1,1% | −0,1% |
+> | mai/2026 | −1,8% | −0,1% | −2,2% | −4,5% | +1,1% | −7,2% |
+> | jun/2026 | −2,9% | −2,3% | −3,7% | −6,5% | +1,1% | −1,0% |
+> | jul/2026 | −0,1% | +9,0% | −4,7% | −1,6% | +1,2% | +3,5% |
+> | ago/2026 | +1,9% | −2,8% | +1,8% | +2,1% | +1,1% | −0,3% |
+> | set/2026 | +16,4% | +10,4% | +20,8% | +27,8% | +1,1% | +5,0% |
+> | out/2026 | +4,4% | −2,3% | +3,6% | +5,8% | +0,9% | −5,2% |
+> | **Acumulado** | **+381,4%** | **+323,0%** | **+366,8%** | **+1093,2%** | **+81,3%** | **+67,3%** |
 
 ### E se o capital por contrato for outro?
 
-| Capital por contrato | filtro 0,89% + CDI | como no vídeo + CDI |
-|---|---|---|
-| R\$ 5.000 | +60% ao ano · pior queda −30% | +51% ao ano · pior queda −29% |
-| R\$ 10.000 | +37% ao ano · pior queda −15% | +34% ao ano · pior queda −13% |
-| R\$ 20.000 | +25% ao ano · pior queda −7% | +24% ao ano · pior queda −6% |
-| R\$ 40.000 | +19% ao ano · pior queda −3% | +18% ao ano · pior queda −3% |
+| Capital por contrato | filtro 0,89% + CDI | como no vídeo + CDI | ATR 0,09 / 0,75 + CDI |
+|---|---|---|---|
+| R\$ 5.000 | +60% ao ano · pior queda −30% | +52% ao ano · pior queda −29% | +58% ao ano · pior queda −35% |
+| R\$ 10.000 | +37% ao ano · pior queda −15% | +34% ao ano · pior queda −13% | +37% ao ano · pior queda −17% |
+| R\$ 20.000 | +25% ao ano · pior queda −7% | +24% ao ano · pior queda −6% | +25% ao ano · pior queda −8% |
+| R\$ 40.000 | +19% ao ano · pior queda −3% | +18% ao ano · pior queda −3% | +19% ao ano · pior queda −3% |
 
 *Referência: CDI +13% ao ano · Ibovespa +11% ao ano, pior queda −21%.*
 
 ## O que os testes mostraram
 
-*Testes de robustez rodados em 26/10/2026.*
+*Testes de robustez rodados em 27/10/2026.*
 
 | Pergunta | Resposta |
 |---|---|
-| **Bate com o vídeo?** | Sim. O vídeo mostra 1.940 operações, 18% de acerto, payoff 6,09 e fator de lucro 1,35 (sem custo); nos nossos dados deu 1.960 operações, 18%, 5,67 e 1,25. |
-| **Ganha do acaso?** | No **teste** sim (versão principal: p 0,008 contra entradas quaisquer no mesmo horário). No **treino** não (setup ~+10 pts por operação, acaso ≈ 0, p 0,28). |
-| **Filtro em pontos, % ou ATR?** | Em pontos fixos era o pior dos quatro jeitos; em % do preço ou em ATR o resultado melhora (Sharpe de 0,91 para 1,0–1,1). Stop e alvo continuam melhores em % do que em ATR neste setup. |
-| **É sorte de parâmetro?** | Não. Stop 0,10/0,15/0,20% × alvo 0,65/1,0/1,3/1,6%: 11 das 12 combinações deram lucro no treino **e** no teste — mas no treino todas ganham pouco (+1 a +19 pts). |
-| **Cada condição importa?** | O ADX e o horário importam: sem o ADX cai para +4|+8 pts por operação; o dia inteiro, em vez das 10h–11h, fica negativo no teste. A cor da vela pesa pouco. |
+| **Bate com o vídeo?** | Na versão do vídeo, sem custo, nossos dados deram 1786 operações, 18% de acerto e fator de lucro 1,28. O vídeo mostra: 1.940 operações (nossos dados: 1.960). |
+| **Ganha do acaso?** | Entradas quaisquer nos mesmos horários ficam perto de zero; o setup faz +0,06R por operação no treino (p 0,361) e +0,21R no teste (p 0,044). |
+| **É sorte de parâmetro?** | 9 de 9 combinações de stop × alvo deram lucro no treino **e** no teste (+0,02 a +0,34R por operação). |
+| **Cada condição importa?** | COMPLETO (versão principal): +0,06 → +0,21R · sem o ADX: +0,03 → +0,07R · sem o filtro do tamanho da vela: +0,04 → +0,23R · venda com o ADX descendo: +0,06 → +0,20R (treino → teste). |
+| **Pontos, % ou ATR?** | O treino escolheu manter como no vídeo. |
+| **E se o custo for maior?** | 15 pts: +0,06 → +0,21R · 25 pts: +0,00 → +0,17R · 30 pts: −0,03 → +0,15R (treino → teste). |
 
 ## Riscos e cuidados
 
 - **Fases ruins:** a pior queda da versão filtro 0,89% foi de −R\$ 1.884 por contrato (começou em nov/2025, recuperada em abr/2026); 24 perdas seguidas aconteceram no período.
 - **Mês a mês é quase cara ou coroa:** a versão filtro 0,89% + CDI ficou abaixo do CDI em 37% dos meses. O resultado aparece no ano.
+- **Stop curto** (~189 pts): o custo e o escorregão pesam mais — veja "E se o custo for maior?".
+- **Anos negativos:** 2021.
+- **Acerto de ~18%:** a maioria das operações dá stop; sequências de stops são normais.
 - **Treino fraco:** em 2021–2023 o setup ganhou só ~10 pts por operação e não bateu o acaso; com custo de 25 pts já seria zero. Quase todo o lucro veio de 2024–2025.
 - **Acerto de ~18%:** sequências longas de stops são normais neste setup.
 - **Poucos anos de dados** (desde out/2021) e **sem imposto** (day trade paga 20% sobre o lucro).

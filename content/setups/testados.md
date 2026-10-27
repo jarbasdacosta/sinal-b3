@@ -16,10 +16,14 @@ tags: [setup]
 | Setup | Resultado | R por operação: treino → teste | Acaso (p no teste) | Vizinhança | Testado em |
 |---|---|---|---|---|---|
 | [**Rompimento da Bollinger**](rompimento-da-bollinger) · [vídeo](https://youtu.be/2l5k3OyC7eQ) | ✅ aprovado | +0,43 → +0,83 | 0,000 | 16/16 | 26/10/2026 |
+| [**IFR de Tendência**](ifr-de-tendencia) · [vídeo](https://youtu.be/sswleA6JTvY) | ✅ aprovado | +0,25 → +0,32 | 0,000 | 9/9 | 27/10/2026 |
 | [**MACD na Tendência**](macd-na-tendencia) · [vídeo](https://youtu.be/eHvY4bvS95c) | ✅ aprovado | +0,08 → +0,17 | 0,000 | 12/12 | 27/10/2026 |
+| [**Tendência Forte do Dia**](tendencia-forte-do-dia) · [vídeo](https://youtu.be/N4CJ9Yv8To8) | ✅ aprovado | +0,16 → +0,12 | 0,001 | 8/9 | 27/10/2026 |
 | [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) · [vídeo](https://youtu.be/UFLCVkzcghU) | 🟡 promissor | +0,14 → +0,46 | 0,001 | 7/12 | 27/10/2026 |
 | [**Primeira Vela de Quinta**](primeira-vela-de-quinta) · [vídeo](https://youtu.be/5pmW0UMnXwE) | 🟡 promissor | +0,27 → +0,22 | 0,012 | 9/9 | 27/10/2026 |
+| [**ADX da Manhã**](adx-da-manha) · [vídeo](https://youtu.be/D9mwdxexECE) | 🟡 promissor | +0,06 → +0,21 | 0,044 | 9/9 | 27/10/2026 |
 | [**Vai na Onda**](vai-na-onda) · [vídeo](https://youtu.be/5JZC82O-0Nc) | 🟡 promissor | +0,03 → +0,18 | 0,000 | 6/12 | 27/10/2026 |
+| **Pullback na Média** · [vídeo](https://youtu.be/iIaJDFRbNpI) | ❌ reprovado | +0,52 → +0,13 | 0,101 | 9/9 | 27/10/2026 |
 | **Tendência do Mês na Sexta** · [vídeo](https://youtu.be/yOiGlNcxmYE) | ❌ reprovado | +0,11 → +0,12 | 0,125 | 6/9 | 27/10/2026 |
 | **Vela das 10h15** · [vídeo](https://youtu.be/Pn9YLIjcG0E) | ❌ reprovado | −0,05 → +0,04 | 0,007 | 0/12 | 27/10/2026 |
 | **Reversão no Extremo** · [vídeo](https://youtu.be/YbMMQlSbsII) | ❌ reprovado | +0,02 → +0,01 | 0,081 | 1/12 | 27/10/2026 |
@@ -32,10 +36,6 @@ tags: [setup]
 
 | Setup | Resultado | Motivo |
 |---|---|---|
-| [**Tendência Forte do Dia**](tendencia-forte-do-dia) · [vídeo](https://youtu.be/N4CJ9Yv8To8) | ✅ aprovado | página própria |
-| [**ADX da Manhã**](adx-da-manha) · [vídeo](https://youtu.be/D9mwdxexECE) | 🟡 promissor | página própria |
-| [**IFR de Tendência**](ifr-de-tendencia) · [vídeo](https://youtu.be/sswleA6JTvY) | ✅ aprovado | página própria |
-| [**Pullback na Média**](pullback-na-media) · [vídeo](https://youtu.be/iIaJDFRbNpI) | ✅ aprovado | página própria |
 | **Mini dólar: vela das 17h40 fora do canal** · [vídeo](https://youtu.be/wMMz69eS7OI) | ❌ reprovado | bate com o vídeo sem custo e ganha do acaso, mas a vantagem é de ~1 pt por operação e some com 1 pt de custo; 2022–2023 negativos |
 | **Fundo duplo e topo duplo (4 versões, M2 a M15)** | ❌ reprovado | perdeu para o acaso depois do custo |
 | **3 velas além da MME9 + rompimento (M1 a M5)** | ❌ reprovado | perdeu para o acaso depois do custo |
