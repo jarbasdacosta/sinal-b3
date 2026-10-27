@@ -6,7 +6,7 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 26/10/2026 23:10 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 26/10/2026 23:16 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|
@@ -30,7 +30,7 @@ tags: [setup]
 | 4º | [**Tendência**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | 0,28 | 28,7 |
 | 5º | [**Pullback**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | −0,04 | 5,0 |
 
-**Resultado: 1 contrato por R$ 10 mil × arriscando 1% por operação**
+**Resultado: 1 contrato por R\$ 10 mil × arriscando 1% por operação**
 
 | # | Setup | Ao ano (1 contrato) | Ao ano (risco 1%) | Pior queda (1 contrato) | Pior queda (risco 1%) |
 |---|---|---|---|---|---|
@@ -56,7 +56,7 @@ tags: [setup]
 | 📈 Maior retorno | Tendência | +46% · −16,1% | +70% · −23,6% | **+70% · −23,6%** | 1,58 → 1,12 |
 | 🛡️ Menor queda | Pullback + Bollinger | +26% · −2,1% | +43% · −4,0% | **+78% · −8,6%** | 2,24 → 1,65 |
 
-*R$ 10 mil viraram, na recomendada: R$ 38.638 com 1 contrato por R$ 10 mil · R$ 78.027 com 1% dividido entre os setups · **R$ 1.128.296 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · Bollinger = Rompimento da Bollinger.*
+*R\$ 10 mil viraram, na recomendada: R\$ 38.638 com 1 contrato por R\$ 10 mil · R\$ 78.027 com 1% dividido entre os setups · **R\$ 1.128.296 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · Bollinger = Rompimento da Bollinger.*
 
 A página da [carteira](carteira) explica a escolha, mostra as 31 combinações, se os setups se ajudam e o [tamanho de posição](carteira#tamanho-de-posição) sugerido: **arriscar 1% do capital por operação** (Kelly e Larry Williams comparados, com calculadora de contratos).
 

@@ -8,19 +8,19 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 10h15 às 11h00 e das 14h00 às 17h30
 
-🎬 **Vídeo de origem:** [Arthur 777 – "isso apareceu nos meus testes no mini índice"](https://youtu.be/2l5k3OyC7eQ) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 23:10 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "isso apareceu nos meus testes no mini índice"](https://youtu.be/2l5k3OyC7eQ) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 23:16 BRT · [voltar para todos os setups](./)
 
-> [!success] Em resumo: R$ 10.000 aplicados em nov/2021 viraram
-> - **R$ 30.773** na versão ATR 0,09 / 0,52 com o capital no CDI (+26% ao ano · pior queda −4%)
-> - **R$ 31.375** na versão como no vídeo (até 17h30) com o capital no CDI (+26% ao ano · pior queda −3%)
-> - **R$ 30.891** na versão tarde só até 17h00 com o capital no CDI (+26% ao ano · pior queda −3%)
-> - **R$ 28.273** na versão stop 0,10% (vídeo) com o capital no CDI (+23% ao ano · pior queda −3%)
-> - **R$ 18.119** só no CDI (+13% ao ano)
-> - **R$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
+> [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
+> - **R\$ 30.773** na versão ATR 0,09 / 0,52 com o capital no CDI (+26% ao ano · pior queda −4%)
+> - **R\$ 31.375** na versão como no vídeo (até 17h30) com o capital no CDI (+26% ao ano · pior queda −3%)
+> - **R\$ 30.891** na versão tarde só até 17h00 com o capital no CDI (+26% ao ano · pior queda −3%)
+> - **R\$ 28.273** na versão stop 0,10% (vídeo) com o capital no CDI (+23% ao ano · pior queda −3%)
+> - **R\$ 18.119** só no CDI (+13% ao ano)
+> - **R\$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
 >
-> - **R$ 79.218** na versão ATR 0,09 / 0,52 **arriscando 1% do capital por operação** (+52% ao ano · pior queda −7%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
+> - **R\$ 79.218** na versão ATR 0,09 / 0,52 **arriscando 1% do capital por operação** (+52% ao ano · pior queda −7%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
-> Com 1 contrato de WIN para cada R$ 10.000 (ou pelo risco de 1%), sem imposto.
+> Com 1 contrato de WIN para cada R\$ 10.000 (ou pelo risco de 1%), sem imposto.
 
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
@@ -55,7 +55,7 @@ tags: [setup, win]
 
 ## Estatísticas da operação (1 contrato, em pontos)
 
-Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e escorregão). R$ = pontos × R$ 0,20 por contrato. **Treino** = nov/2021 a dez/2023 · **Teste** = 2024 até hoje.
+Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e escorregão). R\$ = pontos × R\$ 0,20 por contrato. **Treino** = nov/2021 a dez/2023 · **Teste** = 2024 até hoje.
 
 ### Versão ATR 0,09 / 0,52
 
@@ -70,8 +70,8 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 | Payoff (ganho médio ÷ perda média) | 2,58 | 3,68 | 3,18 |
 | Fator de lucro (total ganho ÷ total perdido) | 1,67 | 1,95 | 1,84 |
 | Resultado médio por operação | +73,0 pts (+88,0 sem custo) | +128,5 pts (+143,5 sem custo) | +104,5 pts (+119,5 sem custo) |
-| **Lucro líquido** | **+8.177 pts · R$ 1.635** | **+18.887 pts · R$ 3.777** | **+27.064 pts · R$ 5.413** |
-| Pior queda (drawdown) | −1.561 pts · −R$ 312 | −2.756 pts · −R$ 551 | −2.756 pts · −R$ 551 |
+| **Lucro líquido** | **+8.177 pts · R\$ 1.635** | **+18.887 pts · R\$ 3.777** | **+27.064 pts · R\$ 5.413** |
+| Pior queda (drawdown) | −1.561 pts · −R\$ 312 | −2.756 pts · −R\$ 551 | −2.756 pts · −R\$ 551 |
 | Maior sequência de perdas | 7 seguidas | 8 seguidas | 8 seguidas |
 | Compras: acerto · lucro | 42% · +4.791 pts | 43% · +12.954 pts | 42% · +17.745 pts |
 | Vendas: acerto · lucro | 36% · +3.386 pts | 28% · +5.933 pts | 31% · +9.319 pts |
@@ -89,8 +89,8 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 | Payoff (ganho médio ÷ perda média) | 2,62 | 3,41 | 3,13 |
 | Fator de lucro (total ganho ÷ total perdido) | 1,49 | 2,02 | 1,83 |
 | Resultado médio por operação | +55,5 pts (+70,5 sem custo) | +150,9 pts (+165,9 sem custo) | +109,1 pts (+124,1 sem custo) |
-| **Lucro líquido** | **+6.269 pts · R$ 1.254** | **+21.874 pts · R$ 4.375** | **+28.143 pts · R$ 5.629** |
-| Pior queda (drawdown) | −1.786 pts · −R$ 357 | −2.725 pts · −R$ 545 | −2.725 pts · −R$ 545 |
+| **Lucro líquido** | **+6.269 pts · R\$ 1.254** | **+21.874 pts · R\$ 4.375** | **+28.143 pts · R\$ 5.629** |
+| Pior queda (drawdown) | −1.786 pts · −R\$ 357 | −2.725 pts · −R\$ 545 | −2.725 pts · −R\$ 545 |
 | Maior sequência de perdas | 11 seguidas | 8 seguidas | 11 seguidas |
 | Compras: acerto · lucro | 40% · +3.478 pts | 46% · +15.119 pts | 43% · +18.597 pts |
 | Vendas: acerto · lucro | 33% · +2.790 pts | 29% · +6.755 pts | 31% · +9.546 pts |
@@ -108,8 +108,8 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 | Payoff (ganho médio ÷ perda média) | 2,87 | 3,32 | 3,22 |
 | Fator de lucro (total ganho ÷ total perdido) | 1,44 | 2,09 | 1,84 |
 | Resultado médio por operação | +53,1 pts (+68,1 sem custo) | +160,1 pts (+175,1 sem custo) | +114,4 pts (+129,4 sem custo) |
-| **Lucro líquido** | **+5.412 pts · R$ 1.082** | **+21.937 pts · R$ 4.387** | **+27.350 pts · R$ 5.470** |
-| Pior queda (drawdown) | −1.696 pts · −R$ 339 | −2.590 pts · −R$ 518 | −2.590 pts · −R$ 518 |
+| **Lucro líquido** | **+5.412 pts · R\$ 1.082** | **+21.937 pts · R\$ 4.387** | **+27.350 pts · R\$ 5.470** |
+| Pior queda (drawdown) | −1.696 pts · −R\$ 339 | −2.590 pts · −R\$ 518 | −2.590 pts · −R\$ 518 |
 | Maior sequência de perdas | 10 seguidas | 8 seguidas | 10 seguidas |
 | Compras: acerto · lucro | 37% · +2.838 pts | 46% · +15.119 pts | 42% · +17.957 pts |
 | Vendas: acerto · lucro | 30% · +2.574 pts | 31% · +6.819 pts | 31% · +9.392 pts |
@@ -127,8 +127,8 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 | Payoff (ganho médio ÷ perda média) | 3,93 | 5,12 | 4,75 |
 | Fator de lucro (total ganho ÷ total perdido) | 1,37 | 2,10 | 1,82 |
 | Resultado médio por operação | +34,4 pts (+49,4 sem custo) | +127,0 pts (+142,0 sem custo) | +86,3 pts (+101,3 sem custo) |
-| **Lucro líquido** | **+3.995 pts · R$ 799** | **+18.799 pts · R$ 3.760** | **+22.793 pts · R$ 4.559** |
-| Pior queda (drawdown) | −1.296 pts · −R$ 259 | −3.556 pts · −R$ 711 | −3.556 pts · −R$ 711 |
+| **Lucro líquido** | **+3.995 pts · R\$ 799** | **+18.799 pts · R\$ 3.760** | **+22.793 pts · R\$ 4.559** |
+| Pior queda (drawdown) | −1.296 pts · −R\$ 259 | −3.556 pts · −R\$ 711 | −3.556 pts · −R\$ 711 |
 | Maior sequência de perdas | 11 seguidas | 15 seguidas | 15 seguidas |
 | Compras: acerto · lucro | 29% · +2.661 pts | 37% · +13.349 pts | 33% · +16.011 pts |
 | Vendas: acerto · lucro | 23% · +1.333 pts | 22% · +5.449 pts | 23% · +6.782 pts |
@@ -146,13 +146,13 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 
 ## Comparação com o CDI e com o Ibovespa comprado
 
-A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos cresce junto com o capital). Na versão **+ CDI** o capital fica aplicado no CDI / Tesouro Selic (aceito como garantia) e o resultado do setup soma por cima — é a comparação justa. Na **pura**, o capital fica parado. Na coluna **risco 1%**, cada operação usa o número de contratos que faz o stop (mais o custo) custar 1% do capital — em geral 3 a 4 vezes mais contratos que 1 por R$ 10 mil. O Ibovespa já inclui dividendos. Sem imposto.
+A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contratos cresce junto com o capital). Na versão **+ CDI** o capital fica aplicado no CDI / Tesouro Selic (aceito como garantia) e o resultado do setup soma por cima — é a comparação justa. Na **pura**, o capital fica parado. Na coluna **risco 1%**, cada operação usa o número de contratos que faz o stop (mais o custo) custar 1% do capital — em geral 3 a 4 vezes mais contratos que 1 por R\$ 10 mil. O Ibovespa já inclui dividendos. Sem imposto.
 
-*Colunas: cada versão com 1 contrato por R$ 10 mil e o capital no CDI · **risco 1%** = a versão principal arriscando 1% por operação · **pura** = a principal sem o CDI.*
+*Colunas: cada versão com 1 contrato por R\$ 10 mil e o capital no CDI · **risco 1%** = a versão principal arriscando 1% por operação · **pura** = a principal sem o CDI.*
 
 | | ATR 0,09 / 0,52 | como no vídeo (até 17h30) | tarde só até 17h00 | stop 0,10% (vídeo) | risco 1% | pura | CDI | Ibovespa |
 |---|---|---|---|---|---|---|---|---|
-| **R$ 10.000 viraram** | **R$ 30.773** | **R$ 31.375** | **R$ 30.891** | **R$ 28.273** | **R$ 79.218** | **R$ 16.988** | **R$ 18.119** | **R$ 16.732** |
+| **R\$ 10.000 viraram** | **R\$ 30.773** | **R\$ 31.375** | **R\$ 30.891** | **R\$ 28.273** | **R\$ 79.218** | **R\$ 16.988** | **R\$ 18.119** | **R\$ 16.732** |
 | Retorno ao ano | +25,6% | +26,1% | +25,7% | +23,4% | +52,1% | +11,3% | +12,8% | +11,0% |
 | Pior queda | −3,6% | −3,4% | −3,4% | −2,9% | −6,9% | −5,0% | +0,0% | −20,9% |
 | Oscilação ao ano | 6,8% | 7,4% | 7,3% | 6,6% | 17,4% | 6,8% | 0,1% | 18,6% |
@@ -174,7 +174,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos
 | 2025 | +40,2% | +42,6% | +41,3% | +42,2% | +108,7% | +14,2% | +34,0% | risco 1% |
 | 2026* | +18,1% | +17,2% | +17,5% | +13,0% | +24,3% | +11,4% | +9,6% | risco 1% |
 | **Acumulado no período** | **+207,7%** | **+213,7%** | **+208,9%** | **+182,7%** | **+692,2%** | **+81,2%** | **+67,3%** | **risco 1%** |
-| **R$ 10.000 viraram** | **R$ 30.773** | **R$ 31.375** | **R$ 30.891** | **R$ 28.273** | **R$ 79.218** | **R$ 18.119** | **R$ 16.732** | |
+| **R\$ 10.000 viraram** | **R\$ 30.773** | **R\$ 31.375** | **R\$ 30.891** | **R\$ 28.273** | **R\$ 79.218** | **R\$ 18.119** | **R\$ 16.732** | |
 | **Média ao ano** | **+25,6%** | **+26,1%** | **+25,7%** | **+23,4%** | **+52,1%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
@@ -250,10 +250,10 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos
 
 | Capital por contrato | ATR 0,09 / 0,52 + CDI | como no vídeo (até 17h30) + CDI | tarde só até 17h00 + CDI | stop 0,10% (vídeo) + CDI |
 |---|---|---|---|---|
-| R$ 5.000 | +39% ao ano · pior queda −8% | +40% ao ano · pior queda −8% | +39% ao ano · pior queda −8% | +35% ao ano · pior queda −8% |
-| R$ 10.000 | +26% ao ano · pior queda −4% | +26% ao ano · pior queda −3% | +26% ao ano · pior queda −3% | +23% ao ano · pior queda −3% |
-| R$ 20.000 | +19% ao ano · pior queda −1% | +19% ao ano · pior queda −1% | +19% ao ano · pior queda −1% | +18% ao ano · pior queda −1% |
-| R$ 40.000 | +16% ao ano · pior queda −0% | +16% ao ano · pior queda −0% | +16% ao ano · pior queda −0% | +15% ao ano · pior queda −0% |
+| R\$ 5.000 | +39% ao ano · pior queda −8% | +40% ao ano · pior queda −8% | +39% ao ano · pior queda −8% | +35% ao ano · pior queda −8% |
+| R\$ 10.000 | +26% ao ano · pior queda −4% | +26% ao ano · pior queda −3% | +26% ao ano · pior queda −3% | +23% ao ano · pior queda −3% |
+| R\$ 20.000 | +19% ao ano · pior queda −1% | +19% ao ano · pior queda −1% | +19% ao ano · pior queda −1% | +18% ao ano · pior queda −1% |
+| R\$ 40.000 | +16% ao ano · pior queda −0% | +16% ao ano · pior queda −0% | +16% ao ano · pior queda −0% | +15% ao ano · pior queda −0% |
 
 *Referência: CDI +13% ao ano · Ibovespa +11% ao ano, pior queda −21%.*
 
@@ -272,7 +272,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos
 
 ## Riscos e cuidados
 
-- **Fases ruins:** a pior queda da versão ATR 0,09 / 0,52 foi de −R$ 551 por contrato (começou em abr/2026, ainda não recuperada); 8 perdas seguidas aconteceram no período.
+- **Fases ruins:** a pior queda da versão ATR 0,09 / 0,52 foi de −R\$ 551 por contrato (começou em abr/2026, ainda não recuperada); 8 perdas seguidas aconteceram no período.
 - **Mês a mês é quase cara ou coroa:** a versão ATR 0,09 / 0,52 + CDI ficou abaixo do CDI em 35% dos meses. O resultado aparece no ano.
 - **Stop curto** (~166 pts): o custo e o escorregão pesam mais — veja "E se o custo for maior?".
 - **Opera pouco** (~4,2 operações por mês): os números têm mais incerteza.
@@ -281,7 +281,7 @@ A conta usa **R$ 10.000 de capital para cada contrato** (o número de contratos
 
 ## Como o teste foi feito
 
-- **Dados:** WIN$N em velas de 1 minuto do MetaTrader 5, de 25/10/2021 a 26/10/2026, com os saltos das rolagens ajustados para os indicadores; resultados em **pontos reais** do contrato de cada época.
+- **Dados:** WIN\$N em velas de 1 minuto do MetaTrader 5, de 25/10/2021 a 26/10/2026, com os saltos das rolagens ajustados para os indicadores; resultados em **pontos reais** do contrato de cada época.
 - **Execução realista:** cada operação acompanhada minuto a minuto; stop e alvo no mesmo minuto contam como **stop**; se o preço abriu além do stop, a saída foi no preço da abertura.
 - **Custo:** 15 pontos por operação. **CDI:** série diária do Banco Central. **Ibovespa:** fechamento diário, comprado o período todo.
 - **Os parâmetros vieram prontos do vídeo**; o período de 2024 em diante serviu como prova.

@@ -6,12 +6,12 @@ tags: [setup, carteira]
 
 **O que acontece quando os setups aprovados são operados juntos? A carteira divide o capital igualmente entre eles e testa todas as combinações, sempre comparando com o CDI e com o Ibovespa comprado.**
 
-*Página gerada em 26/10/2026 23:10 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
+*Página gerada em 26/10/2026 23:16 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
 
-> [!success] Em resumo: com R$ 10.000, operando os 5 setups juntos (capital dividido igualmente, capital no CDI)
-> - **R$ 45.977** (+36% ao ano · pior queda −6% · Sharpe 1,88)
-> - CDI: **R$ 18.119** (+13% ao ano) · Ibovespa: **R$ 16.732** (+11% ao ano · pior queda −21%)
-> - **Combinação recomendada (melhor equilíbrio entre retorno, queda e estabilidade): IFR de Tendência + Pullback na Média + Rompimento da Bollinger** — R$ 38.638, +31% ao ano, pior queda −3%. **Arriscando 1% por operação: R$ 1.128.296, +160% ao ano, pior queda −17%** (veja o tamanho de posição).
+> [!success] Em resumo: com R\$ 10.000, operando os 5 setups juntos (capital dividido igualmente, capital no CDI)
+> - **R\$ 45.977** (+36% ao ano · pior queda −6% · Sharpe 1,88)
+> - CDI: **R\$ 18.119** (+13% ao ano) · Ibovespa: **R\$ 16.732** (+11% ao ano · pior queda −21%)
+> - **Combinação recomendada (melhor equilíbrio entre retorno, queda e estabilidade): IFR de Tendência + Pullback na Média + Rompimento da Bollinger** — R\$ 38.638, +31% ao ano, pior queda −3%. **Arriscando 1% por operação: R\$ 1.128.296, +160% ao ano, pior queda −17%** (veja o tamanho de posição).
 
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
@@ -32,7 +32,7 @@ Cada setup sozinho, na versão principal, com o capital no CDI.
 | 4º | [**Tendência**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | 0,28 | 28,7 |
 | 5º | [**Pullback**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | −0,04 | 5,0 |
 
-**Resultado: 1 contrato por R$ 10 mil × arriscando 1% por operação**
+**Resultado: 1 contrato por R\$ 10 mil × arriscando 1% por operação**
 
 | # | Setup | Ao ano (1 contrato) | Ao ano (risco 1%) | Pior queda (1 contrato) | Pior queda (risco 1%) |
 |---|---|---|---|---|---|
@@ -60,13 +60,13 @@ Não existe uma única "melhor": depende de quanto de queda você aguenta. As tr
 | 📈 Maior retorno | Tendência | +46% · −16,1% | +70% · −23,6% | **+70% · −23,6%** | 1,58 → 1,12 |
 | 🛡️ Menor queda | Pullback + Bollinger | +26% · −2,1% | +43% · −4,0% | **+78% · −8,6%** | 2,24 → 1,65 |
 
-*R$ 10 mil viraram, na recomendada: R$ 38.638 com 1 contrato por R$ 10 mil · R$ 78.027 com 1% dividido entre os setups · **R$ 1.128.296 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · Bollinger = Rompimento da Bollinger.*
+*R\$ 10 mil viraram, na recomendada: R\$ 38.638 com 1 contrato por R\$ 10 mil · R\$ 78.027 com 1% dividido entre os setups · **R\$ 1.128.296 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · Bollinger = Rompimento da Bollinger.*
 
 **Por que a recomendada é IFR de Tendência + Pullback na Média + Rompimento da Bollinger:** ela fica entre as melhores nos três critérios ao mesmo tempo — Sharpe 2,19, rende 7,1× acima do CDI para cada 1% de pior queda, e o Sharpe ficou em 2,34 no treino e 2,11 no teste (não depende de um período só). A correlação média entre os setups dela é 0,01: eles ganham e perdem em momentos diferentes, e é isso que segura a queda. Com Tendência Forte do Dia, ADX da Manhã, a nota de equilíbrio piora (veja a tabela abaixo). A recomendação considera só combinações de **2 ou mais setups**: diversificar protege contra um setup que pare de funcionar, coisa que o backtest não consegue prever.
 
 ## Todas as combinações
 
-Cada linha divide R$ 10.000 igualmente entre os setups da combinação (1 contrato para cada R$ 10.000 dentro de cada setup), com o capital aplicado no CDI. A ordem é a nota média em 3 critérios: **Sharpe**, **retorno acima do CDI ÷ pior queda** e o **pior Sharpe entre treino e teste** (para não premiar o que só deu certo num período).
+Cada linha divide R\$ 10.000 igualmente entre os setups da combinação (1 contrato para cada R\$ 10.000 dentro de cada setup), com o capital aplicado no CDI. A ordem é a nota média em 3 critérios: **Sharpe**, **retorno acima do CDI ÷ pior queda** e o **pior Sharpe entre treino e teste** (para não premiar o que só deu certo num período).
 
 | # | Combinação | Ao ano | Pior queda | Retorno ÷ queda | Sharpe treino → teste | Pior ano | Correlação | 1% dividido: ao ano · queda | **1% por setup: ao ano · queda** |
 |---|---|---|---|---|---|---|---|---|---|
@@ -104,7 +104,7 @@ Cada linha divide R$ 10.000 igualmente entre os setups da combinação (1 contr
 | | *CDI* | *+13%* | *0%* | — | — | — | — | — | — |
 | | *Ibovespa comprado* | *+11%* | *−20,9%* | — | — | — | — | — | — |
 
-*Ao ano e pior queda com 1 contrato por R$ 10 mil (capital dividido). Correlação = média entre os setups da combinação. Retorno ÷ queda = retorno ao ano acima do CDI dividido pela pior queda (2 = rendeu por ano o dobro da pior queda). **1% dividido** = 1% de risco repartido entre os setups (0,5% cada com 2, 0,33% com 3, 0,25% com 4): o mesmo risco total em todas as linhas, a comparação mais justa entre combinações. **1% por setup** = cada setup arrisca 1% do capital total em cada operação (veja abaixo) — com mais setups, mais risco aberto ao mesmo tempo, por isso as combinações grandes rendem e caem mais.*
+*Ao ano e pior queda com 1 contrato por R\$ 10 mil (capital dividido). Correlação = média entre os setups da combinação. Retorno ÷ queda = retorno ao ano acima do CDI dividido pela pior queda (2 = rendeu por ano o dobro da pior queda). **1% dividido** = 1% de risco repartido entre os setups (0,5% cada com 2, 0,33% com 3, 0,25% com 4): o mesmo risco total em todas as linhas, a comparação mais justa entre combinações. **1% por setup** = cada setup arrisca 1% do capital total em cada operação (veja abaixo) — com mais setups, mais risco aberto ao mesmo tempo, por isso as combinações grandes rendem e caem mais.*
 
 ## Os setups se ajudam?
 
@@ -136,7 +136,7 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 
 ## Ano a ano
 
-*Com 1 contrato por R$ 10 mil (capital dividido). Todos = os 5 setups juntos · Recomendada = IFR + Pullback + Bollinger · Rec. 1% = a recomendada arriscando 1% por operação.*
+*Com 1 contrato por R\$ 10 mil (capital dividido). Todos = os 5 setups juntos · Recomendada = IFR + Pullback + Bollinger · Rec. 1% = a recomendada arriscando 1% por operação.*
 
 | Ano | Tendência | ADX | IFR | Pullback | Bollinger | Todos | Recomendada | Rec. 1% | CDI | Ibovespa | Quem ganhou |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -147,7 +147,7 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 | 2025 | +32,2% | +65,9% | +55,3% | +21,2% | +40,2% | +43,1% | +38,7% | +279,5% | +14,2% | +34,0% | Rec. 1% |
 | 2026* | +71,9% | +43,1% | +52,0% | +20,9% | +18,1% | +41,7% | +30,2% | +96,8% | +11,4% | +9,6% | Rec. 1% |
 | **Acumulado no período** | **+546,7%** | **+381,2%** | **+478,4%** | **+207,4%** | **+207,7%** | **+359,8%** | **+286,4%** | **+11183,0%** | **+81,2%** | **+67,3%** | **Rec. 1%** |
-| **R$ 10.000 viraram** | **R$ 64.671** | **R$ 48.116** | **R$ 57.840** | **R$ 30.735** | **R$ 30.773** | **R$ 45.977** | **R$ 38.638** | **R$ 1.128.296** | **R$ 18.119** | **R$ 16.732** | |
+| **R\$ 10.000 viraram** | **R\$ 64.671** | **R\$ 48.116** | **R\$ 57.840** | **R\$ 30.735** | **R\$ 30.773** | **R\$ 45.977** | **R\$ 38.638** | **R\$ 1.128.296** | **R\$ 18.119** | **R\$ 16.732** | |
 | **Média ao ano** | **+46,0%** | **+37,5%** | **+42,7%** | **+25,5%** | **+25,6%** | **+36,2%** | **+31,5%** | **+160,5%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
@@ -234,7 +234,7 @@ Os mesmos setups e carteiras, mas com o tamanho sugerido: cada operação usa os
 | 2025 | +62,2% | +161,6% | +88,9% | +29,0% | +108,7% | +90,0% | +899,9% | +74,2% | +279,5% | +14,2% | +34,0% | Todos ⚠️ |
 | 2026* | +89,7% | +60,5% | +65,8% | +20,3% | +24,3% | +53,6% | +299,4% | +36,6% | +96,8% | +11,4% | +9,6% | Todos ⚠️ |
 | **Acumulado no período** | **+1266,9%** | **+1092,6%** | **+1170,1%** | **+298,4%** | **+692,2%** | **+952,5%** | **+220059,2%** | **+680,3%** | **+11183,0%** | **+81,2%** | **+67,3%** | **Todos ⚠️** |
-| **R$ 10.000 viraram** | **R$ 136.688** | **R$ 119.255** | **R$ 127.013** | **R$ 39.838** | **R$ 79.218** | **R$ 105.252** | **R$ 22.015.924** | **R$ 78.027** | **R$ 1.128.296** | **R$ 18.119** | **R$ 16.732** | |
+| **R\$ 10.000 viraram** | **R\$ 136.688** | **R\$ 119.255** | **R\$ 127.013** | **R\$ 39.838** | **R\$ 79.218** | **R\$ 105.252** | **R\$ 22.015.924** | **R\$ 78.027** | **R\$ 1.128.296** | **R\$ 18.119** | **R\$ 16.732** | |
 | **Média ao ano** | **+69,9%** | **+65,2%** | **+67,3%** | **+32,3%** | **+52,1%** | **+61,1%** | **+375,5%** | **+51,6%** | **+160,5%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
@@ -306,11 +306,11 @@ Os mesmos setups e carteiras, mas com o tamanho sugerido: cada operação usa os
 
 ## Tamanho de posição
 
-Quanto colocar em cada operação da combinação recomendada (**IFR de Tendência + Pullback na Média + Rompimento da Bollinger**). O que manda é o **risco por operação**: quanto do capital se perde se o stop for atingido (stop + custo, em R$). Hoje, com 1 contrato para cada R$ 10.000 dividido entre os setups, cada operação arrisca só ~0,18% do capital — por isso a queda foi tão pequena. Dá para alavancar, mas **a queda cresce mais rápido que o retorno**, e o Sharpe não muda: alavancar não melhora o setup, só aumenta o tamanho dos ganhos e das perdas.
+Quanto colocar em cada operação da combinação recomendada (**IFR de Tendência + Pullback na Média + Rompimento da Bollinger**). O que manda é o **risco por operação**: quanto do capital se perde se o stop for atingido (stop + custo, em R\$). Hoje, com 1 contrato para cada R\$ 10.000 dividido entre os setups, cada operação arrisca só ~0,18% do capital — por isso a queda foi tão pequena. Dá para alavancar, mas **a queda cresce mais rápido que o retorno**, e o Sharpe não muda: alavancar não melhora o setup, só aumenta o tamanho dos ganhos e das perdas.
 
 | Regra | Risco por operação | Ao ano | Pior queda (ordem real) | Queda típica (sorteio) | 1 vez em 20, pior que |
 |---|---|---|---|---|---|
-| Atual: 1 contrato por R$ 10 mil (capital dividido) | 0,18% | +31% | −3% | −5% | −7% |
+| Atual: 1 contrato por R\$ 10 mil (capital dividido) | 0,18% | +31% | −3% | −5% | −7% |
 | Risco fixo de 0,5% por operação | 0,50% | +75% | −8% | −12% | −18% |
 | **Risco fixo de 1% por operação ⭐ sugerido** | 1,00% | **+160%** | **−17%** | −22% | −32% |
 | Risco fixo de 2% por operação | 2,00% | +422% | −33% | −39% | −55% |
@@ -328,27 +328,27 @@ Quanto colocar em cada operação da combinação recomendada (**IFR de Tendênc
 ### Por que não usar o Kelly cheio ou o Larry Williams de 1987
 
 - **Kelly padrão:** f = acerto − (1 − acerto) ÷ payoff = a fração do capital a arriscar por operação que, em teoria, faz o capital crescer mais rápido. Medido no treino: IFR de Tendência 7,7% · Pullback na Média 19,0% · Rompimento da Bollinger 15,7%. O problema: o Kelly calculado no backtest é **otimista** (quanto do acerto e do payoff vai se repetir?), e acima do ponto ótimo o retorno cai e a queda explode. Por isso quem usa costuma ficar em ¼ ou ½ Kelly — e mesmo assim as quedas são grandes.
-- **Larry Williams:** no campeonato de 1987 ele usou o Kelly como fração do capital ÷ **margem** por contrato — a conta foi de US$ 10 mil a ~US$ 2,1 milhões, caiu para ~US$ 700 mil e terminou o ano em ~US$ 1,1 milhão. Depois ele passou a usar **contratos = capital × risco% ÷ maior perda já vista por contrato**, com ~5% (cauteloso), 10–12% (moderado) e 15–18% (agressivo). Esses percentuais eram para poucas operações por ano; estes setups operam muitas vezes por mês e a maior perda deles é ~1,5 vezes o stop típico, então **Larry com 2,5% ≈ arriscar 1,7% por operação** — perto do tamanho sugerido.
+- **Larry Williams:** no campeonato de 1987 ele usou o Kelly como fração do capital ÷ **margem** por contrato — a conta foi de US\$ 10 mil a ~US\$ 2,1 milhões, caiu para ~US\$ 700 mil e terminou o ano em ~US\$ 1,1 milhão. Depois ele passou a usar **contratos = capital × risco% ÷ maior perda já vista por contrato**, com ~5% (cauteloso), 10–12% (moderado) e 15–18% (agressivo). Esses percentuais eram para poucas operações por ano; estes setups operam muitas vezes por mês e a maior perda deles é ~1,5 vezes o stop típico, então **Larry com 2,5% ≈ arriscar 1,7% por operação** — perto do tamanho sugerido.
 
 ### Calculadora de contratos (risco de 1% por operação)
 
-**contratos = capital × 1% ÷ ((stop em pts + 15) × R$ 0,20)** — arredonde para baixo. Calcule para cada setup, a cada operação, com o capital do momento (assim a posição cresce quando ganha e diminui quando perde).
+**contratos = capital × 1% ÷ ((stop em pts + 15) × R\$ 0,20)** — arredonde para baixo. Calcule para cada setup, a cada operação, com o capital do momento (assim a posição cresce quando ganha e diminui quando perde).
 
-| Setup | Stop hoje | Risco por contrato | R$ 10.000 | R$ 20.000 | R$ 50.000 | R$ 100.000 | R$ 200.000 |
+| Setup | Stop hoje | Risco por contrato | R\$ 10.000 | R\$ 20.000 | R\$ 50.000 | R\$ 100.000 | R\$ 200.000 |
 |---|---|---|---|---|---|---|---|
-| Tendência Forte do Dia | 550 pts | R$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
-| ADX da Manhã | 267 pts | R$ 56 | 1,8 | 3,5 | 8,9 | 17,7 | 35,4 |
-| IFR de Tendência ⭐ | 357 pts | R$ 74 | 1,3 | 2,7 | 6,7 | 13,5 | 26,9 |
-| Pullback na Média ⭐ | 550 pts | R$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
-| Rompimento da Bollinger ⭐ | 317 pts | R$ 66 | 1,5 | 3,0 | 7,5 | 15,1 | 30,1 |
+| Tendência Forte do Dia | 550 pts | R\$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
+| ADX da Manhã | 267 pts | R\$ 56 | 1,8 | 3,5 | 8,9 | 17,7 | 35,4 |
+| IFR de Tendência ⭐ | 357 pts | R\$ 74 | 1,3 | 2,7 | 6,7 | 13,5 | 26,9 |
+| Pullback na Média ⭐ | 550 pts | R\$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
+| Rompimento da Bollinger ⭐ | 317 pts | R\$ 66 | 1,5 | 3,0 | 7,5 | 15,1 | 30,1 |
 
 *Stops calculados com o ATR (3.670 pts) e o preço (178.265) de hoje — mudam todo dia. ⭐ = setups da combinação recomendada. Com risco de 0,5%, use a metade. Confira a margem de day trade da sua corretora para o número de contratos.*
 
 ## Como a carteira é montada
 
 - Cada setup entra com a **versão principal** da sua página.
-- O capital é **dividido igualmente** entre os setups da combinação, com 1 contrato para cada R$ 10.000 dentro de cada setup, e fica aplicado no CDI. O resultado de cada dia é a média dos setups mais o CDI do dia.
-- **Risco 1%:** cada setup arrisca 1% do capital total em cada operação (contratos = capital × 1% ÷ (stop + custo) em R$). Se dois setups estiverem posicionados ao mesmo tempo, o risco aberto é de 2%.
+- O capital é **dividido igualmente** entre os setups da combinação, com 1 contrato para cada R\$ 10.000 dentro de cada setup, e fica aplicado no CDI. O resultado de cada dia é a média dos setups mais o CDI do dia.
+- **Risco 1%:** cada setup arrisca 1% do capital total em cada operação (contratos = capital × 1% ÷ (stop + custo) em R\$). Se dois setups estiverem posicionados ao mesmo tempo, o risco aberto é de 2%.
 - Custo de 15 pontos por operação, sem imposto. Resultado passado, em backtest.
 
 *Leitura educacional baseada em backtest. Não é recomendação de investimento.*
