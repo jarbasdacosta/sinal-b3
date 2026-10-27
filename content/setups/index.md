@@ -6,7 +6,7 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 26/10/2026 21:16 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 26/10/2026 21:31 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|
@@ -17,9 +17,26 @@ tags: [setup]
 | *CDI* | | | *+13%* | *0%* | | |
 | *Ibovespa comprado* | | | *+11%* | *−21%* | | |
 
+### 🏆 Ranking
+
+| # | Setup | Sharpe | Retorno acima do CDI ÷ pior queda | Teste ÷ treino | Meses acima do CDI | Ao ano | Pior queda | Correlação com os outros | Operações por mês | Como opera |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1º | [**IFR de Tendência**](ifr-de-tendencia) | 1,59 | 4,0 | 150% | 72% | +43% | −7% | 0,19 | 12,6 | entra na força medida pelo IFR · 10h–11h e 14h–16h |
+| 2º | [**Tendência Forte do Dia**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | +46% | −16% | 0,25 | 28,7 | segue a tendência já formada (rompimento longe da abertura) · o dia todo, até 17h |
+| 3º | [**ADX da Manhã**](adx-da-manha) | 1,03 | 1,6 | 150% | 63% | +37% | −15% | 0,22 | 29,3 | pega o começo da tendência (ADX subindo), stop curto · 10h–11h |
+| 4º | [**Pullback na Média**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | +26% | −5% | −0,04 | 5,0 | entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45 |
+
+*Como o ranking é feito: cada setup ganha uma posição em 4 critérios — **Sharpe** (retorno acima do CDI por oscilação), **retorno acima do CDI ÷ pior queda** (quanto rende para cada 1% de queda que você aguenta), **teste ÷ treino** (quanto do resultado por operação de 2021–2023 se manteve em 2024 em diante; 100% = manteve tudo) e **meses acima do CDI**. Vale a média das 4 posições. Correlação baixa com os outros é bom para a carteira, mas não entra na nota de cada setup.*
+
 ### [🧺 Carteira: o que vale a pena operar junto](carteira)
 
-Os 4 setups juntos, com o capital dividido igualmente: **+39% ao ano**, pior queda de **−7%** e Sharpe **1,76**. A página da carteira mostra todas as combinações e se os setups se ajudam.
+| Perfil | Combinação | R$ 10 mil viraram | Ao ano | Pior queda | Sharpe | Sharpe treino → teste |
+|---|---|---|---|---|---|---|
+| ⭐ **Melhor equilíbrio** (recomendada) | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 |
+| 📈 Maior retorno | Tendência Forte do Dia | R$ 64.671 | +46,0% | −16,1% | 1,28 | 1,58 → 1,12 |
+| 🛡️ Menor queda | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 |
+
+A página da [carteira](carteira) explica a escolha, mostra as 15 combinações e se os setups se ajudam.
 
 ### Como um setup entra nesta lista
 
@@ -40,5 +57,6 @@ Os 4 setups juntos, com o capital dividido igualmente: **+39% ao ano**, pior que
 > - Candles (inside, outside, compasso) no nível 100% e na bolinha do ZigZag
 > - Virada da manhã com 71 médias móveis diferentes
 > - Scalp de 30, 50 e 120 pts do setup Tendência Forte do Dia (só funciona sem custo)
+> - Mini dólar: vela das 17h40 fora do canal abertura ± 20 pts (bate com o vídeo sem custo e ganha do acaso, mas a vantagem é de ~1 pt por operação e some com 1 pt de custo; em 2022–2023 perdeu; a versão em ATR não ajudou)
 
 *Leitura educacional baseada em backtest. Não é recomendação de investimento.*
