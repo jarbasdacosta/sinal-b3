@@ -16,9 +16,9 @@ tags: [setup]
 | Setup | Resultado | R por operação: treino → teste | Acaso (p no teste) | Vizinhança | Testado em |
 |---|---|---|---|---|---|
 | [**Rompimento da Bollinger**](rompimento-da-bollinger) · [vídeo](https://youtu.be/2l5k3OyC7eQ) | ✅ aprovado | +0,43 → +0,83 | 0,000 | 16/16 | 26/10/2026 |
-| [**Primeira Vela de Quinta**](primeira-vela-de-quinta) · [vídeo](https://youtu.be/5pmW0UMnXwE) | ✅ aprovado | +0,27 → +0,22 | 0,012 | 9/9 | 27/10/2026 |
 | [**MACD na Tendência**](macd-na-tendencia) · [vídeo](https://youtu.be/eHvY4bvS95c) | ✅ aprovado | +0,08 → +0,17 | 0,000 | 12/12 | 27/10/2026 |
 | [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) · [vídeo](https://youtu.be/UFLCVkzcghU) | 🟡 promissor | +0,14 → +0,46 | 0,001 | 7/12 | 27/10/2026 |
+| [**Primeira Vela de Quinta**](primeira-vela-de-quinta) · [vídeo](https://youtu.be/5pmW0UMnXwE) | 🟡 promissor | +0,27 → +0,22 | 0,012 | 9/9 | 27/10/2026 |
 | [**Vai na Onda**](vai-na-onda) · [vídeo](https://youtu.be/5JZC82O-0Nc) | 🟡 promissor | +0,03 → +0,18 | 0,000 | 6/12 | 27/10/2026 |
 | **Tendência do Mês na Sexta** · [vídeo](https://youtu.be/yOiGlNcxmYE) | ❌ reprovado | +0,11 → +0,12 | 0,125 | 6/9 | 27/10/2026 |
 | **Vela das 10h15** · [vídeo](https://youtu.be/Pn9YLIjcG0E) | ❌ reprovado | −0,05 → +0,04 | 0,007 | 0/12 | 27/10/2026 |

@@ -6,21 +6,21 @@ tags: [setup, win]
 
 **Na quinta-feira, entra no rompimento da primeira vela de 15 minutos do dia, na direção da cor dela, com stop e alvo iguais.**
 
-✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · só a primeira vela do dia
+🟡 promissor · dia escolhido pelo autor · Mini índice (WIN) · gráfico de 15 minutos · só a primeira vela do dia
 
-🎬 **Vídeo de origem:** [Arthur 777 – "descobri um padrão bizarro no mini índice"](https://youtu.be/5pmW0UMnXwE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 27/10/2026 09:13 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "descobri um padrão bizarro no mini índice"](https://youtu.be/5pmW0UMnXwE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 27/10/2026 09:19 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
-> - **R\$ 21.602** na versão ATR 0,21 / 0,21 com o capital no CDI (+17% ao ano · pior queda −4%)
-> - **R\$ 19.285** na versão todos os dias com o capital no CDI (+14% ao ano · pior queda −8%)
-> - **R\$ 22.778** na versão só quinta (vídeo) com o capital no CDI (+18% ao ano · pior queda −3%)
-> - **R\$ 26.139** na versão só quinta, entrada a mercado (vídeo) com o capital no CDI (+21% ao ano · pior queda −4%)
-> - **R\$ 22.580** na versão só quinta, corpo de 100+ (vídeo) com o capital no CDI (+18% ao ano · pior queda −2%)
-> - **R\$ 23.507** na versão todos os dias, entrada a mercado com o capital no CDI (+19% ao ano · pior queda −16%)
-> - **R\$ 18.119** só no CDI (+13% ao ano)
+> - **R\$ 21.613** na versão ATR 0,21 / 0,21 com o capital no CDI (+17% ao ano · pior queda −4%)
+> - **R\$ 19.294** na versão todos os dias com o capital no CDI (+14% ao ano · pior queda −8%)
+> - **R\$ 22.789** na versão só quinta (vídeo) com o capital no CDI (+18% ao ano · pior queda −3%)
+> - **R\$ 26.152** na versão só quinta, entrada a mercado (vídeo) com o capital no CDI (+21% ao ano · pior queda −4%)
+> - **R\$ 22.592** na versão só quinta, corpo de 100+ (vídeo) com o capital no CDI (+18% ao ano · pior queda −2%)
+> - **R\$ 23.519** na versão todos os dias, entrada a mercado com o capital no CDI (+19% ao ano · pior queda −16%)
+> - **R\$ 18.128** só no CDI (+13% ao ano)
 > - **R\$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
 >
-> - **R\$ 23.111** na versão ATR 0,21 / 0,21 **arriscando 1% do capital por operação** (+18% ao ano · pior queda −3%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
+> - **R\$ 23.123** na versão ATR 0,21 / 0,21 **arriscando 1% do capital por operação** (+19% ao ano · pior queda −3%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
 > Com 1 contrato de WIN para cada R\$ 10.000 (ou pelo risco de 1%), sem imposto.
 
@@ -51,7 +51,7 @@ tags: [setup, win]
 | Acerto | 64% | 53% | 63% | 61% | 65% | 53% |
 | Payoff | 0,84 | 0,93 | 0,93 | 0,94 | 0,93 | 0,93 |
 | Treino → teste (pts por operação) | +106,6 → +66,2 | +30,4 → −9,6 | +104,3 → +82,3 | +96,1 → +63,2 | +124,1 → +88,2 | +10,2 → +14,1 |
-| Retorno ao ano (+ CDI) | +16,9% | +14,2% | +18,1% | +21,5% | +17,9% | +18,9% |
+| Retorno ao ano (+ CDI) | +16,9% | +14,2% | +18,2% | +21,5% | +18,0% | +18,9% |
 | Pior queda (+ CDI) | −3,7% | −8,4% | −2,5% | −3,9% | −2,0% | −15,7% |
 
 ## Estatísticas da operação (1 contrato, em pontos)
@@ -191,8 +191,8 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 | | ATR 0,21 / 0,21 | todos os dias | só quinta (vídeo) | só quinta, entrada a mercado (vídeo) | só quinta, corpo de 100+ (vídeo) | todos os dias, entrada a mercado | risco 1% | pura | CDI | Ibovespa |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **R\$ 10.000 viraram** | **R\$ 21.602** | **R\$ 19.285** | **R\$ 22.778** | **R\$ 26.139** | **R\$ 22.580** | **R\$ 23.507** | **R\$ 23.111** | **R\$ 11.923** | **R\$ 18.119** | **R\$ 16.732** |
-| Retorno ao ano | +16,9% | +14,2% | +18,1% | +21,5% | +17,9% | +18,9% | +18,5% | +3,6% | +12,8% | +11,0% |
+| **R\$ 10.000 viraram** | **R\$ 21.613** | **R\$ 19.294** | **R\$ 22.789** | **R\$ 26.152** | **R\$ 22.592** | **R\$ 23.519** | **R\$ 23.123** | **R\$ 11.923** | **R\$ 18.128** | **R\$ 16.732** |
+| Retorno ao ano | +16,9% | +14,2% | +18,2% | +21,5% | +18,0% | +18,9% | +18,5% | +3,6% | +12,8% | +11,0% |
 | Pior queda | −3,7% | −8,4% | −2,5% | −3,9% | −2,0% | −15,7% | −2,6% | −6,8% | +0,0% | −20,9% |
 | Oscilação ao ano | 4,1% | 9,2% | 4,1% | 5,6% | 3,7% | 12,6% | 4,4% | 4,1% | 0,1% | 18,6% |
 | Sharpe (acima do CDI) | 0,88 | 0,18 | 1,16 | 1,36 | 1,23 | 0,48 | 1,13 | −2,03 | — | 0,01 |
@@ -211,10 +211,10 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 | 2023 | +15,3% | +29,1% | +19,5% | +24,4% | +17,8% | +33,5% | +16,4% | +13,0% | +22,3% | todos os dias, entrada a mercado |
 | 2024 | +16,4% | +0,9% | +19,8% | +20,9% | +18,1% | +2,5% | +19,2% | +10,8% | −10,4% | só quinta, entrada a mercado (vídeo) |
 | 2025 | +21,9% | +17,4% | +20,7% | +18,9% | +18,0% | +22,5% | +23,5% | +14,2% | +34,0% | Ibovespa |
-| 2026* | +7,4% | +9,2% | +9,8% | +16,2% | +12,6% | +33,5% | +8,8% | +11,4% | +9,6% | todos os dias, entrada a mercado |
-| **Acumulado no período** | **+116,0%** | **+92,8%** | **+127,8%** | **+161,4%** | **+125,8%** | **+135,1%** | **+131,1%** | **+81,2%** | **+67,3%** | **só quinta, entrada a mercado (vídeo)** |
-| **R\$ 10.000 viraram** | **R\$ 21.602** | **R\$ 19.285** | **R\$ 22.778** | **R\$ 26.139** | **R\$ 22.580** | **R\$ 23.507** | **R\$ 23.111** | **R\$ 18.119** | **R\$ 16.732** | |
-| **Média ao ano** | **+16,9%** | **+14,2%** | **+18,1%** | **+21,5%** | **+17,9%** | **+18,9%** | **+18,5%** | **+12,8%** | **+11,0%** | |
+| 2026* | +7,5% | +9,3% | +9,9% | +16,3% | +12,7% | +33,6% | +8,8% | +11,5% | +9,6% | todos os dias, entrada a mercado |
+| **Acumulado no período** | **+116,1%** | **+92,9%** | **+127,9%** | **+161,5%** | **+125,9%** | **+135,2%** | **+131,2%** | **+81,3%** | **+67,3%** | **só quinta, entrada a mercado (vídeo)** |
+| **R\$ 10.000 viraram** | **R\$ 21.613** | **R\$ 19.294** | **R\$ 22.789** | **R\$ 26.152** | **R\$ 22.592** | **R\$ 23.519** | **R\$ 23.123** | **R\$ 18.128** | **R\$ 16.732** | |
+| **Média ao ano** | **+16,9%** | **+14,2%** | **+18,2%** | **+21,5%** | **+18,0%** | **+18,9%** | **+18,5%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
@@ -282,8 +282,8 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 > | jul/2026 | −1,1% | −2,4% | −1,3% | +0,2% | −0,5% | +2,1% | −0,8% | +1,2% | +3,5% |
 > | ago/2026 | −1,4% | +0,7% | −0,6% | +1,0% | −0,6% | +2,8% | −0,9% | +1,1% | −0,3% |
 > | set/2026 | +1,1% | +0,7% | +0,2% | −0,7% | +1,1% | +4,5% | +1,1% | +1,1% | +5,0% |
-> | out/2026 | +2,4% | −1,7% | +1,6% | +0,7% | +1,6% | +3,5% | +1,8% | +0,8% | −5,2% |
-> | **Acumulado** | **+116,0%** | **+92,8%** | **+127,8%** | **+161,4%** | **+125,8%** | **+135,1%** | **+131,1%** | **+81,2%** | **+67,3%** |
+> | out/2026 | +2,5% | −1,6% | +1,6% | +0,7% | +1,6% | +3,6% | +1,8% | +0,9% | −5,2% |
+> | **Acumulado** | **+116,1%** | **+92,9%** | **+127,9%** | **+161,5%** | **+125,9%** | **+135,2%** | **+131,2%** | **+81,3%** | **+67,3%** |
 
 ### E se o capital por contrato for outro?
 
@@ -313,6 +313,7 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 - **Fases ruins:** a pior queda da versão ATR 0,21 / 0,21 foi de −R\$ 693 por contrato (começou em jan/2026, ainda não recuperada); 4 perdas seguidas aconteceram no período.
 - **Mês a mês é quase cara ou coroa:** a versão ATR 0,21 / 0,21 + CDI ficou abaixo do CDI em 50% dos meses. O resultado aparece no ano.
+- **Dia da semana escolhido pelo autor (só a quinta-feira):** o vídeo testou todos os dias no mesmo período que usamos e mostrou o que deu certo — pode ser sorte. Por regra, fica no máximo como promissor e **fora da carteira recomendada** até os dados novos confirmarem.
 - **Opera pouco** (~1,8 operações por mês): os números têm mais incerteza.
 - **Anos negativos:** 2026.
 - **As vendas carregam o setup:** compras +0,14R × vendas +0,33R por operação.

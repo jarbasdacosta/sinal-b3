@@ -6,7 +6,7 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 27/10/2026 09:13 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 27/10/2026 09:19 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|
@@ -15,8 +15,8 @@ tags: [setup]
 | [**IFR de Tendência**](ifr-de-tendencia) | ✅ aprovado | Entra quando o IFR mostra força nos horários de tendência do dia (10h–11h e 14h–16h): vela a favor com o IFR acima de 70 ou abaixo de 30, stop curto e alvo longo. | +43% | −7% | **+67% · −11%** | +56 → +99 | [assistir](https://youtu.be/sswleA6JTvY) |
 | [**Pullback na Média**](pullback-na-media) | ✅ aprovado | Compra a volta da correção: em dia já a favor, o preço encosta na média de 45, retoma e rompe a vela anterior. | +26% | −5% | **+32% · −9%** | +155 → +43 | [assistir](https://youtu.be/iIaJDFRbNpI) |
 | [**MACD na Tendência**](macd-na-tendencia) | ✅ aprovado | Dia já forte (longe da abertura e além do extremo de ontem) com o MACD subindo a favor: entra com break even. | +30% | −15% | **+40% · −11%** | +22 → +57 | [assistir](https://youtu.be/eHvY4bvS95c) |
-| [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) | 🟡 promissor | Se a primeira vela de 80 minutos do dia fecha forte (quase sem sombra contra), entra a favor às 10h20 com alvo longo, break even e stop móvel. | +31% | −12% | **+47% · −14%** | +42 → +120 | [assistir](https://youtu.be/UFLCVkzcghU) |
-| [**Primeira Vela de Quinta**](primeira-vela-de-quinta) | ✅ aprovado | Na quinta-feira, entra no rompimento da primeira vela de 15 minutos do dia, na direção da cor dela, com stop e alvo iguais. | +17% | −4% | **+18% · −3%** | +107 → +66 | [assistir](https://youtu.be/5pmW0UMnXwE) |
+| [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) | 🟡 promissor · dia escolhido pelo autor | Se a primeira vela de 80 minutos do dia fecha forte (quase sem sombra contra), entra a favor às 10h20 com alvo longo, break even e stop móvel. | +31% | −12% | **+47% · −14%** | +42 → +120 | [assistir](https://youtu.be/UFLCVkzcghU) |
+| [**Primeira Vela de Quinta**](primeira-vela-de-quinta) | 🟡 promissor · dia escolhido pelo autor | Na quinta-feira, entra no rompimento da primeira vela de 15 minutos do dia, na direção da cor dela, com stop e alvo iguais. | +17% | −4% | **+19% · −3%** | +107 → +66 | [assistir](https://youtu.be/5pmW0UMnXwE) |
 | [**Rompimento da Bollinger**](rompimento-da-bollinger) | ✅ aprovado | Três velas (a favor, contra, a favor) e a última rompe a banda de Bollinger a favor das médias de 50 e 200: stop curto e alvo 6× maior. | +26% | −4% | **+52% · −7%** | +73 → +128 | [assistir](https://youtu.be/2l5k3OyC7eQ) |
 | [**Vai na Onda**](vai-na-onda) | 🟡 promissor | Três velas seguidas para o mesmo lado, renovando a máxima (ou a mínima) do dia com volume acima da média: entra a favor da onda. | +29% | −19% | **+40% · −20%** | +5 → +61 | [assistir](https://youtu.be/5JZC82O-0Nc) |
 | *CDI* | | | *+13%* | *0%* | | | |
@@ -50,7 +50,7 @@ tags: [setup]
 | 6º | [**MACD**](macd-na-tendencia) | +30% | **+40%** | −15% | **−11%** |
 | 7º | [**Pullback**](pullback-na-media) | +26% | **+32%** | −5% | **−9%** |
 | 8º | [**Onda**](vai-na-onda) | +29% | **+40%** | −19% | **−20%** |
-| 9º | [**Quinta**](primeira-vela-de-quinta) | +17% | **+18%** | −4% | **−3%** |
+| 9º | [**Quinta**](primeira-vela-de-quinta) | +17% | **+19%** | −4% | **−3%** |
 
 - **IFR de Tendência:** entra na força medida pelo IFR · 10h–11h e 14h–16h
 - **Rompimento da Bollinger:** rompimento da banda de Bollinger a favor da tendência · 10h15–11h e 14h–17h30
@@ -68,11 +68,11 @@ tags: [setup]
 
 | Perfil | Combinação | 1 contrato: ao ano · queda | 1% dividido: ao ano · queda | **1% por setup: ao ano · queda** | Sharpe treino → teste |
 |---|---|---|---|---|---|
-| ⭐ **Equilíbrio** (recomendada) | IFR + Pullback + Quinta + Bollinger | +28% · −1,6% | +43% · −3,5% | **+173% · −17,1%** | 2,52 → 2,16 |
+| ⭐ **Equilíbrio** (recomendada) | IFR + Pullback + Bollinger | +32% · −2,6% | +52% · −5,1% | **+160% · −17,1%** | 2,34 → 2,11 |
 | 📈 Maior retorno | Tendência | +46% · −16,1% | +70% · −23,6% | **+70% · −23,6%** | 1,58 → 1,12 |
-| 🛡️ Menor queda | Quinta + Bollinger | +21% · −1,5% | +35% · −2,8% | **+60% · −8,4%** | 1,82 → 1,77 |
+| 🛡️ Menor queda | Pullback + Bollinger | +26% · −2,1% | +43% · −4,0% | **+78% · −8,6%** | 2,24 → 1,65 |
 
-*R\$ 10 mil viraram, na recomendada: R\$ 33.509 com 1 contrato por R\$ 10 mil · R\$ 58.053 com 1% dividido entre os setups · **R\$ 1.429.238 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · MACD = MACD na Tendência · 1ª vela 80 = Primeira Vela de 80 Minutos · Quinta = Primeira Vela de Quinta · Bollinger = Rompimento da Bollinger · Onda = Vai na Onda.*
+*R\$ 10 mil viraram, na recomendada: R\$ 38.657 com 1 contrato por R\$ 10 mil · R\$ 78.066 com 1% dividido entre os setups · **R\$ 1.128.848 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · MACD = MACD na Tendência · 1ª vela 80 = Primeira Vela de 80 Minutos · Quinta = Primeira Vela de Quinta · Bollinger = Rompimento da Bollinger · Onda = Vai na Onda.*
 
 A página da [carteira](carteira) explica a escolha, mostra as 381 combinações, se os setups se ajudam e o [tamanho de posição](carteira#tamanho-de-posição) sugerido: **arriscar 1% do capital por operação** (Kelly e Larry Williams comparados, com calculadora de contratos).
 
@@ -82,6 +82,7 @@ A página da [carteira](carteira) explica a escolha, mostra as 381 combinações
 2. O resultado precisa ser positivo depois do custo e **bater o acaso** (entradas sem critério com o mesmo alvo e stop).
 3. Precisa funcionar no **treino** (2021–2023) e no **teste** (2024 em diante), e aguentar pequenas mudanças nos parâmetros (sem depender de um número mágico).
 4. Distâncias, stops e alvos ficam em **ATR** (quanto o índice costuma andar num dia) ou em **% do preço**, não em pontos fixos — assim o setup continua valendo quando o índice muda de patamar.
+5. Se só funciona num **dia da semana escolhido pelo autor do vídeo** (que testou todos os dias no nosso mesmo período), fica no máximo como 🟡 promissor e fora da carteira recomendada, até os dados novos confirmarem.
 
 **✅ aprovado** = passou em tudo · **🟡 promissor** = passou no teste e na robustez, mas com alguma fraqueza (explicada na página).
 

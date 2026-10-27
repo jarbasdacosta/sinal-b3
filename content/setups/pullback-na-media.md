@@ -8,16 +8,16 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 10h30 às 12h30 e das 14h45 às 15h45
 
-🎬 **Vídeo de origem:** [Arthur 777 – "isso se repete milhares de vezes"](https://youtu.be/iIaJDFRbNpI) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 27/10/2026 09:13 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "isso se repete milhares de vezes"](https://youtu.be/iIaJDFRbNpI) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 27/10/2026 09:19 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
-> - **R\$ 30.735** na versão ATR 0,15 / 0,15 / 5× com o capital no CDI (+26% ao ano · pior queda −5%)
-> - **R\$ 24.137** na versão ATR ≈ 500/400/1.500 com o capital no CDI (+20% ao ano · pior queda −5%)
-> - **R\$ 28.357** na versão pontos fixos (vídeo) com o capital no CDI (+24% ao ano · pior queda −3%)
-> - **R\$ 18.119** só no CDI (+13% ao ano)
+> - **R\$ 30.751** na versão ATR 0,15 / 0,15 / 5× com o capital no CDI (+26% ao ano · pior queda −5%)
+> - **R\$ 24.149** na versão ATR ≈ 500/400/1.500 com o capital no CDI (+20% ao ano · pior queda −5%)
+> - **R\$ 28.372** na versão pontos fixos (vídeo) com o capital no CDI (+24% ao ano · pior queda −3%)
+> - **R\$ 18.128** só no CDI (+13% ao ano)
 > - **R\$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
 >
-> - **R\$ 39.838** na versão ATR 0,15 / 0,15 / 5× **arriscando 1% do capital por operação** (+32% ao ano · pior queda −9%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
+> - **R\$ 39.858** na versão ATR 0,15 / 0,15 / 5× **arriscando 1% do capital por operação** (+32% ao ano · pior queda −9%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
 > Com 1 contrato de WIN para cada R\$ 10.000 (ou pelo risco de 1%), sem imposto.
 
@@ -54,7 +54,7 @@ tags: [setup, win]
 | Acerto | 38% | 43% | 44% |
 | Payoff | 2,43 | 1,74 | 1,89 |
 | Treino → teste (pts por operação) | +155,4 → +43,4 | +117,1 → +37,8 | +127,0 → +92,4 |
-| Retorno ao ano (+ CDI) | +25,5% | +19,5% | +23,5% |
+| Retorno ao ano (+ CDI) | +25,6% | +19,6% | +23,5% |
 | Pior queda (+ CDI) | −4,6% | −4,7% | −3,3% |
 
 ## Estatísticas da operação (1 contrato, em pontos)
@@ -137,8 +137,8 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 | | ATR 0,15 / 0,15 / 5× | ATR ≈ 500/400/1.500 | pontos fixos (vídeo) | risco 1% | pura | CDI | Ibovespa |
 |---|---|---|---|---|---|---|---|
-| **R\$ 10.000 viraram** | **R\$ 30.735** | **R\$ 24.137** | **R\$ 28.357** | **R\$ 39.838** | **R\$ 16.967** | **R\$ 18.119** | **R\$ 16.732** |
-| Retorno ao ano | +25,5% | +19,5% | +23,5% | +32,3% | +11,3% | +12,8% | +11,0% |
+| **R\$ 10.000 viraram** | **R\$ 30.751** | **R\$ 24.149** | **R\$ 28.372** | **R\$ 39.858** | **R\$ 16.967** | **R\$ 18.128** | **R\$ 16.732** |
+| Retorno ao ano | +25,6% | +19,6% | +23,5% | +32,3% | +11,3% | +12,8% | +11,0% |
 | Pior queda | −4,6% | −4,7% | −3,3% | −9,1% | −6,2% | +0,0% | −20,9% |
 | Oscilação ao ano | 9,2% | 8,3% | 8,8% | 14,4% | 9,3% | 0,1% | 18,6% |
 | Sharpe (acima do CDI) | 1,20 | 0,74 | 1,07 | 1,18 | −0,10 | — | 0,01 |
@@ -157,10 +157,10 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 | 2023 | +19,7% | +13,3% | +12,1% | +24,7% | +13,0% | +22,3% | risco 1% |
 | 2024 | +10,8% | +12,0% | +7,1% | +9,6% | +10,8% | −10,4% | ATR ≈ 500/400/1.500 |
 | 2025 | +21,2% | +21,5% | +18,5% | +29,0% | +14,2% | +34,0% | Ibovespa |
-| 2026* | +20,9% | +12,4% | +38,4% | +20,3% | +11,4% | +9,6% | pontos fixos (vídeo) |
-| **Acumulado no período** | **+207,4%** | **+141,4%** | **+183,6%** | **+298,4%** | **+81,2%** | **+67,3%** | **risco 1%** |
-| **R\$ 10.000 viraram** | **R\$ 30.735** | **R\$ 24.137** | **R\$ 28.357** | **R\$ 39.838** | **R\$ 18.119** | **R\$ 16.732** | |
-| **Média ao ano** | **+25,5%** | **+19,5%** | **+23,5%** | **+32,3%** | **+12,8%** | **+11,0%** | |
+| 2026* | +20,9% | +12,4% | +38,4% | +20,4% | +11,5% | +9,6% | pontos fixos (vídeo) |
+| **Acumulado no período** | **+207,5%** | **+141,5%** | **+183,7%** | **+298,6%** | **+81,3%** | **+67,3%** | **risco 1%** |
+| **R\$ 10.000 viraram** | **R\$ 30.751** | **R\$ 24.149** | **R\$ 28.372** | **R\$ 39.858** | **R\$ 18.128** | **R\$ 16.732** | |
+| **Média ao ano** | **+25,6%** | **+19,6%** | **+23,5%** | **+32,3%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
@@ -228,8 +228,8 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 > | jul/2026 | +0,3% | +0,6% | +1,3% | +0,4% | +1,2% | +3,5% |
 > | ago/2026 | +4,1% | −0,3% | +3,2% | +4,0% | +1,1% | −0,3% |
 > | set/2026 | +6,0% | +5,4% | +10,6% | +5,7% | +1,1% | +5,0% |
-> | out/2026 | −0,2% | −1,6% | +1,2% | +0,1% | +0,8% | −5,2% |
-> | **Acumulado** | **+207,4%** | **+141,4%** | **+183,6%** | **+298,4%** | **+81,2%** | **+67,3%** |
+> | out/2026 | −0,2% | −1,5% | +1,3% | +0,1% | +0,9% | −5,2% |
+> | **Acumulado** | **+207,5%** | **+141,5%** | **+183,7%** | **+298,6%** | **+81,3%** | **+67,3%** |
 
 ### E se o capital por contrato for outro?
 

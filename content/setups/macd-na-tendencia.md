@@ -8,18 +8,18 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 9h00 às 11h30 e das 14h00 às 16h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "parecia uma coincidência, mas não era"](https://youtu.be/eHvY4bvS95c) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 27/10/2026 09:13 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "parecia uma coincidência, mas não era"](https://youtu.be/eHvY4bvS95c) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 27/10/2026 09:19 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
-> - **R\$ 36.733** na versão ATR 0,21 / 1,03 com o capital no CDI (+30% ao ano · pior queda −15%)
-> - **R\$ 36.947** na versão como no vídeo: pontos fixos, com stop móvel com o capital no CDI (+30% ao ano · pior queda −8%)
-> - **R\$ 41.538** na versão distância em ATR, sem stop móvel com o capital no CDI (+33% ao ano · pior queda −11%)
-> - **R\$ 30.603** na versão alvo 400 · stop 400 (vídeo), ATR, sem stop móvel com o capital no CDI (+25% ao ano · pior queda −8%)
-> - **R\$ 41.143** na versão alvo 2.000 (vídeo), ATR, sem stop móvel com o capital no CDI (+33% ao ano · pior queda −13%)
-> - **R\$ 18.119** só no CDI (+13% ao ano)
+> - **R\$ 36.752** na versão ATR 0,21 / 1,03 com o capital no CDI (+30% ao ano · pior queda −15%)
+> - **R\$ 36.965** na versão como no vídeo: pontos fixos, com stop móvel com o capital no CDI (+30% ao ano · pior queda −8%)
+> - **R\$ 41.559** na versão distância em ATR, sem stop móvel com o capital no CDI (+33% ao ano · pior queda −11%)
+> - **R\$ 30.619** na versão alvo 400 · stop 400 (vídeo), ATR, sem stop móvel com o capital no CDI (+25% ao ano · pior queda −8%)
+> - **R\$ 41.164** na versão alvo 2.000 (vídeo), ATR, sem stop móvel com o capital no CDI (+33% ao ano · pior queda −13%)
+> - **R\$ 18.128** só no CDI (+13% ao ano)
 > - **R\$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
 >
-> - **R\$ 52.674** na versão ATR 0,21 / 1,03 **arriscando 1% do capital por operação** (+40% ao ano · pior queda −11%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
+> - **R\$ 52.701** na versão ATR 0,21 / 1,03 **arriscando 1% do capital por operação** (+40% ao ano · pior queda −11%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
 > Com 1 contrato de WIN para cada R\$ 10.000 (ou pelo risco de 1%), sem imposto.
 
@@ -53,7 +53,7 @@ tags: [setup, win]
 | Acerto | 22% | 30% | 23% | 44% | 22% |
 | Payoff | 4,43 | 2,91 | 4,42 | 1,47 | 4,73 |
 | Treino → teste (pts por operação) | +22,3 → +57,2 | +19,3 → +49,4 | +24,8 → +61,4 | +17,0 → +24,4 | +28,5 → +60,2 |
-| Retorno ao ano (+ CDI) | +30,2% | +30,3% | +33,4% | +25,4% | +33,2% |
+| Retorno ao ano (+ CDI) | +30,2% | +30,3% | +33,5% | +25,4% | +33,2% |
 | Pior queda (+ CDI) | −15,4% | −8,2% | −10,6% | −8,4% | −13,1% |
 
 ## Estatísticas da operação (1 contrato, em pontos)
@@ -174,8 +174,8 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 | | ATR 0,21 / 1,03 | como no vídeo: pontos fixos, com stop móvel | distância em ATR, sem stop móvel | alvo 400 · stop 400 (vídeo), ATR, sem stop móvel | alvo 2.000 (vídeo), ATR, sem stop móvel | risco 1% | pura | CDI | Ibovespa |
 |---|---|---|---|---|---|---|---|---|---|
-| **R\$ 10.000 viraram** | **R\$ 36.733** | **R\$ 36.947** | **R\$ 41.538** | **R\$ 30.603** | **R\$ 41.143** | **R\$ 52.674** | **R\$ 20.280** | **R\$ 18.119** | **R\$ 16.732** |
-| Retorno ao ano | +30,2% | +30,3% | +33,4% | +25,4% | +33,2% | +40,0% | +15,4% | +12,8% | +11,0% |
+| **R\$ 10.000 viraram** | **R\$ 36.752** | **R\$ 36.965** | **R\$ 41.559** | **R\$ 30.619** | **R\$ 41.164** | **R\$ 52.701** | **R\$ 20.280** | **R\$ 18.128** | **R\$ 16.732** |
+| Retorno ao ano | +30,2% | +30,3% | +33,5% | +25,4% | +33,2% | +40,0% | +15,4% | +12,8% | +11,0% |
 | Pior queda | −15,4% | −8,2% | −10,6% | −8,4% | −13,1% | −10,5% | −16,7% | +0,0% | −20,9% |
 | Oscilação ao ano | 17,0% | 14,2% | 15,9% | 11,8% | 16,5% | 18,7% | 17,0% | 0,1% | 18,6% |
 | Sharpe (acima do CDI) | 0,93 | 1,09 | 1,14 | 0,96 | 1,09 | 1,25 | 0,22 | — | 0,01 |
@@ -194,10 +194,10 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 | 2023 | +25,7% | +26,5% | +29,6% | +22,6% | +28,3% | +30,3% | +13,0% | +22,3% | risco 1% |
 | 2024 | +36,6% | +18,1% | +37,3% | +23,4% | +35,8% | +51,6% | +10,8% | −10,4% | risco 1% |
 | 2025 | +40,1% | +56,6% | +47,4% | +29,1% | +48,9% | +60,7% | +14,2% | +34,0% | risco 1% |
-| 2026* | +30,3% | +35,4% | +36,3% | +27,6% | +32,2% | +33,6% | +11,4% | +9,6% | distância em ATR, sem stop móvel |
-| **Acumulado no período** | **+267,3%** | **+269,5%** | **+315,4%** | **+206,0%** | **+311,4%** | **+426,7%** | **+81,2%** | **+67,3%** | **risco 1%** |
-| **R\$ 10.000 viraram** | **R\$ 36.733** | **R\$ 36.947** | **R\$ 41.538** | **R\$ 30.603** | **R\$ 41.143** | **R\$ 52.674** | **R\$ 18.119** | **R\$ 16.732** | |
-| **Média ao ano** | **+30,2%** | **+30,3%** | **+33,4%** | **+25,4%** | **+33,2%** | **+40,0%** | **+12,8%** | **+11,0%** | |
+| 2026* | +30,4% | +35,4% | +36,4% | +27,7% | +32,2% | +33,7% | +11,5% | +9,6% | distância em ATR, sem stop móvel |
+| **Acumulado no período** | **+267,5%** | **+269,7%** | **+315,6%** | **+206,2%** | **+311,6%** | **+427,0%** | **+81,3%** | **+67,3%** | **risco 1%** |
+| **R\$ 10.000 viraram** | **R\$ 36.752** | **R\$ 36.965** | **R\$ 41.559** | **R\$ 30.619** | **R\$ 41.164** | **R\$ 52.701** | **R\$ 18.128** | **R\$ 16.732** | |
+| **Média ao ano** | **+30,2%** | **+30,3%** | **+33,5%** | **+25,4%** | **+33,2%** | **+40,0%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
@@ -265,8 +265,8 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 > | jul/2026 | +6,1% | +6,1% | +4,3% | +8,3% | +4,1% | +6,1% | +1,2% | +3,5% |
 > | ago/2026 | +5,1% | +2,8% | +4,4% | +1,6% | +1,2% | +4,5% | +1,1% | −0,3% |
 > | set/2026 | −2,3% | +3,0% | +6,5% | +5,0% | +6,6% | −0,4% | +1,1% | +5,0% |
-> | out/2026 | −5,5% | +1,0% | +2,6% | +1,5% | +3,0% | −2,6% | +0,8% | −5,2% |
-> | **Acumulado** | **+267,3%** | **+269,5%** | **+315,4%** | **+206,0%** | **+311,4%** | **+426,7%** | **+81,2%** | **+67,3%** |
+> | out/2026 | −5,5% | +1,1% | +2,6% | +1,6% | +3,1% | −2,5% | +0,9% | −5,2% |
+> | **Acumulado** | **+267,5%** | **+269,7%** | **+315,6%** | **+206,2%** | **+311,6%** | **+427,0%** | **+81,3%** | **+67,3%** |
 
 ### E se o capital por contrato for outro?
 
