@@ -6,24 +6,24 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 27/10/2026 10:30 BRT · Intraday 15min*
+*Última atualização: 27/10/2026 10:45 BRT · Intraday 15min*
 
-> [!danger] Onde o mercado está agora (27/10 10:15, candles de 15 min): **🔪 Queda forte**
-> `Pânico ◀●────────────────────▶ Euforia`
+> [!info] Onde o mercado está agora (27/10 10:30, candles de 15 min): **🔵 Esticado para baixo**
+> `Pânico ◀──●──────────────────▶ Euforia`
 >
-> O Ibovespa caiu rápido e está bem abaixo da sua tendência, em ritmo de pânico. Historicamente, quedas assim costumaram continuar um pouco antes de virar.
+> O Ibovespa caiu mais rápido que o normal e está abaixo da sua faixa habitual.
 > No gráfico diário: 🟡 Preço esticado acima da tendência.
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
 
-> [!danger] 🚨 Nível EXTREMO agora — Sinal de Crise · Intraday 15 min (27/10 10:15)
-> - 🔪 **ζ Fundo 96%** — preço esticado abaixo da tendência — 🔪 faca caindo: queda forte em andamento
+> [!warning] ⚠️ Nível alto agora — Sinal de Crise · Intraday 15 min (27/10 10:30)
+> - 🔵 **ζ Fundo 80%** — preço esticado abaixo da tendência
 
 ## Agora
 
 | Módulo | Agora | |
 |---|---|---|
-| 🌊 **Sinal de Crise** | 🟢 VERDE · 🔪 queda forte · ζ Topo 0% | [relatório](intraday/2026-10-27) |
+| 🌊 **Sinal de Crise** | 🟢 VERDE · 🔵 esticado para baixo · ζ Topo 0% | [relatório](intraday/2026-10-27) |
 | 📈 **Tendência MME9** | Diário 🟢 comprado desde 02/10 (-6,0%) · ⚡ zera abaixo de 169.516 (durante o pregão)<br>Semanal 🟢 comprado desde 31/08 (+0,1%) | [abrir](operacoes/tendencia) |
 | 🎯 **Entradas do método** | 🟢 comprado: Diário · Nadaraya | [abrir](operacoes/entradas) |
 | 📍 **Sinais** | hoje: 1 sinal(is) | [abrir](sinais-topo-fundo/) |
@@ -57,26 +57,26 @@ tags: [home]
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Intraday 15 min (27/10 10:15): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
+> > [!success] Sinal de Crise · Intraday 15 min (27/10 10:30): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
 > > `░░░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Intraday 15 min (27/10 10:15) | Valor |
+> | Indicador — Sinal de Crise · Intraday 15 min (27/10 10:30) | Valor |
 > |---|---|
 > | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
-> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 🔪 **96%** |
+> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 🔵 **80%** |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-> | 📊 Ibovespa | 177.709 pts |
+> | 📊 Ibovespa | 178.427 pts |
 >
-> **Multi-ativo:** 15% em tensão (2🔴 2🟡 de 26 ativos)
+> **Multi-ativo:** 12% em tensão (1🔴 3🟡 de 26 ativos)
 >
 > **Últimos 7 pregões**
 >
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [27/10/2026](intraday/2026-10-27) | 🟢 VERDE | **0%** | 0% | 🔪 **96%** | 0% |
+> | [27/10/2026](intraday/2026-10-27) | 🟢 VERDE | **0%** | 0% | 🔵 **80%** | 0% |
 > | [26/10/2026](intraday/2026-10-26) | 🟢 VERDE | **1%** | 1% | 🔪 **95%** | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
