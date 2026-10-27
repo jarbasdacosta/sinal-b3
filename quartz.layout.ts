@@ -6,6 +6,11 @@ import * as Component from "./quartz/components"
 // (nomes de arquivo são YYYY-MM-DD, então ordenar pelo slug = ordenar por data)
 const explorerDateSort = Component.Explorer({
   sortFn: (a, b) => {
+    // SETUPS-ORDEM-INICIO (gerado por gerar_setups.py — não edite à mão)
+    const ordemSetups = ["carteira", "testados", "ifr-de-tendencia", "rompimento-da-bollinger", "adx-da-manha", "tendencia-forte-do-dia", "pullback-na-media"]
+    // SETUPS-ORDEM-FIM
+    const sa = ordemSetups.indexOf(a.slugSegment), sb = ordemSetups.indexOf(b.slugSegment)
+    if (sa !== -1 && sb !== -1) return sa - sb
     // menu: ordem fixa na raiz do site
     const ordem = ["diario", "intraday", "historico", "linha-do-tempo", "operacoes", "sinais-topo-fundo", "amplitude", "estrangeiros", "tecnico", "metodologia", "ranking", "tendencia", "entradas", "ultimas-operacoes", "historico-por-ano", "todos-os-sinais", "tutorial", "crise", "sinais", "regras-de-operacao", "o-que-nao-passou"]
     const ia = ordem.indexOf(a.slugSegment)
