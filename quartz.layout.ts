@@ -8,9 +8,9 @@ const explorerDateSort = Component.Explorer({
   sortFn: (a, b) => {
     // SETUPS-ORDEM-INICIO (gerado por gerar_setups.py — não edite à mão)
     const ordemSetups = ["carteira", "testados", "ifr-de-tendencia", "rompimento-da-bollinger", "primeira-vela-80-min", "adx-da-manha", "tendencia-forte-do-dia", "macd-na-tendencia", "pullback-na-media", "vai-na-onda", "primeira-vela-de-quinta"]
-    // SETUPS-ORDEM-FIM
     const sa = ordemSetups.indexOf(a.slugSegment), sb = ordemSetups.indexOf(b.slugSegment)
-    if (sa !== -1 && sb !== -1) return sa - sb
+    if (sa !== -1 || sb !== -1) return (sa === -1 ? 999 : sa) - (sb === -1 ? 999 : sb)
+    // SETUPS-ORDEM-FIM
     // menu: ordem fixa na raiz do site
     const ordem = ["diario", "intraday", "historico", "linha-do-tempo", "operacoes", "sinais-topo-fundo", "amplitude", "estrangeiros", "tecnico", "metodologia", "ranking", "tendencia", "entradas", "ultimas-operacoes", "historico-por-ano", "todos-os-sinais", "tutorial", "crise", "sinais", "regras-de-operacao", "o-que-nao-passou"]
     const ia = ordem.indexOf(a.slugSegment)
