@@ -1,11 +1,11 @@
 ---
 title: "🔔 Linha do tempo"
-date: 2026-10-26
+date: 2026-10-27
 description: "Todo sinal, ordem, stop e aviso da Ondaleta, do mais recente para o mais antigo"
 tags: [eventos]
 ---
 
-*Atualizada 26/10/2026 19:14 BRT · a cada 15 min no pregão e às 19h.*
+*Atualizada 27/10/2026 10:15 BRT · a cada 15 min no pregão e às 19h.*
 
 Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: sinais de topo e fundo, ordens de compra e de venda armadas, compras, vendas, stops, avisos de 🚨 preço perto do nível e mudanças da Crise. Os **últimos 7 dias** ficam abertos; o resto, por **ano → mês → dia**.
 
@@ -18,7 +18,11 @@ Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: si
 
 ## Últimos 7 dias
 
-### Hoje · seg, 26/10/2026 · 5 eventos
+### Hoje · ter, 27/10/2026
+
+*Nenhum evento hoje até agora.*
+
+### seg, 26/10/2026 · 5 eventos
 
 | Hora | Módulo | Evento | Detalhe | 📲 |
 |---|---|---|---|---|
@@ -40,21 +44,14 @@ Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: si
 |---|---|---|---|---|
 | 18:00 fechamento | Tendência · Diário | ⚠️ Ordem de venda armada (fechou abaixo da MME9) ⚡ | zera se passar abaixo de 203.052 em até 3 pregões → ainda valendo | 📜 |
 
-### ter, 20/10/2026 · 2 eventos
-
-| Hora | Módulo | Evento | Detalhe | 📲 |
-|---|---|---|---|---|
-| — | Crise · diário | 🟡 Zona mudou: VERDE → AMARELO |  | 📜 |
-| 14:00 fechamento | Entradas · H4 · Semáforo N2 | ⚪ Venda no fechamento — saída do método (topo fixo do semáforo nível 3) ⏱️ | a 208.658 · **+11,4%** (compra de 01/10) | 📜 |
-
 ## Histórico por ano
 
 Clique no ano; na página do ano, clique no mês e depois no dia.
 
 | Ano | Eventos | 🟢 Compras | ⚪🔴 Vendas e stops | 📌⚠️ Ordens armadas | Sinais |
 |---|---|---|---|---|---|
-| **[2026](linha-do-tempo/2026)** | 190 | 21 | 37 | 31 | 39 |
-| **[2025](linha-do-tempo/2025)** | 114 | 30 | 25 | 43 | 11 |
+| **[2026](linha-do-tempo/2026)** | 183 | 21 | 37 | 31 | 39 |
+| **[2025](linha-do-tempo/2025)** | 113 | 30 | 25 | 43 | 11 |
 | **[2024](linha-do-tempo/2024)** | 156 | 41 | 45 | 57 | 3 |
 | **[2023](linha-do-tempo/2023)** | 99 | 22 | 22 | 53 | 1 |
 | **[2022](linha-do-tempo/2022)** | 92 | 26 | 24 | 39 | 2 |
