@@ -8,7 +8,7 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 10h15 às 11h00 e das 14h00 às 17h30
 
-🎬 **Vídeo de origem:** [Arthur 777 – "isso apareceu nos meus testes no mini índice"](https://youtu.be/2l5k3OyC7eQ) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 27/10/2026 09:58 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "isso apareceu nos meus testes no mini índice"](https://youtu.be/2l5k3OyC7eQ) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 27/10/2026 19:40 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 30.789** na versão ATR 0,09 / 0,52 com o capital no CDI (+26% ao ano · pior queda −4%)
@@ -16,7 +16,7 @@ tags: [setup, win]
 > - **R\$ 30.907** na versão tarde só até 17h00 com o capital no CDI (+26% ao ano · pior queda −3%)
 > - **R\$ 28.288** na versão stop 0,10% (vídeo) com o capital no CDI (+23% ao ano · pior queda −3%)
 > - **R\$ 18.128** só no CDI (+13% ao ano)
-> - **R\$ 16.732** comprado no Ibovespa (+11% ao ano · pior queda −21%)
+> - **R\$ 16.647** comprado no Ibovespa (+11% ao ano · pior queda −21%)
 >
 > - **R\$ 79.258** na versão ATR 0,09 / 0,52 **arriscando 1% do capital por operação** (+52% ao ano · pior queda −7%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
@@ -40,8 +40,8 @@ tags: [setup, win]
 | **Entrada** | compra a mercado na abertura da vela seguinte | vende a mercado na abertura da vela seguinte |
 | **Stop · alvo** | 0,15% · 0,90% do preço | 0,15% · 0,90% do preço |
 
-- **Versão principal (escolhida só pelo treino): ATR 0,09 / 0,52** — stop 0,086 ATR · alvo 0,518 ATR (6,0× o stop); hoje ≈ 317 pts de stop e 1.902 pts de alvo.
-- **ATR** = quanto o índice costuma andar num dia: a média da distância entre a máxima e a mínima dos últimos 14 pregões (hoje ≈ 3.670 pts). Usar múltiplos do ATR em vez de pontos fixos faz o setup acompanhar o mercado quando ele fica mais calmo ou mais agitado.
+- **Versão principal (escolhida só pelo treino): ATR 0,09 / 0,52** — stop 0,086 ATR · alvo 0,518 ATR (6,0× o stop); hoje ≈ 372 pts de stop e 2.230 pts de alvo.
+- **ATR** = quanto o índice costuma andar num dia: a média da distância entre a máxima e a mínima dos últimos 14 pregões (hoje ≈ 4.304 pts). Usar múltiplos do ATR em vez de pontos fixos faz o setup acompanhar o mercado quando ele fica mais calmo ou mais agitado.
 - **Uma operação de cada vez.** Se não bateu stop nem alvo, zera às 18h20.
 - **Testado pela bateria padrão** (a mesma para todos os setups): réplica do vídeo, pontos/% × ATR, vizinhança, peça por peça, custo e comparação com o acaso. Veredito por regras fixas, refeito todo sábado com os dados novos.
 
@@ -155,11 +155,11 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 | | ATR 0,09 / 0,52 | como no vídeo (até 17h30) | tarde só até 17h00 | stop 0,10% (vídeo) | risco 1% | pura | CDI | Ibovespa |
 |---|---|---|---|---|---|---|---|---|
-| **R\$ 10.000 viraram** | **R\$ 30.789** | **R\$ 31.391** | **R\$ 30.907** | **R\$ 28.288** | **R\$ 79.258** | **R\$ 16.988** | **R\$ 18.128** | **R\$ 16.732** |
-| Retorno ao ano | +25,6% | +26,1% | +25,7% | +23,4% | +52,1% | +11,3% | +12,8% | +11,0% |
+| **R\$ 10.000 viraram** | **R\$ 30.789** | **R\$ 31.391** | **R\$ 30.907** | **R\$ 28.288** | **R\$ 79.258** | **R\$ 16.988** | **R\$ 18.128** | **R\$ 16.647** |
+| Retorno ao ano | +25,6% | +26,1% | +25,7% | +23,4% | +52,0% | +11,3% | +12,8% | +10,9% |
 | Pior queda | −3,6% | −3,4% | −3,4% | −2,9% | −6,9% | −5,0% | +0,0% | −20,9% |
 | Oscilação ao ano | 6,8% | 7,4% | 7,3% | 6,6% | 17,4% | 6,8% | 0,1% | 18,6% |
-| Sharpe (acima do CDI) | 1,61 | 1,53 | 1,51 | 1,40 | 1,80 | −0,16 | — | 0,01 |
+| Sharpe (acima do CDI) | 1,61 | 1,53 | 1,51 | 1,40 | 1,80 | −0,16 | — | 0,00 |
 | Meses acima do CDI | 65% | 62% | 63% | 58% | 67% | 43% | — | 55% |
 | Meses acima do Ibovespa | 52% | 52% | 53% | 55% | 63% | 42% | 45% | — |
 | Pior mês · melhor mês | −1,4% · +9,5% | −1,1% · +9,7% | −1,1% · +9,7% | −1,9% · +10,0% | −3,9% · +21,6% | −2,5% · +8,4% | +0,6% · +1,3% | −11,5% · +12,6% |
@@ -175,12 +175,12 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 | 2023 | +22,8% | +20,4% | +19,0% | +17,3% | +40,6% | +13,0% | +22,3% | risco 1% |
 | 2024 | +23,1% | +29,2% | +30,2% | +26,7% | +56,8% | +10,8% | −10,4% | risco 1% |
 | 2025 | +40,2% | +42,6% | +41,3% | +42,2% | +108,7% | +14,2% | +34,0% | risco 1% |
-| 2026* | +18,2% | +17,3% | +17,6% | +13,1% | +24,4% | +11,5% | +9,6% | risco 1% |
-| **Acumulado no período** | **+207,9%** | **+213,9%** | **+209,1%** | **+182,9%** | **+692,6%** | **+81,3%** | **+67,3%** | **risco 1%** |
-| **R\$ 10.000 viraram** | **R\$ 30.789** | **R\$ 31.391** | **R\$ 30.907** | **R\$ 28.288** | **R\$ 79.258** | **R\$ 18.128** | **R\$ 16.732** | |
-| **Média ao ano** | **+25,6%** | **+26,1%** | **+25,7%** | **+23,4%** | **+52,1%** | **+12,8%** | **+11,0%** | |
+| 2026* | +18,2% | +17,3% | +17,6% | +13,1% | +24,4% | +11,5% | +9,1% | risco 1% |
+| **Acumulado no período** | **+207,9%** | **+213,9%** | **+209,1%** | **+182,9%** | **+692,6%** | **+81,3%** | **+66,5%** | **risco 1%** |
+| **R\$ 10.000 viraram** | **R\$ 30.789** | **R\$ 31.391** | **R\$ 30.907** | **R\$ 28.288** | **R\$ 79.258** | **R\$ 18.128** | **R\$ 16.647** | |
+| **Média ao ano** | **+25,6%** | **+26,1%** | **+25,7%** | **+23,4%** | **+52,0%** | **+12,8%** | **+10,9%** | |
 
-\* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
+\* ano parcial: os dados vão de 01/11/2021 a 27/10/2026.
 
 ![Retorno por ano](setups/img/rompimento-da-bollinger_anos.png)
 
@@ -246,14 +246,14 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 > | jul/2026 | +0,2% | +1,4% | +1,4% | +0,4% | −0,8% | +1,2% | +3,5% |
 > | ago/2026 | +3,1% | +3,0% | +3,0% | +3,4% | +4,7% | +1,1% | −0,3% |
 > | set/2026 | +1,2% | +1,4% | +1,4% | −1,3% | +1,6% | +1,1% | +5,0% |
-> | out/2026 | −1,2% | −1,1% | −1,1% | −0,5% | −2,1% | +0,9% | −5,2% |
-> | **Acumulado** | **+207,9%** | **+213,9%** | **+209,1%** | **+182,9%** | **+692,6%** | **+81,3%** | **+67,3%** |
+> | out/2026 | −1,2% | −1,1% | −1,1% | −0,5% | −2,1% | +0,9% | −5,7% |
+> | **Acumulado** | **+207,9%** | **+213,9%** | **+209,1%** | **+182,9%** | **+692,6%** | **+81,3%** | **+66,5%** |
 
 ### E se o capital por contrato for outro?
 
 | Capital por contrato | ATR 0,09 / 0,52 + CDI | como no vídeo (até 17h30) + CDI | tarde só até 17h00 + CDI | stop 0,10% (vídeo) + CDI |
 |---|---|---|---|---|
-| R\$ 5.000 | +39% ao ano · pior queda −8% | +40% ao ano · pior queda −8% | +39% ao ano · pior queda −8% | +35% ao ano · pior queda −8% |
+| R\$ 5.000 | +39% ao ano · pior queda −8% | +40% ao ano · pior queda −8% | +39% ao ano · pior queda −8% | +34% ao ano · pior queda −8% |
 | R\$ 10.000 | +26% ao ano · pior queda −4% | +26% ao ano · pior queda −3% | +26% ao ano · pior queda −3% | +23% ao ano · pior queda −3% |
 | R\$ 20.000 | +19% ao ano · pior queda −1% | +19% ao ano · pior queda −1% | +19% ao ano · pior queda −1% | +18% ao ano · pior queda −1% |
 | R\$ 40.000 | +16% ao ano · pior queda −0% | +16% ao ano · pior queda −0% | +16% ao ano · pior queda −0% | +15% ao ano · pior queda −0% |
@@ -284,7 +284,7 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ## Como o teste foi feito
 
-- **Dados:** WIN\$N em velas de 1 minuto do MetaTrader 5, de 25/10/2021 a 26/10/2026, com os saltos das rolagens ajustados para os indicadores; resultados em **pontos reais** do contrato de cada época.
+- **Dados:** WIN\$N em velas de 1 minuto do MetaTrader 5, de 25/10/2021 a 27/10/2026, com os saltos das rolagens ajustados para os indicadores; resultados em **pontos reais** do contrato de cada época.
 - **Execução realista:** cada operação acompanhada minuto a minuto; stop e alvo no mesmo minuto contam como **stop**; se o preço abriu além do stop, a saída foi no preço da abertura.
 - **Custo:** 15 pontos por operação. **CDI:** série diária do Banco Central. **Ibovespa:** fechamento diário, comprado o período todo.
 - **Os parâmetros vieram prontos do vídeo**; o período de 2024 em diante serviu como prova.

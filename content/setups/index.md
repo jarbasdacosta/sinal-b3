@@ -6,19 +6,19 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 27/10/2026 09:58 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 27/10/2026 19:40 BRT · dados de 01/11/2021 a 27/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|
-| [**ADX da Manhã**](adx-da-manha) | 🟡 promissor | Aposta curta e barata no começo da tendência das 10h às 11h: vela a favor com o ADX subindo, stop pequeno e alvo bem longo. | +37% | −15% | **+65% · −31%** | +10 → +47 | [assistir](https://youtu.be/D9mwdxexECE) |
+| [**ADX da Manhã**](adx-da-manha) | 🟡 promissor | Aposta curta e barata no começo da tendência das 10h às 11h: vela a favor com o ADX subindo, stop pequeno e alvo bem longo. | +37% | −15% | **+65% · −31%** | +10 → +46 | [assistir](https://youtu.be/D9mwdxexECE) |
 | [**IFR de Tendência**](ifr-de-tendencia) | ✅ aprovado | Entra quando o IFR mostra força nos horários de tendência do dia (10h–11h e 14h–16h): vela a favor com o IFR acima de 70 ou abaixo de 30, stop curto e alvo longo. | +43% | −7% | **+67% · −11%** | +56 → +99 | [assistir](https://youtu.be/sswleA6JTvY) |
-| [**MACD na Tendência**](macd-na-tendencia) | ✅ aprovado | Dia já forte (longe da abertura e além do extremo de ontem) com o MACD subindo a favor: entra com break even. | +30% | −15% | **+40% · −11%** | +22 → +57 | [assistir](https://youtu.be/eHvY4bvS95c) |
-| [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) | 🟡 promissor · dia escolhido pelo autor | Se a primeira vela de 80 minutos do dia fecha forte (quase sem sombra contra), entra a favor às 10h20 com alvo longo, break even e stop móvel. | +31% | −12% | **+47% · −14%** | +42 → +120 | [assistir](https://youtu.be/UFLCVkzcghU) |
-| [**Primeira Vela de Quinta**](primeira-vela-de-quinta) | 🟡 promissor · dia escolhido pelo autor | Na quinta-feira, entra no rompimento da primeira vela de 15 minutos do dia, na direção da cor dela, com stop e alvo iguais. | +17% | −4% | **+19% · −3%** | +107 → +66 | [assistir](https://youtu.be/5pmW0UMnXwE) |
+| [**MACD na Tendência**](macd-na-tendencia) | ✅ aprovado | Dia já forte (longe da abertura e além do extremo de ontem) com o MACD subindo a favor: entra com break even. | +30% | −17% | **+40% · −11%** | +22 → +55 | [assistir](https://youtu.be/eHvY4bvS95c) |
+| [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) | 🟡 promissor · dia escolhido pelo autor | Se a primeira vela de 80 minutos do dia fecha forte (quase sem sombra contra), entra a favor às 10h20 com alvo longo, break even e stop móvel. | +31% | −13% | **+46% · −14%** | +42 → +117 | [assistir](https://youtu.be/UFLCVkzcghU) |
+| [**Primeira Vela de Quinta**](primeira-vela-de-quinta) | 🟡 promissor · dia escolhido pelo autor | Na quinta-feira, entra no rompimento da primeira vela de 15 minutos do dia, na direção da cor dela, com stop e alvo iguais. | +17% | −4% | **+18% · −3%** | +107 → +66 | [assistir](https://youtu.be/5pmW0UMnXwE) |
 | [**Pullback na Média**](pullback-na-media) | 🟡 promissor | Compra a volta da correção: em dia já a favor, o preço encosta na média de 45, retoma e rompe a vela anterior. | +26% | −5% | **+32% · −9%** | +155 → +43 | [assistir](https://youtu.be/iIaJDFRbNpI) |
 | [**Rompimento da Bollinger**](rompimento-da-bollinger) | ✅ aprovado | Três velas (a favor, contra, a favor) e a última rompe a banda de Bollinger a favor das médias de 50 e 200: stop curto e alvo 6× maior. | +26% | −4% | **+52% · −7%** | +73 → +128 | [assistir](https://youtu.be/2l5k3OyC7eQ) |
 | [**Tendência Forte do Dia**](tendencia-forte-do-dia) | ✅ aprovado | Entra a favor do dia que já mostrou força: preço do lado certo das 3 médias, bem longe da abertura e uma vela confirmando. | +46% | −16% | **+70% · −24%** | +45 → +36 | [assistir](https://youtu.be/N4CJ9Yv8To8) |
-| [**Vai na Onda**](vai-na-onda) | 🟡 promissor | Três velas seguidas para o mesmo lado, renovando a máxima (ou a mínima) do dia com volume acima da média: entra a favor da onda. | +29% | −19% | **+40% · −20%** | +5 → +61 | [assistir](https://youtu.be/5JZC82O-0Nc) |
+| [**Vai na Onda**](vai-na-onda) | 🟡 promissor | Três velas seguidas para o mesmo lado, renovando a máxima (ou a mínima) do dia com volume acima da média: entra a favor da onda. | +29% | −19% | **+40% · −20%** | +5 → +59 | [assistir](https://youtu.be/5JZC82O-0Nc) |
 | *CDI* | | | *+13%* | *0%* | | | |
 | *Ibovespa comprado* | | | *+11%* | *−21%* | | | |
 
@@ -28,14 +28,14 @@ tags: [setup]
 
 | # | Setup | Sharpe | Retorno ÷ queda | Teste ÷ treino | Meses > CDI | Correlação | Op./mês |
 |---|---|---|---|---|---|---|---|
-| 1º | [**IFR**](ifr-de-tendencia) | 1,59 | 4,0 | 150% | 72% | 0,17 | 12,6 |
+| 1º | [**IFR**](ifr-de-tendencia) | 1,59 | 4,0 | 150% | 72% | 0,16 | 12,6 |
 | 2º | [**Bollinger**](rompimento-da-bollinger) | 1,61 | 3,5 | 150% | 65% | 0,24 | 4,2 |
-| 3º | [**1ª vela 80**](primeira-vela-80-min) | 1,10 | 1,6 | 150% | 63% | 0,07 | 7,7 |
+| 3º | [**1ª vela 80**](primeira-vela-80-min) | 1,08 | 1,4 | 150% | 63% | 0,07 | 7,8 |
 | 4º | [**ADX**](adx-da-manha) | 1,03 | 1,6 | 150% | 63% | 0,20 | 29,3 |
 | 5º | [**Tendência**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | 0,25 | 28,7 |
-| 6º | [**MACD**](macd-na-tendencia) | 0,93 | 1,1 | 150% | 63% | 0,24 | 14,7 |
-| 7º | [**Pullback**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | −0,06 | 5,0 |
-| 8º | [**Onda**](vai-na-onda) | 0,70 | 0,9 | 150% | 57% | 0,15 | 19,4 |
+| 6º | [**Pullback**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | −0,06 | 5,0 |
+| 7º | [**MACD**](macd-na-tendencia) | 0,90 | 1,0 | 150% | 63% | 0,24 | 14,7 |
+| 8º | [**Onda**](vai-na-onda) | 0,69 | 0,9 | 150% | 57% | 0,15 | 19,4 |
 | 9º | [**Quinta**](primeira-vela-de-quinta) | 0,88 | 1,1 | 62% | 50% | −0,12 | 1,8 |
 
 **Resultado: 1 contrato por R\$ 10 mil × arriscando 1% por operação**
@@ -44,21 +44,21 @@ tags: [setup]
 |---|---|---|---|---|---|---|
 | 1º | [**IFR**](ifr-de-tendencia) | +43% | **+67%** | −7% | **−11%** | sem operações |
 | 2º | [**Bollinger**](rompimento-da-bollinger) | +26% | **+52%** | −4% | **−7%** | sem operações |
-| 3º | [**1ª vela 80**](primeira-vela-80-min) | +31% | **+47%** | −12% | **−14%** | sem operações |
-| 4º | [**ADX**](adx-da-manha) | +37% | **+65%** | −15% | **−31%** | sem operações |
+| 3º | [**1ª vela 80**](primeira-vela-80-min) | +31% | **+46%** | −13% | **−14%** | 1 op · −1,02R |
+| 4º | [**ADX**](adx-da-manha) | +37% | **+65%** | −15% | **−31%** | 1 op · −1,06R |
 | 5º | [**Tendência**](tendencia-forte-do-dia) | +46% | **+70%** | −16% | **−24%** | sem operações |
-| 6º | [**MACD**](macd-na-tendencia) | +30% | **+40%** | −15% | **−11%** | sem operações |
-| 7º | [**Pullback**](pullback-na-media) | +26% | **+32%** | −5% | **−9%** | sem operações |
-| 8º | [**Onda**](vai-na-onda) | +29% | **+40%** | −19% | **−20%** | sem operações |
-| 9º | [**Quinta**](primeira-vela-de-quinta) | +17% | **+19%** | −4% | **−3%** | sem operações |
+| 6º | [**Pullback**](pullback-na-media) | +26% | **+32%** | −5% | **−9%** | sem operações |
+| 7º | [**MACD**](macd-na-tendencia) | +30% | **+40%** | −17% | **−11%** | 1 op · −1,02R |
+| 8º | [**Onda**](vai-na-onda) | +29% | **+40%** | −19% | **−20%** | 1 op · −1,02R |
+| 9º | [**Quinta**](primeira-vela-de-quinta) | +17% | **+18%** | −4% | **−3%** | sem operações |
 
 - **IFR de Tendência:** entra na força medida pelo IFR · 10h–11h e 14h–16h
 - **Rompimento da Bollinger:** rompimento da banda de Bollinger a favor da tendência · 10h15–11h e 14h–17h30
 - **Primeira Vela de 80 Minutos:** força da primeira vela do dia, alvo longo com stop móvel · entra 10h20
 - **ADX da Manhã:** pega o começo da tendência (ADX subindo), stop curto · 10h–11h
 - **Tendência Forte do Dia:** segue a tendência já formada (rompimento longe da abertura) · o dia todo, até 17h
-- **MACD na Tendência:** tendência do dia confirmada pelo MACD, com break even · 9h–11h30 e 14h–16h
 - **Pullback na Média:** entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45
+- **MACD na Tendência:** tendência do dia confirmada pelo MACD, com break even · 9h–11h30 e 14h–16h
 - **Vai na Onda:** segue o fluxo: 3 velas a favor renovando o extremo do dia com volume · 9h45–16h
 - **Primeira Vela de Quinta:** rompimento da primeira vela do dia (dia da semana escolhido) · 9h15
 
@@ -68,7 +68,7 @@ tags: [setup]
 
 | Perfil | Combinação | 1 contrato: ao ano · queda | 1% dividido: ao ano · queda | **1% por setup: ao ano · queda** | Sharpe treino → teste |
 |---|---|---|---|---|---|
-| ⭐ **Equilíbrio** (recomendada) | IFR + Pullback + Bollinger | +32% · −2,6% | +52% · −5,1% | **+160% · −17,1%** | 2,34 → 2,11 |
+| ⭐ **Equilíbrio** (recomendada) | IFR + Pullback + Bollinger | +31% · −2,6% | +52% · −5,1% | **+160% · −17,1%** | 2,34 → 2,11 |
 | 📈 Maior retorno | Tendência | +46% · −16,1% | +70% · −23,6% | **+70% · −23,6%** | 1,58 → 1,12 |
 | 🛡️ Menor queda | Pullback + Bollinger | +26% · −2,1% | +43% · −4,0% | **+78% · −8,6%** | 2,24 → 1,65 |
 
