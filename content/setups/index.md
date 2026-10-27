@@ -6,37 +6,37 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 26/10/2026 21:31 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 26/10/2026 22:19 BRT · dados de 01/11/2021 a 26/10/2026 · resultados com 15 pts de custo por operação e R$ 10.000 por contrato, capital no CDI.*
 
-| Setup | Situação | Em uma frase | Ao ano | Pior queda | Treino → teste (pts/op) | Vídeo |
-|---|---|---|---|---|---|---|
-| [**Tendência Forte do Dia**](tendencia-forte-do-dia) | ✅ aprovado | Entra a favor do dia que já mostrou força: preço do lado certo das 3 médias, bem longe da abertura e uma vela confirmando. | +46% | −16% | +45 → +36 | [assistir](https://youtu.be/N4CJ9Yv8To8) |
-| [**ADX da Manhã**](adx-da-manha) | 🟡 promissor | Aposta curta e barata no começo da tendência das 10h às 11h: vela a favor com o ADX subindo, stop pequeno e alvo bem longo. | +37% | −15% | +10 → +47 | [assistir](https://youtu.be/D9mwdxexECE) |
-| [**IFR de Tendência**](ifr-de-tendencia) | ✅ aprovado | Entra quando o IFR mostra força nos horários de tendência do dia (10h–11h e 14h–16h): vela a favor com o IFR acima de 70 ou abaixo de 30, stop curto e alvo longo. | +43% | −7% | +56 → +99 | [assistir](https://youtu.be/sswleA6JTvY) |
-| [**Pullback na Média**](pullback-na-media) | ✅ aprovado | Compra a volta da correção: em dia já a favor, o preço encosta na média de 45, retoma e rompe a vela anterior. | +26% | −5% | +155 → +43 | [assistir](https://youtu.be/iIaJDFRbNpI) |
-| *CDI* | | | *+13%* | *0%* | | |
-| *Ibovespa comprado* | | | *+11%* | *−21%* | | |
+| Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
+|---|---|---|---|---|---|---|---|
+| [**Tendência Forte do Dia**](tendencia-forte-do-dia) | ✅ aprovado | Entra a favor do dia que já mostrou força: preço do lado certo das 3 médias, bem longe da abertura e uma vela confirmando. | +46% | −16% | **+70% · −24%** | +45 → +36 | [assistir](https://youtu.be/N4CJ9Yv8To8) |
+| [**ADX da Manhã**](adx-da-manha) | 🟡 promissor | Aposta curta e barata no começo da tendência das 10h às 11h: vela a favor com o ADX subindo, stop pequeno e alvo bem longo. | +37% | −15% | **+65% · −31%** | +10 → +47 | [assistir](https://youtu.be/D9mwdxexECE) |
+| [**IFR de Tendência**](ifr-de-tendencia) | ✅ aprovado | Entra quando o IFR mostra força nos horários de tendência do dia (10h–11h e 14h–16h): vela a favor com o IFR acima de 70 ou abaixo de 30, stop curto e alvo longo. | +43% | −7% | **+67% · −11%** | +56 → +99 | [assistir](https://youtu.be/sswleA6JTvY) |
+| [**Pullback na Média**](pullback-na-media) | ✅ aprovado | Compra a volta da correção: em dia já a favor, o preço encosta na média de 45, retoma e rompe a vela anterior. | +26% | −5% | **+32% · −9%** | +155 → +43 | [assistir](https://youtu.be/iIaJDFRbNpI) |
+| *CDI* | | | *+13%* | *0%* | | | |
+| *Ibovespa comprado* | | | *+11%* | *−21%* | | | |
 
 ### 🏆 Ranking
 
-| # | Setup | Sharpe | Retorno acima do CDI ÷ pior queda | Teste ÷ treino | Meses acima do CDI | Ao ano | Pior queda | Correlação com os outros | Operações por mês | Como opera |
+| # | Setup | Sharpe | Retorno acima do CDI ÷ pior queda | Teste ÷ treino | Meses acima do CDI | Ao ano: 1 contrato/R$ 10 mil → risco 1% | Pior queda: 1 contrato/R$ 10 mil → risco 1% | Correlação com os outros | Operações por mês | Como opera |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1º | [**IFR de Tendência**](ifr-de-tendencia) | 1,59 | 4,0 | 150% | 72% | +43% | −7% | 0,19 | 12,6 | entra na força medida pelo IFR · 10h–11h e 14h–16h |
-| 2º | [**Tendência Forte do Dia**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | +46% | −16% | 0,25 | 28,7 | segue a tendência já formada (rompimento longe da abertura) · o dia todo, até 17h |
-| 3º | [**ADX da Manhã**](adx-da-manha) | 1,03 | 1,6 | 150% | 63% | +37% | −15% | 0,22 | 29,3 | pega o começo da tendência (ADX subindo), stop curto · 10h–11h |
-| 4º | [**Pullback na Média**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | +26% | −5% | −0,04 | 5,0 | entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45 |
+| 1º | [**IFR de Tendência**](ifr-de-tendencia) | 1,59 | 4,0 | 150% | 72% | +43% → **+67%** | −7% → **−11%** | 0,19 | 12,6 | entra na força medida pelo IFR · 10h–11h e 14h–16h |
+| 2º | [**Tendência Forte do Dia**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | +46% → **+70%** | −16% → **−24%** | 0,25 | 28,7 | segue a tendência já formada (rompimento longe da abertura) · o dia todo, até 17h |
+| 3º | [**ADX da Manhã**](adx-da-manha) | 1,03 | 1,6 | 150% | 63% | +37% → **+65%** | −15% → **−31%** | 0,22 | 29,3 | pega o começo da tendência (ADX subindo), stop curto · 10h–11h |
+| 4º | [**Pullback na Média**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | +26% → **+32%** | −5% → **−9%** | −0,04 | 5,0 | entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45 |
 
 *Como o ranking é feito: cada setup ganha uma posição em 4 critérios — **Sharpe** (retorno acima do CDI por oscilação), **retorno acima do CDI ÷ pior queda** (quanto rende para cada 1% de queda que você aguenta), **teste ÷ treino** (quanto do resultado por operação de 2021–2023 se manteve em 2024 em diante; 100% = manteve tudo) e **meses acima do CDI**. Vale a média das 4 posições. Correlação baixa com os outros é bom para a carteira, mas não entra na nota de cada setup.*
 
 ### [🧺 Carteira: o que vale a pena operar junto](carteira)
 
-| Perfil | Combinação | R$ 10 mil viraram | Ao ano | Pior queda | Sharpe | Sharpe treino → teste |
-|---|---|---|---|---|---|---|
-| ⭐ **Melhor equilíbrio** (recomendada) | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 |
-| 📈 Maior retorno | Tendência Forte do Dia | R$ 64.671 | +46,0% | −16,1% | 1,28 | 1,58 → 1,12 |
-| 🛡️ Menor queda | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 |
+| Perfil | Combinação | R$ 10 mil viraram | Ao ano | Pior queda | Sharpe | Sharpe treino → teste | **Risco 1%: viraram** | **Risco 1%: ao ano** | **Risco 1%: pior queda** |
+|---|---|---|---|---|---|---|---|---|---|
+| ⭐ **Melhor equilíbrio** (recomendada) | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 | **R$ 275.631** | **+95,8%** | **−12,9%** |
+| 📈 Maior retorno | Tendência Forte do Dia | R$ 64.671 | +46,0% | −16,1% | 1,28 | 1,58 → 1,12 | **R$ 136.688** | **+69,9%** | **−23,6%** |
+| 🛡️ Menor queda | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 | **R$ 275.631** | **+95,8%** | **−12,9%** |
 
-A página da [carteira](carteira) explica a escolha, mostra as 15 combinações e se os setups se ajudam.
+A página da [carteira](carteira) explica a escolha, mostra as 15 combinações, se os setups se ajudam e o [tamanho de posição](carteira#tamanho-de-posição) sugerido: **arriscar 1% do capital por operação** (Kelly e Larry Williams comparados, com calculadora de contratos).
 
 ### Como um setup entra nesta lista
 
