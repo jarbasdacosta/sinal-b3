@@ -6,12 +6,12 @@ tags: [setup, carteira]
 
 **O que acontece quando os setups aprovados são operados juntos? A carteira divide o capital igualmente entre eles e testa todas as combinações, sempre comparando com o CDI e com o Ibovespa comprado.**
 
-*Página gerada em 26/10/2026 22:25 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
+*Página gerada em 26/10/2026 22:30 BRT · dados de 01/11/2021 a 26/10/2026 · [voltar para todos os setups](./)*
 
-> [!success] Em resumo: com R$ 10.000, operando os 4 setups juntos (capital dividido igualmente, capital no CDI)
-> - **R$ 50.491** (+39% ao ano · pior queda −7% · Sharpe 1,76)
-> - CDI: **R$ 18.119** (+13% ao ano) · Ibovespa: **R$ 16.732** (+11% ao ano · pior queda −21%)
-> - **Combinação recomendada (melhor equilíbrio entre retorno, queda e estabilidade): IFR de Tendência + Pullback na Média** — R$ 42.957, +34% ao ano, pior queda −4%. **Arriscando 1% por operação: R$ 275.631, +96% ao ano, pior queda −13%** (veja o tamanho de posição).
+> [!success] Em resumo: com R$ 10.000, operando os 4 setups juntos (capital dividido igualmente, capital no CDI)
+> - **R$ 50.491** (+39% ao ano · pior queda −7% · Sharpe 1,76)
+> - CDI: **R$ 18.119** (+13% ao ano) · Ibovespa: **R$ 16.732** (+11% ao ano · pior queda −21%)
+> - **Combinação recomendada (melhor equilíbrio entre retorno, queda e estabilidade): IFR de Tendência + Pullback na Média** — R$ 42.957, +34% ao ano, pior queda −4%. **Arriscando 1% por operação: R$ 275.631, +96% ao ano, pior queda −13%** (veja o tamanho de posição).
 
 > [!warning] Leia antes
 > Resultado passado, em backtest, não garante resultado futuro. É um estudo educacional, **não é recomendação de investimento**. Day trade com mini índice é alavancado: dá para perder mais do que o capital da conta.
@@ -22,63 +22,81 @@ tags: [setup, carteira]
 
 Cada setup sozinho, na versão principal, com o capital no CDI.
 
-| # | Setup | Sharpe | Retorno acima do CDI ÷ pior queda | Teste ÷ treino | Meses acima do CDI | Ao ano: 1 contrato/R$ 10 mil → risco 1% | Pior queda: 1 contrato/R$ 10 mil → risco 1% | Correlação com os outros | Operações por mês | Como opera |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1º | [**IFR de Tendência**](ifr-de-tendencia) | 1,59 | 4,0 | 150% | 72% | +43% → **+67%** | −7% → **−11%** | 0,19 | 12,6 | entra na força medida pelo IFR · 10h–11h e 14h–16h |
-| 2º | [**Tendência Forte do Dia**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | +46% → **+70%** | −16% → **−24%** | 0,25 | 28,7 | segue a tendência já formada (rompimento longe da abertura) · o dia todo, até 17h |
-| 3º | [**ADX da Manhã**](adx-da-manha) | 1,03 | 1,6 | 150% | 63% | +37% → **+65%** | −15% → **−31%** | 0,22 | 29,3 | pega o começo da tendência (ADX subindo), stop curto · 10h–11h |
-| 4º | [**Pullback na Média**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | +26% → **+32%** | −5% → **−9%** | −0,04 | 5,0 | entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45 |
+**Nota de cada critério**
 
-*Como o ranking é feito: cada setup ganha uma posição em 4 critérios — **Sharpe** (retorno acima do CDI por oscilação), **retorno acima do CDI ÷ pior queda** (quanto rende para cada 1% de queda que você aguenta), **teste ÷ treino** (quanto do resultado por operação de 2021–2023 se manteve em 2024 em diante; 100% = manteve tudo) e **meses acima do CDI**. Vale a média das 4 posições. Correlação baixa com os outros é bom para a carteira, mas não entra na nota de cada setup.*
+| # | Setup | Sharpe | Retorno ÷ queda | Teste ÷ treino | Meses > CDI | Correlação | Op./mês |
+|---|---|---|---|---|---|---|---|
+| 1º | [**IFR**](ifr-de-tendencia) | 1,59 | 4,0 | 150% | 72% | 0,19 | 12,6 |
+| 2º | [**Tendência**](tendencia-forte-do-dia) | 1,28 | 2,1 | 81% | 60% | 0,25 | 28,7 |
+| 3º | [**ADX**](adx-da-manha) | 1,03 | 1,6 | 150% | 63% | 0,22 | 29,3 |
+| 4º | [**Pullback**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | −0,04 | 5,0 |
+
+**Resultado: 1 contrato por R$ 10 mil × arriscando 1% por operação**
+
+| # | Setup | Ao ano (1 contrato) | Ao ano (risco 1%) | Pior queda (1 contrato) | Pior queda (risco 1%) |
+|---|---|---|---|---|---|
+| 1º | [**IFR**](ifr-de-tendencia) | +43% | **+67%** | −7% | **−11%** |
+| 2º | [**Tendência**](tendencia-forte-do-dia) | +46% | **+70%** | −16% | **−24%** |
+| 3º | [**ADX**](adx-da-manha) | +37% | **+65%** | −15% | **−31%** |
+| 4º | [**Pullback**](pullback-na-media) | +26% | **+32%** | −5% | **−9%** |
+
+- **IFR de Tendência:** entra na força medida pelo IFR · 10h–11h e 14h–16h
+- **Tendência Forte do Dia:** segue a tendência já formada (rompimento longe da abertura) · o dia todo, até 17h
+- **ADX da Manhã:** pega o começo da tendência (ADX subindo), stop curto · 10h–11h
+- **Pullback na Média:** entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45
+
+*Correlação = com os outros setups (baixa é bom para a carteira). Como o ranking é feito: cada setup ganha uma posição em 4 critérios — **Sharpe** (retorno acima do CDI por oscilação), **retorno acima do CDI ÷ pior queda** (quanto rende para cada 1% de queda que você aguenta), **teste ÷ treino** (quanto do resultado por operação de 2021–2023 se manteve em 2024 em diante; 100% = manteve tudo) e **meses acima do CDI**. Vale a média das 4 posições. Correlação baixa com os outros é bom para a carteira, mas não entra na nota de cada setup.*
 
 ## Qual combinação escolher
 
 Não existe uma única "melhor": depende de quanto de queda você aguenta. As três de cima respondem a três perguntas diferentes:
 
-| Perfil | Combinação | R$ 10 mil viraram | Ao ano | Pior queda | Sharpe | Sharpe treino → teste | **Risco 1%: viraram** | **Risco 1%: ao ano** | **Risco 1%: pior queda** |
-|---|---|---|---|---|---|---|---|---|---|
-| ⭐ **Melhor equilíbrio** (recomendada) | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 | **R$ 275.631** | **+95,8%** | **−12,9%** |
-| 📈 Maior retorno | Tendência Forte do Dia | R$ 64.671 | +46,0% | −16,1% | 1,28 | 1,58 → 1,12 | **R$ 136.688** | **+69,9%** | **−23,6%** |
-| 🛡️ Menor queda | IFR de Tendência + Pullback na Média | R$ 42.957 | +34,3% | −3,5% | 1,94 | 2,15 → 1,80 | **R$ 275.631** | **+95,8%** | **−12,9%** |
+| Perfil | Combinação | 1 contrato: ao ano · queda | **Risco 1%: ao ano · queda** | Sharpe treino → teste |
+|---|---|---|---|---|
+| ⭐ **Equilíbrio** (recomendada) | IFR + Pullback | +34% · −3,5% | **+96% · −12,9%** | 2,15 → 1,80 |
+| 📈 Maior retorno | Tendência | +46% · −16,1% | **+70% · −23,6%** | 1,58 → 1,12 |
+| 🛡️ Menor queda | IFR + Pullback | +34% · −3,5% | **+96% · −12,9%** | 2,15 → 1,80 |
+
+*R$ 10 mil viraram, na recomendada: R$ 42.957 com 1 contrato por R$ 10 mil · **R$ 275.631 arriscando 1% por operação**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média.*
 
 **Por que a recomendada é IFR de Tendência + Pullback na Média:** ela fica entre as melhores nos três critérios ao mesmo tempo — Sharpe 1,94, rende 6,1× acima do CDI para cada 1% de pior queda, e o Sharpe ficou em 2,15 no treino e 1,80 no teste (não depende de um período só). A correlação média entre os setups dela é −0,17: eles ganham e perdem em momentos diferentes, e é isso que segura a queda. Com Tendência Forte do Dia, ADX da Manhã, a nota de equilíbrio piora (veja a tabela abaixo). A recomendação considera só combinações de **2 ou mais setups**: diversificar protege contra um setup que pare de funcionar, coisa que o backtest não consegue prever.
 
 ## Todas as combinações
 
-Cada linha divide R$ 10.000 igualmente entre os setups da combinação (1 contrato para cada R$ 10.000 dentro de cada setup), com o capital aplicado no CDI. A ordem é a nota média em 3 critérios: **Sharpe**, **retorno acima do CDI ÷ pior queda** e o **pior Sharpe entre treino e teste** (para não premiar o que só deu certo num período).
+Cada linha divide R$ 10.000 igualmente entre os setups da combinação (1 contrato para cada R$ 10.000 dentro de cada setup), com o capital aplicado no CDI. A ordem é a nota média em 3 critérios: **Sharpe**, **retorno acima do CDI ÷ pior queda** e o **pior Sharpe entre treino e teste** (para não premiar o que só deu certo num período).
 
-| # | Combinação | R$ 10 mil viraram | Ao ano | Pior queda | Retorno ÷ queda | Sharpe | Sharpe treino → teste | Pior ano | Correlação entre eles | **Risco 1%: ao ano** | **Risco 1%: pior queda** |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | IFR de Tendência + Pullback na Média ⭐ | R$ 42.957 | +34,3% | −3,5% | 6,1 | 1,94 | 2,15 → 1,80 | +20,6% | −0,17 | **+95,8%** | **−12,9%** |
-| 2 | Tendência Forte do Dia + IFR de Tendência + Pullback na Média | R$ 50.106 | +38,6% | −7,2% | 3,6 | 1,77 | 2,11 → 1,58 | +21,1% | 0,09 | **+178,6%** | **−27,9%** |
-| 3 | Tendência Forte do Dia + ADX da Manhã + IFR de Tendência + Pullback na Média | R$ 50.491 | +38,8% | −7,3% | 3,6 | 1,76 | 1,79 → 1,76 | +25,0% | 0,15 | **+268,3%** | **−45,9%** |
-| 4 | ADX da Manhã + IFR de Tendência + Pullback na Média | R$ 45.566 | +36,0% | −6,2% | 3,7 | 1,75 | 1,54 → 1,89 | +20,4% | 0,06 | **+171,9%** | **−31,8%** |
-| 5 | IFR de Tendência | R$ 57.840 | +42,7% | −7,5% | 4,0 | 1,59 | 1,40 → 1,73 | +28,3% | — | **+67,3%** | **−11,2%** |
-| 6 | Tendência Forte do Dia + ADX da Manhã + IFR de Tendência | R$ 58.599 | +43,1% | −10,1% | 3,0 | 1,61 | 1,46 → 1,73 | +29,9% | 0,35 | **+220,1%** | **−45,2%** |
-| 7 | Tendência Forte do Dia + IFR de Tendência | R$ 62.447 | +44,9% | −11,3% | 2,8 | 1,59 | 1,74 → 1,53 | +26,3% | 0,41 | **+140,8%** | **−27,0%** |
-| 8 | Tendência Forte do Dia + ADX da Manhã + Pullback na Média | R$ 47.712 | +37,2% | −8,8% | 2,8 | 1,59 | 1,68 → 1,54 | +23,0% | 0,12 | **+172,3%** | **−46,6%** |
-| 9 | Tendência Forte do Dia + Pullback na Média | R$ 45.853 | +36,1% | −7,6% | 3,1 | 1,52 | 2,03 → 1,18 | +16,4% | 0,03 | **+97,0%** | **−25,6%** |
-| 10 | ADX da Manhã + IFR de Tendência | R$ 54.155 | +40,8% | −8,5% | 3,3 | 1,51 | 1,00 → 1,83 | +20,3% | 0,32 | **+133,7%** | **−29,5%** |
-| 11 | Tendência Forte do Dia + ADX da Manhã | R$ 57.863 | +42,7% | −12,3% | 2,4 | 1,41 | 1,26 → 1,51 | +29,2% | 0,32 | **+136,1%** | **−45,8%** |
-| 12 | ADX da Manhã + Pullback na Média | R$ 39.653 | +32,2% | −8,7% | 2,2 | 1,38 | 1,24 → 1,48 | +16,3% | 0,02 | **+92,7%** | **−31,2%** |
-| 13 | Pullback na Média | R$ 30.735 | +25,5% | −4,6% | 2,8 | 1,20 | 1,87 → 0,63 | +10,8% | — | **+32,3%** | **−9,1%** |
-| 14 | Tendência Forte do Dia | R$ 64.671 | +46,0% | −16,1% | 2,1 | 1,28 | 1,58 → 1,12 | +21,6% | — | **+69,9%** | **−23,6%** |
-| 15 | ADX da Manhã | R$ 48.116 | +37,5% | −15,4% | 1,6 | 1,03 | 0,45 → 1,41 | +12,0% | — | **+65,2%** | **−30,8%** |
-| | *CDI* | *R$ 18.119* | *+12,8%* | *0%* | — | — | — | — | — | — | — |
-| | *Ibovespa comprado* | *R$ 16.732* | *+11,0%* | *−20,9%* | — | *0,01* | — | — | — | — | — |
+| # | Combinação | Ao ano | Pior queda | Retorno ÷ queda | Sharpe treino → teste | Pior ano | Correlação | **Risco 1%: ao ano · queda** |
+|---|---|---|---|---|---|---|---|---|
+| 1 | IFR + Pullback ⭐ | +34% | −3,5% | 6,1 | 2,15 → 1,80 | +21% | −0,17 | **+96% · −12,9%** |
+| 2 | Tendência + IFR + Pullback | +39% | −7,2% | 3,6 | 2,11 → 1,58 | +21% | 0,09 | **+179% · −27,9%** |
+| 3 | Tendência + ADX + IFR + Pullback | +39% | −7,3% | 3,6 | 1,79 → 1,76 | +25% | 0,15 | **+268% · −45,9%** |
+| 4 | ADX + IFR + Pullback | +36% | −6,2% | 3,7 | 1,54 → 1,89 | +20% | 0,06 | **+172% · −31,8%** |
+| 5 | IFR | +43% | −7,5% | 4,0 | 1,40 → 1,73 | +28% | — | **+67% · −11,2%** |
+| 6 | Tendência + ADX + IFR | +43% | −10,1% | 3,0 | 1,46 → 1,73 | +30% | 0,35 | **+220% · −45,2%** |
+| 7 | Tendência + IFR | +45% | −11,3% | 2,8 | 1,74 → 1,53 | +26% | 0,41 | **+141% · −27,0%** |
+| 8 | Tendência + ADX + Pullback | +37% | −8,8% | 2,8 | 1,68 → 1,54 | +23% | 0,12 | **+172% · −46,6%** |
+| 9 | Tendência + Pullback | +36% | −7,6% | 3,1 | 2,03 → 1,18 | +16% | 0,03 | **+97% · −25,6%** |
+| 10 | ADX + IFR | +41% | −8,5% | 3,3 | 1,00 → 1,83 | +20% | 0,32 | **+134% · −29,5%** |
+| 11 | Tendência + ADX | +43% | −12,3% | 2,4 | 1,26 → 1,51 | +29% | 0,32 | **+136% · −45,8%** |
+| 12 | ADX + Pullback | +32% | −8,7% | 2,2 | 1,24 → 1,48 | +16% | 0,02 | **+93% · −31,2%** |
+| 13 | Pullback | +26% | −4,6% | 2,8 | 1,87 → 0,63 | +11% | — | **+32% · −9,1%** |
+| 14 | Tendência | +46% | −16,1% | 2,1 | 1,58 → 1,12 | +22% | — | **+70% · −23,6%** |
+| 15 | ADX | +37% | −15,4% | 1,6 | 0,45 → 1,41 | +12% | — | **+65% · −30,8%** |
+| | *CDI* | *+13%* | *0%* | — | — | — | — | — |
+| | *Ibovespa comprado* | *+11%* | *−20,9%* | — | — | — | — | — |
 
-*Retorno ÷ queda = retorno ao ano acima do CDI dividido pela pior queda (2 = rendeu por ano o dobro da pior queda). Risco 1% = cada setup da combinação arrisca 1% do capital total em cada operação (veja abaixo).*
+*Ao ano e pior queda com 1 contrato por R$ 10 mil (capital dividido). Correlação = média entre os setups da combinação. Retorno ÷ queda = retorno ao ano acima do CDI dividido pela pior queda (2 = rendeu por ano o dobro da pior queda). Risco 1% = cada setup da combinação arrisca 1% do capital total em cada operação (veja abaixo) — com mais setups, mais risco aberto ao mesmo tempo, por isso as combinações grandes rendem e caem mais.*
 
 ## Os setups se ajudam?
 
 Setups que ganham e perdem em **momentos diferentes** se completam: um segura a carteira enquanto o outro atravessa uma fase ruim. A correlação mede isso (1 = andam juntos, 0 = independentes, negativo = opostos).
 
-| | Tendência Forte do Dia | ADX da Manhã | IFR de Tendência | Pullback na Média |
+| | Tendência | ADX | IFR | Pullback |
 |---|---|---|---|---|
-| **Tendência Forte do Dia** | 1,00 | 0,32 | 0,41 | 0,03 |
-| **ADX da Manhã** | 0,32 | 1,00 | 0,32 | 0,02 |
-| **IFR de Tendência** | 0,41 | 0,32 | 1,00 | −0,17 |
-| **Pullback na Média** | 0,03 | 0,02 | −0,17 | 1,00 |
+| **Tendência** | 1,00 | 0,32 | 0,41 | 0,03 |
+| **ADX** | 0,32 | 1,00 | 0,32 | 0,02 |
+| **IFR** | 0,41 | 0,32 | 1,00 | −0,17 |
+| **Pullback** | 0,03 | 0,02 | −0,17 | 1,00 |
 
 *Correlação do resultado mensal.*
 
@@ -93,16 +111,18 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 
 ## Ano a ano
 
-| Ano | Tendência Forte do Dia | ADX da Manhã | IFR de Tendência | Pullback na Média | Carteira (todos) | Recomendada | Recomendada risco 1% | CDI | Ibovespa | Quem ganhou |
+*Com 1 contrato por R$ 10 mil (capital dividido). Todos = os 4 setups juntos · Recomendada = IFR + Pullback · Rec. 1% = a recomendada arriscando 1% por operação.*
+
+| Ano | Tendência | ADX | IFR | Pullback | Todos | Recomendada | Rec. 1% | CDI | Ibovespa | Quem ganhou |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2021* | −1,7% | +2,1% | −3,6% | +7,5% | +1,1% | +1,8% | −1,2% | +1,3% | −0,7% | Pullback na Média |
-| 2022 | +58,4% | +29,8% | +51,5% | +47,1% | +47,5% | +49,9% | +214,2% | +12,3% | +4,7% | Recomendada risco 1% |
-| 2023 | +50,3% | +12,0% | +28,3% | +19,7% | +27,5% | +24,2% | +59,3% | +13,0% | +22,3% | Recomendada risco 1% |
-| 2024 | +21,6% | +36,5% | +30,7% | +10,8% | +25,0% | +20,6% | +46,4% | +10,8% | −10,4% | Recomendada risco 1% |
-| 2025 | +32,2% | +65,9% | +55,3% | +21,2% | +43,6% | +37,7% | +112,5% | +14,2% | +34,0% | Recomendada risco 1% |
-| 2026* | +71,9% | +43,1% | +52,0% | +20,9% | +47,9% | +36,4% | +79,1% | +11,4% | +9,6% | Recomendada risco 1% |
-| **Acumulado no período** | **+546,7%** | **+381,2%** | **+478,4%** | **+207,4%** | **+404,9%** | **+329,6%** | **+2656,3%** | **+81,2%** | **+67,3%** | **Recomendada risco 1%** |
-| **R$ 10.000 viraram** | **R$ 64.671** | **R$ 48.116** | **R$ 57.840** | **R$ 30.735** | **R$ 50.491** | **R$ 42.957** | **R$ 275.631** | **R$ 18.119** | **R$ 16.732** | |
+| 2021* | −1,7% | +2,1% | −3,6% | +7,5% | +1,1% | +1,8% | −1,2% | +1,3% | −0,7% | Pullback |
+| 2022 | +58,4% | +29,8% | +51,5% | +47,1% | +47,5% | +49,9% | +214,2% | +12,3% | +4,7% | Rec. 1% |
+| 2023 | +50,3% | +12,0% | +28,3% | +19,7% | +27,5% | +24,2% | +59,3% | +13,0% | +22,3% | Rec. 1% |
+| 2024 | +21,6% | +36,5% | +30,7% | +10,8% | +25,0% | +20,6% | +46,4% | +10,8% | −10,4% | Rec. 1% |
+| 2025 | +32,2% | +65,9% | +55,3% | +21,2% | +43,6% | +37,7% | +112,5% | +14,2% | +34,0% | Rec. 1% |
+| 2026* | +71,9% | +43,1% | +52,0% | +20,9% | +47,9% | +36,4% | +79,1% | +11,4% | +9,6% | Rec. 1% |
+| **Acumulado no período** | **+546,7%** | **+381,2%** | **+478,4%** | **+207,4%** | **+404,9%** | **+329,6%** | **+2656,3%** | **+81,2%** | **+67,3%** | **Rec. 1%** |
+| **R$ 10.000 viraram** | **R$ 64.671** | **R$ 48.116** | **R$ 57.840** | **R$ 30.735** | **R$ 50.491** | **R$ 42.957** | **R$ 275.631** | **R$ 18.119** | **R$ 16.732** | |
 | **Média ao ano** | **+46,0%** | **+37,5%** | **+42,7%** | **+25,5%** | **+38,8%** | **+34,3%** | **+95,8%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
@@ -110,7 +130,7 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 ![Retorno por ano da carteira](setups/img/carteira_anos.png)
 
 > [!example]- Mês a mês (clique para abrir)
-> | Mês | Tendência Forte do Dia | ADX da Manhã | IFR de Tendência | Pullback na Média | Carteira (todos) | Recomendada | Recomendada risco 1% | CDI | Ibovespa |
+> | Mês | Tendência | ADX | IFR | Pullback | Todos | Recomendada | Rec. 1% | CDI | Ibovespa |
 > |---|---|---|---|---|---|---|---|---|---|
 > | nov/2021 | −2,9% | +1,3% | −1,9% | +2,6% | −0,2% | +0,4% | −2,5% | +0,6% | −3,4% |
 > | dez/2021 | +1,2% | +0,8% | −1,8% | +4,8% | +1,3% | +1,5% | +1,3% | +0,7% | +2,9% |
@@ -178,22 +198,24 @@ Setups que ganham e perdem em **momentos diferentes** se completam: um segura a 
 
 Os mesmos setups e carteiras, mas com o tamanho sugerido: cada operação usa os contratos que fazem o stop (mais o custo) custar **1% do capital do momento** — a posição diminui nas fases ruins e cresce nas boas. Na carteira, cada setup arrisca 1% do capital total.
 
-| Ano | Tendência Forte do Dia | ADX da Manhã | IFR de Tendência | Pullback na Média | Carteira (todos) | Recomendada (IFR de Tendência + Pullback na Média) | CDI | Ibovespa | Quem ganhou |
+*Recomendada = IFR + Pullback. **Todos** = os 4 setups com 1% cada: até 4% de risco aberto ao mesmo tempo, por isso rende e cai muito mais — não compare com os outros.*
+
+| Ano | Tendência | ADX | IFR | Pullback | Todos ⚠️ | Recomendada | CDI | Ibovespa | Quem ganhou |
 |---|---|---|---|---|---|---|---|---|---|
-| 2021* | −2,9% | +2,0% | −9,3% | +10,2% | −4,8% | −1,2% | +1,3% | −0,7% | Pullback na Média |
-| 2022 | +94,7% | +51,0% | +108,3% | +70,5% | +510,9% | +214,2% | +12,3% | +4,7% | Carteira (todos) |
-| 2023 | +78,7% | +7,4% | +45,0% | +24,7% | +112,4% | +59,3% | +13,0% | +22,3% | Carteira (todos) |
-| 2024 | +31,5% | +71,5% | +48,1% | +9,6% | +131,0% | +46,4% | +10,8% | −10,4% | Carteira (todos) |
-| 2025 | +62,2% | +161,6% | +88,9% | +29,0% | +481,6% | +112,5% | +14,2% | +34,0% | Carteira (todos) |
-| 2026* | +89,7% | +60,5% | +65,8% | +20,3% | +275,8% | +79,1% | +11,4% | +9,6% | Carteira (todos) |
-| **Acumulado no período** | **+1266,9%** | **+1092,6%** | **+1170,1%** | **+298,4%** | **+62241,3%** | **+2656,3%** | **+81,2%** | **+67,3%** | **Carteira (todos)** |
-| **R$ 10.000 viraram** | **R$ 136.688** | **R$ 119.255** | **R$ 127.013** | **R$ 39.838** | **R$ 6.234.128** | **R$ 275.631** | **R$ 18.119** | **R$ 16.732** | |
+| 2021* | −2,9% | +2,0% | −9,3% | +10,2% | −4,8% | −1,2% | +1,3% | −0,7% | Pullback |
+| 2022 | +94,7% | +51,0% | +108,3% | +70,5% | +510,9% | +214,2% | +12,3% | +4,7% | Todos ⚠️ |
+| 2023 | +78,7% | +7,4% | +45,0% | +24,7% | +112,4% | +59,3% | +13,0% | +22,3% | Todos ⚠️ |
+| 2024 | +31,5% | +71,5% | +48,1% | +9,6% | +131,0% | +46,4% | +10,8% | −10,4% | Todos ⚠️ |
+| 2025 | +62,2% | +161,6% | +88,9% | +29,0% | +481,6% | +112,5% | +14,2% | +34,0% | Todos ⚠️ |
+| 2026* | +89,7% | +60,5% | +65,8% | +20,3% | +275,8% | +79,1% | +11,4% | +9,6% | Todos ⚠️ |
+| **Acumulado no período** | **+1266,9%** | **+1092,6%** | **+1170,1%** | **+298,4%** | **+62241,3%** | **+2656,3%** | **+81,2%** | **+67,3%** | **Todos ⚠️** |
+| **R$ 10.000 viraram** | **R$ 136.688** | **R$ 119.255** | **R$ 127.013** | **R$ 39.838** | **R$ 6.234.128** | **R$ 275.631** | **R$ 18.119** | **R$ 16.732** | |
 | **Média ao ano** | **+69,9%** | **+65,2%** | **+67,3%** | **+32,3%** | **+268,3%** | **+95,8%** | **+12,8%** | **+11,0%** | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 26/10/2026.
 
 > [!example]- Mês a mês arriscando 1% por operação (clique para abrir)
-> | Mês | Tendência Forte do Dia | ADX da Manhã | IFR de Tendência | Pullback na Média | Carteira (todos) | Recomendada (IFR de Tendência + Pullback na Média) | CDI | Ibovespa |
+> | Mês | Tendência | ADX | IFR | Pullback | Todos ⚠️ | Recomendada | CDI | Ibovespa |
 > |---|---|---|---|---|---|---|---|---|
 > | nov/2021 | −3,9% | +2,1% | −4,8% | +3,0% | −5,5% | −2,5% | +0,6% | −3,4% |
 > | dez/2021 | +1,1% | −0,0% | −4,7% | +7,0% | +0,7% | +1,3% | +0,7% | +2,9% |
@@ -259,7 +281,7 @@ Os mesmos setups e carteiras, mas com o tamanho sugerido: cada operação usa os
 
 ## Tamanho de posição
 
-Quanto colocar em cada operação da combinação recomendada (**IFR de Tendência + Pullback na Média**). O que manda é o **risco por operação**: quanto do capital se perde se o stop for atingido (stop + custo, em R$). Hoje, com 1 contrato para cada R$ 10.000 dividido entre os setups, cada operação arrisca só ~0,29% do capital — por isso a queda foi tão pequena. Dá para alavancar, mas **a queda cresce mais rápido que o retorno**, e o Sharpe não muda: alavancar não melhora o setup, só aumenta o tamanho dos ganhos e das perdas.
+Quanto colocar em cada operação da combinação recomendada (**IFR de Tendência + Pullback na Média**). O que manda é o **risco por operação**: quanto do capital se perde se o stop for atingido (stop + custo, em R$). Hoje, com 1 contrato para cada R$ 10.000 dividido entre os setups, cada operação arrisca só ~0,29% do capital — por isso a queda foi tão pequena. Dá para alavancar, mas **a queda cresce mais rápido que o retorno**, e o Sharpe não muda: alavancar não melhora o setup, só aumenta o tamanho dos ganhos e das perdas.
 
 | Regra | Risco por operação | Ao ano | Pior queda (ordem real) | Queda típica (sorteio) | 1 vez em 20, pior que |
 |---|---|---|---|---|---|
@@ -287,19 +309,19 @@ Quanto colocar em cada operação da combinação recomendada (**IFR de Tendênc
 
 **contratos = capital × 1% ÷ ((stop em pts + 15) × R$ 0,20)** — arredonde para baixo. Calcule para cada setup, a cada operação, com o capital do momento (assim a posição cresce quando ganha e diminui quando perde).
 
-| Setup | Stop hoje | Risco por contrato | R$ 10.000 | R$ 20.000 | R$ 50.000 | R$ 100.000 | R$ 200.000 |
+| Setup | Stop hoje | Risco por contrato | R$ 10.000 | R$ 20.000 | R$ 50.000 | R$ 100.000 | R$ 200.000 |
 |---|---|---|---|---|---|---|---|
-| Tendência Forte do Dia | 550 pts | R$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
-| ADX da Manhã | 267 pts | R$ 56 | 1,8 | 3,5 | 8,9 | 17,7 | 35,4 |
-| IFR de Tendência ⭐ | 357 pts | R$ 74 | 1,3 | 2,7 | 6,7 | 13,5 | 26,9 |
-| Pullback na Média ⭐ | 550 pts | R$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
+| Tendência Forte do Dia | 550 pts | R$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
+| ADX da Manhã | 267 pts | R$ 56 | 1,8 | 3,5 | 8,9 | 17,7 | 35,4 |
+| IFR de Tendência ⭐ | 357 pts | R$ 74 | 1,3 | 2,7 | 6,7 | 13,5 | 26,9 |
+| Pullback na Média ⭐ | 550 pts | R$ 113 | 0,9 | 1,8 | 4,4 | 8,8 | 17,7 |
 
 *Stops calculados com o ATR (3.670 pts) e o preço (178.265) de hoje — mudam todo dia. ⭐ = setups da combinação recomendada. Com risco de 0,5%, use a metade. Confira a margem de day trade da sua corretora para o número de contratos.*
 
 ## Como a carteira é montada
 
 - Cada setup entra com a **versão principal** da sua página.
-- O capital é **dividido igualmente** entre os setups da combinação, com 1 contrato para cada R$ 10.000 dentro de cada setup, e fica aplicado no CDI. O resultado de cada dia é a média dos setups mais o CDI do dia.
+- O capital é **dividido igualmente** entre os setups da combinação, com 1 contrato para cada R$ 10.000 dentro de cada setup, e fica aplicado no CDI. O resultado de cada dia é a média dos setups mais o CDI do dia.
 - **Risco 1%:** cada setup arrisca 1% do capital total em cada operação (contratos = capital × 1% ÷ (stop + custo) em R$). Se dois setups estiverem posicionados ao mesmo tempo, o risco aberto é de 2%.
 - Custo de 15 pontos por operação, sem imposto. Resultado passado, em backtest.
 
