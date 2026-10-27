@@ -1,6 +1,6 @@
 ---
 title: Setups testados
-date: 2026-10-26
+date: 2026-10-27
 tags: [setup]
 ---
 
@@ -16,6 +16,11 @@ tags: [setup]
 | Setup | Resultado | R por operação: treino → teste | Acaso (p no teste) | Vizinhança | Testado em |
 |---|---|---|---|---|---|
 | [**Rompimento da Bollinger**](rompimento-da-bollinger) · [vídeo](https://youtu.be/2l5k3OyC7eQ) | ✅ aprovado | +0,43 → +0,83 | 0,000 | 16/16 | 26/10/2026 |
+| [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) · [vídeo](https://youtu.be/UFLCVkzcghU) | 🟡 promissor | +0,14 → +0,46 | 0,001 | 7/12 | 27/10/2026 |
+| [**Vai na Onda**](vai-na-onda) · [vídeo](https://youtu.be/5JZC82O-0Nc) | 🟡 promissor | +0,03 → +0,18 | 0,000 | 6/12 | 27/10/2026 |
+| [**MACD na Tendência**](macd-na-tendencia) · [vídeo](https://youtu.be/eHvY4bvS95c) | 🟡 promissor | +0,05 → +0,12 | 0,000 | 12/12 | 27/10/2026 |
+| **Reversão no Extremo** · [vídeo](https://youtu.be/YbMMQlSbsII) | ❌ reprovado | +0,02 → +0,01 | 0,081 | 1/12 | 27/10/2026 |
+| **Keltner da Tarde** · [vídeo](https://youtu.be/HTSSAEhUBE0) | ❌ reprovado | −0,03 → −0,03 | 0,003 | 0/9 | 27/10/2026 |
 
 ### Testados antes da bateria padrão
 

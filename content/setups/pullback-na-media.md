@@ -1,6 +1,6 @@
 ---
 title: Pullback na Média
-date: 2026-10-26
+date: 2026-10-27
 tags: [setup, win]
 ---
 
@@ -8,7 +8,7 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 10h30 às 12h30 e das 14h45 às 15h45
 
-🎬 **Vídeo de origem:** [Arthur 777 – "isso se repete milhares de vezes"](https://youtu.be/iIaJDFRbNpI) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 26/10/2026 23:16 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "isso se repete milhares de vezes"](https://youtu.be/iIaJDFRbNpI) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 27/10/2026 08:55 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 30.735** na versão ATR 0,15 / 0,15 / 5× com o capital no CDI (+26% ao ano · pior queda −5%)
