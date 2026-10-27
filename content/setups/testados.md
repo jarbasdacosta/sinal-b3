@@ -10,6 +10,7 @@ tags: [setup]
 > ✅ APROVADO: positivo depois do custo no treino E no teste; ganha do acaso no teste (p < 0,05) e no treino (p < 0,10); pelo menos 2/3 da vizinhança positiva nos dois períodos.
 > 🟡 PROMISSOR: positivo no teste e ganha do acaso no teste (p < 0,10), com pelo menos metade da vizinhança positiva nos dois períodos (o treino pode ter sido fraco).
 > ❌ REPROVADO: o resto.
+> MARGEM (para não mudar toda semana por oscilação): um setup já avaliado só SOBE de nível se passar com folga (limites de p 20% mais rígidos: 0,04 / 0,08) e só CAI se falhar com folga (20% mais frouxos: 0,06 / 0,12); no meio, mantém o veredito anterior.
 >
 > R por operação = resultado líquido (custo de 15 pts) em múltiplos do stop. Treino = nov/2021 a 2023 · teste = 2024 em diante. p = chance de o acaso fazer igual ou melhor (abaixo de 0,05 = muito difícil ser sorte).
 
@@ -23,7 +24,7 @@ tags: [setup]
 | [**Primeira Vela de Quinta**](primeira-vela-de-quinta) · [vídeo](https://youtu.be/5pmW0UMnXwE) | 🟡 promissor | +0,27 → +0,22 | 0,012 | 9/9 | 27/10/2026 |
 | [**ADX da Manhã**](adx-da-manha) · [vídeo](https://youtu.be/D9mwdxexECE) | 🟡 promissor | +0,06 → +0,21 | 0,044 | 9/9 | 27/10/2026 |
 | [**Vai na Onda**](vai-na-onda) · [vídeo](https://youtu.be/5JZC82O-0Nc) | 🟡 promissor | +0,03 → +0,18 | 0,000 | 6/12 | 27/10/2026 |
-| **Pullback na Média** · [vídeo](https://youtu.be/iIaJDFRbNpI) | ❌ reprovado | +0,52 → +0,13 | 0,101 | 9/9 | 27/10/2026 |
+| [**Pullback na Média**](pullback-na-media) · [vídeo](https://youtu.be/iIaJDFRbNpI) | 🟡 promissor | +0,52 → +0,13 | 0,101 | 9/9 | 27/10/2026 |
 | **Tendência do Mês na Sexta** · [vídeo](https://youtu.be/yOiGlNcxmYE) | ❌ reprovado | +0,11 → +0,12 | 0,125 | 6/9 | 27/10/2026 |
 | **Vela das 10h15** · [vídeo](https://youtu.be/Pn9YLIjcG0E) | ❌ reprovado | −0,05 → +0,04 | 0,007 | 0/12 | 27/10/2026 |
 | **Reversão no Extremo** · [vídeo](https://youtu.be/YbMMQlSbsII) | ❌ reprovado | +0,02 → +0,01 | 0,081 | 1/12 | 27/10/2026 |
