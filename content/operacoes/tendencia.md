@@ -1,6 +1,6 @@
 ---
 title: "📈 Tendência MME9"
-date: 2026-10-27
+date: 2026-10-28
 tags: [operacoes]
 description: "Só compra, diário e semanal: rompimento do candle que fecha acima da MME9"
 ---

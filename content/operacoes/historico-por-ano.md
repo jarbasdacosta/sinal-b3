@@ -1,6 +1,6 @@
 ---
 title: "📅 Histórico por ano"
-date: 2026-10-27
+date: 2026-10-28
 tags: [operacoes]
 description: "Todas as operações de cada regra, ano a ano, desde 2000"
 ---

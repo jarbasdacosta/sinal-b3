@@ -1,11 +1,11 @@
 ---
 title: "🏆 Ranking das operações"
-date: 2026-10-27
+date: 2026-10-28
 tags: [operacoes]
 description: "As regras de compra do site ordenadas pelo resultado, com treino, teste e placar ao vivo"
 ---
 
-*Atualizado 27/10/2026 19:04 · histórico simulado com as regras congeladas em 23/10/2026 + placar ao vivo.*
+*Atualizado 28/10/2026 10:15 · histórico simulado com as regras congeladas em 23/10/2026 + placar ao vivo.*
 
 As regras de compra do site, **da que mais rendeu para a que menos rendeu**. O resultado é por operação, no índice à vista, sem custos e sem juros compostos (a soma é só a soma das operações). **Treino** = entradas de 2001 a 2013 e **teste** = 2014 em diante: uma regra só é confiável se ganhou nos dois. O único resultado sem nenhum ajuste ao histórico é o **placar ao vivo**.
 
@@ -17,7 +17,7 @@ As regras de compra do site, **da que mais rendeu para a que menos rendeu**. O r
 | 🥈 | [📈 Tendência MME9 · Diário](operacoes/tendencia) | 2000 | 379 (14,3/ano) | +1,1% | 40% | +401,2% | **+15,1%** | +1,2% × +0,9% ✅ | +22,4% · -10,0% | — |
 | 🥉 | [📈 Tendência MME9 · Semanal](operacoes/tendencia) | 2000 | 89 (3,4/ano) | +3,0% | 48% | +271,0% | **+10,3%** | +4,1% × +2,1% ✅ | +60,2% · -10,0% | — |
 | 4 | [🎯 Diário · Nadaraya](operacoes/entradas) | 2000 | 80 (3,0/ano) | +3,3% | 46% | +263,0% | **+10,0%** | +3,9% × +2,7% ✅ | +36,6% · -11,2% | — |
-| · | [🎯 H4 · Semáforo N2](operacoes/entradas) *(poucos anos)* | 2024 | 23 (8,4/ano) | +2,9% | 39% | +66,4% | **+24,1%** | — × +2,9% | +14,9% · -1,9% | — |
+| · | [🎯 H4 · Semáforo N2](operacoes/entradas) *(poucos anos)* | 2024 | 23 (8,3/ano) | +2,9% | 39% | +66,4% | **+24,1%** | — × +2,9% | +14,9% · -1,9% | — |
 | · | [🎯 Diário · Semáforo N3 após ζ Fundo](operacoes/entradas) *(poucos anos)* | 2024 | 4 (1,7/ano) | +0,3% | 50% | +1,0% | **+0,4%** | — × +0,3% | +2,4% · -1,5% | — |
 
 *✅ = média positiva no treino e no teste, com pelo menos 5 operações em cada. **Por ano** = soma ÷ anos desde a primeira operação. Regras com menos de 10 anos de dados ficam no fim, sem posição: com poucos anos o resultado pode parecer melhor do que é.*
