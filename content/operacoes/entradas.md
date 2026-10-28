@@ -15,7 +15,7 @@ description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo
 > |---|---|---|---|
 > | [Diário · Nadaraya](tecnico/#diário) | 🟢 **comprado** desde 25/08 a 174.577 *(simulada: começou antes do teste ao vivo)* | ⚡ stop 166.335 (durante o pregão) · agora +0,6% em 43 pregões · ⏱️ sai quando a linha rápida do Nadaraya cruzar para baixo (no fechamento) · setup BT+BB (moderado) | ✅ passou fora da amostra |
 > | [Semanal · Semáforo N2](tecnico/#semanal) | — sem setup | espera um sinal de fundo | ✅ o ganho vem do setup |
-> | [H4 · Semáforo N2](sinais-topo-fundo/todos-os-sinais#h4) | ⏳ **aguardando** | setup FD+RSI (moderado), FD+CCI (moderado) (27/10 14h) · entra quando fundo candidato em 26/10 10h (169.516): vira entrada se não houver mínima menor em 2 candles de 4h · vale por mais 10 candles de 4h | 🧪 em teste |
+> | [H4 · Semáforo N2](sinais-topo-fundo/todos-os-sinais#h4) | ⏳ **aguardando** | setup FD+RSI (moderado), FD+CCI (moderado) (27/10 14h) · entra quando fundo candidato em 26/10 10h (169.516): vira entrada se não houver mínima menor em 1 candle de 4h · vale por mais 9 candles de 4h | 🧪 em teste |
 > | [Diário · Semáforo N3 após ζ Fundo](tecnico/#diário) | — sem setup | espera um sinal de fundo ou ζ Fundo ≥ 60% | 🧪 em observação |
 >
 > **Últimas operações** (as anteriores ao teste ao vivo são simuladas no histórico)
@@ -31,7 +31,7 @@ description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo
 > | H4 · Semáforo N2 | 05/05/26 10h a 186.583 | 07/05/26 10h a 186.583 | **+0,0%** | stop no preço de entrada |
 > | H4 · Semáforo N2 | 25/03/26 10h a 185.486 | 23/04/26 10h a 192.517 | **+3,8%** | saída do método (topo fixo do semáforo nível 3) |
 >
-> <small>Atualizado 27/10 19:00. Nota: ✅ passou no teste fora da amostra (walk-forward 2008–2026) · 🧪 em teste (H4, com aviso no Telegram) ou em observação (ζ, sem aviso) · 🧪 na tabela = operação do teste ao vivo.</small>
+> <small>Atualizado 27/10 19:00 · checado no pregão às 14:00. Nota: ✅ passou no teste fora da amostra (walk-forward 2008–2026) · 🧪 em teste (H4, com aviso no Telegram) ou em observação (ζ, sem aviso) · 🧪 na tabela = operação do teste ao vivo.</small>
 >
 > *Regras: depois de um sinal de fundo, o Diário entra quando o Nadaraya vira para cima; o Semanal e o H4 entram quando um fundo do semáforo fica fixo. Stop e saída de cada regra na [metodologia](metodologia/regras-de-operacao#entradas-do-método). Nenhuma regra de venda passou no teste. Os números do histórico têm viés de escolha (overfitting); o placar ao vivo é o que vale. Leitura educacional do método, não recomendação.*
 
