@@ -5,7 +5,7 @@ description: "Compras e vendas dos investidores estrangeiros no mercado à vista
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 28/10/2026 08:41.*
+*Dados oficiais da B3 até 21/10/2026 · página atualizada 28/10/2026 19:04.*
 
 > [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
 > No ano de 2026: **+R$ 52,2 bi** — R$ 4,6 bi em IPOs/follow-ons e **+R$ 47,6 bi** negociados na bolsa
@@ -16,13 +16,14 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 
 ## Dia a dia
 
-> [!danger] 23/10/2026: **−R$ 2,9 bi** · 2 pregão(ões) seguido(s) de saída
-> Últimos 5 pregões: **−R$ 4,8 bi** · últimos 20: **+R$ 16,2 bi**
+> [!danger] 26/10/2026: **−R$ 2,8 bi** · 3 pregão(ões) seguido(s) de saída
+> Últimos 5 pregões: **−R$ 6,6 bi** · últimos 20: **+R$ 13,0 bi**
 
-![Capital estrangeiro dia a dia](graficos/estrangeirosdia_20261023.png)
+![Capital estrangeiro dia a dia](graficos/estrangeirosdia_20261026.png)
 
 | Dia | Saldo do dia | Acumulado do mês |
 |---|---|---|
+| 26/10/2026 | **−R$ 2,8 bi** | +R$ 13,3 bi |
 | 23/10/2026 | **−R$ 2,9 bi** | +R$ 16,2 bi |
 | 22/10/2026 | **−R$ 1,0 bi** | +R$ 19,1 bi |
 | 21/10/2026 | **+R$ 157 mi** | +R$ 20,2 bi |
@@ -37,11 +38,10 @@ Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **
 | 07/10/2026 | **−R$ 628 mi** | +R$ 13,1 bi |
 | 06/10/2026 | **+R$ 1,1 bi** | +R$ 13,7 bi |
 | 05/10/2026 | **+R$ 10,1 bi** | +R$ 12,6 bi |
-| 02/10/2026 | **+R$ 2,3 bi** | +R$ 2,6 bi |
 
 **Posição dos estrangeiros no índice futuro** (última publicada, 01/09/2017): comprada em 3.065 contratos — a B3 mudou a forma de divulgar esse dado e ele deixou de ser publicado.
 
-*Dia a dia: postagens diárias do [Clube do Pai Rico](https://www.clubedopairico.com.br/) com o dado da B3 (4140 pregões desde 05/02/2009).*
+*Dia a dia: postagens diárias do [Clube do Pai Rico](https://www.clubedopairico.com.br/) com o dado da B3 (4141 pregões desde 05/02/2009).*
 
 ## Todos os tipos de investidor
 

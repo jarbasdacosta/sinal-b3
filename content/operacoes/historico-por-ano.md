@@ -14,9 +14,10 @@ Todas as operações de cada regra de compra, **simuladas no histórico com as m
 
 | Regra | Entrada | Stop | Agora | Candles | Sai quando | |
 |---|---|---|---|---|---|---|
-| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | ⚡ 169.052 | **-6,5%** | 16 | ⚡ **zera abaixo de 169.516** — ordem stop, vale durante o pregão (por mais 2 candles) | simulada |
-| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | ⚡ 158.779 | **-0,4%** | 8 | ⏱️ sinal no fechamento (candle fecha abaixo da MME9), depois ⚡ ordem stop na mínima dele | simulada |
-| [Diário · Nadaraya](operacoes/entradas) | 25/08/26 a 174.577 | ⚡ 166.335 | **+0,6%** | 43 | ⏱️ no fechamento: quando a linha rápida do Nadaraya cruzar para baixo | simulada |
+| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | ⚡ 169.052 | **-9,0%** | 17 | ⚡ **zera abaixo de 169.516** — ordem stop, vale durante o pregão (por mais 1 candle) | simulada |
+| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | ⚡ 158.779 | **-3,1%** | 8 | ⏱️ sinal no fechamento (candle fecha abaixo da MME9), depois ⚡ ordem stop na mínima dele | simulada |
+| [Diário · Nadaraya](operacoes/entradas) | 25/08/26 a 174.577 | ⚡ 166.335 | **-2,0%** | 44 | ⏱️ no fechamento: quando a linha rápida do Nadaraya cruzar para baixo | simulada |
+| [H4 · Semáforo N2](operacoes/entradas) | 28/10/26 14h a 170.947 | ⚡ 169.516 | **+0,0%** | 0 | ⏱️ no fechamento: quando um topo do semáforo nível 3 ficar fixo | 🧪 ao vivo |
 
 > [!warning] ⚡ = vale **durante o pregão** (ordem stop: deixe a ordem na plataforma; o sistema confere a cada 15 min, avisa 🚨 a 0,5% do nível e avisa quando executar) · ⏱️ = só no **fechamento** do candle
 

@@ -1,6 +1,6 @@
 ---
 title: 📍 Sinais
-date: 2026-10-27
+date: 2026-10-28
 tags: [sinais]
 description: Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger no Ibovespa
 ---
@@ -9,9 +9,8 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 
 📘 [Tutorial — como ler e usar](sinais-topo-fundo/tutorial) · 📋 [Todos os sinais (fortes e moderados)](sinais-topo-fundo/todos-os-sinais)
 
-> [!note] Sinal moderado no fechamento de 27/10/2026
-> - H4 · FUNDO · **FD+RSI** — Fechou fora→dentro da BB inferior + RSI≤30 (50%, 2,5× o acaso)
-> - H4 · FUNDO · **FD+CCI** — Fechou fora→dentro da BB inferior + CCI≤-200 (38%, 2,1× o acaso)
+> [!note] Nenhum sinal no fechamento de 28/10/2026
+> Os blocos 🔥 aparecem aqui (e na página inicial) no dia em que surge um sinal **forte**.
 
 > [!info]- Sinal moderado em formação (clique para ver)
 > - Mensal · TOPO · **TT+RSI** — Top tail + RSI≥70
@@ -80,7 +79,7 @@ Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 | Diário | **BT+RSI** (73%), **BT+CCI** (57%), **FD+RSI** (71%) | — |
 | H4 | — | — |
 
-*Atualizado em 27/10/2026 19:00 BRT (último pregão fechado: 27/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 28/10/2026 19:00 BRT (último pregão fechado: 28/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.
