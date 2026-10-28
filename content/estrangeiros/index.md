@@ -1,18 +1,18 @@
 ---
 title: "🌎 Capital estrangeiro"
-date: 2026-10-27
+date: 2026-10-28
 description: "Compras e vendas dos investidores estrangeiros no mercado à vista da B3"
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 27/10/2026 19:04.*
+*Dados oficiais da B3 até 21/10/2026 · página atualizada 28/10/2026 08:41.*
 
 > [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
-> No ano de 2026: **+R$ 52,2 bi**
+> No ano de 2026: **+R$ 52,2 bi** — R$ 4,6 bi em IPOs/follow-ons e **+R$ 47,6 bi** negociados na bolsa
 
 Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **mercado à vista** da B3 (ações). Positivo = entrou dinheiro de fora; negativo = saiu.
 
-![Capital estrangeiro na B3](graficos/estrangeiros_20261027.png)
+![Capital estrangeiro na B3](graficos/estrangeiros_20261028.png)
 
 ## Dia a dia
 
@@ -56,6 +56,8 @@ Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **
 | Pessoa física | **+R$ 970 mi** | +R$ 1,1 bi | −R$ 3,5 bi | −R$ 4,9 bi | +R$ 883 mi |
 | Inst. financeiras | **−R$ 430 mi** | +R$ 799 mi | −R$ 1,9 bi | −R$ 396 mi | −R$ 908 mi |
 | Outros | **+R$ 56 mi** | −R$ 433 mi | −R$ 3,8 bi | −R$ 4,0 bi | −R$ 1,2 bi |
+
+*Soma dos saldos diários: só o que foi negociado na bolsa, **sem IPOs e follow-ons**. Por isso o ano dos estrangeiros aqui é menor que o do quadro do topo da página, que inclui as ofertas.*
 
 > [!note]- Últimos 15 pregões
 > | Dia | Estrangeiro | Institucional | Pessoa física | Inst. financeiras | Outros |
