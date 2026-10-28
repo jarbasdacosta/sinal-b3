@@ -6,7 +6,7 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 28/10/2026 17:30 BRT · Intraday 15min*
+*Última atualização: 28/10/2026 18:25 BRT · Intraday 15min*
 
 > [!success] Onde o mercado está agora (28/10 17:15, candles de 15 min): **🟢 Calmo**
 > `Pânico ◀─────────●───────────▶ Euforia`
@@ -63,7 +63,7 @@ tags: [home]
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
 > | 📊 Ibovespa | 171.006 pts |
 >
-> **Multi-ativo:** 4% em tensão (0🔴 1🟡 de 26 ativos)
+> **Multi-ativo:** 0% em tensão (0🔴 0🟡 de 26 ativos)
 >
 > **Últimos 7 pregões**
 >
