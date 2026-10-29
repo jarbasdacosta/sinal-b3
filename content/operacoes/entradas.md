@@ -7,17 +7,17 @@ description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo
 
 > [!tip] 🎯 Entradas do método — 🧪 em teste ao vivo desde 23/10/2026 (só compra)
 >
-> 🌊 **Contexto do IMA para compras:** 🎯 **amplitude na região de fundo** (16% acima da MM 200) — ζ Topo 27% · ζ Fundo 14% em 28/10 · *informa, não filtra*
+> 🌊 **Contexto do IMA para compras:** 🎯 **amplitude na região de fundo** (17% acima da MM 200) — ζ Topo 4% · ζ Fundo 23% em 29/10 · *informa, não filtra*
 >
 > **Placar ao vivo** (só as regras que avisam no Telegram): 1 operação(ões), 0 com lucro, média -0,8%, soma -0,8%
 >
-> **Último candle:** ⚪ **saída** H4 · Semáforo N2: -0,8% (stop)
+> **Último candle:** ⚪ **saída** Diário · Nadaraya: -3,1% (saída do método (linha rápida cruzou para baixo))
 >
 > | Regra | Situação | Detalhes | Nota |
 > |---|---|---|---|
-> | [Diário · Nadaraya](tecnico/#diário) | 🟢 **comprado** desde 25/08 a 174.577 *(simulada: começou antes do teste ao vivo)* | ⚡ stop 166.335 (durante o pregão) · agora -2,0% em 44 pregões · ⏱️ sai quando a linha rápida do Nadaraya cruzar para baixo (no fechamento) · setup BT+BB (moderado) | ✅ passou fora da amostra |
+> | [Diário · Nadaraya](tecnico/#diário) | ⏳ **aguardando** | setup ELEF- (moderado) (26/10) · entra quando o Nadaraya virar para cima no fechamento (hoje está caindo) · vale por mais 7 pregões | ✅ passou fora da amostra |
 > | [Semanal · Semáforo N2](tecnico/#semanal) | — sem setup | espera um sinal de fundo | ✅ o ganho vem do setup |
-> | [H4 · Semáforo N2](sinais-topo-fundo/todos-os-sinais#h4) | ⏳ **aguardando** | setup FD+RSI (moderado), FD+CCI (moderado) (27/10 14h) · entra quando fundo candidato em 29/10 10h (169.156): vira entrada se não houver mínima menor em 5 candles de 4h · vale por mais 7 candles de 4h | 🧪 em teste |
+> | [H4 · Semáforo N2](sinais-topo-fundo/todos-os-sinais#h4) | ⏳ **aguardando** | setup FD+RSI (moderado), FD+CCI (moderado) (27/10 14h) · entra quando fundo candidato em 29/10 14h (168.765): vira entrada se não houver mínima menor em 5 candles de 4h · vale por mais 6 candles de 4h | 🧪 em teste |
 > | [Diário · Semáforo N3 após ζ Fundo](tecnico/#diário) | — sem setup | espera um sinal de fundo ou ζ Fundo ≥ 60% | 🧪 em observação |
 >
 > **Últimas operações** (as anteriores ao teste ao vivo são simuladas no histórico)
@@ -25,15 +25,15 @@ description: "Compra depois de um sinal de fundo: Nadaraya no diário, semáforo
 > | Regra | Entrada | Saída | Resultado | Motivo |
 > |---|---|---|---|---|
 > | H4 · Semáforo N2 🧪 | 28/10/26 14h a 170.947 | 29/10/26 10h a 169.516 | **-0,8%** | stop |
+> | Diário · Nadaraya | 25/08/26 a 174.577 | 29/10/26 a 169.186 | **-3,1%** | saída do método (linha rápida cruzou para baixo) |
 > | H4 · Semáforo N2 | 01/10/26 14h a 187.243 | 20/10/26 10h a 208.658 | **+11,4%** | saída do método (topo fixo do semáforo nível 3) |
 > | H4 · Semáforo N2 | 21/09/26 14h a 186.753 | 25/09/26 10h a 183.242 | **-1,9%** | stop |
 > | Diário · Semáforo N3 após ζ Fundo | 01/09/26 a 179.723 | 24/09/26 a 183.966 | **+2,4%** | saída do método (topo fixo do semáforo nível 3) |
 > | H4 · Semáforo N2 | 19/08/26 10h a 168.034 | 16/09/26 10h a 185.896 | **+10,6%** | saída do método (topo fixo do semáforo nível 3) |
 > | Diário · Semáforo N3 após ζ Fundo | 07/07/26 a 172.021 | 10/08/26 a 172.021 | **+0,0%** | stop no preço de entrada |
 > | H4 · Semáforo N2 | 12/06/26 14h a 171.134 | 15/06/26 14h a 171.134 | **+0,0%** | stop no preço de entrada |
-> | H4 · Semáforo N2 | 05/05/26 10h a 186.583 | 07/05/26 10h a 186.583 | **+0,0%** | stop no preço de entrada |
 >
-> <small>Atualizado 28/10 19:00 · checado no pregão às 17:30. Nota: ✅ passou no teste fora da amostra (walk-forward 2008–2026) · 🧪 em teste (H4, com aviso no Telegram) ou em observação (ζ, sem aviso) · 🧪 na tabela = operação do teste ao vivo.</small>
+> <small>Atualizado 29/10 19:00. Nota: ✅ passou no teste fora da amostra (walk-forward 2008–2026) · 🧪 em teste (H4, com aviso no Telegram) ou em observação (ζ, sem aviso) · 🧪 na tabela = operação do teste ao vivo.</small>
 >
 > *Regras: depois de um sinal de fundo, o Diário entra quando o Nadaraya vira para cima; o Semanal e o H4 entram quando um fundo do semáforo fica fixo. Stop e saída de cada regra na [metodologia](metodologia/regras-de-operacao#entradas-do-método). Nenhuma regra de venda passou no teste. Os números do histórico têm viés de escolha (overfitting); o placar ao vivo é o que vale. Leitura educacional do método, não recomendação.*
 

@@ -1,6 +1,6 @@
 ---
 title: 📍 Sinais
-date: 2026-10-28
+date: 2026-10-29
 tags: [sinais]
 description: Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger no Ibovespa
 ---
@@ -9,7 +9,7 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 
 📘 [Tutorial — como ler e usar](sinais-topo-fundo/tutorial) · 📋 [Todos os sinais (fortes e moderados)](sinais-topo-fundo/todos-os-sinais)
 
-> [!note] Nenhum sinal no fechamento de 28/10/2026
+> [!note] Nenhum sinal no fechamento de 29/10/2026
 > Os blocos 🔥 aparecem aqui (e na página inicial) no dia em que surge um sinal **forte**.
 
 > [!info]- Sinal moderado em formação (clique para ver)
@@ -79,7 +79,7 @@ Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 | Diário | **BT+RSI** (73%), **BT+CCI** (57%), **FD+RSI** (71%) | — |
 | H4 | — | — |
 
-*Atualizado em 28/10/2026 19:00 BRT (último pregão fechado: 28/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 29/10/2026 19:00 BRT (último pregão fechado: 29/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.

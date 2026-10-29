@@ -6,13 +6,12 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 29/10/2026 18:26 BRT · Intraday 15min*
+*Última atualização: 29/10/2026 19:03 BRT · Diário D1*
 
-> [!success] Onde o mercado está agora (29/10 17:15, candles de 15 min): **🟢 Calmo**
+> [!success] Onde o mercado está no fechamento de 29/10: **🟢 Calmo**
 > `Pânico ◀────────●────────────▶ Euforia`
 >
 > O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
-> No gráfico diário: 📉 Esticamento desinflando.
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
 
@@ -20,14 +19,15 @@ tags: [home]
 
 | Módulo | Agora | |
 |---|---|---|
-| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 0% | [relatório](intraday/2026-10-29) |
-| 📈 **Tendência MME9** | Diário ⚡ saiu hoje às 11:45 a 169.516 (confirma às 19h)<br>Semanal 🟢 comprado desde 31/08 (-3,1%) | [abrir](operacoes/tendencia) |
-| 🎯 **Entradas do método** | 🟢 comprado: Diário · Nadaraya<br>⏳ aguardando: H4 · Semáforo N2 | [abrir](operacoes/entradas) |
+| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 4% | [relatório](diario/2026-10-29) |
+| 📈 **Tendência MME9** | Diário — fora<br>Semanal 🟢 comprado desde 31/08 (-4,1%) | [abrir](operacoes/tendencia) |
+| 🎯 **Entradas do método** | ⏳ aguardando: Diário · Nadaraya, H4 · Semáforo N2 | [abrir](operacoes/entradas) |
 | 📍 **Sinais** | hoje: nenhum sinal | [abrir](sinais-topo-fundo/) |
 | 🧪 **Placar ao vivo** | 1 operação(ões), 0 com lucro, soma -0,8% | [abrir](operacoes/) |
 
 > [!tip] 🎯 Operações — último candle
-> - ⚪ Entradas H4 · Semáforo N2: **saída** (-0,8%)
+> - ⚪ Tendência Diário: **saída** (-10,0%)
+> - ⚪ Entradas Diário · Nadaraya: **saída** (-3,1%)
 >
 > [Ver operações](operacoes/)
 
@@ -35,40 +35,48 @@ tags: [home]
 
 | Data e hora | Módulo | Evento | Detalhe | 📲 |
 |---|---|---|---|---|
+| **29/10/2026 19:00** | Entradas · Diário · Nadaraya | 🔴 Venda no fechamento ⏱️ | a 169.186 · -3,1% · saída do método (linha rápida cruzou para baixo) (compra de 25/08 a 174.577) | ✅ |
 | **29/10/2026 12:00** | Entradas · H4 · Semáforo N2 | 🔴 Stop atingido no pregão (até 12:00) ⚡ | stop 169.516 · -0,8% (compra de 28/10 14h a 170.947) | ✅ |
 | **29/10/2026 11:45** | Tendência · Diário | 🔴 Saiu durante o pregão ⚡ | ⚡ O preço tocou 169.516 às 11:45: pela regra a ordem stop de venda executa ali (preço considerado 169.516). | ✅ |
 | **29/10/2026 11:15** | Tendência · Diário | 🚨 Perto da saída ⚡ | IBOV 169.666 às 11:15: a 0,1% de 169.516 | ✅ |
 | **28/10/2026 19:05** | Crise · diário | 📉 Evento: Esticamento desinflando ⏱️ | ζ Topo voltou abaixo de 45% depois de passar de 60% · Só contexto: depois disso caiu 5%+ no mês seguinte em 32% das vezes, igual a um dia qualquer (31%). O esticamento acabou, mas não há vantagem estatística (revisto em 23/10/2026). | ✅ |
-| **28/10/2026 19:05** | Crise · diário | 🟢 Zona mudou: AMARELO → VERDE | Risco 27% · ζ Topo 27% · ζ Fundo 14% · LPPL 0% | — |
 
 *[Linha do tempo completa](linha-do-tempo/) — todo sinal, ordem, stop e aviso, do mais recente para o mais antigo. ⚡ = vale durante o pregão · ⏱️ = no fechamento.*
 
-> [!note] 🧭 Sinal de Crise · Viés do diário (28/10): 📉 **Esticamento desinflando**
+> [!note] 🧭 Sinal de Crise · Situação no diário: 📉 **Esticamento desinflando**
 > 📚 só contexto: o esticamento acabou; sem vantagem estatística confirmada
+>
+> Eventos recentes: 📉 28/10 Esticamento desinflando · 📉 16/09 Esticamento desinflando · 🚀 09/09 Força · 🌱 23/07 Fundo se desfazendo
 >
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Intraday 15 min (29/10 17:15): 🟢 **VERDE** — Risco 0% · ▼ -35 p.p. vs leitura anterior
-> > `░░░░░░░░░░░░░░░░░░░░`
+> > [!success] Sinal de Crise · Diário (29/10): 🟢 **VERDE** — Risco 4% · ▼ -23 p.p. vs leitura anterior
+> > `█░░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Intraday 15 min (29/10 17:15) | Valor |
+> | Indicador — Sinal de Crise · Diário (29/10) | Valor |
 > |---|---|
-> | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
-> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 25% |
+> | 🔴 ζ Topo — preço esticado acima da tendência | **4%** |
+> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 23% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
 > | 📊 Ibovespa | 169.186 pts |
 >
-> **Multi-ativo:** 8% em tensão (1🔴 1🟡 de 26 ativos)
+> **Multi-ativo:** 4% em tensão (0🔴 5🟡 de 26 ativos)
 >
 > **Últimos 7 pregões**
 >
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [29/10/2026](intraday/2026-10-29) | 🟢 VERDE | **0%** | 0% | 25% | 0% |
+> | [29/10/2026](diario/2026-10-29) | 🟢 VERDE | **4%** | 4% | 23% | 0% |
+> | [28/10/2026](diario/2026-10-28) | 🟢 VERDE | **27%** | 27% | 14% | 0% |
+> | [27/10/2026](diario/2026-10-27) | 🟡 AMARELO | **50%** | 50% | 9% | 0% |
+> | [26/10/2026](diario/2026-10-26) | 🟡 AMARELO | 🟡 **66%** | 🟡 **66%** | 3% | 0% |
+> | [23/10/2026](diario/2026-10-23) | 🟡 AMARELO | 🟡 **79%** | 🟡 **79%** | 0% | 0% |
+> | [22/10/2026](diario/2026-10-22) | 🟡 AMARELO | 🟡 **78%** | 🟡 **78%** | 0% | 0% |
+> | [21/10/2026](diario/2026-10-21) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 1% | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
 >

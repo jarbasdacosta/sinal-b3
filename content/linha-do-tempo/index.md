@@ -5,7 +5,7 @@ description: "Todo sinal, ordem, stop e aviso da Ondaleta, do mais recente para 
 tags: [eventos]
 ---
 
-*Atualizada 29/10/2026 18:26 BRT · a cada 15 min no pregão e às 19h.*
+*Atualizada 29/10/2026 19:03 BRT · a cada 15 min no pregão e às 19h.*
 
 Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: sinais de topo e fundo, ordens de compra e de venda armadas, compras, vendas, stops, avisos de 🚨 preço perto do nível e mudanças da Crise. Os **últimos 7 dias** ficam abertos; o resto, por **ano → mês → dia**.
 
@@ -18,10 +18,11 @@ Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: si
 
 ## Últimos 7 dias
 
-### Hoje · qui, 29/10/2026 · 3 eventos
+### Hoje · qui, 29/10/2026 · 4 eventos
 
 | Hora | Módulo | Evento | Detalhe | 📲 |
 |---|---|---|---|---|
+| **19:00** | Entradas · Diário · Nadaraya | 🔴 Venda no fechamento ⏱️ | a 169.186 · -3,1% · saída do método (linha rápida cruzou para baixo) (compra de 25/08 a 174.577) | ✅ |
 | **12:00** | Entradas · H4 · Semáforo N2 | 🔴 Stop atingido no pregão (até 12:00) ⚡ | stop 169.516 · -0,8% (compra de 28/10 14h a 170.947) | ✅ |
 | **11:45** | Tendência · Diário | 🔴 Saiu durante o pregão ⚡ | ⚡ O preço tocou 169.516 às 11:45: pela regra a ordem stop de venda executa ali (preço considerado 169.516). | ✅ |
 | **11:15** | Tendência · Diário | 🚨 Perto da saída ⚡ | IBOV 169.666 às 11:15: a 0,1% de 169.516 | ✅ |
@@ -70,7 +71,7 @@ Clique no ano; na página do ano, clique no mês e depois no dia.
 
 | Ano | Eventos | 🟢 Compras | ⚪🔴 Vendas e stops | 📌⚠️ Ordens armadas | Sinais |
 |---|---|---|---|---|---|
-| **[2026](linha-do-tempo/2026)** | 198 | 22 | 39 | 31 | 41 |
+| **[2026](linha-do-tempo/2026)** | 206 | 22 | 40 | 31 | 41 |
 | **[2025](linha-do-tempo/2025)** | 113 | 30 | 25 | 43 | 11 |
 | **[2024](linha-do-tempo/2024)** | 156 | 41 | 45 | 57 | 3 |
 | **[2023](linha-do-tempo/2023)** | 99 | 22 | 22 | 53 | 1 |
