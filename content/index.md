@@ -1,17 +1,18 @@
 ---
 title: Ondaleta
-date: 2026-10-28
+date: 2026-10-29
 tags: [home]
 ---
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 28/10/2026 19:05 BRT · Diário D1*
+*Última atualização: 29/10/2026 10:15 BRT · Intraday 15min*
 
-> [!success] Onde o mercado está no fechamento de 28/10: **🟢 Calmo**
-> `Pânico ◀───────────●─────────▶ Euforia`
+> [!success] Onde o mercado está agora (29/10 10:00, candles de 15 min): **🟢 Calmo**
+> `Pânico ◀──────────●──────────▶ Euforia`
 >
 > O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
+> No gráfico diário: 📉 Esticamento desinflando.
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
 
@@ -19,7 +20,7 @@ tags: [home]
 
 | Módulo | Agora | |
 |---|---|---|
-| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 27% | [relatório](diario/2026-10-28) |
+| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 0% | [relatório](intraday/2026-10-29) |
 | 📈 **Tendência MME9** | Diário 🟢 comprado desde 02/10 (-9,0%) · ⚡ zera abaixo de 169.516 (durante o pregão)<br>Semanal 🟢 comprado desde 31/08 (-3,1%) | [abrir](operacoes/tendencia) |
 | 🎯 **Entradas do método** | 🟢 comprado: Diário · Nadaraya, H4 · Semáforo N2 | [abrir](operacoes/entradas) |
 | 📍 **Sinais** | hoje: nenhum sinal | [abrir](sinais-topo-fundo/) |
@@ -42,42 +43,33 @@ tags: [home]
 
 *[Linha do tempo completa](linha-do-tempo/) — todo sinal, ordem, stop e aviso, do mais recente para o mais antigo. ⚡ = vale durante o pregão · ⏱️ = no fechamento.*
 
-> [!note] 📉 **Sinal de Crise · Diário — evento de hoje: Esticamento desinflando**
-> *ζ Topo voltou abaixo de 45% depois de passar de 60%*
-> Só contexto: depois disso caiu 5%+ no mês seguinte em 32% das vezes, igual a um dia qualquer (31%). O esticamento acabou, mas não há vantagem estatística (revisto em 23/10/2026).
-> 📚 **Leitura histórica:** só contexto: o esticamento acabou; sem vantagem estatística confirmada
->
-> Eventos recentes: 📉 28/10 Esticamento desinflando · 📉 16/09 Esticamento desinflando · 🚀 09/09 Força · 🌱 23/07 Fundo se desfazendo
+> [!note] 🧭 Sinal de Crise · Viés do diário (28/10): 📉 **Esticamento desinflando**
+> 📚 só contexto: o esticamento acabou; sem vantagem estatística confirmada
 >
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Diário (28/10): 🟢 **VERDE** — Risco 27% · ▼ -23 p.p. vs leitura anterior
-> > `█████░░░░░░░░░░░░░░░`
+> > [!success] Sinal de Crise · Intraday 15 min (29/10 10:00): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
+> > `░░░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Diário (28/10) | Valor |
+> | Indicador — Sinal de Crise · Intraday 15 min (29/10 10:00) | Valor |
 > |---|---|
-> | 🔴 ζ Topo — preço esticado acima da tendência | **27%** |
-> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 14% |
+> | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
+> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 5% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-> | 📊 Ibovespa | 171.006 pts |
+> | 📊 Ibovespa | 170.703 pts |
 >
-> **Multi-ativo:** 19% em tensão (0🔴 6🟡 de 26 ativos)
+> **Multi-ativo:** 0% em tensão (0🔴 0🟡 de 26 ativos)
 >
 > **Últimos 7 pregões**
 >
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [28/10/2026](diario/2026-10-28) | 🟢 VERDE | **27%** | 27% | 14% | 0% |
-> | [27/10/2026](diario/2026-10-27) | 🟡 AMARELO | **50%** | 50% | 9% | 0% |
-> | [26/10/2026](diario/2026-10-26) | 🟡 AMARELO | 🟡 **66%** | 🟡 **66%** | 3% | 0% |
-> | [23/10/2026](diario/2026-10-23) | 🟡 AMARELO | 🟡 **79%** | 🟡 **79%** | 0% | 0% |
-> | [22/10/2026](diario/2026-10-22) | 🟡 AMARELO | 🟡 **78%** | 🟡 **78%** | 0% | 0% |
-> | [21/10/2026](diario/2026-10-21) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 1% | 0% |
-> | [20/10/2026](diario/2026-10-20) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 1% | 0% |
+> | [29/10/2026](intraday/2026-10-29) | 🟢 VERDE | **0%** | 0% | 5% | 0% |
+> | [28/10/2026](intraday/2026-10-28) | 🟢 VERDE | **0%** | 0% | 5% | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
 >
