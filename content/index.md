@@ -6,10 +6,10 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 29/10/2026 13:45 BRT · Intraday 15min*
+*Última atualização: 29/10/2026 14:00 BRT · Intraday 15min*
 
-> [!success] Onde o mercado está agora (29/10 13:30, candles de 15 min): **🟢 Calmo**
-> `Pânico ◀──────────●──────────▶ Euforia`
+> [!success] Onde o mercado está agora (29/10 13:45, candles de 15 min): **🟢 Calmo**
+> `Pânico ◀───────────●─────────▶ Euforia`
 >
 > O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
 > No gráfico diário: 📉 Esticamento desinflando.
@@ -20,14 +20,14 @@ tags: [home]
 
 | Módulo | Agora | |
 |---|---|---|
-| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 4% | [relatório](intraday/2026-10-29) |
+| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 9% | [relatório](intraday/2026-10-29) |
 | 📈 **Tendência MME9** | Diário ⚡ saiu hoje às 11:45 a 169.516 (confirma às 19h)<br>Semanal 🟢 comprado desde 31/08 (-3,1%) | [abrir](operacoes/tendencia) |
-| 🎯 **Entradas do método** | 🟢 comprado: Diário · Nadaraya, H4 · Semáforo N2 | [abrir](operacoes/entradas) |
+| 🎯 **Entradas do método** | 🟢 comprado: Diário · Nadaraya<br>⏳ aguardando: H4 · Semáforo N2 | [abrir](operacoes/entradas) |
 | 📍 **Sinais** | hoje: nenhum sinal | [abrir](sinais-topo-fundo/) |
-| 🧪 **Placar ao vivo** | nenhuma operação encerrada ainda (desde 23/10/2026) | [abrir](operacoes/) |
+| 🧪 **Placar ao vivo** | 1 operação(ões), 0 com lucro, soma -0,8% | [abrir](operacoes/) |
 
 > [!tip] 🎯 Operações — último candle
-> - 🔴 Entradas H4 · Semáforo N2: **stop** (169.516)
+> - ⚪ Entradas H4 · Semáforo N2: **saída** (-0,8%)
 >
 > [Ver operações](operacoes/)
 
@@ -49,26 +49,26 @@ tags: [home]
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Intraday 15 min (29/10 13:30): 🟢 **VERDE** — Risco 4% · ▲ +3 p.p. vs leitura anterior
-> > `█░░░░░░░░░░░░░░░░░░░`
+> > [!success] Sinal de Crise · Intraday 15 min (29/10 13:45): 🟢 **VERDE** — Risco 9% · ▲ +5 p.p. vs leitura anterior
+> > `██░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Intraday 15 min (29/10 13:30) | Valor |
+> | Indicador — Sinal de Crise · Intraday 15 min (29/10 13:45) | Valor |
 > |---|---|
-> | 🔴 ζ Topo — preço esticado acima da tendência | **4%** |
+> | 🔴 ζ Topo — preço esticado acima da tendência | **9%** |
 > | 🔵 ζ Fundo — preço esticado abaixo da tendência | 0% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-> | 📊 Ibovespa | 170.024 pts |
+> | 📊 Ibovespa | 169.385 pts |
 >
-> **Multi-ativo:** 12% em tensão (1🔴 2🟡 de 26 ativos)
+> **Multi-ativo:** 12% em tensão (2🔴 1🟡 de 26 ativos)
 >
 > **Últimos 7 pregões**
 >
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [29/10/2026](intraday/2026-10-29) | 🟢 VERDE | **4%** | 4% | 0% | 0% |
+> | [29/10/2026](intraday/2026-10-29) | 🟢 VERDE | **9%** | 9% | 0% | 0% |
 > | [28/10/2026](intraday/2026-10-28) | 🟢 VERDE | **0%** | 0% | 5% | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>

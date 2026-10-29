@@ -9,6 +9,7 @@ Operações recentes de todas as regras. 🧪 = operação do teste ao vivo (des
 
 | Regra | Entrada | Saída | Resultado | Motivo |
 |---|---|---|---|---|
+| H4 · Semáforo N2 🧪 | 28/10/26 14h a 170.947 | 29/10/26 10h a 169.516 | **-0,8%** | stop |
 | H4 · Semáforo N2 | 01/10/26 14h a 187.243 | 20/10/26 10h a 208.658 | **+11,4%** | saída do método (topo fixo do semáforo nível 3) |
 | H4 · Semáforo N2 | 21/09/26 14h a 186.753 | 25/09/26 10h a 183.242 | **-1,9%** | stop |
 | Tendência MME9 · Diário | 24/08/26 a 171.980 | 24/09/26 a 185.676 | **+8,0%** | rompeu a mínima do candle que fechou abaixo da MME9 |
@@ -25,7 +26,6 @@ Operações recentes de todas as regras. 🧪 = operação do teste ao vivo (des
 | H4 · Semáforo N2 | 12/06/26 14h a 171.134 | 15/06/26 14h a 171.134 | **+0,0%** | stop no preço de entrada |
 | H4 · Semáforo N2 | 05/05/26 10h a 186.583 | 07/05/26 10h a 186.583 | **+0,0%** | stop no preço de entrada |
 | Tendência MME9 · Semanal | 31/03/26 a 186.401 | 07/05/26 a 184.504 | **-1,0%** | rompeu a mínima do candle que fechou abaixo da MME9 |
-| H4 · Semáforo N2 | 25/03/26 10h a 185.486 | 23/04/26 10h a 192.517 | **+3,8%** | saída do método (topo fixo do semáforo nível 3) |
 | Tendência MME9 · Diário | 25/03/26 a 182.973 | 23/04/26 a 192.687 | **+5,3%** | rompeu a mínima do candle que fechou abaixo da MME9 |
 | Semanal · Semáforo N2 | semana de 17/02/25 a 127.128 | semana de 13/04/26 a 195.734 | **+54,0%** | limite de 60 candles |
 | Tendência MME9 · Semanal | 12/08/25 a 137.007 | 19/03/26 a 177.322 | **+29,4%** | rompeu a mínima do candle que fechou abaixo da MME9 |
