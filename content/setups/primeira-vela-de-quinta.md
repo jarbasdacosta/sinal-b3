@@ -1,6 +1,6 @@
 ---
 title: Primeira Vela de Quinta
-date: 2026-10-28
+date: 2026-10-29
 tags: [setup, win]
 ---
 
@@ -8,19 +8,19 @@ tags: [setup, win]
 
 🟡 promissor · dia escolhido pelo autor · Mini índice (WIN) · gráfico de 15 minutos · só a primeira vela do dia
 
-🎬 **Vídeo de origem:** [Arthur 777 – "descobri um padrão bizarro no mini índice"](https://youtu.be/5pmW0UMnXwE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 28/10/2026 19:40 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "descobri um padrão bizarro no mini índice"](https://youtu.be/5pmW0UMnXwE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 29/10/2026 19:40 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
-> - **R\$ 21.624** na versão ATR 0,21 / 0,21 com o capital no CDI (+17% ao ano · pior queda −4%)
-> - **R\$ 19.144** na versão todos os dias com o capital no CDI (+14% ao ano · pior queda −8%)
-> - **R\$ 22.801** na versão só quinta (vídeo) com o capital no CDI (+18% ao ano · pior queda −3%)
-> - **R\$ 26.165** na versão só quinta, entrada a mercado (vídeo) com o capital no CDI (+21% ao ano · pior queda −4%)
-> - **R\$ 22.603** na versão só quinta, corpo de 100+ (vídeo) com o capital no CDI (+18% ao ano · pior queda −2%)
-> - **R\$ 23.515** na versão todos os dias, entrada a mercado com o capital no CDI (+19% ao ano · pior queda −16%)
-> - **R\$ 18.137** só no CDI (+13% ao ano)
-> - **R\$ 16.201** comprado no Ibovespa (+10% ao ano · pior queda −21%)
+> - **R\$ 21.635** na versão ATR 0,21 / 0,21 com o capital no CDI (+17% ao ano · pior queda −4%)
+> - **R\$ 18.995** na versão todos os dias com o capital no CDI (+14% ao ano · pior queda −8%)
+> - **R\$ 22.623** na versão só quinta (vídeo) com o capital no CDI (+18% ao ano · pior queda −3%)
+> - **R\$ 26.380** na versão só quinta, entrada a mercado (vídeo) com o capital no CDI (+22% ao ano · pior queda −4%)
+> - **R\$ 22.615** na versão só quinta, corpo de 100+ (vídeo) com o capital no CDI (+18% ao ano · pior queda −2%)
+> - **R\$ 23.709** na versão todos os dias, entrada a mercado com o capital no CDI (+19% ao ano · pior queda −16%)
+> - **R\$ 18.147** só no CDI (+13% ao ano)
+> - **R\$ 16.029** comprado no Ibovespa (+10% ao ano · pior queda −21%)
 >
-> - **R\$ 23.135** na versão ATR 0,21 / 0,21 **arriscando 1% do capital por operação** (+18% ao ano · pior queda −3%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
+> - **R\$ 23.147** na versão ATR 0,21 / 0,21 **arriscando 1% do capital por operação** (+18% ao ano · pior queda −3%) — o tamanho sugerido, veja [tamanho de posição](carteira#tamanho-de-posição)
 >
 > Com 1 contrato de WIN para cada R\$ 10.000 (ou pelo risco de 1%), sem imposto.
 
@@ -41,8 +41,8 @@ tags: [setup, win]
 | **Entrada** | ordem de compra na **máxima** dela (só na vela seguinte) | ordem de venda na **mínima** |
 | **Stop · alvo** | 400 · 400 pts no vídeo → em ATR aqui | igual |
 
-- **Versão principal (escolhida só pelo treino): ATR 0,21 / 0,21** — stop 0,206 ATR · alvo 0,206 ATR (1,0× o stop); hoje ≈ 867 pts de stop e 867 pts de alvo.
-- **ATR** = quanto o índice costuma andar num dia: a média da distância entre a máxima e a mínima dos últimos 14 pregões (hoje ≈ 4.212 pts). Usar múltiplos do ATR em vez de pontos fixos faz o setup acompanhar o mercado quando ele fica mais calmo ou mais agitado.
+- **Versão principal (escolhida só pelo treino): ATR 0,21 / 0,21** — stop 0,206 ATR · alvo 0,206 ATR (1,0× o stop); hoje ≈ 919 pts de stop e 919 pts de alvo.
+- **ATR** = quanto o índice costuma andar num dia: a média da distância entre a máxima e a mínima dos últimos 14 pregões (hoje ≈ 4.465 pts). Usar múltiplos do ATR em vez de pontos fixos faz o setup acompanhar o mercado quando ele fica mais calmo ou mais agitado.
 - **Uma operação de cada vez.** Se não bateu stop nem alvo, zera às 18h20.
 - **Testado pela bateria padrão** (a mesma para todos os setups): réplica do vídeo, pontos/% × ATR, vizinhança, peça por peça, custo e comparação com o acaso. Veredito por regras fixas, refeito todo sábado com os dados novos.
 
@@ -51,10 +51,10 @@ tags: [setup, win]
 | | ATR 0,21 / 0,21 (principal) | todos os dias | só quinta (vídeo) | só quinta, entrada a mercado (vídeo) | só quinta, corpo de 100+ (vídeo) | todos os dias, entrada a mercado |
 |---|---|---|---|---|---|---|
 | Regra | stop 0,206 ATR · alvo 0,206 ATR (1,0× o stop) | stop 400 · alvo 400 pts | stop 400 · alvo 400 pts | stop 400 · alvo 400 pts | stop 400 · alvo 400 pts | stop 400 · alvo 400 pts |
-| Acerto | 64% | 53% | 63% | 61% | 65% | 53% |
+| Acerto | 64% | 53% | 63% | 62% | 65% | 53% |
 | Payoff | 0,84 | 0,93 | 0,93 | 0,94 | 0,93 | 0,93 |
-| Treino → teste (pts por operação) | +106,6 → +66,2 | +30,4 → −10,7 | +104,3 → +82,3 | +96,1 → +63,2 | +124,1 → +88,2 | +10,2 → +14,0 |
-| Retorno ao ano (+ CDI) | +16,9% | +14,0% | +18,1% | +21,5% | +17,9% | +18,9% |
+| Treino → teste (pts por operação) | +106,6 → +66,2 | +30,4 → −11,8 | +104,3 → +75,7 | +96,1 → +65,5 | +124,1 → +88,2 | +10,2 → +14,5 |
+| Retorno ao ano (+ CDI) | +16,9% | +13,8% | +17,9% | +21,7% | +17,9% | +19,1% |
 | Pior queda (+ CDI) | −3,7% | −8,4% | −2,5% | −3,9% | −2,0% | −15,7% |
 
 ## Estatísticas da operação (1 contrato, em pontos)
@@ -84,57 +84,57 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 
 | | Treino | Teste | Total |
 |---|---|---|---|
-| Operações | 282 | 381 | 663 |
+| Operações | 282 | 382 | 664 |
 | Operações por mês | 10,4 | 11,2 | 10,9 |
-| Taxa de acerto | 55,7% | 50,7% | 52,8% |
+| Taxa de acerto | 55,7% | 50,5% | 52,7% |
 | Bateram o alvo / o stop / zeraram no fim do dia | 56% / 44% / 0% | 50% / 49% / 1% | 53% / 47% / 0% |
 | Stop típico | 400 pts | 400 pts | 400 pts |
 | Ganho médio · perda média | +385 · −415 pts | +383 · −415 pts | +384 · −415 pts |
 | Payoff (ganho médio ÷ perda média) | 0,93 | 0,92 | 0,93 |
-| Fator de lucro (total ganho ÷ total perdido) | 1,17 | 0,95 | 1,03 |
-| Resultado médio por operação | +30,4 pts (+45,4 sem custo) | −10,7 pts (+4,3 sem custo) | +6,8 pts (+21,8 sem custo) |
-| **Lucro líquido** | **+8.570 pts · R\$ 1.714** | **−4.075 pts · −R\$ 815** | **+4.495 pts · R\$ 899** |
+| Fator de lucro (total ganho ÷ total perdido) | 1,17 | 0,94 | 1,03 |
+| Resultado médio por operação | +30,4 pts (+45,4 sem custo) | −11,8 pts (+3,2 sem custo) | +6,1 pts (+21,1 sem custo) |
+| **Lucro líquido** | **+8.570 pts · R\$ 1.714** | **−4.490 pts · −R\$ 898** | **+4.080 pts · R\$ 816** |
 | Pior queda (drawdown) | −4.200 pts · −R\$ 840 | −7.760 pts · −R\$ 1.552 | −7.760 pts · −R\$ 1.552 |
 | Maior sequência de perdas | 5 seguidas | 6 seguidas | 6 seguidas |
-| Compras: acerto · lucro | 55% · +3.205 pts | 50% · −2.095 pts | 52% · +1.110 pts |
+| Compras: acerto · lucro | 55% · +3.205 pts | 50% · −2.510 pts | 52% · +695 pts |
 | Vendas: acerto · lucro | 56% · +5.365 pts | 51% · −1.980 pts | 53% · +3.385 pts |
 
 ### Versão só quinta (vídeo)
 
 | | Treino | Teste | Total |
 |---|---|---|---|
-| Operações | 57 | 74 | 131 |
-| Operações por mês | 2,1 | 2,2 | 2,1 |
-| Taxa de acerto | 64,9% | 62,2% | 63,4% |
-| Bateram o alvo / o stop / zeraram no fim do dia | 65% / 35% / 0% | 62% / 38% / 0% | 63% / 37% / 0% |
+| Operações | 57 | 75 | 132 |
+| Operações por mês | 2,1 | 2,2 | 2,2 |
+| Taxa de acerto | 64,9% | 61,3% | 62,9% |
+| Bateram o alvo / o stop / zeraram no fim do dia | 65% / 35% / 0% | 61% / 39% / 0% | 63% / 37% / 0% |
 | Stop típico | 400 pts | 400 pts | 400 pts |
 | Ganho médio · perda média | +385 · −415 pts | +385 · −415 pts | +385 · −415 pts |
 | Payoff (ganho médio ÷ perda média) | 0,93 | 0,93 | 0,93 |
-| Fator de lucro (total ganho ÷ total perdido) | 1,72 | 1,52 | 1,60 |
-| Resultado médio por operação | +104,3 pts (+119,3 sem custo) | +82,3 pts (+97,3 sem custo) | +91,9 pts (+106,9 sem custo) |
-| **Lucro líquido** | **+5.945 pts · R\$ 1.189** | **+6.090 pts · R\$ 1.218** | **+12.035 pts · R\$ 2.407** |
-| Pior queda (drawdown) | −1.780 pts · −R\$ 356 | −2.520 pts · −R\$ 504 | −2.520 pts · −R\$ 504 |
+| Fator de lucro (total ganho ÷ total perdido) | 1,72 | 1,47 | 1,57 |
+| Resultado médio por operação | +104,3 pts (+119,3 sem custo) | +75,7 pts (+90,7 sem custo) | +88,0 pts (+103,0 sem custo) |
+| **Lucro líquido** | **+5.945 pts · R\$ 1.189** | **+5.675 pts · R\$ 1.135** | **+11.620 pts · R\$ 2.324** |
+| Pior queda (drawdown) | −1.780 pts · −R\$ 356 | −2.550 pts · −R\$ 510 | −2.550 pts · −R\$ 510 |
 | Maior sequência de perdas | 4 seguidas | 6 seguidas | 6 seguidas |
-| Compras: acerto · lucro | 59% · +1.595 pts | 58% · +1.505 pts | 58% · +3.100 pts |
+| Compras: acerto · lucro | 59% · +1.595 pts | 56% · +1.090 pts | 57% · +2.685 pts |
 | Vendas: acerto · lucro | 70% · +4.350 pts | 66% · +4.585 pts | 68% · +8.935 pts |
 
 ### Versão só quinta, entrada a mercado (vídeo)
 
 | | Treino | Teste | Total |
 |---|---|---|---|
-| Operações | 108 | 138 | 246 |
+| Operações | 108 | 139 | 247 |
 | Operações por mês | 4,0 | 4,1 | 4,0 |
-| Taxa de acerto | 63,9% | 59,4% | 61,4% |
-| Bateram o alvo / o stop / zeraram no fim do dia | 64% / 36% / 0% | 59% / 40% / 1% | 61% / 38% / 0% |
+| Taxa de acerto | 63,9% | 59,7% | 61,5% |
+| Bateram o alvo / o stop / zeraram no fim do dia | 64% / 36% / 0% | 60% / 40% / 1% | 62% / 38% / 0% |
 | Stop típico | 400 pts | 400 pts | 400 pts |
 | Ganho médio · perda média | +385 · −415 pts | +385 · −408 pts | +385 · −411 pts |
 | Payoff (ganho médio ÷ perda média) | 0,93 | 0,94 | 0,94 |
-| Fator de lucro (total ganho ÷ total perdido) | 1,64 | 1,38 | 1,49 |
-| Resultado médio por operação | +96,1 pts (+111,1 sem custo) | +63,2 pts (+78,2 sem custo) | +77,6 pts (+92,6 sem custo) |
-| **Lucro líquido** | **+10.380 pts · R\$ 2.076** | **+8.720 pts · R\$ 1.744** | **+19.100 pts · R\$ 3.820** |
+| Fator de lucro (total ganho ÷ total perdido) | 1,64 | 1,40 | 1,50 |
+| Resultado médio por operação | +96,1 pts (+111,1 sem custo) | +65,5 pts (+80,5 sem custo) | +78,9 pts (+93,9 sem custo) |
+| **Lucro líquido** | **+10.380 pts · R\$ 2.076** | **+9.105 pts · R\$ 1.821** | **+19.485 pts · R\$ 3.897** |
 | Pior queda (drawdown) | −1.810 pts · −R\$ 362 | −2.490 pts · −R\$ 498 | −2.520 pts · −R\$ 504 |
 | Maior sequência de perdas | 4 seguidas | 6 seguidas | 6 seguidas |
-| Compras: acerto · lucro | 65% · +5.945 pts | 59% · +3.485 pts | 62% · +9.430 pts |
+| Compras: acerto · lucro | 65% · +5.945 pts | 60% · +3.870 pts | 62% · +9.815 pts |
 | Vendas: acerto · lucro | 63% · +4.435 pts | 60% · +5.235 pts | 61% · +9.670 pts |
 
 ### Versão só quinta, corpo de 100+ (vídeo)
@@ -160,19 +160,19 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 
 | | Treino | Teste | Total |
 |---|---|---|---|
-| Operações | 540 | 698 | 1.238 |
-| Operações por mês | 20,0 | 20,5 | 20,3 |
+| Operações | 540 | 699 | 1.239 |
+| Operações por mês | 20,0 | 20,6 | 20,3 |
 | Taxa de acerto | 53,1% | 53,6% | 53,4% |
 | Bateram o alvo / o stop / zeraram no fim do dia | 53% / 47% / 0% | 53% / 46% / 1% | 53% / 46% / 0% |
 | Stop típico | 400 pts | 400 pts | 400 pts |
 | Ganho médio · perda média | +385 · −415 pts | +384 · −413 pts | +384 · −414 pts |
 | Payoff (ganho médio ÷ perda média) | 0,93 | 0,93 | 0,93 |
-| Fator de lucro (total ganho ÷ total perdido) | 1,05 | 1,07 | 1,06 |
-| Resultado médio por operação | +10,2 pts (+25,2 sem custo) | +14,0 pts (+29,0 sem custo) | +12,3 pts (+27,3 sem custo) |
-| **Lucro líquido** | **+5.500 pts · R\$ 1.100** | **+9.775 pts · R\$ 1.955** | **+15.275 pts · R\$ 3.055** |
+| Fator de lucro (total ganho ÷ total perdido) | 1,05 | 1,08 | 1,07 |
+| Resultado médio por operação | +10,2 pts (+25,2 sem custo) | +14,5 pts (+29,5 sem custo) | +12,6 pts (+27,6 sem custo) |
+| **Lucro líquido** | **+5.500 pts · R\$ 1.100** | **+10.160 pts · R\$ 2.032** | **+15.660 pts · R\$ 3.132** |
 | Pior queda (drawdown) | −12.015 pts · −R\$ 2.403 | −5.250 pts · −R\$ 1.050 | −12.015 pts · −R\$ 2.403 |
 | Maior sequência de perdas | 9 seguidas | 7 seguidas | 9 seguidas |
-| Compras: acerto · lucro | 55% · +7.625 pts | 55% · +7.640 pts | 55% · +15.265 pts |
+| Compras: acerto · lucro | 55% · +7.625 pts | 55% · +8.025 pts | 55% · +15.650 pts |
 | Vendas: acerto · lucro | 51% · −2.125 pts | 52% · +2.135 pts | 52% · +10 pts |
 
 ![Pontos acumulados com 1 contrato](setups/img/primeira-vela-de-quinta_pontos.png)
@@ -194,12 +194,12 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 | | ATR 0,21 / 0,21 | todos os dias | só quinta (vídeo) | só quinta, entrada a mercado (vídeo) | só quinta, corpo de 100+ (vídeo) | todos os dias, entrada a mercado | risco 1% | pura | CDI | Ibovespa |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **R\$ 10.000 viraram** | **R\$ 21.624** | **R\$ 19.144** | **R\$ 22.801** | **R\$ 26.165** | **R\$ 22.603** | **R\$ 23.515** | **R\$ 23.135** | **R\$ 11.923** | **R\$ 18.137** | **R\$ 16.201** |
-| Retorno ao ano | +16,9% | +14,0% | +18,1% | +21,5% | +17,9% | +18,9% | +18,5% | +3,6% | +12,8% | +10,3% |
+| **R\$ 10.000 viraram** | **R\$ 21.635** | **R\$ 18.995** | **R\$ 22.623** | **R\$ 26.380** | **R\$ 22.615** | **R\$ 23.709** | **R\$ 23.147** | **R\$ 11.923** | **R\$ 18.147** | **R\$ 16.029** |
+| Retorno ao ano | +16,9% | +13,8% | +17,9% | +21,7% | +17,9% | +19,1% | +18,5% | +3,6% | +12,8% | +10,0% |
 | Pior queda | −3,7% | −8,4% | −2,5% | −3,9% | −2,0% | −15,7% | −2,6% | −6,8% | +0,0% | −20,9% |
 | Oscilação ao ano | 4,1% | 9,2% | 4,1% | 5,6% | 3,7% | 12,6% | 4,4% | 4,1% | 0,1% | 18,6% |
-| Sharpe (acima do CDI) | 0,88 | 0,16 | 1,16 | 1,36 | 1,23 | 0,48 | 1,13 | −2,03 | — | −0,03 |
-| Meses acima do CDI | 50% | 53% | 50% | 52% | 45% | 60% | 48% | 22% | — | 55% |
+| Sharpe (acima do CDI) | 0,88 | 0,15 | 1,12 | 1,39 | 1,22 | 0,49 | 1,13 | −2,03 | — | −0,04 |
+| Meses acima do CDI | 50% | 53% | 48% | 53% | 45% | 60% | 48% | 22% | — | 55% |
 | Meses acima do Ibovespa | 50% | 52% | 52% | 53% | 50% | 48% | 50% | 42% | 45% | — |
 | Pior mês · melhor mês | −2,1% · +3,4% | −4,8% · +5,6% | −1,3% · +3,5% | −2,1% · +5,0% | −0,6% · +3,4% | −5,1% · +8,8% | −1,0% · +3,9% | −3,1% · +2,4% | +0,6% · +1,3% | −11,5% · +12,6% |
 
@@ -214,12 +214,12 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 | 2023 | +15,3% | +29,1% | +19,5% | +24,4% | +17,8% | +33,5% | +16,4% | +13,0% | +22,3% | todos os dias, entrada a mercado |
 | 2024 | +16,4% | +0,9% | +19,8% | +20,9% | +18,1% | +2,5% | +19,2% | +10,8% | −10,4% | só quinta, entrada a mercado (vídeo) |
 | 2025 | +21,9% | +17,4% | +20,7% | +18,9% | +18,0% | +22,5% | +23,5% | +14,2% | +34,0% | Ibovespa |
-| 2026* | +7,5% | +8,4% | +9,9% | +16,3% | +12,7% | +33,6% | +8,9% | +11,5% | +6,1% | todos os dias, entrada a mercado |
-| **Acumulado no período** | **+116,2%** | **+91,4%** | **+128,0%** | **+161,7%** | **+126,0%** | **+135,2%** | **+131,3%** | **+81,4%** | **+62,0%** | **só quinta, entrada a mercado (vídeo)** |
-| **R\$ 10.000 viraram** | **R\$ 21.624** | **R\$ 19.144** | **R\$ 22.801** | **R\$ 26.165** | **R\$ 22.603** | **R\$ 23.515** | **R\$ 23.135** | **R\$ 18.137** | **R\$ 16.201** | |
-| **Média ao ano** | **+16,9%** | **+14,0%** | **+18,1%** | **+21,5%** | **+17,9%** | **+18,9%** | **+18,5%** | **+12,8%** | **+10,3%** | |
+| 2026* | +7,6% | +7,6% | +9,1% | +17,3% | +12,8% | +34,7% | +8,9% | +11,6% | +5,0% | todos os dias, entrada a mercado |
+| **Acumulado no período** | **+116,3%** | **+89,9%** | **+126,2%** | **+163,8%** | **+126,1%** | **+137,1%** | **+131,5%** | **+81,5%** | **+60,3%** | **só quinta, entrada a mercado (vídeo)** |
+| **R\$ 10.000 viraram** | **R\$ 21.635** | **R\$ 18.995** | **R\$ 22.623** | **R\$ 26.380** | **R\$ 22.615** | **R\$ 23.709** | **R\$ 23.147** | **R\$ 18.147** | **R\$ 16.029** | |
+| **Média ao ano** | **+16,9%** | **+13,8%** | **+17,9%** | **+21,7%** | **+17,9%** | **+19,1%** | **+18,5%** | **+12,8%** | **+10,0%** | |
 
-\* ano parcial: os dados vão de 01/11/2021 a 28/10/2026.
+\* ano parcial: os dados vão de 01/11/2021 a 29/10/2026.
 
 ![Retorno por ano](setups/img/primeira-vela-de-quinta_anos.png)
 
@@ -285,17 +285,17 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 > | jul/2026 | −1,1% | −2,4% | −1,3% | +0,2% | −0,5% | +2,1% | −0,8% | +1,2% | +3,5% |
 > | ago/2026 | −1,4% | +0,7% | −0,6% | +1,0% | −0,6% | +2,8% | −0,9% | +1,1% | −0,3% |
 > | set/2026 | +1,1% | +0,7% | +0,2% | −0,7% | +1,1% | +4,5% | +1,1% | +1,1% | +5,0% |
-> | out/2026 | +2,5% | −2,4% | +1,7% | +0,8% | +1,7% | +3,6% | +1,9% | +0,9% | −8,2% |
-> | **Acumulado** | **+116,2%** | **+91,4%** | **+128,0%** | **+161,7%** | **+126,0%** | **+135,2%** | **+131,3%** | **+81,4%** | **+62,0%** |
+> | out/2026 | +2,6% | −3,2% | +0,9% | +1,6% | +1,7% | +4,4% | +1,9% | +1,0% | −9,2% |
+> | **Acumulado** | **+116,3%** | **+89,9%** | **+126,2%** | **+163,8%** | **+126,1%** | **+137,1%** | **+131,5%** | **+81,5%** | **+60,3%** |
 
 ### E se o capital por contrato for outro?
 
 | Capital por contrato | ATR 0,21 / 0,21 + CDI | todos os dias + CDI | só quinta (vídeo) + CDI | só quinta, entrada a mercado (vídeo) + CDI | só quinta, corpo de 100+ (vídeo) + CDI | todos os dias, entrada a mercado + CDI |
 |---|---|---|---|---|---|---|
-| R\$ 5.000 | +21% ao ano · pior queda −8% | +14% ao ano · pior queda −22% | +24% ao ano · pior queda −7% | +30% ao ano · pior queda −9% | +23% ao ano · pior queda −5% | +23% ao ano · pior queda −32% |
-| R\$ 10.000 | +17% ao ano · pior queda −4% | +14% ao ano · pior queda −8% | +18% ao ano · pior queda −3% | +21% ao ano · pior queda −4% | +18% ao ano · pior queda −2% | +19% ao ano · pior queda −16% |
-| R\$ 20.000 | +15% ao ano · pior queda −1% | +14% ao ano · pior queda −3% | +15% ao ano · pior queda −1% | +17% ao ano · pior queda −1% | +15% ao ano · pior queda −1% | +16% ao ano · pior queda −6% |
-| R\$ 40.000 | +14% ao ano · pior queda −0% | +13% ao ano · pior queda −1% | +14% ao ano · pior queda −0% | +15% ao ano · pior queda −0% | +14% ao ano · pior queda −0% | +14% ao ano · pior queda −2% |
+| R\$ 5.000 | +21% ao ano · pior queda −8% | +14% ao ano · pior queda −22% | +23% ao ano · pior queda −7% | +31% ao ano · pior queda −9% | +23% ao ano · pior queda −5% | +24% ao ano · pior queda −32% |
+| R\$ 10.000 | +17% ao ano · pior queda −4% | +14% ao ano · pior queda −8% | +18% ao ano · pior queda −3% | +22% ao ano · pior queda −4% | +18% ao ano · pior queda −2% | +19% ao ano · pior queda −16% |
+| R\$ 20.000 | +15% ao ano · pior queda −1% | +13% ao ano · pior queda −3% | +15% ao ano · pior queda −1% | +17% ao ano · pior queda −1% | +15% ao ano · pior queda −1% | +16% ao ano · pior queda −6% |
+| R\$ 40.000 | +14% ao ano · pior queda −0% | +13% ao ano · pior queda −1% | +14% ao ano · pior queda −0% | +15% ao ano · pior queda −0% | +14% ao ano · pior queda −0% | +15% ao ano · pior queda −2% |
 
 *Referência: CDI +13% ao ano · Ibovespa +10% ao ano, pior queda −21%.*
 
@@ -324,7 +324,7 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ## Como o teste foi feito
 
-- **Dados:** WIN\$N em velas de 1 minuto do MetaTrader 5, de 25/10/2021 a 28/10/2026, com os saltos das rolagens ajustados para os indicadores; resultados em **pontos reais** do contrato de cada época.
+- **Dados:** WIN\$N em velas de 1 minuto do MetaTrader 5, de 25/10/2021 a 29/10/2026, com os saltos das rolagens ajustados para os indicadores; resultados em **pontos reais** do contrato de cada época.
 - **Execução realista:** cada operação acompanhada minuto a minuto; stop e alvo no mesmo minuto contam como **stop**; se o preço abriu além do stop, a saída foi no preço da abertura.
 - **Custo:** 15 pontos por operação. **CDI:** série diária do Banco Central. **Ibovespa:** fechamento diário, comprado o período todo.
 - **Os parâmetros vieram prontos do vídeo**; o período de 2024 em diante serviu como prova.
