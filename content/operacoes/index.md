@@ -8,7 +8,7 @@ description: "Regras de compra testadas no Ibovespa, com placar ao vivo desde 23
 Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/2026**. Daqui para frente cada operação entra no **placar ao vivo**, o único resultado sem nenhum ajuste ao histórico. Nenhuma regra de venda passou nos testes ([por quê](metodologia/o-que-nao-passou)).
 
 > [!tip] 🎯 Operações — último candle
-> - 🟢 Entradas H4 · Semáforo N2: **entrada** a 170.947
+> - 🔴 Entradas H4 · Semáforo N2: **stop** (169.516)
 >
 > [Ver operações](operacoes/)
 
@@ -16,7 +16,7 @@ Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/20
 
 | Regra | Entrada | Stop | Agora | Candles | Sai quando | |
 |---|---|---|---|---|---|---|
-| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | ⚡ 169.052 | **-9,0%** | 17 | ⚡ **zera abaixo de 169.516** — ordem stop, vale durante o pregão (por mais 1 candle) | simulada |
+| [Tendência MME9 · Diário](operacoes/tendencia) | 02/10/26 a 187.835 | ⚡ 169.052 | **-9,0%** | 17 | ⚡ **saiu hoje às 11:45 a 169.516** (-9,8%; confirma às 19h) | simulada |
 | [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | ⚡ 158.779 | **-3,1%** | 8 | ⏱️ sinal no fechamento (candle fecha abaixo da MME9), depois ⚡ ordem stop na mínima dele | simulada |
 | [Diário · Nadaraya](operacoes/entradas) | 25/08/26 a 174.577 | ⚡ 166.335 | **-2,0%** | 44 | ⏱️ no fechamento: quando a linha rápida do Nadaraya cruzar para baixo | simulada |
 | [H4 · Semáforo N2](operacoes/entradas) | 28/10/26 14h a 170.947 | ⚡ 169.516 | **+0,0%** | 0 | ⏱️ no fechamento: quando um topo do semáforo nível 3 ficar fixo | 🧪 ao vivo |
@@ -33,7 +33,7 @@ Regras de **compra** testadas no Ibovespa 2000–2026 e **congeladas em 23/10/20
 
 | Regra | Situação | Nota | Validação ao vivo |
 |---|---|---|---|
-| [📈 Tendência MME9 · Diário](operacoes/tendencia) | Diário 🟢 comprado desde 02/10 (-9,0%) · ⚡ zera abaixo de 169.516 (durante o pregão) | 🧪 em teste ao vivo | 0 de 10 operações ao vivo |
+| [📈 Tendência MME9 · Diário](operacoes/tendencia) | Diário ⚡ saiu hoje às 11:45 a 169.516 (confirma às 19h) | 🧪 em teste ao vivo | 0 de 10 operações ao vivo |
 | [📈 Tendência MME9 · Semanal](operacoes/tendencia) | Semanal 🟢 comprado desde 31/08 (-3,1%) | 🧪 em teste ao vivo | 0 de 10 operações ao vivo |
 | [🎯 Diário · Nadaraya](operacoes/entradas) | 🟢 comprado desde 25/08 (-2,0%) | ✅ passou fora da amostra | 0 de 10 operações ao vivo |
 | [🎯 Semanal · Semáforo N2](operacoes/entradas) | — sem setup | ✅ o ganho vem do setup | 0 de 10 operações ao vivo |

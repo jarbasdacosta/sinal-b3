@@ -13,7 +13,7 @@ description: "Só compra, diário e semanal: rompimento do candle que fecha acim
 >
 > | Tempo | Situação | Próximo passo | Histórico (ao ano · maior queda) |
 > |---|---|---|---|
-> | **Diário** | 🟢 **comprado** desde 02/10 a 187.835 · agora **-9,0%** *(simulada: antes do teste ao vivo)*<br><small>fechou abaixo da MME9 (171.006 × 189.820)</small> | ⚡ ⚠️ zera se passar abaixo de **169.516** *(ordem stop, vale durante o pregão)* em até 1 pregão · ⚡ stop 169.052 | +13,1% · 35% <small>(comprar e segurar: +8,8% · 60%)</small> |
+> | **Diário** | 🟢 **comprado** desde 02/10 a 187.835 · agora **-9,0%** *(simulada: antes do teste ao vivo)*<br><small>fechou abaixo da MME9 (171.006 × 189.820)</small> | ⚡ **saiu hoje às 11:45 a 169.516** (ordem stop no pregão; confirma às 19h) · ⚡ ⚠️ zera se passar abaixo de **169.516** *(ordem stop, vale durante o pregão)* em até 1 pregão · ⚡ stop 169.052 | +13,1% · 35% <small>(comprar e segurar: +8,8% · 60%)</small> |
 > | **Semanal** | 🟢 **comprado** desde 31/08 a 176.421 · agora **-3,1%** *(simulada: antes do teste ao vivo)*<br><small>fechou acima da MME9 (205.083 × 194.166)</small> | segue enquanto não fechar abaixo da MME9 (⏱️ no fechamento) · ⚡ stop 158.779 (durante o pregão) | +9,3% · 29% <small>(comprar e segurar: +9,6% · 57%)</small> |
 >
 > **Últimas operações** (antes do teste ao vivo = simuladas no histórico)
