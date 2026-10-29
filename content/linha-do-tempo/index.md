@@ -5,7 +5,7 @@ description: "Todo sinal, ordem, stop e aviso da Ondaleta, do mais recente para 
 tags: [eventos]
 ---
 
-*Atualizada 29/10/2026 11:00 BRT · a cada 15 min no pregão e às 19h.*
+*Atualizada 29/10/2026 11:15 BRT · a cada 15 min no pregão e às 19h.*
 
 Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: sinais de topo e fundo, ordens de compra e de venda armadas, compras, vendas, stops, avisos de 🚨 preço perto do nível e mudanças da Crise. Os **últimos 7 dias** ficam abertos; o resto, por **ano → mês → dia**.
 
@@ -18,9 +18,11 @@ Tudo o que o sistema fez ou detectou, **do mais recente para o mais antigo**: si
 
 ## Últimos 7 dias
 
-### Hoje · qui, 29/10/2026
+### Hoje · qui, 29/10/2026 · 1 evento
 
-*Nenhum evento hoje até agora.*
+| Hora | Módulo | Evento | Detalhe | 📲 |
+|---|---|---|---|---|
+| **11:15** | Tendência · Diário | 🚨 Perto da saída ⚡ | IBOV 169.666 às 11:15: a 0,1% de 169.516 | ✅ |
 
 ### qua, 28/10/2026 · 6 eventos
 
@@ -66,7 +68,7 @@ Clique no ano; na página do ano, clique no mês e depois no dia.
 
 | Ano | Eventos | 🟢 Compras | ⚪🔴 Vendas e stops | 📌⚠️ Ordens armadas | Sinais |
 |---|---|---|---|---|---|
-| **[2026](linha-do-tempo/2026)** | 195 | 22 | 37 | 31 | 41 |
+| **[2026](linha-do-tempo/2026)** | 196 | 22 | 37 | 31 | 41 |
 | **[2025](linha-do-tempo/2025)** | 113 | 30 | 25 | 43 | 11 |
 | **[2024](linha-do-tempo/2024)** | 156 | 41 | 45 | 57 | 3 |
 | **[2023](linha-do-tempo/2023)** | 99 | 22 | 22 | 53 | 1 |

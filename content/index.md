@@ -6,9 +6,9 @@ tags: [home]
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 29/10/2026 11:00 BRT · Intraday 15min*
+*Última atualização: 29/10/2026 11:15 BRT · Intraday 15min*
 
-> [!success] Onde o mercado está agora (29/10 10:45, candles de 15 min): **🟢 Calmo**
+> [!success] Onde o mercado está agora (29/10 11:00, candles de 15 min): **🟢 Calmo**
 > `Pânico ◀──────────●──────────▶ Euforia`
 >
 > O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
@@ -35,11 +35,11 @@ tags: [home]
 
 | Data e hora | Módulo | Evento | Detalhe | 📲 |
 |---|---|---|---|---|
+| **29/10/2026 11:15** | Tendência · Diário | 🚨 Perto da saída ⚡ | IBOV 169.666 às 11:15: a 0,1% de 169.516 | ✅ |
 | **28/10/2026 19:05** | Crise · diário | 📉 Evento: Esticamento desinflando ⏱️ | ζ Topo voltou abaixo de 45% depois de passar de 60% · Só contexto: depois disso caiu 5%+ no mês seguinte em 32% das vezes, igual a um dia qualquer (31%). O esticamento acabou, mas não há vantagem estatística (revisto em 23/10/2026). | ✅ |
 | **28/10/2026 19:05** | Crise · diário | 🟢 Zona mudou: AMARELO → VERDE | Risco 27% · ζ Topo 27% · ζ Fundo 14% · LPPL 0% | — |
 | **28/10/2026 19:04** | Amplitude · MM 200 | 🎯 Região de fundo: menos de 20% das ações acima da MM 200 ⏱️ | 16% das ações acima da MM 200 · No histórico, 60 pregões depois o Ibovespa subiu em ~83% das vezes, retorno mediano de ~+10% (dia qualquer: 60% e +3,4%). Confirmado em 2001–2013 e 2014–2026. | ✅ |
 | **28/10/2026 19:00** | Entradas · H4 · Semáforo N2 | 🟢 Compra no fechamento ⏱️ | a 170.947 (28/10 14h) · ⚡ stop 169.516 · setup FD+RSI (moderado), FD+CCI (moderado) | ✅ |
-| **28/10/2026 16:15** | Crise · 15 min | 🟢 Zona mudou: AMARELO → VERDE | Risco 43% · ζ Topo 43% · ζ Fundo 0% · LPPL 0% | — |
 
 *[Linha do tempo completa](linha-do-tempo/) — todo sinal, ordem, stop e aviso, do mais recente para o mais antigo. ⚡ = vale durante o pregão · ⏱️ = no fechamento.*
 
@@ -49,18 +49,18 @@ tags: [home]
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Intraday 15 min (29/10 10:45): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
+> > [!success] Sinal de Crise · Intraday 15 min (29/10 11:00): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
 > > `░░░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Intraday 15 min (29/10 10:45) | Valor |
+> | Indicador — Sinal de Crise · Intraday 15 min (29/10 11:00) | Valor |
 > |---|---|
 > | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
 > | 🔵 ζ Fundo — preço esticado abaixo da tendência | 2% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-> | 📊 Ibovespa | 170.531 pts |
+> | 📊 Ibovespa | 169.666 pts |
 >
 > **Multi-ativo:** 0% em tensão (0🔴 0🟡 de 26 ativos)
 >
