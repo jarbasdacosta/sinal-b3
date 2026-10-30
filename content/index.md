@@ -1,17 +1,18 @@
 ---
 title: Ondaleta
-date: 2026-10-29
+date: 2026-10-30
 tags: [home]
 ---
 
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
-*Última atualização: 29/10/2026 19:03 BRT · Diário D1*
+*Última atualização: 30/10/2026 10:15 BRT · Intraday 15min*
 
-> [!success] Onde o mercado está no fechamento de 29/10: **🟢 Calmo**
-> `Pânico ◀────────●────────────▶ Euforia`
+> [!success] Onde o mercado está agora (30/10 10:00, candles de 15 min): **🟢 Calmo**
+> `Pânico ◀───────●─────────────▶ Euforia`
 >
 > O Ibovespa está dentro da sua faixa normal, sem excesso para cima nem para baixo.
+> No gráfico diário: 📉 Esticamento desinflando.
 >
 > *Leitura educacional baseada em 26 anos de dados. Não é recomendação de investimento.*
 
@@ -19,7 +20,7 @@ tags: [home]
 
 | Módulo | Agora | |
 |---|---|---|
-| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 4% | [relatório](diario/2026-10-29) |
+| 🌊 **Sinal de Crise** | 🟢 VERDE · 🟢 calmo · ζ Topo 0% | [relatório](intraday/2026-10-30) |
 | 📈 **Tendência MME9** | Diário — fora<br>Semanal 🟢 comprado desde 31/08 (-4,1%) | [abrir](operacoes/tendencia) |
 | 🎯 **Entradas do método** | ⏳ aguardando: Diário · Nadaraya, H4 · Semáforo N2 | [abrir](operacoes/entradas) |
 | 📍 **Sinais** | hoje: nenhum sinal | [abrir](sinais-topo-fundo/) |
@@ -43,40 +44,33 @@ tags: [home]
 
 *[Linha do tempo completa](linha-do-tempo/) — todo sinal, ordem, stop e aviso, do mais recente para o mais antigo. ⚡ = vale durante o pregão · ⏱️ = no fechamento.*
 
-> [!note] 🧭 Sinal de Crise · Situação no diário: 📉 **Esticamento desinflando**
+> [!note] 🧭 Sinal de Crise · Viés do diário (29/10): 📉 **Esticamento desinflando**
 > 📚 só contexto: o esticamento acabou; sem vantagem estatística confirmada
->
-> Eventos recentes: 📉 28/10 Esticamento desinflando · 📉 16/09 Esticamento desinflando · 🚀 09/09 Força · 🌱 23/07 Fundo se desfazendo
 >
 > *Leitura educacional baseada em 26 anos de dados, não recomendação. [Como usar](metodologia/crise#3-como-usar-na-prática).*
 
 > [!info]- 🌊 Detalhes do Sinal de Crise (indicadores e últimos 7 pregões)
-> > [!success] Sinal de Crise · Diário (29/10): 🟢 **VERDE** — Risco 4% · ▼ -23 p.p. vs leitura anterior
-> > `█░░░░░░░░░░░░░░░░░░░`
+> > [!success] Sinal de Crise · Intraday 15 min (30/10 10:00): 🟢 **VERDE** — Risco 0% · ＝ +0 p.p. vs leitura anterior
+> > `░░░░░░░░░░░░░░░░░░░░`
 > > Preço na faixa normal em torno da tendência.
 >
 >
-> | Indicador — Sinal de Crise · Diário (29/10) | Valor |
+> | Indicador — Sinal de Crise · Intraday 15 min (30/10 10:00) | Valor |
 > |---|---|
-> | 🔴 ζ Topo — preço esticado acima da tendência | **4%** |
-> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 23% |
+> | 🔴 ζ Topo — preço esticado acima da tendência | **0%** |
+> | 🔵 ζ Fundo — preço esticado abaixo da tendência | 26% |
 > | 🫧 LPPL bolha — alta super-exponencial (risco de crash) | 0% |
 > | 🫧 LPPL antibolha — queda super-exponencial (risco de repique) | 0% |
-> | 📊 Ibovespa | 169.186 pts |
+> | 📊 Ibovespa | 167.319 pts |
 >
-> **Multi-ativo:** 4% em tensão (0🔴 5🟡 de 26 ativos)
+> **Multi-ativo:** 8% em tensão (0🔴 2🟡 de 26 ativos)
 >
 > **Últimos 7 pregões**
 >
 > | Data | Zona | Risco | ζ Topo | ζ Fundo | LPPL |
 > |---|---|---|---|---|---|
-> | [29/10/2026](diario/2026-10-29) | 🟢 VERDE | **4%** | 4% | 23% | 0% |
-> | [28/10/2026](diario/2026-10-28) | 🟢 VERDE | **27%** | 27% | 14% | 0% |
-> | [27/10/2026](diario/2026-10-27) | 🟡 AMARELO | **50%** | 50% | 9% | 0% |
-> | [26/10/2026](diario/2026-10-26) | 🟡 AMARELO | 🟡 **66%** | 🟡 **66%** | 3% | 0% |
-> | [23/10/2026](diario/2026-10-23) | 🟡 AMARELO | 🟡 **79%** | 🟡 **79%** | 0% | 0% |
-> | [22/10/2026](diario/2026-10-22) | 🟡 AMARELO | 🟡 **78%** | 🟡 **78%** | 0% | 0% |
-> | [21/10/2026](diario/2026-10-21) | 🟡 AMARELO | 🟡 **77%** | 🟡 **77%** | 1% | 0% |
+> | [30/10/2026](intraday/2026-10-30) | 🟢 VERDE | **0%** | 0% | 26% | 0% |
+> | [29/10/2026](intraday/2026-10-29) | 🟢 VERDE | **0%** | 0% | 25% | 0% |
 >
 > <small>Destaques: 🟡 ≥ 60% · 🔴 ≥ 90% (Risco e ζ Topo) · 🔵 ≥ 60% · 🔪 ≥ 90% (ζ Fundo) · 🫧 ≥ 30% · 🫧🔴 ≥ 50% (LPPL)</small>
 >
