@@ -52,24 +52,26 @@ tags: [estrangeiros]
 
 Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **quem está do outro lado** dos estrangeiros (saldo negociado na bolsa, sem ofertas).
 
-> [!warning] Esta seção vai só até **21/10/2026**, e o resto da página vai até **28/10/2026**
-> A B3 **não publica** o saldo diário de cada tipo de investidor (o relatório dela traz só a participação em %), então este arquivo é baixado à mão. Por isso os números desta tabela são de uma data anterior — não são divergência, são outro dia. Para igualar, baixe o arquivo novo (instruções no fim da página).
+![Saldo acumulado por tipo de investidor](graficos/investidores_20261028.png)
 
-![Saldo acumulado por tipo de investidor](graficos/investidores_20261021.png)
-
-| Tipo | 21/10 | Semana (19/10–21/10) | Mês (1–21/10) | Ano (até 21/10) | 12 meses (desde 11/2025) | Geral (desde 24/10/2025) |
+| Tipo | 28/10 | Semana (26/10–28/10) | Mês (1–28/10) | Ano (até 28/10) | 12 meses (desde 11/2025) | Geral (desde 24/10/2025) |
 |---|---|---|---|---|---|---|
-| Estrangeiro | **+R$ 157 mi** | −R$ 834 mi | +R$ 20,2 bi | +R$ 47,6 bi | +R$ 47,7 bi | +R$ 50,2 bi |
-| Institucional | **−R$ 753 mi** | −R$ 159 mi | −R$ 10,9 bi | −R$ 46,4 bi | −R$ 52,2 bi | −R$ 52,7 bi |
-| Pessoa física | **+R$ 970 mi** | +R$ 1,7 bi | −R$ 4,9 bi | +R$ 883 mi | +R$ 1,3 bi | +R$ 306 mi |
-| Inst. financeiras | **−R$ 430 mi** | −R$ 525 mi | −R$ 396 mi | −R$ 908 mi | −R$ 101 mi | −R$ 1,1 bi |
-| Outros | **+R$ 56 mi** | −R$ 139 mi | −R$ 4,0 bi | −R$ 1,2 bi | +R$ 3,3 bi | +R$ 3,3 bi |
+| Estrangeiro | **−R$ 2,7 bi** | −R$ 7,6 bi | +R$ 8,6 bi | +R$ 36,0 bi | +R$ 36,2 bi | +R$ 38,7 bi |
+| Institucional | **+R$ 1,1 bi** | −R$ 2,8 bi | −R$ 12,1 bi | −R$ 47,5 bi | −R$ 53,4 bi | −R$ 53,9 bi |
+| Pessoa física | **+R$ 1,8 bi** | +R$ 10,2 bi | +R$ 7,7 bi | +R$ 13,4 bi | +R$ 13,8 bi | +R$ 12,9 bi |
+| Inst. financeiras | **−R$ 194 mi** | −R$ 501 mi | −R$ 1,0 bi | −R$ 1,5 bi | −R$ 721 mi | −R$ 1,7 bi |
+| Outros | **−R$ 2 mi** | +R$ 634 mi | −R$ 3,2 bi | −R$ 345 mi | +R$ 4,1 bi | +R$ 4,1 bi |
 
-*Dados até 21/10/2026 (arquivo baixado à mão). Cada coluna é um acumulado DESTA tabela, nas datas do cabeçalho. Conferência do dia: os 5 tipos somam −R$ 0 mi (zero, como tem de ser).*
+*Dados até 28/10/2026 · 20 pregões vindos direto da B3 (Boletim Diário do Mercado). Cada coluna é um acumulado DESTA tabela, nas datas do cabeçalho. Conferência do dia: os 5 tipos somam −R$ 0 mi (zero, como tem de ser).*
 
 > [!note]- Últimos 15 pregões
 > | Dia | Estrangeiro | Institucional | Pessoa física | Inst. financeiras | Outros |
 > |---|---|---|---|---|---|
+> | 28/10 | −R$ 2,7 bi | +R$ 1,1 bi | +R$ 1,8 bi | −R$ 194 mi | −R$ 2 mi |
+> | 27/10 | −R$ 2,0 bi | −R$ 552 mi | +R$ 2,3 bi | +R$ 132 mi | +R$ 198 mi |
+> | 26/10 | −R$ 2,8 bi | −R$ 3,3 bi | +R$ 6,2 bi | −R$ 439 mi | +R$ 437 mi |
+> | 23/10 | −R$ 2,9 bi | +R$ 1,4 bi | +R$ 1,4 bi | +R$ 31 mi | +R$ 116 mi |
+> | 22/10 | −R$ 1,0 bi | +R$ 170 mi | +R$ 932 mi | −R$ 151 mi | +R$ 79 mi |
 > | 21/10 | +R$ 157 mi | −R$ 753 mi | +R$ 970 mi | −R$ 430 mi | +R$ 56 mi |
 > | 20/10 | +R$ 18 mi | +R$ 130 mi | +R$ 55 mi | −R$ 39 mi | −R$ 164 mi |
 > | 19/10 | −R$ 1,0 bi | +R$ 464 mi | +R$ 632 mi | −R$ 56 mi | −R$ 31 mi |
@@ -80,13 +82,8 @@ Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **
 > | 09/10 | +R$ 1,0 bi | −R$ 710 mi | −R$ 320 mi | +R$ 196 mi | −R$ 196 mi |
 > | 08/10 | +R$ 1,6 bi | −R$ 53 mi | +R$ 29 mi | −R$ 1,4 bi | −R$ 214 mi |
 > | 07/10 | −R$ 628 mi | +R$ 676 mi | +R$ 155 mi | +R$ 177 mi | −R$ 380 mi |
-> | 06/10 | +R$ 1,1 bi | −R$ 638 mi | −R$ 266 mi | +R$ 120 mi | −R$ 308 mi |
-> | 05/10 | +R$ 10,1 bi | −R$ 4,0 bi | −R$ 5,3 bi | +R$ 802 mi | −R$ 1,6 bi |
-> | 02/10 | +R$ 2,3 bi | −R$ 292 mi | −R$ 971 mi | +R$ 72 mi | −R$ 1,1 bi |
-> | 01/10 | +R$ 268 mi | +R$ 200 mi | +R$ 158 mi | −R$ 1,0 bi | +R$ 386 mi |
-> | 30/09 | +R$ 322 mi | +R$ 454 mi | −R$ 290 mi | −R$ 515 mi | +R$ 29 mi |
 
-*Fonte: B3, via [Dados de Mercado](https://www.dadosdemercado.com.br/fluxo) (arquivo baixado à mão — o relatório da B3 só traz a participação em %, não o saldo de cada tipo).*
+*Fonte: B3 — Boletim Diário do Mercado › Renda Variável › Indicadores e Informativos › Participação dos Investidores (compras e vendas de cada tipo, acumuladas no mês; o saldo do dia sai da diferença entre dois pregões). Baixado sozinho todo dia útil de manhã.*
 
 ## Mês a mês
 
@@ -173,10 +170,8 @@ Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **
 | Ano até 28/10 com ofertas: total × B3 (A+C−B) | +R$ 40,6 bi | +R$ 40,6 bi | ✅ |
 | Meses fechados de 2026: soma dos dias × mês oficial | 9 de 9 batem | — | ✅ |
 | Ano até 27/10: nosso × publicado pelo Pai Rico | +R$ 38,7 bi | +R$ 38,7 bi | ✅ |
-| Tabela dos 5 tipos (até 21/10): estrangeiro no ano × série principal na MESMA data | +R$ 47,6 bi | +R$ 47,6 bi | ✅ |
-| Tabela dos 5 tipos: os 5 saldos de 21/10 somam zero | −R$ 0 mi | zero | ✅ |
-| Tabela dos 5 tipos está 5 pregão(ões) atrás do resto da página | até 21/10 | página até 28/10 | ℹ️ |
-| Dias sem valor próprio (preenchidos pela diferença da B3) | 28/10 |  | ℹ️ |
+| Tabela dos 5 tipos (até 28/10): estrangeiro no ano × série principal na MESMA data | +R$ 36,0 bi | +R$ 36,0 bi | ✅ |
+| Tabela dos 5 tipos: os 5 saldos de 28/10 somam zero | −R$ 0 mi | zero | ✅ |
 
 > [!info]- Como funciona (fontes e horários)
 > - **B3, direto:** todo dia útil das 5h40 às 8h40 o servidor baixa o relatório *Dados de mercado* da B3 (1 download por tentativa). A B3 publica a movimentação dos estrangeiros em **D+2** — o pregão de segunda sai na quarta de manhã. A diferença entre o relatório de hoje e o anterior é o saldo do pregão novo (compras, vendas e ofertas separados).
@@ -184,11 +179,9 @@ Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **
 > - Relatórios da B3 guardados: 2 (o mais recente com dado até 28/10/2026).
 > - Se a B3 corrigir um mês, o relatório seguinte já traz o valor novo e a conferência mostra.
 
-> [!info]- Como atualizar os 5 tipos de investidor (à mão — a B3 não dá o saldo por tipo no relatório)
-> 1. Em [dadosdemercado.com.br/fluxo](https://www.dadosdemercado.com.br/fluxo), clique em "Baixar em .csv".
-> 2. No G5: `scp ~/Downloads/fluxo-estrangeiro.csv root@192.168.18.100:/root/`
-> 3. No Proxmox: `pct push 109 /root/fluxo-estrangeiro.csv /opt/sinal-b3/dados/dm/fluxo_$(date +%F).csv`
-> Cada arquivo traz ~1 ano; os dias se juntam ao histórico.
+> [!info]- De onde vêm os 5 tipos de investidor
+> Do **Boletim Diário do Mercado** da B3 (Renda Variável › Indicadores e Informativos › Participação dos Investidores), baixado sozinho na mesma rodada da manhã. A B3 publica ali as compras e as vendas de cada tipo, acumuladas no mês; o saldo de cada dia sai da diferença entre dois pregões.
+> Como a B3 só mantém os últimos 21 dias nesse serviço, cada leitura é arquivada no servidor. O histórico anterior veio do arquivo do Dados de Mercado, conferido dia a dia contra a B3.
 
 > [!warning] Ainda não testado
 > Antes de virar filtro das operações, o fluxo estrangeiro precisa passar pelo teste de treino e teste contra o acaso. Até lá é **contexto**.
