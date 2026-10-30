@@ -7,7 +7,7 @@ import * as Component from "./quartz/components"
 const explorerDateSort = Component.Explorer({
   sortFn: (a, b) => {
     // SETUPS-ORDEM-INICIO (gerado por gerar_setups.py — não edite à mão)
-    const ordemSetups = ["carteira", "testados", "ifr-de-tendencia", "rompimento-da-bollinger", "primeira-vela-80-min", "adx-da-manha", "tendencia-forte-do-dia", "pullback-na-media", "macd-na-tendencia", "vai-na-onda", "primeira-vela-de-quinta"]
+    const ordemSetups = ["carteira", "operacoes", "testados", "ifr-de-tendencia", "rompimento-da-bollinger", "primeira-vela-80-min", "adx-da-manha", "tendencia-forte-do-dia", "pullback-na-media", "macd-na-tendencia", "vai-na-onda", "primeira-vela-de-quinta"]
     const sa = ordemSetups.indexOf(a.slugSegment), sb = ordemSetups.indexOf(b.slugSegment)
     if (sa !== -1 || sb !== -1) return (sa === -1 ? 999 : sa) - (sb === -1 ? 999 : sb)
     // SETUPS-ORDEM-FIM
