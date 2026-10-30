@@ -1,6 +1,6 @@
 ---
 title: 📍 Sinais
-date: 2026-10-29
+date: 2026-10-30
 tags: [sinais]
 description: Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger no Ibovespa
 ---
@@ -9,11 +9,13 @@ Candles de Oliver Velez + RSI, CCI, MACD-V e Bollinger — só os sinais que tiv
 
 📘 [Tutorial — como ler e usar](sinais-topo-fundo/tutorial) · 📋 [Todos os sinais (fortes e moderados)](sinais-topo-fundo/todos-os-sinais)
 
-> [!note] Nenhum sinal no fechamento de 29/10/2026
-> Os blocos 🔥 aparecem aqui (e na página inicial) no dia em que surge um sinal **forte**.
+> [!success|forte] 🔥 SINAL FORTE DE FUNDO — Diário · fechamento de 30/10/2026
+> 🟢 **[FD+RSI](tecnico/#diário)** — Fechou fora→dentro da BB inferior + RSI≤30 · 📈 [ver no gráfico Diário](tecnico/#diário)
+>
+> Acertou **71%** das vezes · **2,8×** o acaso. Historicamente o fundo estava a até **3 pregões** do sinal.
 
-> [!info]- Sinal moderado em formação (clique para ver)
-> - Mensal · TOPO · **TT+RSI** — Top tail + RSI≥70
+> [!note] Sinal moderado no fechamento de 30/10/2026
+> - Mensal · TOPO · **TT+RSI** — Top tail + RSI≥70 (38%, 2,5× o acaso)
 
 ## 🎯 Sinais raros de grande fundo
 
@@ -60,6 +62,7 @@ Aparecem menos de uma vez por ano e quase sempre perto de um **grande fundo** (q
 
 | Candle | Tempo gráfico | Tipo | Sinal | Força | Acerto | vs. acaso |
 |---|---|---|---|---|---|---|
+| **30/10/2026** | Diário | 🟢 FUNDO | **[FD+RSI](tecnico/#diário)** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **FORTE** | **71%** | 2,8× |
 | **09/06/2026** | Diário | 🟢 FUNDO | **[FD+RSI](tecnico/#diário)** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **FORTE** | **71%** | 2,8× |
 | **21/05/2026** | Diário | 🟢 FUNDO | **[BT+RSI](tecnico/#diário)** — Bottom tail + RSI≤30 | 🔥 **FORTE** | **73%** | 3,2× |
 | **10/01/2025** | Semanal | 🟢 FUNDO | **[FD+RSI](tecnico/#semanal)** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **FORTE** | **88%** | 3,2× |
@@ -79,7 +82,7 @@ Os moderados ficam em [Todos os sinais](sinais-topo-fundo/todos-os-sinais).
 | Diário | **BT+RSI** (73%), **BT+CCI** (57%), **FD+RSI** (71%) | — |
 | H4 | — | — |
 
-*Atualizado em 29/10/2026 19:00 BRT (último pregão fechado: 29/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
+*Atualizado em 30/10/2026 19:00 BRT (último pregão fechado: 30/10/2026). Dados: Yahoo (^BVSP); semanal e mensal reamostrados do diário; H4 do 60 min.*
 
 > [!quote]- Aviso
 > Estudo estatístico. Não constitui recomendação de investimento.

@@ -14,7 +14,7 @@ Todas as operações de cada regra de compra, **simuladas no histórico com as m
 
 | Regra | Entrada | Stop | Agora | Candles | Sai quando | |
 |---|---|---|---|---|---|---|
-| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | ⚡ 158.779 | **-4,1%** | 8 | ⏱️ sinal no fechamento (candle fecha abaixo da MME9), depois ⚡ ordem stop na mínima dele | simulada |
+| [Tendência MME9 · Semanal](operacoes/tendencia) | 31/08/26 a 176.421 | ⚡ 158.779 | **-4,8%** | 8 | ⚡ **zera abaixo de 167.008** — ordem stop, vale durante o pregão (por mais 3 candles) | simulada |
 
 > [!warning] ⚡ = vale **durante o pregão** (ordem stop: deixe a ordem na plataforma; o sistema confere a cada 15 min, avisa 🚨 a 0,5% do nível e avisa quando executar) · ⏱️ = só no **fechamento** do candle
 

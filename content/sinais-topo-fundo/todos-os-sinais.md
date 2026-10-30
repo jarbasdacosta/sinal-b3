@@ -1,6 +1,6 @@
 ---
 title: Todos os sinais
-date: 2026-10-29
+date: 2026-10-30
 tags: [sinais]
 description: Histórico dos sinais de topo e fundo por tempo gráfico
 ---
@@ -9,10 +9,11 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 
 ## Mensal
 
-Últimos 36 candles: 7 sinais, **0 fortes**.
+Últimos 36 candles: 8 sinais, **0 fortes**.
 
 | Candle | Tipo | Sinal | Força | Acerto | vs. acaso |
 |---|---|---|---|---|---|
+| 31/10/2026 | 🟠 TOPO (proteção) | **[TT+RSI](tecnico/#mensal)** — Top tail + RSI≥70 | moderado | 38% | 2,5× |
 | 31/05/2026 | 🟠 TOPO (proteção) | **[MV-](tecnico/#mensal)** — MACD-V vira verde sem brilho acima do limiar | moderado | 75% | 5,3× |
 | 30/04/2026 | 🟠 TOPO (proteção) | **[TT+RSI](tecnico/#mensal)** — Top tail + RSI≥70 | moderado | 38% | 2,5× |
 | 30/04/2026 | 🟠 TOPO (proteção) | **[FD+CCI](tecnico/#mensal)** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 50% | 2,7× |
@@ -42,10 +43,11 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 
 ## Diário
 
-Últimos 250 candles: 14 sinais, **2 fortes**.
+Últimos 250 candles: 15 sinais, **3 fortes**.
 
 | Candle | Tipo | Sinal | Força | Acerto | vs. acaso |
 |---|---|---|---|---|---|
+| **30/10/2026** | 🟢 FUNDO | **[FD+RSI](tecnico/#diário)** — Fechou fora→dentro da BB inferior + RSI≤30 | 🔥 **FORTE** | **71%** | 2,8× |
 | 26/10/2026 | 🟢 FUNDO | **[ELEF-](tecnico/#diário)** — Elefante de exaustão de baixa | moderado | 43% | 2,0× |
 | 08/10/2026 | 🟠 TOPO (proteção) | **[FD+CCI](tecnico/#diário)** — Fechou fora→dentro da BB superior + CCI≥200 | moderado | 40% | 1,7× |
 | 06/10/2026 | 🟠 TOPO (proteção) | **[TT+RSI](tecnico/#diário)** — Top tail + RSI≥70 | moderado | 35% | 1,6× |
@@ -88,4 +90,4 @@ Histórico de cada tempo gráfico, do mais recente para o mais antigo. Linhas co
 | 12/08/2026 10h | 🟢 FUNDO | **[FD+RSI](sinais-topo-fundo/todos-os-sinais#h4)** — Fechou fora→dentro da BB inferior + RSI≤30 | moderado | 50% | 2,5× |
 | 10/08/2026 10h | 🟢 FUNDO | **[BT+BB](sinais-topo-fundo/todos-os-sinais#h4)** — Bottom tail tocando a BB inferior | moderado | 53% | 3,1× |
 
-*Atualizado em 29/10/2026 19:00 BRT.*
+*Atualizado em 30/10/2026 19:00 BRT.*
