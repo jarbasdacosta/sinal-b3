@@ -6,7 +6,7 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 30/10/2026 20:30 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 30/10/2026 20:41 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|
@@ -32,58 +32,58 @@ tags: [setup]
 
 **Nota de cada critério**
 
-| # | Setup | Sharpe | Retorno ÷ queda | Teste ÷ treino | Meses > CDI | Correlação | Op./mês |
-|---|---|---|---|---|---|---|---|
-| 1º | [**IFR**](ifr-de-tendencia) | 1,60 | 4,0 | 150% | 72% | 0,23 | 12,7 |
-| 2º | [**Bollinger**](rompimento-da-bollinger) | 1,61 | 3,5 | 150% | 65% | 0,22 | 4,2 |
-| 3º | [**Donchian**](donchian-com-medias) | 1,30 | 2,7 | 102% | 67% | 0,27 | 21,5 |
-| 4º | [**Pôr do sol**](por-do-sol) | 1,11 | 1,4 | 150% | 65% | −0,06 | 8,2 |
-| 5º | [**1ª vela 80**](primeira-vela-80-min) | 1,12 | 1,5 | 150% | 63% | 0,11 | 7,8 |
-| 6º | [**ADX**](adx-da-manha) | 1,03 | 1,6 | 150% | 63% | 0,19 | 29,4 |
-| 7º | [**Tendência**](tendencia-forte-do-dia) | 1,33 | 2,2 | 90% | 60% | 0,29 | 28,8 |
-| 8º | [**Pullback**](pullback-na-media) | 1,20 | 2,8 | 28% | 60% | −0,04 | 5,0 |
-| 9º | [**GPS médias**](gps-de-medias) | 1,07 | 1,5 | 62% | 65% | 0,24 | 20,1 |
-| 10º | [**MACD**](macd-na-tendencia) | 0,94 | 1,1 | 150% | 63% | 0,25 | 14,7 |
-| 11º | [**Onda**](vai-na-onda) | 0,73 | 0,9 | 150% | 57% | 0,16 | 19,4 |
-| 12º | [**BB explosão**](explosao-da-bollinger) | 0,74 | 0,9 | 139% | 58% | 0,27 | 19,7 |
-| 13º | [**Quinta**](primeira-vela-de-quinta) | 0,88 | 1,1 | 62% | 50% | −0,11 | 1,8 |
-| 14º | [**VWAP**](bandas-de-vwap) | 0,46 | 0,3 | 146% | 57% | 0,26 | 25,6 |
-| 15º | [**Rompe 200**](rompe-media-200) | 0,43 | 0,4 | 23% | 45% | 0,13 | 3,4 |
+| # | Setup | Sharpe | Retorno ÷ queda | Dias no vermelho | Teste ÷ treino | Meses > CDI | Correlação | Op./mês |
+|---|---|---|---|---|---|---|---|---|
+| 1º | [**IFR**](ifr-de-tendencia) | 1,60 | 3,1 | 69 d | 150% | 72% | 0,23 | 12,7 |
+| 2º | [**Bollinger**](rompimento-da-bollinger) | 1,61 | 2,2 | 84 d | 150% | 65% | 0,22 | 4,2 |
+| 3º | [**Donchian**](donchian-com-medias) | 1,30 | 2,0 | 188 d | 102% | 67% | 0,27 | 21,5 |
+| 4º | [**1ª vela 80**](primeira-vela-80-min) | 1,12 | 1,1 | 298 d | 150% | 63% | 0,11 | 7,8 |
+| 5º | [**ADX**](adx-da-manha) | 1,03 | 1,3 | 198 d | 150% | 63% | 0,19 | 29,4 |
+| 6º | [**Pôr do sol**](por-do-sol) | 1,11 | 0,6 | 328 d | 150% | 65% | −0,06 | 8,2 |
+| 7º | [**Tendência**](tendencia-forte-do-dia) | 1,33 | 1,8 | 206 d | 90% | 60% | 0,29 | 28,8 |
+| 8º | [**MACD**](macd-na-tendencia) | 0,94 | 0,9 | 256 d | 150% | 63% | 0,25 | 14,7 |
+| 9º | [**GPS médias**](gps-de-medias) | 1,07 | 1,3 | 205 d | 62% | 65% | 0,24 | 20,1 |
+| 10º | [**Pullback**](pullback-na-media) | 1,20 | 1,8 | 204 d | 28% | 60% | −0,04 | 5,0 |
+| 11º | [**Onda**](vai-na-onda) | 0,73 | 0,6 | 471 d | 150% | 57% | 0,16 | 19,4 |
+| 12º | [**BB explosão**](explosao-da-bollinger) | 0,74 | 0,6 | 273 d | 139% | 58% | 0,27 | 19,7 |
+| 13º | [**VWAP**](bandas-de-vwap) | 0,46 | 0,2 | 511 d | 146% | 57% | 0,26 | 25,6 |
+| 14º | [**Quinta**](primeira-vela-de-quinta) | 0,88 | 0,5 | 179 d | 62% | 50% | −0,11 | 1,8 |
+| 15º | [**Rompe 200**](rompe-media-200) | 0,43 | 0,2 | 187 d | 23% | 45% | 0,13 | 3,4 |
 
 **Resultado: 1 contrato por R\$ 10 mil × arriscando 1% por operação**
 
 | # | Setup | Ao ano (1 contrato) | Ao ano (risco 1%) | Pior queda (1 contrato) | Pior queda (risco 1%) | Ao vivo desde 27/10 |
 |---|---|---|---|---|---|---|
-| 1º | [**IFR**](ifr-de-tendencia) | +43% | **+68%** | −7% | **−11%** | 4 op · +0,46R |
-| 2º | [**Bollinger**](rompimento-da-bollinger) | +26% | **+52%** | −4% | **−7%** | sem operações |
-| 3º | [**Donchian**](donchian-com-medias) | +42% | **+83%** | −10% | **−24%** | 4 op · +1,26R |
-| 4º | [**Pôr do sol**](por-do-sol) | +17% | **+20%** | −3% | **−3%** | 1 op · +0,17R |
-| 5º | [**1ª vela 80**](primeira-vela-80-min) | +32% | **+47%** | −13% | **−14%** | 3 op · +0,91R |
-| 6º | [**ADX**](adx-da-manha) | +38% | **+65%** | −15% | **−31%** | 8 op · +0,15R |
-| 7º | [**Tendência**](tendencia-forte-do-dia) | +48% | **+72%** | −16% | **−24%** | 3 op · +2,14R |
-| 8º | [**Pullback**](pullback-na-media) | +25% | **+32%** | −5% | **−9%** | sem operações |
-| 9º | [**GPS médias**](gps-de-medias) | +36% | **+67%** | −15% | **−23%** | 4 op · +2,41R |
-| 10º | [**MACD**](macd-na-tendencia) | +31% | **+40%** | −17% | **−11%** | 4 op · +0,48R |
-| 11º | [**Onda**](vai-na-onda) | +30% | **+41%** | −19% | **−20%** | 3 op · +0,54R |
-| 12º | [**BB explosão**](explosao-da-bollinger) | +26% | **+39%** | −14% | **−33%** | 3 op · +2,54R |
-| 13º | [**Quinta**](primeira-vela-de-quinta) | +17% | **+18%** | −4% | **−3%** | sem operações |
-| 14º | [**VWAP**](bandas-de-vwap) | +21% | **+25%** | −30% | **−20%** | 10 op · −0,52R |
-| 15º | [**Rompe 200**](rompe-media-200) | +17% | **+20%** | −11% | **−10%** | sem operações |
+| 1º | [**IFR**](ifr-de-tendencia) | +43% | **+68%** | −9% | **−11%** | 4 op · +0,46R |
+| 2º | [**Bollinger**](rompimento-da-bollinger) | +26% | **+52%** | −5% | **−7%** | sem operações |
+| 3º | [**Donchian**](donchian-com-medias) | +42% | **+83%** | −12% | **−24%** | 4 op · +1,26R |
+| 4º | [**1ª vela 80**](primeira-vela-80-min) | +32% | **+47%** | −16% | **−14%** | 3 op · +0,91R |
+| 5º | [**ADX**](adx-da-manha) | +38% | **+65%** | −17% | **−31%** | 8 op · +0,15R |
+| 6º | [**Pôr do sol**](por-do-sol) | +17% | **+20%** | −6% | **−3%** | 1 op · +0,17R |
+| 7º | [**Tendência**](tendencia-forte-do-dia) | +48% | **+72%** | −18% | **−24%** | 3 op · +2,14R |
+| 8º | [**MACD**](macd-na-tendencia) | +31% | **+40%** | −18% | **−11%** | 4 op · +0,48R |
+| 9º | [**GPS médias**](gps-de-medias) | +36% | **+67%** | −17% | **−23%** | 4 op · +2,41R |
+| 10º | [**Pullback**](pullback-na-media) | +25% | **+32%** | −6% | **−9%** | sem operações |
+| 11º | [**Onda**](vai-na-onda) | +30% | **+41%** | −26% | **−20%** | 3 op · +0,54R |
+| 12º | [**BB explosão**](explosao-da-bollinger) | +26% | **+39%** | −20% | **−33%** | 3 op · +2,54R |
+| 13º | [**VWAP**](bandas-de-vwap) | +21% | **+25%** | −31% | **−20%** | 10 op · −0,52R |
+| 14º | [**Quinta**](primeira-vela-de-quinta) | +17% | **+18%** | −7% | **−3%** | sem operações |
+| 15º | [**Rompe 200**](rompe-media-200) | +17% | **+20%** | −16% | **−10%** | sem operações |
 
 - **IFR de Tendência:** entra na força medida pelo IFR · 10h–11h e 14h–16h
 - **Rompimento da Bollinger:** rompimento da banda de Bollinger a favor da tendência · 10h15–11h e 14h–17h30
 - **Donchian com Médias:** rompimento de canal a favor da tendência · 10h às 16h
-- **Pôr do Sol (17h45):** scalp no fim do pregão, a favor do dia · 17h50 às 18h10
 - **Primeira Vela de 80 Minutos:** força da primeira vela do dia, alvo longo com stop móvel · entra 10h20
 - **ADX da Manhã:** pega o começo da tendência (ADX subindo), stop curto · 10h–11h
+- **Pôr do Sol (17h45):** scalp no fim do pregão, a favor do dia · 17h50 às 18h10
 - **Tendência Forte do Dia:** segue a tendência já formada (rompimento longe da abertura) · o dia todo, até 17h
-- **Pullback na Média:** entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45
-- **GPS de Médias:** tendência com alvo longo e stop curto · 10h–11h e 14h–16h
 - **MACD na Tendência:** tendência do dia confirmada pelo MACD, com break even · 9h–11h30 e 14h–16h
+- **GPS de Médias:** tendência com alvo longo e stop curto · 10h–11h e 14h–16h
+- **Pullback na Média:** entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45
 - **Vai na Onda:** segue o fluxo: 3 velas a favor renovando o extremo do dia com volume · 9h45–16h
 - **Explosão da Bollinger:** rompimento de volatilidade a favor da tendência · 10h às 16h (zera às 17h)
-- **Primeira Vela de Quinta:** rompimento da primeira vela do dia (dia da semana escolhido) · 9h15
 - **Bandas de VWAP:** rompimento da banda de VWAP a favor da média de 200 · 10h às 16h
+- **Primeira Vela de Quinta:** rompimento da primeira vela do dia (dia da semana escolhido) · 9h15
 - **Rompimento da Média de 200:** rompimento de média longa com alvo longo · 9h às 16h
 
 *Correlação = com os outros setups (baixa é bom para a carteira). Como o ranking é feito: cada setup ganha uma posição em 4 critérios — **Sharpe** (retorno acima do CDI por oscilação), **retorno acima do CDI ÷ pior queda** (quanto rende para cada 1% de queda que você aguenta), **teste ÷ treino** (quanto do resultado por operação de 2021–2023 se manteve em 2024 em diante; 100% = manteve tudo) e **meses acima do CDI**. Vale a média das 4 posições. Correlação baixa com os outros é bom para a carteira, mas não entra na nota de cada setup.*
@@ -94,7 +94,7 @@ tags: [setup]
 |---|---|---|---|---|---|
 | ⭐ **Equilíbrio** (recomendada) | IFR + Pullback + Bollinger | **+161% · −17,1%** | +52% · −5,1% | +32% · −2,6% | 2,34 → 2,12 |
 | 📈 Maior retorno | Tendência | **+72% · −23,6%** | +72% · −23,6% | +48% · −16,1% | 1,58 → 1,20 |
-| 🛡️ Menor queda | Pôr do sol + Bollinger | **+61% · −7,9%** | +35% · −3,1% | +21% · −1,2% | 1,52 → 2,15 |
+| 🛡️ Menor queda | Pôr do sol + Pullback + Bollinger | **+89% · −9,1%** | +35% · −2,5% | +23% · −1,6% | 2,30 → 1,89 |
 
 *R\$ 10 mil viraram, na recomendada: R\$ 38.885 com 1 contrato por R\$ 10 mil · R\$ 78.636 com 1% dividido entre os setups · **R\$ 1.149.641 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · VWAP = Bandas de VWAP · Donchian = Donchian com Médias · BB explosão = Explosão da Bollinger · GPS médias = GPS de Médias · MACD = MACD na Tendência · Pôr do sol = Pôr do Sol (17h45) · 1ª vela 80 = Primeira Vela de 80 Minutos · Quinta = Primeira Vela de Quinta · Rompe 200 = Rompimento da Média de 200 · Bollinger = Rompimento da Bollinger · Onda = Vai na Onda.*
 
