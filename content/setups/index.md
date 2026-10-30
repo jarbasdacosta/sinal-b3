@@ -6,7 +6,7 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 30/10/2026 15:56 BRT · dados de 01/11/2021 a 29/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 30/10/2026 16:14 BRT · dados de 01/11/2021 a 29/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|

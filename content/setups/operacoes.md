@@ -6,7 +6,7 @@ tags: [setup, operacoes]
 
 **Todas as 7545 operações dos 9 setups aprovados e promissores, uma a uma, para conferir à mão.** Versão principal de cada setup, com o custo já descontado.
 
-*Página gerada em 30/10/2026 15:56 BRT · [carteira](carteira) · [todos os setups](./)*
+*Página gerada em 30/10/2026 16:14 BRT · [carteira](carteira) · [todos os setups](./)*
 
 > [!tip] Como ler
 > **Pontos** = resultado líquido em pontos do WIN (custo de 15 pts já descontado) · **R\$** = o mesmo com 1 contrato (R\$ 0.20 por ponto) · **R** = em múltiplos do risco da operação (stop + custo): +1 R significa ter ganho o que arriscou. ⭐ = setup da carteira recomendada.
@@ -165,7 +165,7 @@ De 21/10/2026 a 29/10/2026 · **44 operações** · 41% de acerto · **19.340 pt
 
 ## Baixar todas as operações
 
-A lista completa, desde o começo, para conferir fora do site: [**planilha (.xlsx)**](operacoes.xlsx) (449 KB) · [**PDF**](operacoes.pdf) (826 KB).
+A lista completa, desde o começo, para conferir fora do site: [**planilha (.xlsx)**](operacoes.xlsx) (451 KB) · [**PDF**](operacoes.pdf) (829 KB).
 
 *A planilha tem três abas: todas as operações, o resumo por ano e o resumo por mês.*
 
