@@ -6,7 +6,7 @@ tags: [setup, operacoes]
 
 **Todas as 8043 operações dos 10 setups aprovados e promissores, uma a uma, para conferir à mão.** Versão principal de cada setup, com o custo já descontado.
 
-*Página gerada em 30/10/2026 18:42 BRT · [carteira](carteira) · [todos os setups](./)*
+*Página gerada em 30/10/2026 18:48 BRT · [carteira](carteira) · [todos os setups](./)*
 
 > [!tip] Como ler
 > **Pontos** = resultado líquido em pontos do WIN (custo de 15 pts já descontado) · **R\$** = o mesmo com 1 contrato (R\$ 0.20 por ponto) · **R** = em múltiplos do risco da operação (stop + custo): +1 R significa ter ganho o que arriscou. ⭐ = setup da carteira recomendada.

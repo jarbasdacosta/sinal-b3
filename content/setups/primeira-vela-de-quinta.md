@@ -8,7 +8,7 @@ tags: [setup, win]
 
 🟡 promissor · dia escolhido pelo autor · Mini índice (WIN) · gráfico de 15 minutos · só a primeira vela do dia
 
-🎬 **Vídeo de origem:** [Arthur 777 – "descobri um padrão bizarro no mini índice"](https://youtu.be/5pmW0UMnXwE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 30/10/2026 18:42 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "descobri um padrão bizarro no mini índice"](https://youtu.be/5pmW0UMnXwE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 30/10/2026 18:48 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 21.646** na versão ATR 0,21 / 0,21 com o capital no CDI (+17% ao ano · pior queda −4%)
@@ -207,17 +207,18 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ### Ano a ano
 
-| Ano | ATR 0,21 / 0,21 | todos os dias | só quinta (vídeo) | só quinta, entrada a mercado (vídeo) | só quinta, corpo de 100+ (vídeo) | todos os dias, entrada a mercado | risco 1% | CDI | Ibovespa | Quem ganhou |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 2021* | +4,0% | +0,5% | +2,7% | +3,4% | +2,0% | +5,7% | +4,2% | +1,3% | −0,7% | todos os dias, entrada a mercado |
-| 2022 | +18,1% | +14,9% | +16,8% | +21,6% | +19,8% | −0,6% | +19,1% | +12,3% | +4,7% | só quinta, entrada a mercado (vídeo) |
-| 2023 | +15,3% | +29,1% | +19,5% | +24,4% | +17,8% | +33,5% | +16,4% | +13,0% | +22,3% | todos os dias, entrada a mercado |
-| 2024 | +16,4% | +0,9% | +19,8% | +20,9% | +18,1% | +2,5% | +19,2% | +10,8% | −10,4% | só quinta, entrada a mercado (vídeo) |
-| 2025 | +21,9% | +17,4% | +20,7% | +18,9% | +18,0% | +22,5% | +23,5% | +14,2% | +34,0% | Ibovespa |
-| 2026* | +7,7% | +7,6% | +9,1% | +17,4% | +12,8% | +34,8% | +9,0% | +11,6% | +5,0% | todos os dias, entrada a mercado |
-| **Acumulado no período** | **+116,5%** | **+90,0%** | **+126,3%** | **+163,9%** | **+126,3%** | **+137,2%** | **+131,6%** | **+81,6%** | **+60,3%** | **só quinta, entrada a mercado (vídeo)** |
-| **R\$ 10.000 viraram** | **R\$ 21.646** | **R\$ 19.004** | **R\$ 22.635** | **R\$ 26.393** | **R\$ 22.626** | **R\$ 23.721** | **R\$ 23.158** | **R\$ 18.156** | **R\$ 16.029** | |
-| **Média ao ano** | **+16,9%** | **+13,9%** | **+17,9%** | **+21,7%** | **+17,9%** | **+19,1%** | **+18,5%** | **+12,8%** | **+10,0%** | |
+| | 2021* | 2022 | 2023 | 2024 | 2025 | 2026* | **No período** | **Média/ano** | **R\$ 10.000 viraram** |
+|---|---|---|---|---|---|---|---|---|---|
+| **ATR 0,21 / 0,21** | +4,0% | +18,1% | +15,3% | +16,4% | +21,9% | +7,7% | **+116,5%** | +16,9% | R\$ 21.646 |
+| **todos os dias** | +0,5% | +14,9% | +29,1% | +0,9% | +17,4% | +7,6% | **+90,0%** | +13,9% | R\$ 19.004 |
+| **só quinta (vídeo)** | +2,7% | +16,8% | +19,5% | +19,8% | +20,7% | +9,1% | **+126,3%** | +17,9% | R\$ 22.635 |
+| **só quinta, entrada a mercado (vídeo)** | +3,4% | +21,6% | +24,4% | +20,9% | +18,9% | +17,4% | **+163,9%** | +21,7% | R\$ 26.393 |
+| **só quinta, corpo de 100+ (vídeo)** | +2,0% | +19,8% | +17,8% | +18,1% | +18,0% | +12,8% | **+126,3%** | +17,9% | R\$ 22.626 |
+| **todos os dias, entrada a mercado** | +5,7% | −0,6% | +33,5% | +2,5% | +22,5% | +34,8% | **+137,2%** | +19,1% | R\$ 23.721 |
+| **risco 1%** | +4,2% | +19,1% | +16,4% | +19,2% | +23,5% | +9,0% | **+131,6%** | +18,5% | R\$ 23.158 |
+| **CDI** | +1,3% | +12,3% | +13,0% | +10,8% | +14,2% | +11,6% | **+81,6%** | +12,8% | R\$ 18.156 |
+| **Ibovespa** | −0,7% | +4,7% | +22,3% | −10,4% | +34,0% | +5,0% | **+60,3%** | +10,0% | R\$ 16.029 |
+| *Quem ganhou* | *todos os dias, entrada a mercado* | *só quinta, entrada a mercado (vídeo)* | *todos os dias, entrada a mercado* | *só quinta, entrada a mercado (vídeo)* | *Ibovespa* | *todos os dias, entrada a mercado* | *só quinta, entrada a mercado (vídeo)* | | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 29/10/2026.
 

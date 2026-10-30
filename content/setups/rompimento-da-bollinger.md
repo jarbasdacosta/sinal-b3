@@ -8,7 +8,7 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 10h15 às 11h00 e das 14h00 às 17h30
 
-🎬 **Vídeo de origem:** [Arthur 777 – "isso apareceu nos meus testes no mini índice"](https://youtu.be/2l5k3OyC7eQ) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 30/10/2026 18:42 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "isso apareceu nos meus testes no mini índice"](https://youtu.be/2l5k3OyC7eQ) · testado de forma independente nos nossos dados em 26/10/2026 · página gerada em 30/10/2026 18:48 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 30.836** na versão ATR 0,09 / 0,52 com o capital no CDI (+26% ao ano · pior queda −4%)
@@ -168,17 +168,16 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ### Ano a ano
 
-| Ano | ATR 0,09 / 0,52 | como no vídeo (até 17h30) | tarde só até 17h00 | stop 0,10% (vídeo) | risco 1% | CDI | Ibovespa | Quem ganhou |
-|---|---|---|---|---|---|---|---|---|
-| 2021* | +4,0% | +3,3% | +3,3% | +1,7% | +6,4% | +1,3% | −0,7% | risco 1% |
-| 2022 | +18,2% | +16,8% | +16,2% | +16,4% | +30,1% | +12,3% | +4,7% | risco 1% |
-| 2023 | +22,8% | +20,4% | +19,0% | +17,3% | +40,6% | +13,0% | +22,3% | risco 1% |
-| 2024 | +23,1% | +29,2% | +30,2% | +26,7% | +56,8% | +10,8% | −10,4% | risco 1% |
-| 2025 | +40,2% | +42,6% | +41,3% | +42,2% | +108,7% | +14,2% | +34,0% | risco 1% |
-| 2026* | +18,4% | +17,5% | +17,8% | +13,3% | +24,6% | +11,6% | +5,0% | risco 1% |
-| **Acumulado no período** | **+208,4%** | **+214,4%** | **+209,5%** | **+183,3%** | **+693,8%** | **+81,6%** | **+60,3%** | **risco 1%** |
-| **R\$ 10.000 viraram** | **R\$ 30.836** | **R\$ 31.438** | **R\$ 30.954** | **R\$ 28.331** | **R\$ 79.379** | **R\$ 18.156** | **R\$ 16.029** | |
-| **Média ao ano** | **+25,6%** | **+26,0%** | **+25,7%** | **+23,4%** | **+52,0%** | **+12,8%** | **+10,0%** | |
+| | 2021* | 2022 | 2023 | 2024 | 2025 | 2026* | **No período** | **Média/ano** | **R\$ 10.000 viraram** |
+|---|---|---|---|---|---|---|---|---|---|
+| **ATR 0,09 / 0,52** | +4,0% | +18,2% | +22,8% | +23,1% | +40,2% | +18,4% | **+208,4%** | +25,6% | R\$ 30.836 |
+| **como no vídeo (até 17h30)** | +3,3% | +16,8% | +20,4% | +29,2% | +42,6% | +17,5% | **+214,4%** | +26,0% | R\$ 31.438 |
+| **tarde só até 17h00** | +3,3% | +16,2% | +19,0% | +30,2% | +41,3% | +17,8% | **+209,5%** | +25,7% | R\$ 30.954 |
+| **stop 0,10% (vídeo)** | +1,7% | +16,4% | +17,3% | +26,7% | +42,2% | +13,3% | **+183,3%** | +23,4% | R\$ 28.331 |
+| **risco 1%** | +6,4% | +30,1% | +40,6% | +56,8% | +108,7% | +24,6% | **+693,8%** | +52,0% | R\$ 79.379 |
+| **CDI** | +1,3% | +12,3% | +13,0% | +10,8% | +14,2% | +11,6% | **+81,6%** | +12,8% | R\$ 18.156 |
+| **Ibovespa** | −0,7% | +4,7% | +22,3% | −10,4% | +34,0% | +5,0% | **+60,3%** | +10,0% | R\$ 16.029 |
+| *Quem ganhou* | *risco 1%* | *risco 1%* | *risco 1%* | *risco 1%* | *risco 1%* | *risco 1%* | *risco 1%* | | |
 
 \* ano parcial: os dados vão de 01/11/2021 a 29/10/2026.
 
