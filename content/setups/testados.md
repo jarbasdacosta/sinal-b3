@@ -25,13 +25,17 @@ tags: [setup]
 | [**ADX da Manhã**](adx-da-manha) · [vídeo](https://youtu.be/D9mwdxexECE) | 🟡 promissor | +0,06 → +0,21 | 0,044 | 9/9 | 27/10/2026 |
 | [**Vai na Onda**](vai-na-onda) · [vídeo](https://youtu.be/5JZC82O-0Nc) | 🟡 promissor | +0,03 → +0,18 | 0,000 | 6/12 | 27/10/2026 |
 | [**Pullback na Média**](pullback-na-media) · [vídeo](https://youtu.be/iIaJDFRbNpI) | 🟡 promissor | +0,52 → +0,13 | 0,101 | 9/9 | 27/10/2026 |
+| [**Pôr do Sol (17h45)**](por-do-sol) · [vídeo](https://youtu.be/HswLyQd9rm8) | 🟡 promissor | +0,04 → +0,08 | 0,000 | 6/12 | 30/10/2026 |
+| **Vela das 10h15 (só a cor)** · [vídeo](https://youtu.be/FPDULDqXgkI) | ❌ reprovado | +0,06 → +0,18 | 0,109 | 1/15 | 30/10/2026 |
 | **Tendência do Mês na Sexta** · [vídeo](https://youtu.be/yOiGlNcxmYE) | ❌ reprovado | +0,11 → +0,12 | 0,125 | 6/9 | 27/10/2026 |
+| **Primeira Vela M5 (ter/qui/sex)** · [vídeo](https://youtu.be/JNVkWLzJRNU) | ❌ reprovado | +0,04 → +0,07 | 0,213 | 3/12 | 30/10/2026 |
 | **Vela das 10h15** · [vídeo](https://youtu.be/Pn9YLIjcG0E) | ❌ reprovado | −0,05 → +0,04 | 0,007 | 0/12 | 27/10/2026 |
 | **Reversão no Extremo** · [vídeo](https://youtu.be/YbMMQlSbsII) | ❌ reprovado | +0,02 → +0,01 | 0,081 | 1/12 | 27/10/2026 |
 | **Reversão do IFR** · [vídeo](https://youtu.be/a9fNfQEIUpk) | ❌ reprovado | +0,08 → +0,01 | 0,532 | 7/12 | 27/10/2026 |
 | **Faixa de Consolidação** · [vídeo](https://youtu.be/uR2zD1MESaU) | ❌ reprovado | −0,00 → −0,01 | 0,147 | 0/4 | 27/10/2026 |
 | **Bate e Volta nas Médias** · [vídeo](https://youtu.be/km_SKN-FCgI) | ❌ reprovado | −0,02 → −0,03 | 0,109 | 0/4 | 27/10/2026 |
 | **Keltner da Tarde** · [vídeo](https://youtu.be/HTSSAEhUBE0) | ❌ reprovado | −0,03 → −0,03 | 0,003 | 0/9 | 27/10/2026 |
+| **Bollinger Fecha Dentro** · [vídeo](https://youtu.be/ax9Qx4uucDs) | ❌ reprovado | +0,01 → −0,06 | 0,800 | 0/12 | 30/10/2026 |
 
 ### Testados antes da bateria padrão
 
