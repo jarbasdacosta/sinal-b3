@@ -1,63 +1,68 @@
 ---
 title: "🌎 Capital estrangeiro"
-date: 2026-10-29
+date: 2026-10-30
 description: "Compras e vendas dos investidores estrangeiros no mercado à vista da B3"
 tags: [estrangeiros]
 ---
 
-*Dados oficiais da B3 até 21/10/2026 · página atualizada 29/10/2026 19:03.*
+*Dado da B3 até **28/10/2026** (a B3 publica dois pregões depois) · página atualizada 30/10/2026 13:40. Atualiza sozinha nos dias úteis de manhã (5h40 a 8h40), assim que a B3 publica.*
 
-> [!success] Out/2026 (até dia 21): **+R$ 20,2 bi**
-> No ano de 2026: **+R$ 52,2 bi** — R$ 4,6 bi em IPOs/follow-ons e **+R$ 47,6 bi** negociados na bolsa
+> [!danger] 28/10/2026: **−R$ 2,7 bi** · 5 pregão(ões) seguido(s) de saída
+> No ano: **+R$ 36,0 bi** negociados na bolsa · **+R$ 4,6 bi** em IPOs/follow-ons · total **+R$ 40,6 bi**
 
-Saldo = compras − vendas + IPOs/follow-ons dos investidores estrangeiros no **mercado à vista** da B3 (ações). Positivo = entrou dinheiro de fora; negativo = saiu.
+## Resumo
 
-![Capital estrangeiro na B3](graficos/estrangeiros_20261029.png)
+| | Dia | Semana | Mês | Ano | 12 meses | Geral¹ |
+|---|---|---|---|---|---|---|
+| **Bolsa** (compras − vendas) | −R$ 2,7 bi | −R$ 7,6 bi | +R$ 8,6 bi | +R$ 36,0 bi | +R$ 36,2 bi | +R$ 174,0 bi |
+| IPOs/follow-ons | +R$ 0 mi | +R$ 0 mi | +R$ 0 mi | +R$ 4,6 bi | +R$ 5,4 bi | +R$ 208,2 bi |
+| **Total** | **−R$ 2,7 bi** | **−R$ 7,6 bi** | **+R$ 8,6 bi** | **+R$ 40,6 bi** | **+R$ 41,5 bi** | **+R$ 382,2 bi** |
+
+*Semana = desde segunda-feira · 12 meses = o mês até o dia + os 11 anteriores · ¹ Geral = bolsa desde 05/02/2009; ofertas desde 2016 (quando a B3 começou a somar). **Bolsa** é o número que a B3 divulga todo dia (e os sites publicam de manhã); **ofertas** são os IPOs e follow-ons que a B3 soma no total do mês; **total** = os dois (o total mensal oficial da B3). Dia e semana das ofertas só aparecem a partir do download diário (antes disso a B3 só dá o mês).*
+
+![Acumulado do ano, pregão a pregão](graficos/estrangeirosano_20261028.png)
 
 ## Dia a dia
 
-> [!danger] 27/10/2026: **−R$ 2,0 bi** · 4 pregão(ões) seguido(s) de saída
-> Últimos 5 pregões: **−R$ 8,7 bi** · últimos 20: **+R$ 10,8 bi**
+![Capital estrangeiro dia a dia](graficos/estrangeirosdia_20261028.png)
 
-![Capital estrangeiro dia a dia](graficos/estrangeirosdia_20261027.png)
+| Dia | Saldo do dia | Semana | Mês | Ano | 12 meses | Geral | IPO/follow-on |
+|---|---|---|---|---|---|---|---|
+| 28/10/2026 | **−R$ 2,7 bi** | −R$ 7,6 bi | +R$ 8,6 bi | +R$ 36,0 bi | +R$ 36,2 bi | +R$ 174,0 bi | — |
+| 27/10/2026 | **−R$ 2,0 bi** | −R$ 4,9 bi | +R$ 11,3 bi | +R$ 38,7 bi | +R$ 38,9 bi | +R$ 176,7 bi | — |
+| 26/10/2026 | **−R$ 2,8 bi** | −R$ 2,8 bi | +R$ 13,3 bi | +R$ 40,7 bi | +R$ 40,9 bi | +R$ 178,7 bi | — |
+| 23/10/2026 | **−R$ 2,9 bi** | −R$ 4,8 bi | +R$ 16,2 bi | +R$ 43,6 bi | +R$ 43,8 bi | +R$ 181,6 bi | — |
+| 22/10/2026 | **−R$ 1,0 bi** | −R$ 1,9 bi | +R$ 19,1 bi | +R$ 46,5 bi | +R$ 46,7 bi | +R$ 184,5 bi | — |
+| 21/10/2026 | **+R$ 157 mi** | −R$ 834 mi | +R$ 20,2 bi | +R$ 47,6 bi | +R$ 47,7 bi | +R$ 185,5 bi | — |
+| 20/10/2026 | **+R$ 18 mi** | −R$ 991 mi | +R$ 20,0 bi | +R$ 47,4 bi | +R$ 47,6 bi | +R$ 185,4 bi | — |
+| 19/10/2026 | **−R$ 1,0 bi** | −R$ 1,0 bi | +R$ 20,0 bi | +R$ 47,4 bi | +R$ 47,6 bi | +R$ 185,4 bi | — |
+| 16/10/2026 | **+R$ 2,2 bi** | +R$ 5,2 bi | +R$ 21,0 bi | +R$ 48,4 bi | +R$ 48,6 bi | +R$ 186,4 bi | — |
+| 15/10/2026 | **+R$ 213 mi** | +R$ 3,0 bi | +R$ 18,7 bi | +R$ 46,1 bi | +R$ 46,3 bi | +R$ 184,1 bi | — |
+| 14/10/2026 | **+R$ 708 mi** | +R$ 2,8 bi | +R$ 18,5 bi | +R$ 45,9 bi | +R$ 46,1 bi | +R$ 183,9 bi | — |
+| 13/10/2026 | **+R$ 2,1 bi** | +R$ 2,1 bi | +R$ 17,8 bi | +R$ 45,2 bi | +R$ 45,4 bi | +R$ 183,2 bi | — |
+| 09/10/2026 | **+R$ 1,0 bi** | +R$ 13,2 bi | +R$ 15,8 bi | +R$ 43,1 bi | +R$ 43,3 bi | +R$ 181,1 bi | — |
+| 08/10/2026 | **+R$ 1,6 bi** | +R$ 12,2 bi | +R$ 14,7 bi | +R$ 42,1 bi | +R$ 42,3 bi | +R$ 180,1 bi | — |
+| 07/10/2026 | **−R$ 628 mi** | +R$ 10,5 bi | +R$ 13,1 bi | +R$ 40,5 bi | +R$ 40,7 bi | +R$ 178,5 bi | — |
 
-| Dia | Saldo do dia | Acumulado do mês |
-|---|---|---|
-| 27/10/2026 | **−R$ 2,0 bi** | +R$ 11,3 bi |
-| 26/10/2026 | **−R$ 2,8 bi** | +R$ 13,3 bi |
-| 23/10/2026 | **−R$ 2,9 bi** | +R$ 16,2 bi |
-| 22/10/2026 | **−R$ 1,0 bi** | +R$ 19,1 bi |
-| 21/10/2026 | **+R$ 157 mi** | +R$ 20,2 bi |
-| 20/10/2026 | **+R$ 18 mi** | +R$ 20,0 bi |
-| 19/10/2026 | **−R$ 1,0 bi** | +R$ 20,0 bi |
-| 16/10/2026 | **+R$ 2,2 bi** | +R$ 21,0 bi |
-| 15/10/2026 | **+R$ 213 mi** | +R$ 18,7 bi |
-| 14/10/2026 | **+R$ 708 mi** | +R$ 18,5 bi |
-| 13/10/2026 | **+R$ 2,1 bi** | +R$ 17,8 bi |
-| 09/10/2026 | **+R$ 1,0 bi** | +R$ 15,8 bi |
-| 08/10/2026 | **+R$ 1,6 bi** | +R$ 14,7 bi |
-| 07/10/2026 | **−R$ 628 mi** | +R$ 13,1 bi |
-| 06/10/2026 | **+R$ 1,1 bi** | +R$ 13,7 bi |
+*Saldo negociado na bolsa (sem ofertas). Fonte do dia: relatório da B3 baixado todo dia; antes do download diário, Dados de Mercado e Clube do Pai Rico (os mesmos números da B3).*
 
-**Posição dos estrangeiros no índice futuro** (última publicada, 01/09/2017): comprada em 3.065 contratos — a B3 mudou a forma de divulgar esse dado e ele deixou de ser publicado.
-
-*Dia a dia: postagens diárias do [Clube do Pai Rico](https://www.clubedopairico.com.br/) com o dado da B3 (4142 pregões desde 05/02/2009).*
+**Posição dos estrangeiros no índice futuro** (última publicada. 01/09/2017): comprada em 3.065 contratos — a B3 mudou a forma de divulgar esse dado e ele deixou de ser publicado.
 
 ## Todos os tipos de investidor
 
-Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **quem está do outro lado** dos estrangeiros.
+Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **quem está do outro lado** dos estrangeiros (saldo negociado na bolsa, sem ofertas).
 
 ![Saldo acumulado por tipo de investidor](graficos/investidores_20261021.png)
 
-| Tipo | 21/10 | 5 pregões | 20 pregões | 10/2026 | 2026 |
-|---|---|---|---|---|---|
-| Estrangeiro | **+R$ 157 mi** | +R$ 1,6 bi | +R$ 19,6 bi | +R$ 20,2 bi | +R$ 47,6 bi |
-| Institucional | **−R$ 753 mi** | −R$ 3,1 bi | −R$ 10,4 bi | −R$ 10,9 bi | −R$ 46,4 bi |
-| Pessoa física | **+R$ 970 mi** | +R$ 1,1 bi | −R$ 3,5 bi | −R$ 4,9 bi | +R$ 883 mi |
-| Inst. financeiras | **−R$ 430 mi** | +R$ 799 mi | −R$ 1,9 bi | −R$ 396 mi | −R$ 908 mi |
-| Outros | **+R$ 56 mi** | −R$ 433 mi | −R$ 3,8 bi | −R$ 4,0 bi | −R$ 1,2 bi |
+| Tipo | 21/10 | Semana | Mês | Ano | 12 meses | Geral* |
+|---|---|---|---|---|---|---|
+| Estrangeiro | **+R$ 157 mi** | −R$ 834 mi | +R$ 20,2 bi | +R$ 47,6 bi | +R$ 47,7 bi | +R$ 50,2 bi |
+| Institucional | **−R$ 753 mi** | −R$ 159 mi | −R$ 10,9 bi | −R$ 46,4 bi | −R$ 52,2 bi | −R$ 52,7 bi |
+| Pessoa física | **+R$ 970 mi** | +R$ 1,7 bi | −R$ 4,9 bi | +R$ 883 mi | +R$ 1,3 bi | +R$ 306 mi |
+| Inst. financeiras | **−R$ 430 mi** | −R$ 525 mi | −R$ 396 mi | −R$ 908 mi | −R$ 101 mi | −R$ 1,1 bi |
+| Outros | **+R$ 56 mi** | −R$ 139 mi | −R$ 4,0 bi | −R$ 1,2 bi | +R$ 3,3 bi | +R$ 3,3 bi |
 
-*Soma dos saldos diários: só o que foi negociado na bolsa, **sem IPOs e follow-ons**. Por isso o ano dos estrangeiros aqui é menor que o do quadro do topo da página, que inclui as ofertas.*
+*Dados até 21/10/2026 (arquivo baixado à mão). \* Geral e 12 meses: desde 24/10/2025, o início deste arquivo.*
 
 > [!note]- Últimos 15 pregões
 > | Dia | Estrangeiro | Institucional | Pessoa física | Inst. financeiras | Outros |
@@ -78,71 +83,71 @@ Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **
 > | 01/10 | +R$ 268 mi | +R$ 200 mi | +R$ 158 mi | −R$ 1,0 bi | +R$ 386 mi |
 > | 30/09 | +R$ 322 mi | +R$ 454 mi | −R$ 290 mi | −R$ 515 mi | +R$ 29 mi |
 
-> [!warning] Ainda não testado
-> Histórico atual: 246 pregões (24/10/2025 a 21/10/2026). Para o teste de treino e teste contra o acaso, falta o histórico desde 2010 (pedido de acesso à API). Até lá é **só informação** — não entra em sinal nem em contexto das compras.
-
-*Fonte: B3, via [Dados de Mercado](https://www.dadosdemercado.com.br/fluxo) (arquivo baixado à mão).*
+*Fonte: B3, via [Dados de Mercado](https://www.dadosdemercado.com.br/fluxo) (arquivo baixado à mão — o relatório da B3 só traz a participação em %, não o saldo de cada tipo).*
 
 ## Mês a mês
 
-| Mês | Compras | Vendas | IPO/follow-on | Saldo | | Acumulado no ano |
-|---|---|---|---|---|---|---|
-| out/2026 *(até 21)* | R$ 524 bi | R$ 504 bi | — | **+R$ 20,2 bi** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩 | +R$ 52,2 bi |
-| set/2026 | R$ 436 bi | R$ 427 bi | — | **+R$ 9,1 bi** | 🟩🟩🟩🟩 | +R$ 32,0 bi |
-| ago/2026 | R$ 361 bi | R$ 379 bi | — | **−R$ 18,1 bi** | 🟥🟥🟥🟥🟥🟥🟥🟥 | +R$ 22,9 bi |
-| jul/2026 | R$ 311 bi | R$ 308 bi | R$ 1,8 bi | **+R$ 4,3 bi** | 🟩🟩 | +R$ 41,0 bi |
-| jun/2026 | R$ 359 bi | R$ 367 bi | R$ 738 mi | **−R$ 7,0 bi** | 🟥🟥🟥 | +R$ 36,7 bi |
-| mai/2026 | R$ 379 bi | R$ 394 bi | R$ 1,6 bi | **−R$ 13,3 bi** | 🟥🟥🟥🟥🟥🟥 | +R$ 43,8 bi |
-| abr/2026 | R$ 447 bi | R$ 444 bi | R$ 43 mi | **+R$ 3,2 bi** | 🟩 | +R$ 57,1 bi |
-| mar/2026 | R$ 513 bi | R$ 501 bi | R$ 309 mi | **+R$ 12,0 bi** | 🟩🟩🟩🟩🟩 | +R$ 53,8 bi |
-| fev/2026 | R$ 427 bi | R$ 411 bi | — | **+R$ 15,4 bi** | 🟩🟩🟩🟩🟩🟩🟩 | +R$ 41,9 bi |
-| jan/2026 | R$ 421 bi | R$ 395 bi | R$ 158 mi | **+R$ 26,5 bi** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | +R$ 26,5 bi |
-| dez/2025 | R$ 340 bi | R$ 342 bi | R$ 253 mi | **−R$ 1,6 bi** | 🟥 | +R$ 26,9 bi |
-| nov/2025 | R$ 311 bi | R$ 309 bi | R$ 489 mi | **+R$ 2,6 bi** | 🟩 | +R$ 28,5 bi |
-| out/2025 | R$ 299 bi | R$ 301 bi | R$ 94 mi | **−R$ 1,1 bi** | 🟥 | +R$ 25,9 bi |
-| set/2025 | R$ 279 bi | R$ 274 bi | — | **+R$ 5,3 bi** | 🟩🟩 | +R$ 27,1 bi |
-| ago/2025 | R$ 275 bi | R$ 274 bi | — | **+R$ 1,2 bi** | 🟩 | +R$ 21,8 bi |
-| jul/2025 | R$ 272 bi | R$ 278 bi | R$ 104 mi | **−R$ 6,3 bi** | 🟥🟥🟥 | +R$ 20,6 bi |
-| jun/2025 | R$ 289 bi | R$ 284 bi | R$ 31 mi | **+R$ 5,4 bi** | 🟩🟩 | +R$ 26,9 bi |
-| mai/2025 | R$ 327 bi | R$ 316 bi | R$ 80 mi | **+R$ 10,7 bi** | 🟩🟩🟩🟩🟩 | +R$ 21,5 bi |
-| abr/2025 | R$ 323 bi | R$ 323 bi | — | **−R$ 134 mi** | 🟥 | +R$ 10,9 bi |
-| mar/2025 | R$ 272 bi | R$ 269 bi | R$ 344 mi | **+R$ 3,5 bi** | 🟩🟩 | +R$ 11,0 bi |
-| fev/2025 | R$ 289 bi | R$ 289 bi | — | **+R$ 699 mi** | 🟩 | +R$ 7,5 bi |
-| jan/2025 | R$ 289 bi | R$ 282 bi | — | **+R$ 6,8 bi** | 🟩🟩🟩 | +R$ 6,8 bi |
-| dez/2024 ¹ | — | — | — | **+R$ 879 mi** | 🟩 | −R$ 32,9 bi |
-| nov/2024 ¹ | — | — | — | **−R$ 3,1 bi** | 🟥 | −R$ 33,8 bi |
+![Capital estrangeiro na B3 — mensal](graficos/estrangeiros_20261028.png)
 
-*¹ mês pelas postagens diárias do Clube do Pai Rico (o arquivo da B3 ainda não cobre).*
+| Mês | Bolsa | IPO/follow-on | Total | | Ano (bolsa) | Ano (total) | 12 meses (total) |
+|---|---|---|---|---|---|---|---|
+| out/2026 *(até 28)* | **+R$ 8,6 bi** | — | +R$ 8,6 bi | 🟩🟩🟩 | +R$ 36,0 bi | +R$ 40,6 bi | +R$ 41,5 bi |
+| set/2026 | **+R$ 9,1 bi** | — | +R$ 9,1 bi | 🟩🟩🟩 | +R$ 27,4 bi | +R$ 32,0 bi | +R$ 31,8 bi |
+| ago/2026 | **−R$ 18,1 bi** | — | −R$ 18,1 bi | 🟥🟥🟥🟥🟥🟥🟥 | +R$ 18,3 bi | +R$ 22,9 bi | +R$ 28,0 bi |
+| jul/2026 | **+R$ 2,6 bi** | +R$ 1,8 bi | +R$ 4,3 bi | 🟩🟩 | +R$ 36,4 bi | +R$ 41,0 bi | +R$ 47,3 bi |
+| jun/2026 | **−R$ 7,8 bi** | +R$ 738 mi | −R$ 7,0 bi | 🟥🟥🟥 | +R$ 33,8 bi | +R$ 36,7 bi | +R$ 36,7 bi |
+| mai/2026 | **−R$ 14,9 bi** | +R$ 1,6 bi | −R$ 13,3 bi | 🟥🟥🟥🟥🟥 | +R$ 41,6 bi | +R$ 43,8 bi | +R$ 49,1 bi |
+| abr/2026 | **+R$ 3,2 bi** | +R$ 43 mi | +R$ 3,2 bi | 🟩 | +R$ 56,5 bi | +R$ 57,1 bi | +R$ 73,1 bi |
+| mar/2026 | **+R$ 11,7 bi** | +R$ 309 mi | +R$ 12,0 bi | 🟩🟩🟩🟩🟩 | +R$ 53,4 bi | +R$ 53,8 bi | +R$ 69,7 bi |
+| fev/2026 | **+R$ 15,4 bi** | — | +R$ 15,4 bi | 🟩🟩🟩🟩🟩🟩 | +R$ 41,7 bi | +R$ 41,9 bi | +R$ 61,2 bi |
+| jan/2026 | **+R$ 26,3 bi** | +R$ 158 mi | +R$ 26,5 bi | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | +R$ 26,3 bi | +R$ 26,5 bi | +R$ 46,5 bi |
+| dez/2025 | **−R$ 1,9 bi** | +R$ 253 mi | −R$ 1,6 bi | 🟥 | +R$ 25,5 bi | +R$ 26,9 bi | +R$ 26,9 bi |
+| nov/2025 | **+R$ 2,1 bi** | +R$ 489 mi | +R$ 2,6 bi | 🟩 | +R$ 27,3 bi | +R$ 28,5 bi | +R$ 29,4 bi |
+| out/2025 | **−R$ 1,2 bi** | +R$ 94 mi | −R$ 1,1 bi | 🟥 | +R$ 25,3 bi | +R$ 25,9 bi | +R$ 23,8 bi |
+| set/2025 | **+R$ 5,3 bi** | — | +R$ 5,3 bi | 🟩🟩 | +R$ 26,5 bi | +R$ 27,1 bi | +R$ 22,4 bi |
+| ago/2025 | **+R$ 1,2 bi** | — | +R$ 1,2 bi | 🟩 | +R$ 21,2 bi | +R$ 21,8 bi | +R$ 15,4 bi |
+| jul/2025 | **−R$ 6,4 bi** | +R$ 104 mi | −R$ 6,3 bi | 🟥🟥 | +R$ 20,1 bi | +R$ 20,6 bi | +R$ 24,3 bi |
+| jun/2025 | **+R$ 5,4 bi** | +R$ 31 mi | +R$ 5,4 bi | 🟩🟩 | +R$ 26,4 bi | +R$ 26,9 bi | +R$ 34,1 bi |
+| mai/2025 | **+R$ 10,6 bi** | +R$ 80 mi | +R$ 10,7 bi | 🟩🟩🟩🟩 | +R$ 21,1 bi | +R$ 21,5 bi | +R$ 24,5 bi |
+| abr/2025 | **−R$ 134 mi** | — | −R$ 134 mi | 🟥 | +R$ 10,5 bi | +R$ 10,9 bi | +R$ 12,2 bi |
+| mar/2025 | **+R$ 3,1 bi** | +R$ 344 mi | +R$ 3,5 bi | 🟩 | +R$ 10,6 bi | +R$ 11,0 bi | +R$ 950 mi |
+| fev/2025 | **+R$ 699 mi** | — | +R$ 699 mi | 🟩 | +R$ 7,5 bi | +R$ 7,5 bi | −R$ 8,1 bi |
+| jan/2025 | **+R$ 6,8 bi** | — | +R$ 6,8 bi | 🟩🟩🟩 | +R$ 6,8 bi | +R$ 6,8 bi | −R$ 18,2 bi |
+| dez/2024 ² | **+R$ 879 mi** | — | +R$ 879 mi | 🟩 | −R$ 32,9 bi | −R$ 32,9 bi | −R$ 32,9 bi |
+| nov/2024 ² | **−R$ 3,1 bi** | — | −R$ 3,1 bi | 🟥 | −R$ 33,8 bi | −R$ 33,8 bi | −R$ 16,4 bi |
+
+*² mês pelas postagens diárias do Clube do Pai Rico (sem ofertas).*
 
 ## Por ano
 
-| Ano | Saldo |
-|---|---|
-| 2025 | **+R$ 26,9 bi** |
-| 2024 | **−R$ 24,2 bi** |
-| 2023 | **+R$ 56,0 bi** |
-| 2022 | **+R$ 119,8 bi** |
-| 2021 | **+R$ 41,5 bi** |
-| 2020 | **+R$ 701 mi** |
-| 2019 | **−R$ 6,5 bi** |
-| 2018 | **−R$ 4,8 bi** |
-| 2017 | **+R$ 39,6 bi** |
-| 2016 | **+R$ 19,5 bi** |
-| 2015 ¹ | **+R$ 16,3 bi** |
-| 2014 ¹ | **+R$ 19,3 bi** |
-| 2013 ¹ | **+R$ 12,0 bi** |
-| 2012 ¹ | **+R$ 217 mi** |
-| 2011 ¹ | **−R$ 2,3 bi** |
-| 2010 ¹ | **+R$ 9,1 bi** |
-| 2009 ¹ | **+R$ 18,5 bi** |
+| Ano | Bolsa | IPO/follow-on | Total | Geral (bolsa) |
+|---|---|---|---|---|
+| 2026 *(até 28/10)* | **+R$ 36,0 bi** | +R$ 4,6 bi | +R$ 40,6 bi | +R$ 174,0 bi |
+| 2025 | **+R$ 25,5 bi** | +R$ 1,4 bi | +R$ 26,9 bi | +R$ 138,0 bi |
+| 2024 | **−R$ 32,1 bi** | +R$ 7,9 bi | −R$ 24,2 bi | +R$ 112,5 bi |
+| 2023 | **+R$ 44,9 bi** | +R$ 11,1 bi | +R$ 56,0 bi | +R$ 144,6 bi |
+| 2022 | **+R$ 100,8 bi** | +R$ 19,0 bi | +R$ 119,8 bi | +R$ 99,8 bi |
+| 2021 | **−R$ 7,2 bi** | +R$ 48,7 bi | +R$ 41,5 bi | −R$ 1,1 bi |
+| 2020 | **−R$ 39,7 bi** | +R$ 40,4 bi | +R$ 701 mi | +R$ 6,1 bi |
+| 2019 | **−R$ 44,5 bi** | +R$ 38,0 bi | −R$ 6,5 bi | +R$ 45,8 bi |
+| 2018 | **−R$ 11,5 bi** | +R$ 6,7 bi | −R$ 4,8 bi | +R$ 90,3 bi |
+| 2017 | **+R$ 14,4 bi** | +R$ 25,2 bi | +R$ 39,6 bi | +R$ 101,8 bi |
+| 2016 | **+R$ 14,3 bi** | +R$ 5,2 bi | +R$ 19,5 bi | +R$ 87,4 bi |
+| 2015 ³ | **+R$ 16,3 bi** | — | — | +R$ 73,1 bi |
+| 2014 ³ | **+R$ 19,3 bi** | — | — | +R$ 56,8 bi |
+| 2013 ³ | **+R$ 12,0 bi** | — | — | +R$ 37,5 bi |
+| 2012 ³ | **+R$ 217 mi** | — | — | +R$ 25,5 bi |
+| 2011 ³ | **−R$ 2,3 bi** | — | — | +R$ 25,3 bi |
+| 2010 ³ | **+R$ 9,1 bi** | — | — | +R$ 27,6 bi |
+| 2009 ³ | **+R$ 18,5 bi** | — | — | +R$ 18,5 bi |
 
-*Anos com ¹: soma dos meses pelas postagens diárias do Pai Rico (dado diário da B3, sem IPOs, follow-ons e negócios em bloco — por isso pode diferir um pouco do total oficial).*
+*³ ano pelas postagens diárias do Pai Rico (antes de 2016 a B3 não separava as ofertas).*
 
 ## Participação no volume (compra + venda)
 
 | Mês | Estrangeiros | Institucionais | Pessoas físicas | Inst. financeiras | Outros |
 |---|---|---|---|---|---|
-| out/2026 | **61,7%** | 26,0% | 9,4% | 2,2% | 0,7% |
+| out/2026 | **61,8%** | 26,1% | 9,5% | 2,0% | 0,7% |
 | set/2026 | **61,8%** | 24,2% | 10,5% | 3,0% | 0,5% |
 | ago/2026 | **58,3%** | 26,3% | 10,9% | 3,6% | 0,9% |
 | jul/2026 | **59,7%** | 24,9% | 11,9% | 2,7% | 0,9% |
@@ -153,20 +158,35 @@ Para cada comprador há um vendedor: os 5 saldos de um dia somam zero. Mostra **
 | fev/2026 | **62,1%** | 23,4% | 11,2% | 2,7% | 0,6% |
 | jan/2026 | **60,2%** | 24,4% | 11,8% | 3,0% | 0,6% |
 
-> [!warning] Ainda não testado
-> O histórico mensal começa com o que os arquivos da B3 trazem (cerca de 2 anos) e cresce a cada arquivo novo. Antes de virar filtro das operações, o fluxo estrangeiro precisa de histórico suficiente para o teste de treino e teste. Até lá é **contexto**.
+## Conferência
 
-> [!info]- Como atualizar (à mão — a B3 não permite coleta automática)
-> 1. Na página [Dados de mercado da B3](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/mercado-a-vista/dados-de-mercado/), baixe o relatório (RELATORIO_DADOS_DE_MERCADO.csv).
-> 2. No G5: `scp ~/Downloads/RELATORIO_DADOS_DE_MERCADO.csv root@192.168.18.100:/root/`
-> 3. No Proxmox: `pct push 109 /root/RELATORIO_DADOS_DE_MERCADO.csv /opt/sinal-b3/dados/b3/RELATORIO_$(date +%F).csv`
-> A página atualiza na rodada das 19h. Uma vez por semana é suficiente; com dois arquivos do mesmo mês, aparece o fluxo entre eles.
+> [!success] Todos os totais batem
+> Cada linha compara a mesma conta feita por dois caminhos. ✅ = diferença menor que R$ 1 milhão.
 
-> [!info]- Como atualizar os 5 tipos de investidor (à mão)
+| O que | Por aqui | Pela outra fonte | |
+|---|---|---|---|
+| Mês até 28/10: soma dos dias × relatório da B3 | +R$ 8,6 bi | +R$ 8,6 bi | ✅ |
+| Ano até 28/10 (bolsa): resumo/gráfico × B3 | +R$ 36,0 bi | +R$ 36,0 bi | ✅ |
+| Ano até 28/10 com ofertas: total × B3 (A+C−B) | +R$ 40,6 bi | +R$ 40,6 bi | ✅ |
+| Meses fechados de 2026: soma dos dias × mês oficial | 9 de 9 batem | — | ✅ |
+| Ano até 27/10: nosso × publicado pelo Pai Rico | +R$ 38,7 bi | +R$ 38,7 bi | ✅ |
+| Tabela dos 5 tipos (até 21/10): estrangeiro no ano × série principal | +R$ 47,6 bi | +R$ 47,6 bi | ✅ |
+| Dias sem valor próprio (preenchidos pela diferença da B3) | 28/10 |  | ℹ️ |
+
+> [!info]- Como funciona (fontes e horários)
+> - **B3, direto:** todo dia útil das 5h40 às 8h40 o servidor baixa o relatório *Dados de mercado* da B3 (1 download por tentativa). A B3 publica a movimentação dos estrangeiros em **D+2** — o pregão de segunda sai na quarta de manhã. A diferença entre o relatório de hoje e o anterior é o saldo do pregão novo (compras, vendas e ofertas separados).
+> - **Histórico antes do download diário:** postagens do Clube do Pai Rico (dado da B3 desde 2009) e o arquivo do Dados de Mercado — conferidos dia a dia contra a B3.
+> - Relatórios da B3 guardados: 2 (o mais recente com dado até 28/10/2026).
+> - Se a B3 corrigir um mês, o relatório seguinte já traz o valor novo e a conferência mostra.
+
+> [!info]- Como atualizar os 5 tipos de investidor (à mão — a B3 não dá o saldo por tipo no relatório)
 > 1. Em [dadosdemercado.com.br/fluxo](https://www.dadosdemercado.com.br/fluxo), clique em "Baixar em .csv".
 > 2. No G5: `scp ~/Downloads/fluxo-estrangeiro.csv root@192.168.18.100:/root/`
 > 3. No Proxmox: `pct push 109 /root/fluxo-estrangeiro.csv /opt/sinal-b3/dados/dm/fluxo_$(date +%F).csv`
-> Cada arquivo traz ~1 ano; os dias se juntam ao histórico. Uma vez por semana é suficiente.
+> Cada arquivo traz ~1 ano; os dias se juntam ao histórico.
+
+> [!warning] Ainda não testado
+> Antes de virar filtro das operações, o fluxo estrangeiro precisa passar pelo teste de treino e teste contra o acaso. Até lá é **contexto**.
 
 [📊 Amplitude](amplitude/) · [Operações](operacoes/) · [Sinais](sinais-topo-fundo/)
 
