@@ -4,6 +4,11 @@ date: 2026-10-30
 tags: [home]
 ---
 
+> [!warning] Este site mudou de endereço
+> O conteúdo que ficava aqui agora vive em **[Pêndulo de Mercado](https://jarbasdacosta.github.io/pendulodemercado)**, com nome e cara novos. Atualize seu favorito.
+>
+> As páginas abaixo ficam congeladas em 31/10/2026 e não serão mais atualizadas.
+
 **As ondas do mercado, explicadas.** Leitura do Ibovespa com estatística de 26 anos, baseada no trabalho de pesquisadores e traders reconhecidos e adaptada por Jarbas Daniel da Costa.
 
 *Última atualização: 30/10/2026 19:06 BRT · Diário D1*
