@@ -1,6 +1,6 @@
 ---
 title: Extremos da Semana (virada de mão)
-date: 2026-10-30
+date: 2026-10-31
 tags: [setup, win]
 ---
 
@@ -8,7 +8,7 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 15 minutos · ordens válidas até as 15h
 
-🎬 **Vídeo de origem:** [Arthur 777 – "STOP?! Virada de mão! payoff alto no mini índice"](https://youtu.be/p20GbzQCJlc) · testado de forma independente nos nossos dados em 30/10/2026 · página gerada em 30/10/2026 23:52 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "STOP?! Virada de mão! payoff alto no mini índice"](https://youtu.be/p20GbzQCJlc) · testado de forma independente nos nossos dados em 31/10/2026 · página gerada em 31/10/2026 08:06 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 31.401** na versão ATR 0,21 / 1,54 com o capital no CDI (+26% ao ano · pior queda −23%)
@@ -304,7 +304,7 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ## O que os testes mostraram
 
-*Testes de robustez rodados em 30/10/2026.*
+*Testes de robustez rodados em 31/10/2026.*
 
 | Pergunta | Resposta |
 |---|---|
@@ -321,7 +321,9 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 - **Mês a mês é quase cara ou coroa:** a versão ATR 0,21 / 1,54 + CDI ficou abaixo do CDI em 37% dos meses. O resultado aparece no ano.
 - **Anos negativos:** 2023.
 - **Acerto de ~36%:** a maioria das operações dá stop; sequências de stops são normais.
-- ['A virada de mão é o coração do setup', 'Sem ela o vídeo diz que a estratégia "funciona e para por aí". O nosso teste executa a virada no preço do stop, na mesma série de minutos — é onde ela aconteceria de verdade. A peça "sem virada de mão" mostra quanto ela contribui.']
+- ['A virada de mão SUBTRAI valor nos nossos dados', 'O vídeo apresenta a virada de mão como o ajuste que fez a estratégia funcionar. Nos nossos dados ela faz o contrário: a peça **sem virada de mão** rende **+0,109R no treino e +0,261R no teste** contra **+0,085R e +0,199R** da versão completa, com 364 operações em vez de 585 — as ~221 entradas de virada são negativas no agregado. A vantagem do setup está no **rompimento** dos extremos da semana, não na reversão.']
+- ['Por que então o setup continua com a virada', 'Porque tirá-la agora seria escolher pelo resultado do teste, que é exatamente o que este site não faz. A versão publicada é a do vídeo, e a peça acima fica registrada como indício. Se os dados AO VIVO confirmarem, a troca se faz com dados que ninguém viu — aí ela vale. (Detalhe técnico: a versão principal é escolhida pelo treino com os valores em PONTOS do vídeo e só depois o stop e o alvo viram ATR; sob a saída em ATR que acabou sendo usada, o treino também prefere a versão sem virada. A comparação estrutural e a saída usada não coincidem — é limitação da bateria, não do setup.)']
+- ['É rompimento, não reversão', 'Foi testado procurando um setup de REVERSÃO para descorrelacionar a carteira, e acabou sendo rompimento. Ele serve de aposta nova porque ficou em família própria (os extremos da SEMANA, decididos na abertura, são mecanismo diferente dos rompimentos intradiários), mas não é o diversificador contra-tendência que faltava.']
 - **Poucos anos de dados** (desde out/2021) e **sem imposto** (day trade paga 20% sobre o lucro).
 
 ## Como o teste foi feito

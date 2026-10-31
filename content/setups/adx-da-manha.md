@@ -1,6 +1,6 @@
 ---
 title: ADX da Manhã
-date: 2026-10-30
+date: 2026-10-31
 tags: [setup, win]
 ---
 
@@ -8,7 +8,7 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 15 minutos · só as velas das 10h00, 10h15, 10h30, 10h45 e 11h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 30/10/2026 23:52 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "esse indicador é bizarro no mini índice"](https://youtu.be/D9mwdxexECE) · testado de forma independente nos nossos dados em 31/10/2026 · página gerada em 31/10/2026 08:06 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 48.526** na versão filtro 0,89% com o capital no CDI (+38% ao ano · pior queda −15%)
@@ -247,22 +247,22 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ## O que os testes mostraram
 
-*Testes de robustez rodados em 27/10/2026.*
+*Testes de robustez rodados em 31/10/2026.*
 
 | Pergunta | Resposta |
 |---|---|
-| **Bate com o vídeo?** | Na versão do vídeo, sem custo, nossos dados deram 1786 operações, 18% de acerto e fator de lucro 1,28. O vídeo mostra: 1.940 operações (nossos dados: 1.960). |
-| **Ganha do acaso?** | Entradas quaisquer nos mesmos horários ficam perto de zero; o setup faz +0,06R por operação no treino (p 0,361) e +0,21R no teste (p 0,044). |
-| **É sorte de parâmetro?** | 9 de 9 combinações de stop × alvo deram lucro no treino **e** no teste (+0,02 a +0,34R por operação). |
-| **Cada condição importa?** | COMPLETO (versão principal): +0,06 → +0,21R · sem o ADX: +0,03 → +0,07R · sem o filtro do tamanho da vela: +0,04 → +0,23R · venda com o ADX descendo: +0,06 → +0,20R (treino → teste). |
+| **Bate com o vídeo?** | Na versão do vídeo, sem custo, nossos dados deram 1794 operações, 18% de acerto e fator de lucro 1,28. O vídeo mostra: 1.940 operações (nossos dados: 1.960). |
+| **Ganha do acaso?** | Entradas quaisquer nos mesmos horários ficam perto de zero; o setup faz +0,06R por operação no treino (p 0,361) e +0,21R no teste (p 0,014). |
+| **É sorte de parâmetro?** | 9 de 9 combinações de stop × alvo deram lucro no treino **e** no teste (+0,02 a +0,35R por operação). |
+| **Cada condição importa?** | COMPLETO (versão principal): +0,06 → +0,21R · sem o ADX: +0,03 → +0,07R · sem o filtro do tamanho da vela: +0,04 → +0,24R · venda com o ADX descendo: +0,06 → +0,20R (treino → teste). |
 | **Pontos, % ou ATR?** | O treino escolheu manter como no vídeo. |
-| **E se o custo for maior?** | 15 pts: +0,06 → +0,21R · 25 pts: +0,00 → +0,17R · 30 pts: −0,03 → +0,15R (treino → teste). |
+| **E se o custo for maior?** | 15 pts: +0,06 → +0,21R · 25 pts: +0,00 → +0,17R · 30 pts: −0,03 → +0,14R (treino → teste). |
 
 ## Riscos e cuidados
 
 - **Fases ruins:** a pior queda da versão filtro 0,89% foi de −R\$ 1.884 por contrato (começou em nov/2025, recuperada em abr/2026); 24 perdas seguidas aconteceram no período.
 - **Mês a mês é quase cara ou coroa:** a versão filtro 0,89% + CDI ficou abaixo do CDI em 37% dos meses. O resultado aparece no ano.
-- **Stop curto** (~189 pts): o custo e o escorregão pesam mais — veja "E se o custo for maior?".
+- **Stop curto** (~190 pts): o custo e o escorregão pesam mais — veja "E se o custo for maior?".
 - **Anos negativos:** 2021.
 - **Acerto de ~18%:** a maioria das operações dá stop; sequências de stops são normais.
 - **Treino fraco:** em 2021–2023 o setup ganhou só ~10 pts por operação e não bateu o acaso; com custo de 25 pts já seria zero. Quase todo o lucro veio de 2024–2025.

@@ -1,12 +1,12 @@
 ---
 title: Setups
-date: 2026-10-30
+date: 2026-10-31
 tags: [setup]
 ---
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 30/10/2026 23:52 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 31/10/2026 08:06 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|
@@ -17,7 +17,7 @@ tags: [setup]
 | [**Extremos da Semana (virada de mão)**](extremos-da-semana-virada) | 🟡 promissor | Abre dentro da faixa da semana anterior, põe ordem nos dois extremos e, se o rompimento falhar e bater o stop, vira a mão na hora apostando na reversão. | +26% | −23% | **+31% · −18%** | +29 → +72 | [assistir](https://youtu.be/p20GbzQCJlc) |
 | [**GPS de Médias**](gps-de-medias) | ✅ aprovado | Quando as oito médias curtas estão enfileiradas e o preço rompe a banda de Bollinger, entra a favor com stop curto e alvo seis vezes maior. | +36% | −15% | **+67% · −23%** | +54 → +33 | [assistir](https://youtu.be/g0FJNSNubW8) |
 | [**IFR de Tendência**](ifr-de-tendencia) | ✅ aprovado | Entra quando o IFR mostra força nos horários de tendência do dia (10h–11h e 14h–16h): vela a favor com o IFR acima de 70 ou abaixo de 30, stop curto e alvo longo. | +43% | −7% | **+68% · −11%** | +56 → +99 | [assistir](https://youtu.be/sswleA6JTvY) |
-| [**MACD na Tendência**](macd-na-tendencia) | ✅ aprovado | Dia já forte (longe da abertura e além do extremo de ontem) com o MACD subindo a favor: entra com break even. | +31% | −17% | **+40% · −11%** | +22 → +60 | [assistir](https://youtu.be/eHvY4bvS95c) |
+| [**MACD na Tendência**](macd-na-tendencia) | 🟡 promissor | Dia já forte (longe da abertura e além do extremo de ontem) com o MACD subindo a favor: entra com break even. | +31% | −17% | **+40% · −11%** | +22 → +60 | [assistir](https://youtu.be/eHvY4bvS95c) |
 | [**Pôr do Sol (17h45)**](por-do-sol) | 🟡 promissor | Se às 17h50 o dia inteiro andou forte para um lado, entra a favor desse movimento e sai em poucos minutos, no máximo às 18h10. | +17% | −3% | **+20% · −3%** | +12 → +20 | [assistir](https://youtu.be/HswLyQd9rm8) |
 | [**Primeira Vela de 80 Minutos**](primeira-vela-80-min) | 🟡 promissor · dia escolhido pelo autor | Se a primeira vela de 80 minutos do dia fecha forte (quase sem sombra contra), entra a favor às 10h20 com alvo longo, break even e stop móvel. | +32% | −13% | **+47% · −14%** | +42 → +125 | [assistir](https://youtu.be/UFLCVkzcghU) |
 | [**Primeira Vela de Quinta**](primeira-vela-de-quinta) | 🟡 promissor · dia escolhido pelo autor | Na quinta-feira, entra no rompimento da primeira vela de 15 minutos do dia, na direção da cor dela, com stop e alvo iguais. | +17% | −4% | **+18% · −3%** | +107 → +66 | [assistir](https://youtu.be/5pmW0UMnXwE) |

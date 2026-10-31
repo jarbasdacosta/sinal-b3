@@ -1,6 +1,6 @@
 ---
 title: IFR de Tendência
-date: 2026-10-30
+date: 2026-10-31
 tags: [setup, win]
 ---
 
@@ -8,7 +8,7 @@ tags: [setup, win]
 
 ✅ aprovado · Mini índice (WIN) · gráfico de 15 minutos · velas das 10h00 às 11h00 e das 14h00 às 16h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "só precisei de 1 indicador no mini índice"](https://youtu.be/sswleA6JTvY) · testado de forma independente nos nossos dados em 27/10/2026 · página gerada em 30/10/2026 23:52 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "só precisei de 1 indicador no mini índice"](https://youtu.be/sswleA6JTvY) · testado de forma independente nos nossos dados em 31/10/2026 · página gerada em 31/10/2026 08:06 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 58.699** na versão manhã + tarde com o capital no CDI (+43% ao ano · pior queda −7%)
@@ -268,16 +268,16 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ## O que os testes mostraram
 
-*Testes de robustez rodados em 27/10/2026.*
+*Testes de robustez rodados em 31/10/2026.*
 
 | Pergunta | Resposta |
 |---|---|
-| **Bate com o vídeo?** | Na versão do vídeo, sem custo, nossos dados deram 768 operações, 33% de acerto e fator de lucro 1,54. O vídeo mostra: 826 operações · 33% de acerto · payoff 2,90 (sem custo). |
-| **Ganha do acaso?** | Entradas quaisquer nos mesmos horários ficam perto de zero; o setup faz +0,25R por operação no treino (p 0,007) e +0,32R no teste (p 0,000). |
-| **É sorte de parâmetro?** | 9 de 9 combinações de stop × alvo deram lucro no treino **e** no teste (+0,13 a +0,49R por operação). |
-| **Cada condição importa?** | COMPLETO (versão principal): +0,25 → +0,32R · sem o IFR (só a cor da vela): +0,02 → +0,03R · sem a cor da vela (só o IFR): +0,21 → +0,25R · sem o horário (velas das 9h15 às 16h45): +0,14 → +0,14R · níveis 80/20: +0,41 → +0,41R (treino → teste). |
+| **Bate com o vídeo?** | Na versão do vídeo, sem custo, nossos dados deram 772 operações, 33% de acerto e fator de lucro 1,54. O vídeo mostra: 826 operações · 33% de acerto · payoff 2,90 (sem custo). |
+| **Ganha do acaso?** | Entradas quaisquer nos mesmos horários ficam perto de zero; o setup faz +0,25R por operação no treino (p 0,007) e +0,33R no teste (p 0,000). |
+| **É sorte de parâmetro?** | 9 de 9 combinações de stop × alvo deram lucro no treino **e** no teste (+0,13 a +0,47R por operação). |
+| **Cada condição importa?** | COMPLETO (versão principal): +0,25 → +0,33R · sem o IFR (só a cor da vela): +0,02 → +0,03R · sem a cor da vela (só o IFR): +0,21 → +0,25R · sem o horário (velas das 9h15 às 16h45): +0,14 → +0,14R · níveis 80/20: +0,41 → +0,41R (treino → teste). |
 | **Pontos, % ou ATR?** | O treino escolheu manter como no vídeo. |
-| **E se o custo for maior?** | 15 pts: +0,25 → +0,32R · 25 pts: +0,21 → +0,29R · 30 pts: +0,18 → +0,27R (treino → teste). |
+| **E se o custo for maior?** | 15 pts: +0,25 → +0,33R · 25 pts: +0,21 → +0,29R · 30 pts: +0,18 → +0,27R (treino → teste). |
 
 ## Riscos e cuidados
 

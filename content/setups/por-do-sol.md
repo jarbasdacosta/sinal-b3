@@ -1,6 +1,6 @@
 ---
 title: Pôr do Sol (17h45)
-date: 2026-10-30
+date: 2026-10-31
 tags: [setup, win]
 ---
 
@@ -8,7 +8,7 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 5 minutos · só a vela das 17h45
 
-🎬 **Vídeo de origem:** [Arthur 777 – "padrão repetitivo, 90% de acerto no candle de 17:45"](https://youtu.be/HswLyQd9rm8) · testado de forma independente nos nossos dados em 30/10/2026 · página gerada em 30/10/2026 23:52 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "padrão repetitivo, 90% de acerto no candle de 17:45"](https://youtu.be/HswLyQd9rm8) · testado de forma independente nos nossos dados em 31/10/2026 · página gerada em 31/10/2026 08:06 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 21.361** na versão ATR 0,15 / 0,15 com o capital no CDI (+17% ao ano · pior queda −3%)
@@ -304,7 +304,7 @@ A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contrato
 
 ## O que os testes mostraram
 
-*Testes de robustez rodados em 30/10/2026.*
+*Testes de robustez rodados em 31/10/2026.*
 
 | Pergunta | Resposta |
 |---|---|
