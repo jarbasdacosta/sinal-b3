@@ -6,7 +6,7 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 30/10/2026 21:00 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 30/10/2026 23:43 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|
@@ -14,6 +14,7 @@ tags: [setup]
 | [**Bandas de VWAP**](bandas-de-vwap) | 🟡 promissor | Quando o preço se afasta da VWAP do dia a favor da média de 200, entra atrás de um alvo longo e protege a operação no primeiro lucro. | +21% | −30% | **+25% · −20%** | +10 → +15 | [assistir](https://youtu.be/50zdea2qbsM) |
 | [**Donchian com Médias**](donchian-com-medias) | ✅ aprovado | Quando o preço faz máxima de 20 velas com as três médias alinhadas abaixo, entra atrás da tendência: perde pouco muitas vezes e ganha muito de vez em quando. | +42% | −10% | **+83% · −24%** | +46 → +47 | [assistir](https://youtu.be/11F3W1gsnGM) |
 | [**Explosão da Bollinger**](explosao-da-bollinger) | ✅ aprovado | Preço acima das médias de 50 e 200 e uma vela estourando a banda de Bollinger: entra a favor com stop curto e alvo três vezes maior. | +26% | −14% | **+39% · −33%** | +21 → +29 | [assistir](https://youtu.be/V9EbJHI9wDw) |
+| [**Extremos da Semana (virada de mão)**](extremos-da-semana-virada) | 🟡 promissor | Abre dentro da faixa da semana anterior, põe ordem nos dois extremos e, se o rompimento falhar e bater o stop, vira a mão na hora apostando na reversão. | +26% | −23% | **+31% · −18%** | +29 → +72 | [assistir](https://youtu.be/p20GbzQCJlc) |
 | [**GPS de Médias**](gps-de-medias) | ✅ aprovado | Quando as oito médias curtas estão enfileiradas e o preço rompe a banda de Bollinger, entra a favor com stop curto e alvo seis vezes maior. | +36% | −15% | **+67% · −23%** | +54 → +33 | [assistir](https://youtu.be/g0FJNSNubW8) |
 | [**IFR de Tendência**](ifr-de-tendencia) | ✅ aprovado | Entra quando o IFR mostra força nos horários de tendência do dia (10h–11h e 14h–16h): vela a favor com o IFR acima de 70 ou abaixo de 30, stop curto e alvo longo. | +43% | −7% | **+68% · −11%** | +56 → +99 | [assistir](https://youtu.be/sswleA6JTvY) |
 | [**MACD na Tendência**](macd-na-tendencia) | ✅ aprovado | Dia já forte (longe da abertura e além do extremo de ontem) com o MACD subindo a favor: entra com break even. | +31% | −17% | **+40% · −11%** | +22 → +60 | [assistir](https://youtu.be/eHvY4bvS95c) |
@@ -35,20 +36,21 @@ tags: [setup]
 | # | Setup | Sharpe | Retorno ÷ queda | Dias no vermelho | Teste ÷ treino | Meses > CDI | Correlação | Op./mês |
 |---|---|---|---|---|---|---|---|---|
 | 1º | [**IFR**](ifr-de-tendencia) ·TEN | 1,60 | 3,1 | 69 d | 150% | 72% | 0,26 | 12,7 |
-| 2º | [**Bollinger**](rompimento-da-bollinger) ·TEN | 1,61 | 2,2 | 84 d | 150% | 65% | 0,22 | 4,2 |
+| 2º | [**Bollinger**](rompimento-da-bollinger) ·TEN | 1,61 | 2,2 | 84 d | 150% | 65% | 0,24 | 4,2 |
 | 3º | [**Donchian**](donchian-com-medias) ·TEN | 1,30 | 2,0 | 188 d | 102% | 67% | 0,29 | 21,5 |
-| 4º | [**1ª vela 80**](primeira-vela-80-min) ·VEL | 1,12 | 1,1 | 298 d | 150% | 63% | 0,16 | 7,8 |
-| 5º | [**ADX**](adx-da-manha) ·ADX | 1,03 | 1,3 | 198 d | 150% | 63% | 0,20 | 29,4 |
+| 4º | [**1ª vela 80**](primeira-vela-80-min) ·VEL | 1,12 | 1,1 | 298 d | 150% | 63% | 0,17 | 7,8 |
+| 5º | [**ADX**](adx-da-manha) ·ADX | 1,03 | 1,3 | 198 d | 150% | 63% | 0,21 | 29,4 |
 | 6º | [**Pôr do sol**](por-do-sol) ·POR | 1,11 | 0,6 | 328 d | 150% | 65% | −0,07 | 8,2 |
-| 7º | [**Tendência**](tendencia-forte-do-dia) ·TEN | 1,33 | 1,8 | 206 d | 90% | 60% | 0,32 | 28,8 |
+| 7º | [**Tendência**](tendencia-forte-do-dia) ·TEN | 1,33 | 1,8 | 206 d | 90% | 60% | 0,31 | 28,8 |
 | 8º | [**MACD**](macd-na-tendencia) ·TEN | 0,94 | 0,9 | 256 d | 150% | 63% | 0,28 | 14,7 |
 | 9º | [**GPS médias**](gps-de-medias) ·TEN | 1,07 | 1,3 | 205 d | 62% | 65% | 0,25 | 20,1 |
 | 10º | [**Pullback**](pullback-na-media) ·PUL | 1,20 | 1,8 | 204 d | 28% | 60% | −0,02 | 5,0 |
-| 11º | [**Onda**](vai-na-onda) ·OND | 0,73 | 0,6 | 471 d | 150% | 57% | 0,17 | 19,4 |
-| 12º | [**BB explosão**](explosao-da-bollinger) ·TEN | 0,74 | 0,6 | 273 d | 139% | 58% | 0,28 | 19,7 |
-| 13º | [**VWAP**](bandas-de-vwap) ·TEN | 0,46 | 0,2 | 511 d | 146% | 57% | 0,33 | 25,6 |
+| 11º | [**Extremos sem**](extremos-da-semana-virada) ·EXT | 0,71 | 0,5 | 545 d | 150% | 63% | 0,19 | 9,6 |
+| 12º | [**Onda**](vai-na-onda) ·OND | 0,73 | 0,6 | 471 d | 150% | 57% | 0,17 | 19,4 |
+| 13º | [**BB explosão**](explosao-da-bollinger) ·TEN | 0,74 | 0,6 | 273 d | 139% | 58% | 0,28 | 19,7 |
 | 14º | [**Quinta**](primeira-vela-de-quinta) ·QUI | 0,88 | 0,5 | 179 d | 62% | 50% | −0,08 | 1,8 |
-| 15º | [**Rompe 200**](rompe-media-200) ·ROM | 0,43 | 0,2 | 187 d | 23% | 45% | 0,17 | 3,4 |
+| 15º | [**VWAP**](bandas-de-vwap) ·TEN | 0,46 | 0,2 | 511 d | 146% | 57% | 0,34 | 25,6 |
+| 16º | [**Rompe 200**](rompe-media-200) ·ROM | 0,43 | 0,2 | 187 d | 23% | 45% | 0,16 | 3,4 |
 
 **Resultado: 1 contrato por R\$ 10 mil × arriscando 1% por operação**
 
@@ -64,11 +66,12 @@ tags: [setup]
 | 8º | [**MACD**](macd-na-tendencia) | +31% | **+40%** | −18% | **−11%** | 4 op · +0,48R |
 | 9º | [**GPS médias**](gps-de-medias) | +36% | **+67%** | −17% | **−23%** | 4 op · +2,41R |
 | 10º | [**Pullback**](pullback-na-media) | +25% | **+32%** | −6% | **−9%** | sem operações |
-| 11º | [**Onda**](vai-na-onda) | +30% | **+41%** | −26% | **−20%** | 3 op · +0,54R |
-| 12º | [**BB explosão**](explosao-da-bollinger) | +26% | **+39%** | −20% | **−33%** | 3 op · +2,54R |
-| 13º | [**VWAP**](bandas-de-vwap) | +21% | **+25%** | −31% | **−20%** | 10 op · −0,52R |
+| 11º | [**Extremos sem**](extremos-da-semana-virada) | +26% | **+31%** | −25% | **−18%** | sem operações |
+| 12º | [**Onda**](vai-na-onda) | +30% | **+41%** | −26% | **−20%** | 3 op · +0,54R |
+| 13º | [**BB explosão**](explosao-da-bollinger) | +26% | **+39%** | −20% | **−33%** | 3 op · +2,54R |
 | 14º | [**Quinta**](primeira-vela-de-quinta) | +17% | **+18%** | −7% | **−3%** | sem operações |
-| 15º | [**Rompe 200**](rompe-media-200) | +17% | **+20%** | −16% | **−10%** | sem operações |
+| 15º | [**VWAP**](bandas-de-vwap) | +21% | **+25%** | −31% | **−20%** | 10 op · −0,52R |
+| 16º | [**Rompe 200**](rompe-media-200) | +17% | **+20%** | −16% | **−10%** | sem operações |
 
 - **IFR de Tendência:** entra na força medida pelo IFR · 10h–11h e 14h–16h
 - **Rompimento da Bollinger:** rompimento da banda de Bollinger a favor da tendência · 10h15–11h e 14h–17h30
@@ -80,10 +83,11 @@ tags: [setup]
 - **MACD na Tendência:** tendência do dia confirmada pelo MACD, com break even · 9h–11h30 e 14h–16h
 - **GPS de Médias:** tendência com alvo longo e stop curto · 10h–11h e 14h–16h
 - **Pullback na Média:** entra na volta da correção até a média · 10h30–12h30 e 14h45–15h45
+- **Extremos da Semana (virada de mão):** rompimento dos extremos da semana com reversão no stop · abertura até 15h (ordens); posição zera às 18h20
 - **Vai na Onda:** segue o fluxo: 3 velas a favor renovando o extremo do dia com volume · 9h45–16h
 - **Explosão da Bollinger:** rompimento de volatilidade a favor da tendência · 10h às 16h (zera às 17h)
-- **Bandas de VWAP:** rompimento da banda de VWAP a favor da média de 200 · 10h às 16h
 - **Primeira Vela de Quinta:** rompimento da primeira vela do dia (dia da semana escolhido) · 9h15
+- **Bandas de VWAP:** rompimento da banda de VWAP a favor da média de 200 · 10h às 16h
 - **Rompimento da Média de 200:** rompimento de média longa com alvo longo · 9h às 16h
 
 *Correlação = com os outros setups (baixa é bom para a carteira). Como o ranking é feito: cada setup ganha uma posição em 4 critérios — **Sharpe** (retorno acima do CDI por oscilação), **retorno acima do CDI ÷ pior queda** (quanto rende para cada 1% de queda que você aguenta), **teste ÷ treino** (quanto do resultado por operação de 2021–2023 se manteve em 2024 em diante; 100% = manteve tudo) e **meses acima do CDI**. Vale a média das 4 posições. Correlação baixa com os outros é bom para a carteira, mas não entra na nota de cada setup.*
@@ -96,9 +100,9 @@ tags: [setup]
 | 📈 Maior retorno | Tendência | **+72% · −23,6%** | +72% · −23,6% | +48% · −16,1% | 1,58 → 1,20 |
 | 🛡️ Menor queda | Pôr do sol + Pullback + Bollinger | **+89% · −9,1%** | +35% · −2,5% | +23% · −1,6% | 2,30 → 1,89 |
 
-*R\$ 10 mil viraram, na recomendada: R\$ 38.885 com 1 contrato por R\$ 10 mil · R\$ 78.636 com 1% dividido entre os setups · **R\$ 1.149.641 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · VWAP = Bandas de VWAP · Donchian = Donchian com Médias · BB explosão = Explosão da Bollinger · GPS médias = GPS de Médias · MACD = MACD na Tendência · Pôr do sol = Pôr do Sol (17h45) · 1ª vela 80 = Primeira Vela de 80 Minutos · Quinta = Primeira Vela de Quinta · Rompe 200 = Rompimento da Média de 200 · Bollinger = Rompimento da Bollinger · Onda = Vai na Onda.*
+*R\$ 10 mil viraram, na recomendada: R\$ 38.885 com 1 contrato por R\$ 10 mil · R\$ 78.636 com 1% dividido entre os setups · **R\$ 1.149.641 arriscando 1% por setup**. Nomes: Tendência = Tendência Forte do Dia · ADX = ADX da Manhã · IFR = IFR de Tendência · Pullback = Pullback na Média · VWAP = Bandas de VWAP · Donchian = Donchian com Médias · BB explosão = Explosão da Bollinger · Extremos sem = Extremos da Semana (virada de mão) · GPS médias = GPS de Médias · MACD = MACD na Tendência · Pôr do sol = Pôr do Sol (17h45) · 1ª vela 80 = Primeira Vela de 80 Minutos · Quinta = Primeira Vela de Quinta · Rompe 200 = Rompimento da Média de 200 · Bollinger = Rompimento da Bollinger · Onda = Vai na Onda.*
 
-A página da [carteira](carteira) explica a escolha, mostra as 4943 combinações, se os setups se ajudam e o [tamanho de posição](carteira#tamanho-de-posição) sugerido: **arriscar 1% do capital por operação** (Kelly e Larry Williams comparados, com calculadora de contratos).
+A página da [carteira](carteira) explica a escolha, mostra as 6884 combinações, se os setups se ajudam e o [tamanho de posição](carteira#tamanho-de-posição) sugerido: **arriscar 1% do capital por operação** (Kelly e Larry Williams comparados, com calculadora de contratos).
 
 ### Como um setup entra nesta lista
 
@@ -110,9 +114,9 @@ A página da [carteira](carteira) explica a escolha, mostra as 4943 combinaçõe
 
 **✅ aprovado** = passou em tudo · **🟡 promissor** = passou no teste e na robustez, mas com alguma fraqueza (explicada na página).
 
-### [🧪 Todos os setups testados (34)](testados)
+### [🧪 Todos os setups testados (37)](testados)
 
-Inclusive os **19 reprovados**, cada um com o motivo. Só os aprovados e promissores ganham página própria.
+Inclusive os **21 reprovados**, cada um com o motivo. Só os aprovados e promissores ganham página própria.
 
 
 *Leitura educacional baseada em backtest. Não é recomendação de investimento.*
