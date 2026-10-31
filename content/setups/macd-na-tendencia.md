@@ -8,7 +8,7 @@ tags: [setup, win]
 
 🟡 promissor · Mini índice (WIN) · gráfico de 15 minutos · velas das 9h00 às 11h30 e das 14h00 às 16h00
 
-🎬 **Vídeo de origem:** [Arthur 777 – "parecia uma coincidência, mas não era"](https://youtu.be/eHvY4bvS95c) · testado de forma independente nos nossos dados em 31/10/2026 · página gerada em 31/10/2026 14:22 BRT · [voltar para todos os setups](./)
+🎬 **Vídeo de origem:** [Arthur 777 – "parecia uma coincidência, mas não era"](https://youtu.be/eHvY4bvS95c) · testado de forma independente nos nossos dados em 31/10/2026 · página gerada em 31/10/2026 14:49 BRT · [voltar para todos os setups](./)
 
 > [!success] Em resumo: R\$ 10.000 aplicados em nov/2021 viraram
 > - **R\$ 37.908** na versão ATR 0,21 / 1,03 com o capital no CDI (+31% ao ano · pior queda −17%)
@@ -52,14 +52,13 @@ tags: [setup, win]
 
 ### As versões testadas
 
-| | ATR 0,21 / 1,03 (principal) | como no vídeo: pontos fixos, com stop móvel | distância em ATR, sem stop móvel | alvo 400 · stop 400 (vídeo), ATR, sem stop móvel | alvo 2.000 (vídeo), ATR, sem stop móvel |
+| Versão | Regra | Acerto · payoff | Treino → teste (pts/op) | Ao ano (+ CDI) | Pior queda (+ CDI) |
 |---|---|---|---|---|---|
-| Regra | stop 0,206 ATR · alvo 1,029 ATR (5,0× o stop) | stop 400 · alvo 1.500 pts | stop 400 · alvo 1.500 pts | stop 400 · alvo 400 pts | stop 400 · alvo 2.000 pts |
-| Acerto | 22% | 30% | 23% | 44% | 22% |
-| Payoff | 4,45 | 2,91 | 4,43 | 1,47 | 4,75 |
-| Treino → teste (pts por operação) | +22,3 → +59,7 | +19,3 → +48,3 | +24,8 → +61,0 | +17,0 → +23,8 | +28,5 → +60,7 |
-| Retorno ao ano (+ CDI) | +30,9% | +30,1% | +33,5% | +25,3% | +33,5% |
-| Pior queda (+ CDI) | −16,7% | −8,2% | −10,6% | −8,4% | −13,1% |
+| **ATR 0,21 / 1,03** (principal) | stop 0,206 ATR · alvo 1,029 ATR (5,0× o stop) | 22% · 4,45 | +22,3 → +59,7 | +30,9% | −16,7% |
+| **como no vídeo: pontos fixos, com stop móvel** | stop 400 · alvo 1.500 pts | 30% · 2,91 | +19,3 → +48,3 | +30,1% | −8,2% |
+| **distância em ATR, sem stop móvel** | stop 400 · alvo 1.500 pts | 23% · 4,43 | +24,8 → +61,0 | +33,5% | −10,6% |
+| **alvo 400 · stop 400 (vídeo), ATR, sem stop móvel** | stop 400 · alvo 400 pts | 44% · 1,47 | +17,0 → +23,8 | +25,3% | −8,4% |
+| **alvo 2.000 (vídeo), ATR, sem stop móvel** | stop 400 · alvo 2.000 pts | 22% · 4,75 | +28,5 → +60,7 | +33,5% | −13,1% |
 
 ## Estatísticas da operação (1 contrato, em pontos)
 
@@ -173,114 +172,118 @@ Cada operação já desconta **15 pontos de custo** (corretagem, emolumentos e e
 
 ## Comparação com o CDI e com o Ibovespa comprado
 
-A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contratos cresce junto com o capital). Na versão **+ CDI** o capital fica aplicado no CDI / Tesouro Selic (aceito como garantia) e o resultado do setup soma por cima — é a comparação justa. Na **pura**, o capital fica parado. Na coluna **risco 1%**, cada operação usa o número de contratos que faz o stop (mais o custo) custar 1% do capital — em geral 3 a 4 vezes mais contratos que 1 por R\$ 10 mil. O Ibovespa já inclui dividendos. Sem imposto.
+A conta usa **R\$ 10.000 de capital para cada contrato** (o número de contratos cresce junto com o capital). Na versão **+ CDI** o capital fica aplicado no CDI / Tesouro Selic (aceito como garantia) e o resultado do setup soma por cima — é a comparação justa. Na **pura**, o capital fica parado. Na linha **risco 1%**, cada operação usa o número de contratos que faz o stop (mais o custo) custar 1% do capital — em geral 3 a 4 vezes mais contratos que 1 por R\$ 10 mil. O Ibovespa já inclui dividendos. Sem imposto.
 
-*Colunas: cada versão com 1 contrato por R\$ 10 mil e o capital no CDI · **risco 1%** = a versão principal arriscando 1% por operação · **pura** = a principal sem o CDI.*
+*Linhas: cada versão com 1 contrato por R\$ 10 mil e o capital no CDI · **risco 1%** = a versão principal arriscando 1% por operação · **pura** = a principal sem o CDI.*
 
-| | ATR 0,21 / 1,03 | como no vídeo: pontos fixos, com stop móvel | distância em ATR, sem stop móvel | alvo 400 · stop 400 (vídeo), ATR, sem stop móvel | alvo 2.000 (vídeo), ATR, sem stop móvel | risco 1% | pura | CDI | Ibovespa |
-|---|---|---|---|---|---|---|---|---|---|
-| **R\$ 10.000 viraram** | **R\$ 37.908** | **R\$ 36.840** | **R\$ 41.760** | **R\$ 30.543** | **R\$ 41.765** | **R\$ 53.747** | **R\$ 20.886** | **R\$ 18.156** | **R\$ 15.909** |
-| Retorno ao ano | +30,9% | +30,1% | +33,5% | +25,3% | +33,5% | +40,4% | +16,0% | +12,8% | +9,8% |
-| Pior queda | −16,7% | −8,2% | −10,6% | −8,4% | −13,1% | −10,5% | −18,2% | +0,0% | −20,9% |
-| Oscilação ao ano | 17,3% | 14,3% | 16,0% | 11,8% | 16,6% | 18,8% | 17,3% | 0,1% | 18,6% |
-| Sharpe (acima do CDI) | 0,94 | 1,07 | 1,13 | 0,95 | 1,10 | 1,26 | 0,25 | — | −0,05 |
-| Meses acima do CDI | 63% | 57% | 67% | 65% | 70% | 65% | 50% | — | 55% |
-| Meses acima do Ibovespa | 55% | 57% | 58% | 58% | 60% | 60% | 50% | 45% | — |
-| Pior mês · melhor mês | −7,1% · +13,1% | −3,1% · +13,6% | −4,8% · +13,8% | −5,2% · +11,2% | −6,8% · +13,9% | −5,3% · +15,3% | −8,1% · +11,8% | +0,6% · +1,3% | −11,5% · +12,6% |
+| | R\$ 10.000 viraram · ao ano | Pior queda | Oscilação · Sharpe | Meses acima: CDI · Ibov | Pior · melhor mês |
+|---|---|---|---|---|---|
+| **ATR 0,21 / 1,03** | **R\$ 37.908** · +30,9% | −16,7% | 17,3% · 0,94 | 63% · 55% | −7,1% · +13,1% |
+| **como no vídeo: pontos fixos, com stop móvel** | **R\$ 36.840** · +30,1% | −8,2% | 14,3% · 1,07 | 57% · 57% | −3,1% · +13,6% |
+| **distância em ATR, sem stop móvel** | **R\$ 41.760** · +33,5% | −10,6% | 16,0% · 1,13 | 67% · 58% | −4,8% · +13,8% |
+| **alvo 400 · stop 400 (vídeo), ATR, sem stop móvel** | **R\$ 30.543** · +25,3% | −8,4% | 11,8% · 0,95 | 65% · 58% | −5,2% · +11,2% |
+| **alvo 2.000 (vídeo), ATR, sem stop móvel** | **R\$ 41.765** · +33,5% | −13,1% | 16,6% · 1,10 | 70% · 60% | −6,8% · +13,9% |
+| **risco 1%** | **R\$ 53.747** · +40,4% | −10,5% | 18,8% · 1,26 | 65% · 60% | −5,3% · +15,3% |
+| **pura** | **R\$ 20.886** · +16,0% | −18,2% | 17,3% · 0,25 | 50% · 50% | −8,1% · +11,8% |
+| **CDI** | **R\$ 18.156** · +12,8% | +0,0% | 0,1% · — | — · 45% | +0,6% · +1,3% |
+| **Ibovespa** | **R\$ 15.909** · +9,8% | −20,9% | 18,6% · −0,05 | 55% · — | −11,5% · +12,6% |
 
 ![Quedas](setups/img/macd-na-tendencia_queda.png)
 
 ### Ano a ano
 
-| | 2021* | 2022 | 2023 | 2024 | 2025 | 2026* | **No período** | **Média/ano** | **R\$ 10.000 viraram** |
-|---|---|---|---|---|---|---|---|---|---|
-| **ATR 0,21 / 1,03** | −2,9% | +20,7% | +25,7% | +36,6% | +40,1% | +34,5% | **+279,1%** | +30,9% | R\$ 37.908 |
-| **como no vídeo: pontos fixos, com stop móvel** | +2,9% | +13,4% | +26,5% | +18,1% | +56,6% | +35,0% | **+268,4%** | +30,1% | R\$ 36.840 |
-| **distância em ATR, sem stop móvel** | −1,0% | +17,4% | +29,6% | +37,3% | +47,4% | +37,1% | **+317,6%** | +33,5% | R\$ 41.760 |
-| **alvo 400 · stop 400 (vídeo), ATR, sem stop móvel** | +0,6% | +22,0% | +22,6% | +23,4% | +29,1% | +27,4% | **+205,4%** | +25,3% | R\$ 30.543 |
-| **alvo 2.000 (vídeo), ATR, sem stop móvel** | −3,1% | +23,9% | +28,3% | +35,8% | +48,9% | +34,2% | **+317,7%** | +33,5% | R\$ 41.765 |
-| **risco 1%** | −2,8% | +27,8% | +30,3% | +51,6% | +60,7% | +36,3% | **+437,5%** | +40,4% | R\$ 53.747 |
-| **CDI** | +1,3% | +12,3% | +13,0% | +10,8% | +14,2% | +11,6% | **+81,6%** | +12,8% | R\$ 18.156 |
-| **Ibovespa** | −0,7% | +4,7% | +22,3% | −10,4% | +34,0% | +4,2% | **+59,1%** | +9,8% | R\$ 15.909 |
-| *Quem ganhou* | *como no vídeo: pontos fixos, com stop móvel* | *risco 1%* | *risco 1%* | *risco 1%* | *risco 1%* | *distância em ATR, sem stop móvel* | *risco 1%* | | |
+| | 2021* | 2022 | 2023 | 2024 | 2025 | 2026* | **No período** (média/ano · R\$ 10.000 viraram) |
+|---|---|---|---|---|---|---|---|
+| **ATR 0,21 / 1,03** | −2,9% | +20,7% | +25,7% | +36,6% | +40,1% | +34,5% | **+279,1%** (+30,9% · R\$ 37.908) |
+| **como no vídeo: pontos fixos, com stop móvel** | +2,9% | +13,4% | +26,5% | +18,1% | +56,6% | +35,0% | **+268,4%** (+30,1% · R\$ 36.840) |
+| **distância em ATR, sem stop móvel** | −1,0% | +17,4% | +29,6% | +37,3% | +47,4% | +37,1% | **+317,6%** (+33,5% · R\$ 41.760) |
+| **alvo 400 · stop 400 (vídeo), ATR, sem stop móvel** | +0,6% | +22,0% | +22,6% | +23,4% | +29,1% | +27,4% | **+205,4%** (+25,3% · R\$ 30.543) |
+| **alvo 2.000 (vídeo), ATR, sem stop móvel** | −3,1% | +23,9% | +28,3% | +35,8% | +48,9% | +34,2% | **+317,7%** (+33,5% · R\$ 41.765) |
+| **risco 1%** | −2,8% | +27,8% | +30,3% | +51,6% | +60,7% | +36,3% | **+437,5%** (+40,4% · R\$ 53.747) |
+| **CDI** | +1,3% | +12,3% | +13,0% | +10,8% | +14,2% | +11,6% | **+81,6%** (+12,8% · R\$ 18.156) |
+| **Ibovespa** | −0,7% | +4,7% | +22,3% | −10,4% | +34,0% | +4,2% | **+59,1%** (+9,8% · R\$ 15.909) |
+| *Quem ganhou* | *como no vídeo: pontos fixos, com stop móvel* | *risco 1%* | *risco 1%* | *risco 1%* | *risco 1%* | *distância em ATR, sem stop móvel* | *risco 1%* |
 
 \* ano parcial: os dados vão de 01/11/2021 a 30/10/2026.
 
 ![Retorno por ano](setups/img/macd-na-tendencia_anos.png)
 
 > [!example]- Mês a mês (clique para abrir)
-> | Mês | ATR 0,21 / 1,03 | como no vídeo: pontos fixos, com stop móvel | distância em ATR, sem stop móvel | alvo 400 · stop 400 (vídeo), ATR, sem stop móvel | alvo 2.000 (vídeo), ATR, sem stop móvel | risco 1% | CDI | Ibovespa |
-> |---|---|---|---|---|---|---|---|---|
-> | nov/2021 | −0,3% | +2,6% | −1,2% | −0,4% | −1,2% | −0,3% | +0,6% | −3,4% |
-> | dez/2021 | −2,6% | +0,2% | +0,2% | +1,0% | −2,0% | −2,5% | +0,7% | +2,9% |
-> | jan/2022 | +3,0% | +0,1% | +2,9% | +0,8% | +2,6% | +3,8% | +0,7% | +7,0% |
-> | fev/2022 | −1,9% | −2,1% | −1,3% | −1,3% | −1,3% | −2,7% | +0,8% | +0,9% |
-> | mar/2022 | +5,7% | +5,3% | +5,5% | +3,5% | +6,5% | +6,7% | +0,9% | +6,1% |
-> | abr/2022 | +1,9% | −0,2% | +1,1% | +2,1% | +1,1% | +2,1% | +0,8% | −10,1% |
-> | mai/2022 | −0,2% | +0,8% | +0,3% | +0,6% | +0,3% | −0,4% | +1,0% | +3,2% |
-> | jun/2022 | +0,9% | −0,2% | +0,1% | −0,4% | +1,1% | +0,8% | +1,0% | −11,5% |
-> | jul/2022 | +1,3% | +1,1% | +1,3% | +2,0% | +1,3% | +1,9% | +1,0% | +4,7% |
-> | ago/2022 | +5,2% | −0,4% | +5,0% | −0,1% | +6,0% | +6,5% | +1,2% | +6,2% |
-> | set/2022 | +7,2% | +5,4% | +4,0% | +1,6% | +5,0% | +7,8% | +1,1% | +0,5% |
-> | out/2022 | +1,6% | −0,1% | −0,3% | +3,4% | −0,4% | +1,9% | +1,0% | +5,5% |
-> | nov/2022 | −6,0% | +3,3% | −3,2% | +1,3% | −3,2% | −4,3% | +1,0% | −3,1% |
-> | dez/2022 | +1,0% | +0,0% | +1,0% | +7,0% | +3,0% | +1,4% | +1,1% | −2,4% |
-> | jan/2023 | +4,5% | +6,1% | +4,8% | +4,9% | +5,4% | +4,5% | +1,1% | +3,4% |
-> | fev/2023 | −0,5% | −0,8% | −1,1% | −1,0% | −1,1% | −0,6% | +0,9% | −7,5% |
-> | mar/2023 | +5,9% | +3,4% | +5,0% | +2,9% | +6,5% | +6,8% | +1,2% | −2,9% |
-> | abr/2023 | −4,4% | −3,1% | −3,2% | −5,2% | −5,0% | −5,2% | +0,9% | +2,5% |
-> | mai/2023 | +2,8% | +2,7% | +2,5% | −0,5% | +2,5% | +3,1% | +1,1% | +3,7% |
-> | jun/2023 | +2,1% | +1,9% | +1,3% | +1,4% | +1,8% | +2,3% | +1,1% | +9,0% |
-> | jul/2023 | +5,1% | +7,8% | +8,2% | +7,2% | +5,1% | +6,2% | +1,1% | +3,3% |
-> | ago/2023 | −0,1% | +1,0% | +0,8% | +3,8% | +0,8% | −0,3% | +1,1% | −5,1% |
-> | set/2023 | +0,5% | −0,1% | −0,9% | +2,2% | −0,9% | +0,5% | +1,0% | +0,7% |
-> | out/2023 | +2,6% | +3,7% | +4,4% | +5,5% | +4,4% | +3,5% | +1,0% | −2,9% |
-> | nov/2023 | +3,6% | −0,5% | +2,8% | +0,2% | +3,3% | +4,4% | +0,9% | +12,5% |
-> | dez/2023 | +1,6% | +2,0% | +2,0% | −0,2% | +3,0% | +2,2% | +0,9% | +5,4% |
-> | jan/2024 | +0,4% | +0,9% | +0,4% | +2,0% | +0,4% | +0,3% | +1,0% | −4,8% |
-> | fev/2024 | +9,9% | +6,6% | +9,3% | +6,4% | +10,4% | +13,8% | +0,8% | +1,0% |
-> | mar/2024 | −0,7% | −1,4% | +1,8% | +2,4% | +1,7% | −1,7% | +0,8% | −0,7% |
-> | abr/2024 | −1,0% | +1,6% | −1,8% | −1,0% | −1,8% | −1,4% | +0,9% | −1,7% |
-> | mai/2024 | −1,5% | −2,4% | −2,4% | −2,7% | −2,4% | −2,1% | +0,8% | −3,0% |
-> | jun/2024 | +4,0% | +3,5% | +3,9% | +3,6% | +3,9% | +6,0% | +0,8% | +1,5% |
-> | jul/2024 | −0,7% | +0,8% | −1,8% | −0,1% | −1,8% | −1,0% | +0,9% | +3,0% |
-> | ago/2024 | +5,8% | +2,1% | +5,4% | +3,2% | +5,4% | +8,3% | +0,9% | +6,5% |
-> | set/2024 | +2,2% | −0,2% | +1,8% | −2,3% | +0,8% | +3,3% | +0,8% | −3,1% |
-> | out/2024 | +3,6% | +1,6% | +3,5% | +4,4% | +3,0% | +5,0% | +0,9% | −1,6% |
-> | nov/2024 | +3,2% | +0,4% | +4,0% | +2,7% | +5,4% | +4,9% | +0,8% | −3,1% |
-> | dez/2024 | +7,1% | +3,5% | +8,8% | +3,0% | +6,8% | +8,2% | +0,8% | −4,3% |
-> | jan/2025 | +9,0% | +10,1% | +8,4% | +6,7% | +10,5% | +12,1% | +1,0% | +4,9% |
-> | fev/2025 | +4,1% | +2,9% | +3,0% | +1,0% | +4,0% | +5,0% | +1,0% | −2,6% |
-> | mar/2025 | +2,4% | +4,4% | +2,2% | +2,6% | +3,2% | +2,8% | +1,0% | +6,1% |
-> | abr/2025 | −7,1% | −0,3% | −4,4% | −3,5% | −3,5% | −5,3% | +1,1% | +3,7% |
-> | mai/2025 | +4,0% | +2,0% | +2,5% | +5,2% | +4,3% | +5,2% | +1,1% | +1,5% |
-> | jun/2025 | +0,6% | +0,3% | +2,6% | +1,9% | +1,7% | +1,0% | +1,1% | +1,3% |
-> | jul/2025 | +2,1% | +4,8% | +3,6% | −1,0% | +2,4% | +2,6% | +1,3% | −4,2% |
-> | ago/2025 | +13,1% | +13,6% | +13,8% | +11,2% | +13,9% | +15,3% | +1,2% | +6,3% |
-> | set/2025 | −3,3% | −0,5% | −2,5% | −2,1% | −4,5% | −4,5% | +1,2% | +3,4% |
-> | out/2025 | +1,7% | +4,0% | +1,5% | +5,4% | +1,5% | +1,7% | +1,3% | +2,3% |
-> | nov/2025 | +7,6% | +4,1% | +6,5% | +3,7% | +7,0% | +10,5% | +1,1% | +6,4% |
-> | dez/2025 | +1,5% | +1,3% | +3,4% | −4,2% | +1,5% | +3,8% | +1,1% | +1,3% |
-> | jan/2026 | +10,5% | +3,5% | +7,8% | +5,2% | +10,9% | +11,1% | +1,2% | +12,6% |
-> | fev/2026 | +3,1% | +2,9% | +0,7% | +3,6% | +1,7% | +2,2% | +1,0% | +4,1% |
-> | mar/2026 | +9,2% | +5,0% | +4,0% | −2,5% | +3,4% | +6,4% | +1,2% | −0,7% |
-> | abr/2026 | +1,4% | +0,8% | +1,3% | +0,3% | +3,3% | +2,2% | +1,1% | −0,1% |
-> | mai/2026 | +3,6% | +7,6% | +5,3% | +5,8% | +1,8% | +3,2% | +1,1% | −7,2% |
-> | jun/2026 | −3,2% | −1,7% | −4,8% | −3,6% | −6,8% | −2,5% | +1,1% | −1,0% |
-> | jul/2026 | +6,1% | +6,1% | +4,3% | +8,3% | +4,1% | +6,1% | +1,2% | +3,5% |
-> | ago/2026 | +5,1% | +2,8% | +4,4% | +1,6% | +1,2% | +4,5% | +1,1% | −0,3% |
-> | set/2026 | −2,3% | +3,0% | +6,5% | +5,0% | +6,6% | −0,4% | +1,1% | +5,0% |
-> | out/2026 | −2,5% | +0,7% | +3,1% | +1,3% | +4,6% | −0,6% | +1,0% | −9,9% |
-> | **Acumulado** | **+279,1%** | **+268,4%** | **+317,6%** | **+205,4%** | **+317,7%** | **+437,5%** | **+81,6%** | **+59,1%** |
+> | Mês | ATR 0,21 / 1,03 | risco 1% | CDI | Ibovespa |
+> |---|---|---|---|---|
+> | nov/2021 | −0,3% | −0,3% | +0,6% | −3,4% |
+> | dez/2021 | −2,6% | −2,5% | +0,7% | +2,9% |
+> | jan/2022 | +3,0% | +3,8% | +0,7% | +7,0% |
+> | fev/2022 | −1,9% | −2,7% | +0,8% | +0,9% |
+> | mar/2022 | +5,7% | +6,7% | +0,9% | +6,1% |
+> | abr/2022 | +1,9% | +2,1% | +0,8% | −10,1% |
+> | mai/2022 | −0,2% | −0,4% | +1,0% | +3,2% |
+> | jun/2022 | +0,9% | +0,8% | +1,0% | −11,5% |
+> | jul/2022 | +1,3% | +1,9% | +1,0% | +4,7% |
+> | ago/2022 | +5,2% | +6,5% | +1,2% | +6,2% |
+> | set/2022 | +7,2% | +7,8% | +1,1% | +0,5% |
+> | out/2022 | +1,6% | +1,9% | +1,0% | +5,5% |
+> | nov/2022 | −6,0% | −4,3% | +1,0% | −3,1% |
+> | dez/2022 | +1,0% | +1,4% | +1,1% | −2,4% |
+> | jan/2023 | +4,5% | +4,5% | +1,1% | +3,4% |
+> | fev/2023 | −0,5% | −0,6% | +0,9% | −7,5% |
+> | mar/2023 | +5,9% | +6,8% | +1,2% | −2,9% |
+> | abr/2023 | −4,4% | −5,2% | +0,9% | +2,5% |
+> | mai/2023 | +2,8% | +3,1% | +1,1% | +3,7% |
+> | jun/2023 | +2,1% | +2,3% | +1,1% | +9,0% |
+> | jul/2023 | +5,1% | +6,2% | +1,1% | +3,3% |
+> | ago/2023 | −0,1% | −0,3% | +1,1% | −5,1% |
+> | set/2023 | +0,5% | +0,5% | +1,0% | +0,7% |
+> | out/2023 | +2,6% | +3,5% | +1,0% | −2,9% |
+> | nov/2023 | +3,6% | +4,4% | +0,9% | +12,5% |
+> | dez/2023 | +1,6% | +2,2% | +0,9% | +5,4% |
+> | jan/2024 | +0,4% | +0,3% | +1,0% | −4,8% |
+> | fev/2024 | +9,9% | +13,8% | +0,8% | +1,0% |
+> | mar/2024 | −0,7% | −1,7% | +0,8% | −0,7% |
+> | abr/2024 | −1,0% | −1,4% | +0,9% | −1,7% |
+> | mai/2024 | −1,5% | −2,1% | +0,8% | −3,0% |
+> | jun/2024 | +4,0% | +6,0% | +0,8% | +1,5% |
+> | jul/2024 | −0,7% | −1,0% | +0,9% | +3,0% |
+> | ago/2024 | +5,8% | +8,3% | +0,9% | +6,5% |
+> | set/2024 | +2,2% | +3,3% | +0,8% | −3,1% |
+> | out/2024 | +3,6% | +5,0% | +0,9% | −1,6% |
+> | nov/2024 | +3,2% | +4,9% | +0,8% | −3,1% |
+> | dez/2024 | +7,1% | +8,2% | +0,8% | −4,3% |
+> | jan/2025 | +9,0% | +12,1% | +1,0% | +4,9% |
+> | fev/2025 | +4,1% | +5,0% | +1,0% | −2,6% |
+> | mar/2025 | +2,4% | +2,8% | +1,0% | +6,1% |
+> | abr/2025 | −7,1% | −5,3% | +1,1% | +3,7% |
+> | mai/2025 | +4,0% | +5,2% | +1,1% | +1,5% |
+> | jun/2025 | +0,6% | +1,0% | +1,1% | +1,3% |
+> | jul/2025 | +2,1% | +2,6% | +1,3% | −4,2% |
+> | ago/2025 | +13,1% | +15,3% | +1,2% | +6,3% |
+> | set/2025 | −3,3% | −4,5% | +1,2% | +3,4% |
+> | out/2025 | +1,7% | +1,7% | +1,3% | +2,3% |
+> | nov/2025 | +7,6% | +10,5% | +1,1% | +6,4% |
+> | dez/2025 | +1,5% | +3,8% | +1,1% | +1,3% |
+> | jan/2026 | +10,5% | +11,1% | +1,2% | +12,6% |
+> | fev/2026 | +3,1% | +2,2% | +1,0% | +4,1% |
+> | mar/2026 | +9,2% | +6,4% | +1,2% | −0,7% |
+> | abr/2026 | +1,4% | +2,2% | +1,1% | −0,1% |
+> | mai/2026 | +3,6% | +3,2% | +1,1% | −7,2% |
+> | jun/2026 | −3,2% | −2,5% | +1,1% | −1,0% |
+> | jul/2026 | +6,1% | +6,1% | +1,2% | +3,5% |
+> | ago/2026 | +5,1% | +4,5% | +1,1% | −0,3% |
+> | set/2026 | −2,3% | −0,4% | +1,1% | +5,0% |
+> | out/2026 | −2,5% | −0,6% | +1,0% | −9,9% |
+> | **Acumulado** | **+279,1%** | **+437,5%** | **+81,6%** | **+59,1%** |
+>
+> *As outras versões aparecem no ano a ano acima; o mês a mês é da versão principal.*
 
 ### E se o capital por contrato for outro?
 
-| Capital por contrato | ATR 0,21 / 1,03 + CDI | como no vídeo: pontos fixos, com stop móvel + CDI | distância em ATR, sem stop móvel + CDI | alvo 400 · stop 400 (vídeo), ATR, sem stop móvel + CDI | alvo 2.000 (vídeo), ATR, sem stop móvel + CDI |
-|---|---|---|---|---|---|
-| R\$ 5.000 | +48% ao ano · pior queda −33% | +47% ao ano · pior queda −17% | +54% ao ano · pior queda −22% | +37% ao ano · pior queda −17% | +54% ao ano · pior queda −26% |
-| R\$ 10.000 | +31% ao ano · pior queda −17% | +30% ao ano · pior queda −8% | +33% ao ano · pior queda −11% | +25% ao ano · pior queda −8% | +33% ao ano · pior queda −13% |
-| R\$ 20.000 | +22% ao ano · pior queda −8% | +21% ao ano · pior queda −4% | +23% ao ano · pior queda −5% | +19% ao ano · pior queda −4% | +23% ao ano · pior queda −6% |
-| R\$ 40.000 | +17% ao ano · pior queda −3% | +17% ao ano · pior queda −2% | +18% ao ano · pior queda −2% | +16% ao ano · pior queda −1% | +18% ao ano · pior queda −2% |
+| Versão (+ CDI) | R\$ 5.000 por contrato | R\$ 10.000 por contrato | R\$ 20.000 por contrato | R\$ 40.000 por contrato |
+|---|---|---|---|---|
+| **ATR 0,21 / 1,03** | +48% ao ano · queda −33% | +31% ao ano · queda −17% | +22% ao ano · queda −8% | +17% ao ano · queda −3% |
+| **como no vídeo: pontos fixos, com stop móvel** | +47% ao ano · queda −17% | +30% ao ano · queda −8% | +21% ao ano · queda −4% | +17% ao ano · queda −2% |
+| **distância em ATR, sem stop móvel** | +54% ao ano · queda −22% | +33% ao ano · queda −11% | +23% ao ano · queda −5% | +18% ao ano · queda −2% |
+| **alvo 400 · stop 400 (vídeo), ATR, sem stop móvel** | +37% ao ano · queda −17% | +25% ao ano · queda −8% | +19% ao ano · queda −4% | +16% ao ano · queda −1% |
+| **alvo 2.000 (vídeo), ATR, sem stop móvel** | +54% ao ano · queda −26% | +33% ao ano · queda −13% | +23% ao ano · queda −6% | +18% ao ano · queda −2% |
 
 *Referência: CDI +13% ao ano · Ibovespa +10% ao ano, pior queda −21%.*
 
