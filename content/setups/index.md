@@ -6,7 +6,7 @@ tags: [setup]
 
 **Setups de day trade no mini índice que passaram nos nossos testes, cada um com as estatísticas completas e comparado com o CDI e com o Ibovespa comprado.**
 
-*Atualizado em 30/10/2026 20:55 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
+*Atualizado em 30/10/2026 21:00 BRT · dados de 01/11/2021 a 30/10/2026 · resultados com 15 pts de custo por operação e R\$ 10.000 por contrato, capital no CDI.*
 
 | Setup | Situação | Em uma frase | Ao ano | Pior queda | Risco 1%: ao ano · pior queda | Treino → teste (pts/op) | Vídeo |
 |---|---|---|---|---|---|---|---|
@@ -34,21 +34,21 @@ tags: [setup]
 
 | # | Setup | Sharpe | Retorno ÷ queda | Dias no vermelho | Teste ÷ treino | Meses > CDI | Correlação | Op./mês |
 |---|---|---|---|---|---|---|---|---|
-| 1º | [**IFR**](ifr-de-tendencia) ·ADX | 1,60 | 3,1 | 69 d | 150% | 72% | 0,23 | 12,7 |
-| 2º | [**Bollinger**](rompimento-da-bollinger) ·ADX | 1,61 | 2,2 | 84 d | 150% | 65% | 0,22 | 4,2 |
-| 3º | [**Donchian**](donchian-com-medias) ·ADX | 1,30 | 2,0 | 188 d | 102% | 67% | 0,27 | 21,5 |
-| 4º | [**1ª vela 80**](primeira-vela-80-min) ·PRI | 1,12 | 1,1 | 298 d | 150% | 63% | 0,11 | 7,8 |
-| 5º | [**ADX**](adx-da-manha) ·ADX | 1,03 | 1,3 | 198 d | 150% | 63% | 0,19 | 29,4 |
-| 6º | [**Pôr do sol**](por-do-sol) ·POR | 1,11 | 0,6 | 328 d | 150% | 65% | −0,06 | 8,2 |
-| 7º | [**Tendência**](tendencia-forte-do-dia) ·ADX | 1,33 | 1,8 | 206 d | 90% | 60% | 0,29 | 28,8 |
-| 8º | [**MACD**](macd-na-tendencia) ·ADX | 0,94 | 0,9 | 256 d | 150% | 63% | 0,25 | 14,7 |
-| 9º | [**GPS médias**](gps-de-medias) ·ADX | 1,07 | 1,3 | 205 d | 62% | 65% | 0,24 | 20,1 |
-| 10º | [**Pullback**](pullback-na-media) ·PUL | 1,20 | 1,8 | 204 d | 28% | 60% | −0,04 | 5,0 |
-| 11º | [**Onda**](vai-na-onda) ·VAI | 0,73 | 0,6 | 471 d | 150% | 57% | 0,16 | 19,4 |
-| 12º | [**BB explosão**](explosao-da-bollinger) ·ADX | 0,74 | 0,6 | 273 d | 139% | 58% | 0,27 | 19,7 |
-| 13º | [**VWAP**](bandas-de-vwap) ·ADX | 0,46 | 0,2 | 511 d | 146% | 57% | 0,26 | 25,6 |
-| 14º | [**Quinta**](primeira-vela-de-quinta) ·PR2 | 0,88 | 0,5 | 179 d | 62% | 50% | −0,11 | 1,8 |
-| 15º | [**Rompe 200**](rompe-media-200) ·ROM | 0,43 | 0,2 | 187 d | 23% | 45% | 0,13 | 3,4 |
+| 1º | [**IFR**](ifr-de-tendencia) ·TEN | 1,60 | 3,1 | 69 d | 150% | 72% | 0,26 | 12,7 |
+| 2º | [**Bollinger**](rompimento-da-bollinger) ·TEN | 1,61 | 2,2 | 84 d | 150% | 65% | 0,22 | 4,2 |
+| 3º | [**Donchian**](donchian-com-medias) ·TEN | 1,30 | 2,0 | 188 d | 102% | 67% | 0,29 | 21,5 |
+| 4º | [**1ª vela 80**](primeira-vela-80-min) ·VEL | 1,12 | 1,1 | 298 d | 150% | 63% | 0,16 | 7,8 |
+| 5º | [**ADX**](adx-da-manha) ·ADX | 1,03 | 1,3 | 198 d | 150% | 63% | 0,20 | 29,4 |
+| 6º | [**Pôr do sol**](por-do-sol) ·POR | 1,11 | 0,6 | 328 d | 150% | 65% | −0,07 | 8,2 |
+| 7º | [**Tendência**](tendencia-forte-do-dia) ·TEN | 1,33 | 1,8 | 206 d | 90% | 60% | 0,32 | 28,8 |
+| 8º | [**MACD**](macd-na-tendencia) ·TEN | 0,94 | 0,9 | 256 d | 150% | 63% | 0,28 | 14,7 |
+| 9º | [**GPS médias**](gps-de-medias) ·TEN | 1,07 | 1,3 | 205 d | 62% | 65% | 0,25 | 20,1 |
+| 10º | [**Pullback**](pullback-na-media) ·PUL | 1,20 | 1,8 | 204 d | 28% | 60% | −0,02 | 5,0 |
+| 11º | [**Onda**](vai-na-onda) ·OND | 0,73 | 0,6 | 471 d | 150% | 57% | 0,17 | 19,4 |
+| 12º | [**BB explosão**](explosao-da-bollinger) ·TEN | 0,74 | 0,6 | 273 d | 139% | 58% | 0,28 | 19,7 |
+| 13º | [**VWAP**](bandas-de-vwap) ·TEN | 0,46 | 0,2 | 511 d | 146% | 57% | 0,33 | 25,6 |
+| 14º | [**Quinta**](primeira-vela-de-quinta) ·QUI | 0,88 | 0,5 | 179 d | 62% | 50% | −0,08 | 1,8 |
+| 15º | [**Rompe 200**](rompe-media-200) ·ROM | 0,43 | 0,2 | 187 d | 23% | 45% | 0,17 | 3,4 |
 
 **Resultado: 1 contrato por R\$ 10 mil × arriscando 1% por operação**
 
